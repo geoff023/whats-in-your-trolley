@@ -1,0 +1,3457 @@
+month,city,state,lon,lat,group,index
+2017-09,Adelaide,SA,138.6,-34.93,Bread & cereals,73.48
+2017-10,Adelaide,SA,138.6,-34.93,Bread & cereals,73.92
+2017-11,Adelaide,SA,138.6,-34.93,Bread & cereals,74.3
+2017-12,Adelaide,SA,138.6,-34.93,Bread & cereals,74.71
+2018-01,Adelaide,SA,138.6,-34.93,Bread & cereals,74.71
+2018-02,Adelaide,SA,138.6,-34.93,Bread & cereals,73.97
+2018-03,Adelaide,SA,138.6,-34.93,Bread & cereals,74.03
+2018-04,Adelaide,SA,138.6,-34.93,Bread & cereals,73.8
+2018-05,Adelaide,SA,138.6,-34.93,Bread & cereals,73.6
+2018-06,Adelaide,SA,138.6,-34.93,Bread & cereals,73.64
+2018-07,Adelaide,SA,138.6,-34.93,Bread & cereals,74.01
+2018-08,Adelaide,SA,138.6,-34.93,Bread & cereals,74.0
+2018-09,Adelaide,SA,138.6,-34.93,Bread & cereals,74.17
+2018-10,Adelaide,SA,138.6,-34.93,Bread & cereals,74.81
+2018-11,Adelaide,SA,138.6,-34.93,Bread & cereals,74.54
+2018-12,Adelaide,SA,138.6,-34.93,Bread & cereals,75.38
+2019-01,Adelaide,SA,138.6,-34.93,Bread & cereals,75.43
+2019-02,Adelaide,SA,138.6,-34.93,Bread & cereals,75.74
+2019-03,Adelaide,SA,138.6,-34.93,Bread & cereals,76.08
+2019-04,Adelaide,SA,138.6,-34.93,Bread & cereals,76.44
+2019-05,Adelaide,SA,138.6,-34.93,Bread & cereals,75.59
+2019-06,Adelaide,SA,138.6,-34.93,Bread & cereals,76.27
+2019-07,Adelaide,SA,138.6,-34.93,Bread & cereals,76.36
+2019-08,Adelaide,SA,138.6,-34.93,Bread & cereals,77.38
+2019-09,Adelaide,SA,138.6,-34.93,Bread & cereals,77.13
+2019-10,Adelaide,SA,138.6,-34.93,Bread & cereals,77.22
+2019-11,Adelaide,SA,138.6,-34.93,Bread & cereals,77.64
+2019-12,Adelaide,SA,138.6,-34.93,Bread & cereals,78.34
+2020-01,Adelaide,SA,138.6,-34.93,Bread & cereals,78.34
+2020-02,Adelaide,SA,138.6,-34.93,Bread & cereals,78.1
+2020-03,Adelaide,SA,138.6,-34.93,Bread & cereals,80.39
+2020-04,Adelaide,SA,138.6,-34.93,Bread & cereals,81.46
+2020-05,Adelaide,SA,138.6,-34.93,Bread & cereals,80.04
+2020-06,Adelaide,SA,138.6,-34.93,Bread & cereals,78.99
+2020-07,Adelaide,SA,138.6,-34.93,Bread & cereals,78.13
+2020-08,Adelaide,SA,138.6,-34.93,Bread & cereals,79.01
+2020-09,Adelaide,SA,138.6,-34.93,Bread & cereals,78.71
+2020-10,Adelaide,SA,138.6,-34.93,Bread & cereals,78.99
+2020-11,Adelaide,SA,138.6,-34.93,Bread & cereals,79.69
+2020-12,Adelaide,SA,138.6,-34.93,Bread & cereals,79.45
+2021-01,Adelaide,SA,138.6,-34.93,Bread & cereals,79.81
+2021-02,Adelaide,SA,138.6,-34.93,Bread & cereals,79.23
+2021-03,Adelaide,SA,138.6,-34.93,Bread & cereals,79.15
+2021-04,Adelaide,SA,138.6,-34.93,Bread & cereals,79.46
+2021-05,Adelaide,SA,138.6,-34.93,Bread & cereals,79.43
+2021-06,Adelaide,SA,138.6,-34.93,Bread & cereals,79.0
+2021-07,Adelaide,SA,138.6,-34.93,Bread & cereals,79.14
+2021-08,Adelaide,SA,138.6,-34.93,Bread & cereals,79.31
+2021-09,Adelaide,SA,138.6,-34.93,Bread & cereals,79.22
+2021-10,Adelaide,SA,138.6,-34.93,Bread & cereals,79.54
+2021-11,Adelaide,SA,138.6,-34.93,Bread & cereals,80.15
+2021-12,Adelaide,SA,138.6,-34.93,Bread & cereals,80.78
+2022-01,Adelaide,SA,138.6,-34.93,Bread & cereals,81.19
+2022-02,Adelaide,SA,138.6,-34.93,Bread & cereals,80.64
+2022-03,Adelaide,SA,138.6,-34.93,Bread & cereals,82.03
+2022-04,Adelaide,SA,138.6,-34.93,Bread & cereals,83.03
+2022-05,Adelaide,SA,138.6,-34.93,Bread & cereals,83.59
+2022-06,Adelaide,SA,138.6,-34.93,Bread & cereals,84.64
+2022-07,Adelaide,SA,138.6,-34.93,Bread & cereals,85.17
+2022-08,Adelaide,SA,138.6,-34.93,Bread & cereals,86.35
+2022-09,Adelaide,SA,138.6,-34.93,Bread & cereals,88.09
+2022-10,Adelaide,SA,138.6,-34.93,Bread & cereals,88.57
+2022-11,Adelaide,SA,138.6,-34.93,Bread & cereals,89.31
+2022-12,Adelaide,SA,138.6,-34.93,Bread & cereals,90.61
+2023-01,Adelaide,SA,138.6,-34.93,Bread & cereals,91.12
+2023-02,Adelaide,SA,138.6,-34.93,Bread & cereals,90.7
+2023-03,Adelaide,SA,138.6,-34.93,Bread & cereals,91.15
+2023-04,Adelaide,SA,138.6,-34.93,Bread & cereals,92.74
+2023-05,Adelaide,SA,138.6,-34.93,Bread & cereals,94.37
+2023-06,Adelaide,SA,138.6,-34.93,Bread & cereals,94.03
+2023-07,Adelaide,SA,138.6,-34.93,Bread & cereals,93.91
+2023-08,Adelaide,SA,138.6,-34.93,Bread & cereals,95.6
+2023-09,Adelaide,SA,138.6,-34.93,Bread & cereals,96.03
+2023-10,Adelaide,SA,138.6,-34.93,Bread & cereals,96.53
+2023-11,Adelaide,SA,138.6,-34.93,Bread & cereals,96.95
+2023-12,Adelaide,SA,138.6,-34.93,Bread & cereals,97.94
+2024-01,Adelaide,SA,138.6,-34.93,Bread & cereals,97.97
+2024-02,Adelaide,SA,138.6,-34.93,Bread & cereals,97.14
+2024-03,Adelaide,SA,138.6,-34.93,Bread & cereals,97.66
+2024-04,Adelaide,SA,138.6,-34.93,Bread & cereals,97.36
+2024-05,Adelaide,SA,138.6,-34.93,Bread & cereals,97.34
+2024-06,Adelaide,SA,138.6,-34.93,Bread & cereals,97.26
+2024-07,Adelaide,SA,138.6,-34.93,Bread & cereals,97.94
+2024-08,Adelaide,SA,138.6,-34.93,Bread & cereals,98.06
+2024-09,Adelaide,SA,138.6,-34.93,Bread & cereals,97.85
+2024-10,Adelaide,SA,138.6,-34.93,Bread & cereals,99.23
+2024-11,Adelaide,SA,138.6,-34.93,Bread & cereals,99.54
+2024-12,Adelaide,SA,138.6,-34.93,Bread & cereals,100.07
+2025-01,Adelaide,SA,138.6,-34.93,Bread & cereals,100.85
+2025-02,Adelaide,SA,138.6,-34.93,Bread & cereals,99.95
+2025-03,Adelaide,SA,138.6,-34.93,Bread & cereals,100.16
+2025-04,Adelaide,SA,138.6,-34.93,Bread & cereals,100.03
+2025-05,Adelaide,SA,138.6,-34.93,Bread & cereals,99.43
+2025-06,Adelaide,SA,138.6,-34.93,Bread & cereals,99.52
+2025-07,Adelaide,SA,138.6,-34.93,Bread & cereals,100.21
+2025-08,Adelaide,SA,138.6,-34.93,Bread & cereals,100.07
+2025-09,Adelaide,SA,138.6,-34.93,Bread & cereals,100.0
+2025-10,Adelaide,SA,138.6,-34.93,Bread & cereals,100.21
+2025-11,Adelaide,SA,138.6,-34.93,Bread & cereals,100.77
+2025-12,Adelaide,SA,138.6,-34.93,Bread & cereals,101.7
+2026-01,Adelaide,SA,138.6,-34.93,Bread & cereals,101.98
+2026-02,Adelaide,SA,138.6,-34.93,Bread & cereals,101.01
+2026-03,Adelaide,SA,138.6,-34.93,Bread & cereals,101.24
+2026-04,Adelaide,SA,138.6,-34.93,Bread & cereals,100.99
+2026-05,Adelaide,SA,138.6,-34.93,Bread & cereals,101.44
+2026-06,Adelaide,SA,138.6,-34.93,Bread & cereals,101.87
+2026-07,Adelaide,SA,138.6,-34.93,Bread & cereals,101.67
+2026-08,Adelaide,SA,138.6,-34.93,Bread & cereals,101.53
+2017-09,Brisbane,QLD,153.03,-27.47,Bread & cereals,72.92
+2017-10,Brisbane,QLD,153.03,-27.47,Bread & cereals,73.62
+2017-11,Brisbane,QLD,153.03,-27.47,Bread & cereals,73.92
+2017-12,Brisbane,QLD,153.03,-27.47,Bread & cereals,74.5
+2018-01,Brisbane,QLD,153.03,-27.47,Bread & cereals,74.47
+2018-02,Brisbane,QLD,153.03,-27.47,Bread & cereals,73.67
+2018-03,Brisbane,QLD,153.03,-27.47,Bread & cereals,73.84
+2018-04,Brisbane,QLD,153.03,-27.47,Bread & cereals,73.53
+2018-05,Brisbane,QLD,153.03,-27.47,Bread & cereals,73.42
+2018-06,Brisbane,QLD,153.03,-27.47,Bread & cereals,73.43
+2018-07,Brisbane,QLD,153.03,-27.47,Bread & cereals,73.72
+2018-08,Brisbane,QLD,153.03,-27.47,Bread & cereals,73.59
+2018-09,Brisbane,QLD,153.03,-27.47,Bread & cereals,73.66
+2018-10,Brisbane,QLD,153.03,-27.47,Bread & cereals,74.27
+2018-11,Brisbane,QLD,153.03,-27.47,Bread & cereals,73.93
+2018-12,Brisbane,QLD,153.03,-27.47,Bread & cereals,74.92
+2019-01,Brisbane,QLD,153.03,-27.47,Bread & cereals,74.88
+2019-02,Brisbane,QLD,153.03,-27.47,Bread & cereals,75.23
+2019-03,Brisbane,QLD,153.03,-27.47,Bread & cereals,75.67
+2019-04,Brisbane,QLD,153.03,-27.47,Bread & cereals,75.82
+2019-05,Brisbane,QLD,153.03,-27.47,Bread & cereals,75.08
+2019-06,Brisbane,QLD,153.03,-27.47,Bread & cereals,75.81
+2019-07,Brisbane,QLD,153.03,-27.47,Bread & cereals,75.95
+2019-08,Brisbane,QLD,153.03,-27.47,Bread & cereals,76.95
+2019-09,Brisbane,QLD,153.03,-27.47,Bread & cereals,76.85
+2019-10,Brisbane,QLD,153.03,-27.47,Bread & cereals,76.97
+2019-11,Brisbane,QLD,153.03,-27.47,Bread & cereals,77.15
+2019-12,Brisbane,QLD,153.03,-27.47,Bread & cereals,78.03
+2020-01,Brisbane,QLD,153.03,-27.47,Bread & cereals,77.94
+2020-02,Brisbane,QLD,153.03,-27.47,Bread & cereals,77.9
+2020-03,Brisbane,QLD,153.03,-27.47,Bread & cereals,80.05
+2020-04,Brisbane,QLD,153.03,-27.47,Bread & cereals,80.9
+2020-05,Brisbane,QLD,153.03,-27.47,Bread & cereals,79.26
+2020-06,Brisbane,QLD,153.03,-27.47,Bread & cereals,78.6
+2020-07,Brisbane,QLD,153.03,-27.47,Bread & cereals,77.76
+2020-08,Brisbane,QLD,153.03,-27.47,Bread & cereals,78.46
+2020-09,Brisbane,QLD,153.03,-27.47,Bread & cereals,78.28
+2020-10,Brisbane,QLD,153.03,-27.47,Bread & cereals,78.55
+2020-11,Brisbane,QLD,153.03,-27.47,Bread & cereals,79.04
+2020-12,Brisbane,QLD,153.03,-27.47,Bread & cereals,79.07
+2021-01,Brisbane,QLD,153.03,-27.47,Bread & cereals,79.47
+2021-02,Brisbane,QLD,153.03,-27.47,Bread & cereals,78.87
+2021-03,Brisbane,QLD,153.03,-27.47,Bread & cereals,78.75
+2021-04,Brisbane,QLD,153.03,-27.47,Bread & cereals,78.93
+2021-05,Brisbane,QLD,153.03,-27.47,Bread & cereals,79.04
+2021-06,Brisbane,QLD,153.03,-27.47,Bread & cereals,78.74
+2021-07,Brisbane,QLD,153.03,-27.47,Bread & cereals,78.53
+2021-08,Brisbane,QLD,153.03,-27.47,Bread & cereals,78.92
+2021-09,Brisbane,QLD,153.03,-27.47,Bread & cereals,78.77
+2021-10,Brisbane,QLD,153.03,-27.47,Bread & cereals,78.86
+2021-11,Brisbane,QLD,153.03,-27.47,Bread & cereals,79.62
+2021-12,Brisbane,QLD,153.03,-27.47,Bread & cereals,80.32
+2022-01,Brisbane,QLD,153.03,-27.47,Bread & cereals,80.85
+2022-02,Brisbane,QLD,153.03,-27.47,Bread & cereals,80.45
+2022-03,Brisbane,QLD,153.03,-27.47,Bread & cereals,82.38
+2022-04,Brisbane,QLD,153.03,-27.47,Bread & cereals,83.23
+2022-05,Brisbane,QLD,153.03,-27.47,Bread & cereals,83.74
+2022-06,Brisbane,QLD,153.03,-27.47,Bread & cereals,84.74
+2022-07,Brisbane,QLD,153.03,-27.47,Bread & cereals,85.44
+2022-08,Brisbane,QLD,153.03,-27.47,Bread & cereals,86.52
+2022-09,Brisbane,QLD,153.03,-27.47,Bread & cereals,88.27
+2022-10,Brisbane,QLD,153.03,-27.47,Bread & cereals,88.64
+2022-11,Brisbane,QLD,153.03,-27.47,Bread & cereals,89.31
+2022-12,Brisbane,QLD,153.03,-27.47,Bread & cereals,90.67
+2023-01,Brisbane,QLD,153.03,-27.47,Bread & cereals,91.01
+2023-02,Brisbane,QLD,153.03,-27.47,Bread & cereals,90.85
+2023-03,Brisbane,QLD,153.03,-27.47,Bread & cereals,91.16
+2023-04,Brisbane,QLD,153.03,-27.47,Bread & cereals,92.6
+2023-05,Brisbane,QLD,153.03,-27.47,Bread & cereals,94.27
+2023-06,Brisbane,QLD,153.03,-27.47,Bread & cereals,93.96
+2023-07,Brisbane,QLD,153.03,-27.47,Bread & cereals,93.94
+2023-08,Brisbane,QLD,153.03,-27.47,Bread & cereals,95.7
+2023-09,Brisbane,QLD,153.03,-27.47,Bread & cereals,96.19
+2023-10,Brisbane,QLD,153.03,-27.47,Bread & cereals,96.33
+2023-11,Brisbane,QLD,153.03,-27.47,Bread & cereals,96.93
+2023-12,Brisbane,QLD,153.03,-27.47,Bread & cereals,98.11
+2024-01,Brisbane,QLD,153.03,-27.47,Bread & cereals,98.03
+2024-02,Brisbane,QLD,153.03,-27.47,Bread & cereals,97.53
+2024-03,Brisbane,QLD,153.03,-27.47,Bread & cereals,97.91
+2024-04,Brisbane,QLD,153.03,-27.47,Bread & cereals,97.49
+2024-05,Brisbane,QLD,153.03,-27.47,Bread & cereals,97.72
+2024-06,Brisbane,QLD,153.03,-27.47,Bread & cereals,97.28
+2024-07,Brisbane,QLD,153.03,-27.47,Bread & cereals,98.26
+2024-08,Brisbane,QLD,153.03,-27.47,Bread & cereals,98.41
+2024-09,Brisbane,QLD,153.03,-27.47,Bread & cereals,98.2
+2024-10,Brisbane,QLD,153.03,-27.47,Bread & cereals,99.41
+2024-11,Brisbane,QLD,153.03,-27.47,Bread & cereals,99.82
+2024-12,Brisbane,QLD,153.03,-27.47,Bread & cereals,100.27
+2025-01,Brisbane,QLD,153.03,-27.47,Bread & cereals,101.22
+2025-02,Brisbane,QLD,153.03,-27.47,Bread & cereals,99.95
+2025-03,Brisbane,QLD,153.03,-27.47,Bread & cereals,101.33
+2025-04,Brisbane,QLD,153.03,-27.47,Bread & cereals,100.65
+2025-05,Brisbane,QLD,153.03,-27.47,Bread & cereals,99.8
+2025-06,Brisbane,QLD,153.03,-27.47,Bread & cereals,99.71
+2025-07,Brisbane,QLD,153.03,-27.47,Bread & cereals,100.39
+2025-08,Brisbane,QLD,153.03,-27.47,Bread & cereals,100.36
+2025-09,Brisbane,QLD,153.03,-27.47,Bread & cereals,100.0
+2025-10,Brisbane,QLD,153.03,-27.47,Bread & cereals,100.16
+2025-11,Brisbane,QLD,153.03,-27.47,Bread & cereals,100.86
+2025-12,Brisbane,QLD,153.03,-27.47,Bread & cereals,101.89
+2026-01,Brisbane,QLD,153.03,-27.47,Bread & cereals,102.16
+2026-02,Brisbane,QLD,153.03,-27.47,Bread & cereals,100.97
+2026-03,Brisbane,QLD,153.03,-27.47,Bread & cereals,101.18
+2026-04,Brisbane,QLD,153.03,-27.47,Bread & cereals,100.94
+2026-05,Brisbane,QLD,153.03,-27.47,Bread & cereals,101.2
+2026-06,Brisbane,QLD,153.03,-27.47,Bread & cereals,101.91
+2026-07,Brisbane,QLD,153.03,-27.47,Bread & cereals,101.7
+2026-08,Brisbane,QLD,153.03,-27.47,Bread & cereals,101.56
+2017-09,Canberra,ACT,149.13,-35.28,Bread & cereals,74.16
+2017-10,Canberra,ACT,149.13,-35.28,Bread & cereals,74.81
+2017-11,Canberra,ACT,149.13,-35.28,Bread & cereals,75.03
+2017-12,Canberra,ACT,149.13,-35.28,Bread & cereals,75.68
+2018-01,Canberra,ACT,149.13,-35.28,Bread & cereals,75.64
+2018-02,Canberra,ACT,149.13,-35.28,Bread & cereals,74.73
+2018-03,Canberra,ACT,149.13,-35.28,Bread & cereals,74.84
+2018-04,Canberra,ACT,149.13,-35.28,Bread & cereals,74.65
+2018-05,Canberra,ACT,149.13,-35.28,Bread & cereals,74.68
+2018-06,Canberra,ACT,149.13,-35.28,Bread & cereals,74.41
+2018-07,Canberra,ACT,149.13,-35.28,Bread & cereals,75.07
+2018-08,Canberra,ACT,149.13,-35.28,Bread & cereals,74.64
+2018-09,Canberra,ACT,149.13,-35.28,Bread & cereals,74.74
+2018-10,Canberra,ACT,149.13,-35.28,Bread & cereals,75.28
+2018-11,Canberra,ACT,149.13,-35.28,Bread & cereals,74.98
+2018-12,Canberra,ACT,149.13,-35.28,Bread & cereals,75.97
+2019-01,Canberra,ACT,149.13,-35.28,Bread & cereals,76.04
+2019-02,Canberra,ACT,149.13,-35.28,Bread & cereals,76.48
+2019-03,Canberra,ACT,149.13,-35.28,Bread & cereals,77.01
+2019-04,Canberra,ACT,149.13,-35.28,Bread & cereals,77.17
+2019-05,Canberra,ACT,149.13,-35.28,Bread & cereals,76.32
+2019-06,Canberra,ACT,149.13,-35.28,Bread & cereals,77.01
+2019-07,Canberra,ACT,149.13,-35.28,Bread & cereals,77.19
+2019-08,Canberra,ACT,149.13,-35.28,Bread & cereals,78.02
+2019-09,Canberra,ACT,149.13,-35.28,Bread & cereals,77.95
+2019-10,Canberra,ACT,149.13,-35.28,Bread & cereals,77.98
+2019-11,Canberra,ACT,149.13,-35.28,Bread & cereals,78.21
+2019-12,Canberra,ACT,149.13,-35.28,Bread & cereals,79.07
+2020-01,Canberra,ACT,149.13,-35.28,Bread & cereals,79.23
+2020-02,Canberra,ACT,149.13,-35.28,Bread & cereals,79.14
+2020-03,Canberra,ACT,149.13,-35.28,Bread & cereals,81.76
+2020-04,Canberra,ACT,149.13,-35.28,Bread & cereals,82.39
+2020-05,Canberra,ACT,149.13,-35.28,Bread & cereals,80.78
+2020-06,Canberra,ACT,149.13,-35.28,Bread & cereals,79.96
+2020-07,Canberra,ACT,149.13,-35.28,Bread & cereals,79.19
+2020-08,Canberra,ACT,149.13,-35.28,Bread & cereals,79.85
+2020-09,Canberra,ACT,149.13,-35.28,Bread & cereals,79.73
+2020-10,Canberra,ACT,149.13,-35.28,Bread & cereals,79.99
+2020-11,Canberra,ACT,149.13,-35.28,Bread & cereals,80.3
+2020-12,Canberra,ACT,149.13,-35.28,Bread & cereals,80.48
+2021-01,Canberra,ACT,149.13,-35.28,Bread & cereals,80.72
+2021-02,Canberra,ACT,149.13,-35.28,Bread & cereals,80.28
+2021-03,Canberra,ACT,149.13,-35.28,Bread & cereals,80.15
+2021-04,Canberra,ACT,149.13,-35.28,Bread & cereals,80.27
+2021-05,Canberra,ACT,149.13,-35.28,Bread & cereals,80.38
+2021-06,Canberra,ACT,149.13,-35.28,Bread & cereals,80.08
+2021-07,Canberra,ACT,149.13,-35.28,Bread & cereals,79.78
+2021-08,Canberra,ACT,149.13,-35.28,Bread & cereals,80.38
+2021-09,Canberra,ACT,149.13,-35.28,Bread & cereals,80.07
+2021-10,Canberra,ACT,149.13,-35.28,Bread & cereals,80.23
+2021-11,Canberra,ACT,149.13,-35.28,Bread & cereals,80.93
+2021-12,Canberra,ACT,149.13,-35.28,Bread & cereals,81.6
+2022-01,Canberra,ACT,149.13,-35.28,Bread & cereals,82.08
+2022-02,Canberra,ACT,149.13,-35.28,Bread & cereals,81.71
+2022-03,Canberra,ACT,149.13,-35.28,Bread & cereals,83.31
+2022-04,Canberra,ACT,149.13,-35.28,Bread & cereals,84.22
+2022-05,Canberra,ACT,149.13,-35.28,Bread & cereals,84.73
+2022-06,Canberra,ACT,149.13,-35.28,Bread & cereals,85.74
+2022-07,Canberra,ACT,149.13,-35.28,Bread & cereals,86.58
+2022-08,Canberra,ACT,149.13,-35.28,Bread & cereals,87.71
+2022-09,Canberra,ACT,149.13,-35.28,Bread & cereals,89.39
+2022-10,Canberra,ACT,149.13,-35.28,Bread & cereals,89.69
+2022-11,Canberra,ACT,149.13,-35.28,Bread & cereals,90.44
+2022-12,Canberra,ACT,149.13,-35.28,Bread & cereals,91.9
+2023-01,Canberra,ACT,149.13,-35.28,Bread & cereals,92.19
+2023-02,Canberra,ACT,149.13,-35.28,Bread & cereals,92.17
+2023-03,Canberra,ACT,149.13,-35.28,Bread & cereals,92.21
+2023-04,Canberra,ACT,149.13,-35.28,Bread & cereals,93.7
+2023-05,Canberra,ACT,149.13,-35.28,Bread & cereals,95.24
+2023-06,Canberra,ACT,149.13,-35.28,Bread & cereals,94.84
+2023-07,Canberra,ACT,149.13,-35.28,Bread & cereals,94.94
+2023-08,Canberra,ACT,149.13,-35.28,Bread & cereals,96.64
+2023-09,Canberra,ACT,149.13,-35.28,Bread & cereals,97.0
+2023-10,Canberra,ACT,149.13,-35.28,Bread & cereals,96.98
+2023-11,Canberra,ACT,149.13,-35.28,Bread & cereals,97.53
+2023-12,Canberra,ACT,149.13,-35.28,Bread & cereals,98.85
+2024-01,Canberra,ACT,149.13,-35.28,Bread & cereals,98.85
+2024-02,Canberra,ACT,149.13,-35.28,Bread & cereals,98.18
+2024-03,Canberra,ACT,149.13,-35.28,Bread & cereals,98.59
+2024-04,Canberra,ACT,149.13,-35.28,Bread & cereals,98.22
+2024-05,Canberra,ACT,149.13,-35.28,Bread & cereals,98.27
+2024-06,Canberra,ACT,149.13,-35.28,Bread & cereals,97.69
+2024-07,Canberra,ACT,149.13,-35.28,Bread & cereals,98.6
+2024-08,Canberra,ACT,149.13,-35.28,Bread & cereals,98.6
+2024-09,Canberra,ACT,149.13,-35.28,Bread & cereals,98.58
+2024-10,Canberra,ACT,149.13,-35.28,Bread & cereals,99.72
+2024-11,Canberra,ACT,149.13,-35.28,Bread & cereals,100.06
+2024-12,Canberra,ACT,149.13,-35.28,Bread & cereals,100.75
+2025-01,Canberra,ACT,149.13,-35.28,Bread & cereals,101.52
+2025-02,Canberra,ACT,149.13,-35.28,Bread & cereals,100.06
+2025-03,Canberra,ACT,149.13,-35.28,Bread & cereals,100.75
+2025-04,Canberra,ACT,149.13,-35.28,Bread & cereals,100.6
+2025-05,Canberra,ACT,149.13,-35.28,Bread & cereals,99.81
+2025-06,Canberra,ACT,149.13,-35.28,Bread & cereals,99.62
+2025-07,Canberra,ACT,149.13,-35.28,Bread & cereals,100.35
+2025-08,Canberra,ACT,149.13,-35.28,Bread & cereals,100.35
+2025-09,Canberra,ACT,149.13,-35.28,Bread & cereals,100.0
+2025-10,Canberra,ACT,149.13,-35.28,Bread & cereals,100.24
+2025-11,Canberra,ACT,149.13,-35.28,Bread & cereals,100.96
+2025-12,Canberra,ACT,149.13,-35.28,Bread & cereals,101.76
+2026-01,Canberra,ACT,149.13,-35.28,Bread & cereals,101.98
+2026-02,Canberra,ACT,149.13,-35.28,Bread & cereals,100.84
+2026-03,Canberra,ACT,149.13,-35.28,Bread & cereals,100.99
+2026-04,Canberra,ACT,149.13,-35.28,Bread & cereals,100.81
+2026-05,Canberra,ACT,149.13,-35.28,Bread & cereals,101.12
+2026-06,Canberra,ACT,149.13,-35.28,Bread & cereals,101.72
+2026-07,Canberra,ACT,149.13,-35.28,Bread & cereals,101.45
+2026-08,Canberra,ACT,149.13,-35.28,Bread & cereals,101.35
+2017-09,Darwin,NT,130.84,-12.46,Bread & cereals,73.15
+2017-10,Darwin,NT,130.84,-12.46,Bread & cereals,73.93
+2017-11,Darwin,NT,130.84,-12.46,Bread & cereals,74.23
+2017-12,Darwin,NT,130.84,-12.46,Bread & cereals,74.91
+2018-01,Darwin,NT,130.84,-12.46,Bread & cereals,74.68
+2018-02,Darwin,NT,130.84,-12.46,Bread & cereals,74.01
+2018-03,Darwin,NT,130.84,-12.46,Bread & cereals,74.42
+2018-04,Darwin,NT,130.84,-12.46,Bread & cereals,73.94
+2018-05,Darwin,NT,130.84,-12.46,Bread & cereals,73.99
+2018-06,Darwin,NT,130.84,-12.46,Bread & cereals,73.67
+2018-07,Darwin,NT,130.84,-12.46,Bread & cereals,74.31
+2018-08,Darwin,NT,130.84,-12.46,Bread & cereals,73.7
+2018-09,Darwin,NT,130.84,-12.46,Bread & cereals,73.56
+2018-10,Darwin,NT,130.84,-12.46,Bread & cereals,74.51
+2018-11,Darwin,NT,130.84,-12.46,Bread & cereals,74.14
+2018-12,Darwin,NT,130.84,-12.46,Bread & cereals,75.2
+2019-01,Darwin,NT,130.84,-12.46,Bread & cereals,75.19
+2019-02,Darwin,NT,130.84,-12.46,Bread & cereals,75.65
+2019-03,Darwin,NT,130.84,-12.46,Bread & cereals,76.14
+2019-04,Darwin,NT,130.84,-12.46,Bread & cereals,76.17
+2019-05,Darwin,NT,130.84,-12.46,Bread & cereals,75.52
+2019-06,Darwin,NT,130.84,-12.46,Bread & cereals,76.71
+2019-07,Darwin,NT,130.84,-12.46,Bread & cereals,76.76
+2019-08,Darwin,NT,130.84,-12.46,Bread & cereals,77.65
+2019-09,Darwin,NT,130.84,-12.46,Bread & cereals,77.41
+2019-10,Darwin,NT,130.84,-12.46,Bread & cereals,77.44
+2019-11,Darwin,NT,130.84,-12.46,Bread & cereals,77.46
+2019-12,Darwin,NT,130.84,-12.46,Bread & cereals,78.48
+2020-01,Darwin,NT,130.84,-12.46,Bread & cereals,78.48
+2020-02,Darwin,NT,130.84,-12.46,Bread & cereals,78.37
+2020-03,Darwin,NT,130.84,-12.46,Bread & cereals,81.28
+2020-04,Darwin,NT,130.84,-12.46,Bread & cereals,82.06
+2020-05,Darwin,NT,130.84,-12.46,Bread & cereals,79.9
+2020-06,Darwin,NT,130.84,-12.46,Bread & cereals,79.22
+2020-07,Darwin,NT,130.84,-12.46,Bread & cereals,78.19
+2020-08,Darwin,NT,130.84,-12.46,Bread & cereals,78.88
+2020-09,Darwin,NT,130.84,-12.46,Bread & cereals,78.83
+2020-10,Darwin,NT,130.84,-12.46,Bread & cereals,78.92
+2020-11,Darwin,NT,130.84,-12.46,Bread & cereals,79.45
+2020-12,Darwin,NT,130.84,-12.46,Bread & cereals,79.67
+2021-01,Darwin,NT,130.84,-12.46,Bread & cereals,79.9
+2021-02,Darwin,NT,130.84,-12.46,Bread & cereals,79.06
+2021-03,Darwin,NT,130.84,-12.46,Bread & cereals,79.3
+2021-04,Darwin,NT,130.84,-12.46,Bread & cereals,79.47
+2021-05,Darwin,NT,130.84,-12.46,Bread & cereals,79.76
+2021-06,Darwin,NT,130.84,-12.46,Bread & cereals,79.31
+2021-07,Darwin,NT,130.84,-12.46,Bread & cereals,79.56
+2021-08,Darwin,NT,130.84,-12.46,Bread & cereals,80.03
+2021-09,Darwin,NT,130.84,-12.46,Bread & cereals,79.84
+2021-10,Darwin,NT,130.84,-12.46,Bread & cereals,79.77
+2021-11,Darwin,NT,130.84,-12.46,Bread & cereals,80.66
+2021-12,Darwin,NT,130.84,-12.46,Bread & cereals,81.19
+2022-01,Darwin,NT,130.84,-12.46,Bread & cereals,81.77
+2022-02,Darwin,NT,130.84,-12.46,Bread & cereals,82.03
+2022-03,Darwin,NT,130.84,-12.46,Bread & cereals,82.87
+2022-04,Darwin,NT,130.84,-12.46,Bread & cereals,83.42
+2022-05,Darwin,NT,130.84,-12.46,Bread & cereals,84.56
+2022-06,Darwin,NT,130.84,-12.46,Bread & cereals,85.63
+2022-07,Darwin,NT,130.84,-12.46,Bread & cereals,86.65
+2022-08,Darwin,NT,130.84,-12.46,Bread & cereals,87.9
+2022-09,Darwin,NT,130.84,-12.46,Bread & cereals,89.47
+2022-10,Darwin,NT,130.84,-12.46,Bread & cereals,89.57
+2022-11,Darwin,NT,130.84,-12.46,Bread & cereals,90.39
+2022-12,Darwin,NT,130.84,-12.46,Bread & cereals,91.66
+2023-01,Darwin,NT,130.84,-12.46,Bread & cereals,91.72
+2023-02,Darwin,NT,130.84,-12.46,Bread & cereals,91.79
+2023-03,Darwin,NT,130.84,-12.46,Bread & cereals,92.35
+2023-04,Darwin,NT,130.84,-12.46,Bread & cereals,93.67
+2023-05,Darwin,NT,130.84,-12.46,Bread & cereals,95.22
+2023-06,Darwin,NT,130.84,-12.46,Bread & cereals,94.88
+2023-07,Darwin,NT,130.84,-12.46,Bread & cereals,95.2
+2023-08,Darwin,NT,130.84,-12.46,Bread & cereals,96.71
+2023-09,Darwin,NT,130.84,-12.46,Bread & cereals,97.03
+2023-10,Darwin,NT,130.84,-12.46,Bread & cereals,97.16
+2023-11,Darwin,NT,130.84,-12.46,Bread & cereals,97.49
+2023-12,Darwin,NT,130.84,-12.46,Bread & cereals,98.64
+2024-01,Darwin,NT,130.84,-12.46,Bread & cereals,98.87
+2024-02,Darwin,NT,130.84,-12.46,Bread & cereals,98.17
+2024-03,Darwin,NT,130.84,-12.46,Bread & cereals,98.59
+2024-04,Darwin,NT,130.84,-12.46,Bread & cereals,98.14
+2024-05,Darwin,NT,130.84,-12.46,Bread & cereals,98.33
+2024-06,Darwin,NT,130.84,-12.46,Bread & cereals,98.19
+2024-07,Darwin,NT,130.84,-12.46,Bread & cereals,99.13
+2024-08,Darwin,NT,130.84,-12.46,Bread & cereals,98.96
+2024-09,Darwin,NT,130.84,-12.46,Bread & cereals,98.85
+2024-10,Darwin,NT,130.84,-12.46,Bread & cereals,99.88
+2024-11,Darwin,NT,130.84,-12.46,Bread & cereals,100.04
+2024-12,Darwin,NT,130.84,-12.46,Bread & cereals,100.67
+2025-01,Darwin,NT,130.84,-12.46,Bread & cereals,101.49
+2025-02,Darwin,NT,130.84,-12.46,Bread & cereals,100.31
+2025-03,Darwin,NT,130.84,-12.46,Bread & cereals,100.81
+2025-04,Darwin,NT,130.84,-12.46,Bread & cereals,100.5
+2025-05,Darwin,NT,130.84,-12.46,Bread & cereals,99.6
+2025-06,Darwin,NT,130.84,-12.46,Bread & cereals,99.8
+2025-07,Darwin,NT,130.84,-12.46,Bread & cereals,100.76
+2025-08,Darwin,NT,130.84,-12.46,Bread & cereals,100.61
+2025-09,Darwin,NT,130.84,-12.46,Bread & cereals,100.0
+2025-10,Darwin,NT,130.84,-12.46,Bread & cereals,100.14
+2025-11,Darwin,NT,130.84,-12.46,Bread & cereals,101.09
+2025-12,Darwin,NT,130.84,-12.46,Bread & cereals,101.79
+2026-01,Darwin,NT,130.84,-12.46,Bread & cereals,101.9
+2026-02,Darwin,NT,130.84,-12.46,Bread & cereals,100.85
+2026-03,Darwin,NT,130.84,-12.46,Bread & cereals,101.23
+2026-04,Darwin,NT,130.84,-12.46,Bread & cereals,100.89
+2026-05,Darwin,NT,130.84,-12.46,Bread & cereals,101.29
+2026-06,Darwin,NT,130.84,-12.46,Bread & cereals,102.13
+2026-07,Darwin,NT,130.84,-12.46,Bread & cereals,101.92
+2026-08,Darwin,NT,130.84,-12.46,Bread & cereals,101.62
+2017-09,Hobart,TAS,147.33,-42.88,Bread & cereals,73.33
+2017-10,Hobart,TAS,147.33,-42.88,Bread & cereals,74.62
+2017-11,Hobart,TAS,147.33,-42.88,Bread & cereals,75.14
+2017-12,Hobart,TAS,147.33,-42.88,Bread & cereals,74.54
+2018-01,Hobart,TAS,147.33,-42.88,Bread & cereals,76.17
+2018-02,Hobart,TAS,147.33,-42.88,Bread & cereals,75.07
+2018-03,Hobart,TAS,147.33,-42.88,Bread & cereals,74.98
+2018-04,Hobart,TAS,147.33,-42.88,Bread & cereals,74.73
+2018-05,Hobart,TAS,147.33,-42.88,Bread & cereals,74.55
+2018-06,Hobart,TAS,147.33,-42.88,Bread & cereals,74.01
+2018-07,Hobart,TAS,147.33,-42.88,Bread & cereals,74.51
+2018-08,Hobart,TAS,147.33,-42.88,Bread & cereals,74.11
+2018-09,Hobart,TAS,147.33,-42.88,Bread & cereals,74.63
+2018-10,Hobart,TAS,147.33,-42.88,Bread & cereals,75.29
+2018-11,Hobart,TAS,147.33,-42.88,Bread & cereals,75.02
+2018-12,Hobart,TAS,147.33,-42.88,Bread & cereals,75.9
+2019-01,Hobart,TAS,147.33,-42.88,Bread & cereals,76.4
+2019-02,Hobart,TAS,147.33,-42.88,Bread & cereals,76.55
+2019-03,Hobart,TAS,147.33,-42.88,Bread & cereals,77.09
+2019-04,Hobart,TAS,147.33,-42.88,Bread & cereals,77.06
+2019-05,Hobart,TAS,147.33,-42.88,Bread & cereals,76.65
+2019-06,Hobart,TAS,147.33,-42.88,Bread & cereals,77.68
+2019-07,Hobart,TAS,147.33,-42.88,Bread & cereals,77.15
+2019-08,Hobart,TAS,147.33,-42.88,Bread & cereals,78.7
+2019-09,Hobart,TAS,147.33,-42.88,Bread & cereals,78.84
+2019-10,Hobart,TAS,147.33,-42.88,Bread & cereals,78.79
+2019-11,Hobart,TAS,147.33,-42.88,Bread & cereals,79.1
+2019-12,Hobart,TAS,147.33,-42.88,Bread & cereals,80.13
+2020-01,Hobart,TAS,147.33,-42.88,Bread & cereals,80.01
+2020-02,Hobart,TAS,147.33,-42.88,Bread & cereals,79.93
+2020-03,Hobart,TAS,147.33,-42.88,Bread & cereals,82.15
+2020-04,Hobart,TAS,147.33,-42.88,Bread & cereals,83.17
+2020-05,Hobart,TAS,147.33,-42.88,Bread & cereals,81.21
+2020-06,Hobart,TAS,147.33,-42.88,Bread & cereals,80.59
+2020-07,Hobart,TAS,147.33,-42.88,Bread & cereals,79.45
+2020-08,Hobart,TAS,147.33,-42.88,Bread & cereals,80.38
+2020-09,Hobart,TAS,147.33,-42.88,Bread & cereals,80.2
+2020-10,Hobart,TAS,147.33,-42.88,Bread & cereals,80.31
+2020-11,Hobart,TAS,147.33,-42.88,Bread & cereals,80.7
+2020-12,Hobart,TAS,147.33,-42.88,Bread & cereals,80.71
+2021-01,Hobart,TAS,147.33,-42.88,Bread & cereals,81.19
+2021-02,Hobart,TAS,147.33,-42.88,Bread & cereals,81.08
+2021-03,Hobart,TAS,147.33,-42.88,Bread & cereals,80.86
+2021-04,Hobart,TAS,147.33,-42.88,Bread & cereals,81.01
+2021-05,Hobart,TAS,147.33,-42.88,Bread & cereals,81.16
+2021-06,Hobart,TAS,147.33,-42.88,Bread & cereals,80.66
+2021-07,Hobart,TAS,147.33,-42.88,Bread & cereals,80.41
+2021-08,Hobart,TAS,147.33,-42.88,Bread & cereals,81.0
+2021-09,Hobart,TAS,147.33,-42.88,Bread & cereals,80.56
+2021-10,Hobart,TAS,147.33,-42.88,Bread & cereals,80.94
+2021-11,Hobart,TAS,147.33,-42.88,Bread & cereals,81.58
+2021-12,Hobart,TAS,147.33,-42.88,Bread & cereals,82.38
+2022-01,Hobart,TAS,147.33,-42.88,Bread & cereals,82.95
+2022-02,Hobart,TAS,147.33,-42.88,Bread & cereals,82.81
+2022-03,Hobart,TAS,147.33,-42.88,Bread & cereals,84.18
+2022-04,Hobart,TAS,147.33,-42.88,Bread & cereals,84.81
+2022-05,Hobart,TAS,147.33,-42.88,Bread & cereals,85.11
+2022-06,Hobart,TAS,147.33,-42.88,Bread & cereals,86.12
+2022-07,Hobart,TAS,147.33,-42.88,Bread & cereals,86.59
+2022-08,Hobart,TAS,147.33,-42.88,Bread & cereals,87.9
+2022-09,Hobart,TAS,147.33,-42.88,Bread & cereals,88.61
+2022-10,Hobart,TAS,147.33,-42.88,Bread & cereals,89.86
+2022-11,Hobart,TAS,147.33,-42.88,Bread & cereals,91.03
+2022-12,Hobart,TAS,147.33,-42.88,Bread & cereals,92.3
+2023-01,Hobart,TAS,147.33,-42.88,Bread & cereals,92.44
+2023-02,Hobart,TAS,147.33,-42.88,Bread & cereals,92.25
+2023-03,Hobart,TAS,147.33,-42.88,Bread & cereals,92.25
+2023-04,Hobart,TAS,147.33,-42.88,Bread & cereals,93.68
+2023-05,Hobart,TAS,147.33,-42.88,Bread & cereals,94.43
+2023-06,Hobart,TAS,147.33,-42.88,Bread & cereals,93.59
+2023-07,Hobart,TAS,147.33,-42.88,Bread & cereals,93.62
+2023-08,Hobart,TAS,147.33,-42.88,Bread & cereals,95.88
+2023-09,Hobart,TAS,147.33,-42.88,Bread & cereals,96.03
+2023-10,Hobart,TAS,147.33,-42.88,Bread & cereals,97.25
+2023-11,Hobart,TAS,147.33,-42.88,Bread & cereals,97.68
+2023-12,Hobart,TAS,147.33,-42.88,Bread & cereals,98.74
+2024-01,Hobart,TAS,147.33,-42.88,Bread & cereals,99.26
+2024-02,Hobart,TAS,147.33,-42.88,Bread & cereals,98.52
+2024-03,Hobart,TAS,147.33,-42.88,Bread & cereals,98.91
+2024-04,Hobart,TAS,147.33,-42.88,Bread & cereals,98.3
+2024-05,Hobart,TAS,147.33,-42.88,Bread & cereals,98.2
+2024-06,Hobart,TAS,147.33,-42.88,Bread & cereals,97.68
+2024-07,Hobart,TAS,147.33,-42.88,Bread & cereals,98.52
+2024-08,Hobart,TAS,147.33,-42.88,Bread & cereals,98.63
+2024-09,Hobart,TAS,147.33,-42.88,Bread & cereals,98.26
+2024-10,Hobart,TAS,147.33,-42.88,Bread & cereals,99.98
+2024-11,Hobart,TAS,147.33,-42.88,Bread & cereals,99.94
+2024-12,Hobart,TAS,147.33,-42.88,Bread & cereals,100.4
+2025-01,Hobart,TAS,147.33,-42.88,Bread & cereals,102.31
+2025-02,Hobart,TAS,147.33,-42.88,Bread & cereals,100.92
+2025-03,Hobart,TAS,147.33,-42.88,Bread & cereals,101.37
+2025-04,Hobart,TAS,147.33,-42.88,Bread & cereals,101.13
+2025-05,Hobart,TAS,147.33,-42.88,Bread & cereals,99.97
+2025-06,Hobart,TAS,147.33,-42.88,Bread & cereals,99.96
+2025-07,Hobart,TAS,147.33,-42.88,Bread & cereals,100.72
+2025-08,Hobart,TAS,147.33,-42.88,Bread & cereals,100.63
+2025-09,Hobart,TAS,147.33,-42.88,Bread & cereals,100.0
+2025-10,Hobart,TAS,147.33,-42.88,Bread & cereals,100.62
+2025-11,Hobart,TAS,147.33,-42.88,Bread & cereals,101.46
+2025-12,Hobart,TAS,147.33,-42.88,Bread & cereals,102.25
+2026-01,Hobart,TAS,147.33,-42.88,Bread & cereals,102.81
+2026-02,Hobart,TAS,147.33,-42.88,Bread & cereals,100.84
+2026-03,Hobart,TAS,147.33,-42.88,Bread & cereals,101.4
+2026-04,Hobart,TAS,147.33,-42.88,Bread & cereals,101.29
+2026-05,Hobart,TAS,147.33,-42.88,Bread & cereals,101.1
+2026-06,Hobart,TAS,147.33,-42.88,Bread & cereals,102.27
+2026-07,Hobart,TAS,147.33,-42.88,Bread & cereals,102.04
+2026-08,Hobart,TAS,147.33,-42.88,Bread & cereals,101.74
+2017-09,Melbourne,VIC,144.96,-37.81,Bread & cereals,73.5
+2017-10,Melbourne,VIC,144.96,-37.81,Bread & cereals,73.95
+2017-11,Melbourne,VIC,144.96,-37.81,Bread & cereals,74.38
+2017-12,Melbourne,VIC,144.96,-37.81,Bread & cereals,75.02
+2018-01,Melbourne,VIC,144.96,-37.81,Bread & cereals,74.88
+2018-02,Melbourne,VIC,144.96,-37.81,Bread & cereals,74.03
+2018-03,Melbourne,VIC,144.96,-37.81,Bread & cereals,74.3
+2018-04,Melbourne,VIC,144.96,-37.81,Bread & cereals,73.98
+2018-05,Melbourne,VIC,144.96,-37.81,Bread & cereals,73.93
+2018-06,Melbourne,VIC,144.96,-37.81,Bread & cereals,73.69
+2018-07,Melbourne,VIC,144.96,-37.81,Bread & cereals,74.07
+2018-08,Melbourne,VIC,144.96,-37.81,Bread & cereals,73.99
+2018-09,Melbourne,VIC,144.96,-37.81,Bread & cereals,74.07
+2018-10,Melbourne,VIC,144.96,-37.81,Bread & cereals,74.57
+2018-11,Melbourne,VIC,144.96,-37.81,Bread & cereals,74.47
+2018-12,Melbourne,VIC,144.96,-37.81,Bread & cereals,75.32
+2019-01,Melbourne,VIC,144.96,-37.81,Bread & cereals,75.58
+2019-02,Melbourne,VIC,144.96,-37.81,Bread & cereals,75.98
+2019-03,Melbourne,VIC,144.96,-37.81,Bread & cereals,76.35
+2019-04,Melbourne,VIC,144.96,-37.81,Bread & cereals,76.42
+2019-05,Melbourne,VIC,144.96,-37.81,Bread & cereals,75.77
+2019-06,Melbourne,VIC,144.96,-37.81,Bread & cereals,76.42
+2019-07,Melbourne,VIC,144.96,-37.81,Bread & cereals,76.41
+2019-08,Melbourne,VIC,144.96,-37.81,Bread & cereals,77.56
+2019-09,Melbourne,VIC,144.96,-37.81,Bread & cereals,77.42
+2019-10,Melbourne,VIC,144.96,-37.81,Bread & cereals,77.64
+2019-11,Melbourne,VIC,144.96,-37.81,Bread & cereals,77.94
+2019-12,Melbourne,VIC,144.96,-37.81,Bread & cereals,78.63
+2020-01,Melbourne,VIC,144.96,-37.81,Bread & cereals,78.72
+2020-02,Melbourne,VIC,144.96,-37.81,Bread & cereals,78.49
+2020-03,Melbourne,VIC,144.96,-37.81,Bread & cereals,81.05
+2020-04,Melbourne,VIC,144.96,-37.81,Bread & cereals,81.89
+2020-05,Melbourne,VIC,144.96,-37.81,Bread & cereals,80.22
+2020-06,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.37
+2020-07,Melbourne,VIC,144.96,-37.81,Bread & cereals,78.55
+2020-08,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.22
+2020-09,Melbourne,VIC,144.96,-37.81,Bread & cereals,78.66
+2020-10,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.15
+2020-11,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.53
+2020-12,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.37
+2021-01,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.86
+2021-02,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.51
+2021-03,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.28
+2021-04,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.44
+2021-05,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.69
+2021-06,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.26
+2021-07,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.11
+2021-08,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.62
+2021-09,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.39
+2021-10,Melbourne,VIC,144.96,-37.81,Bread & cereals,79.77
+2021-11,Melbourne,VIC,144.96,-37.81,Bread & cereals,80.33
+2021-12,Melbourne,VIC,144.96,-37.81,Bread & cereals,80.87
+2022-01,Melbourne,VIC,144.96,-37.81,Bread & cereals,81.36
+2022-02,Melbourne,VIC,144.96,-37.81,Bread & cereals,81.05
+2022-03,Melbourne,VIC,144.96,-37.81,Bread & cereals,82.48
+2022-04,Melbourne,VIC,144.96,-37.81,Bread & cereals,83.5
+2022-05,Melbourne,VIC,144.96,-37.81,Bread & cereals,84.0
+2022-06,Melbourne,VIC,144.96,-37.81,Bread & cereals,84.94
+2022-07,Melbourne,VIC,144.96,-37.81,Bread & cereals,85.74
+2022-08,Melbourne,VIC,144.96,-37.81,Bread & cereals,87.08
+2022-09,Melbourne,VIC,144.96,-37.81,Bread & cereals,88.53
+2022-10,Melbourne,VIC,144.96,-37.81,Bread & cereals,89.2
+2022-11,Melbourne,VIC,144.96,-37.81,Bread & cereals,89.82
+2022-12,Melbourne,VIC,144.96,-37.81,Bread & cereals,91.22
+2023-01,Melbourne,VIC,144.96,-37.81,Bread & cereals,91.37
+2023-02,Melbourne,VIC,144.96,-37.81,Bread & cereals,91.28
+2023-03,Melbourne,VIC,144.96,-37.81,Bread & cereals,91.63
+2023-04,Melbourne,VIC,144.96,-37.81,Bread & cereals,93.2
+2023-05,Melbourne,VIC,144.96,-37.81,Bread & cereals,94.74
+2023-06,Melbourne,VIC,144.96,-37.81,Bread & cereals,94.16
+2023-07,Melbourne,VIC,144.96,-37.81,Bread & cereals,94.23
+2023-08,Melbourne,VIC,144.96,-37.81,Bread & cereals,96.0
+2023-09,Melbourne,VIC,144.96,-37.81,Bread & cereals,96.44
+2023-10,Melbourne,VIC,144.96,-37.81,Bread & cereals,96.74
+2023-11,Melbourne,VIC,144.96,-37.81,Bread & cereals,97.19
+2023-12,Melbourne,VIC,144.96,-37.81,Bread & cereals,98.32
+2024-01,Melbourne,VIC,144.96,-37.81,Bread & cereals,98.15
+2024-02,Melbourne,VIC,144.96,-37.81,Bread & cereals,97.58
+2024-03,Melbourne,VIC,144.96,-37.81,Bread & cereals,98.27
+2024-04,Melbourne,VIC,144.96,-37.81,Bread & cereals,97.61
+2024-05,Melbourne,VIC,144.96,-37.81,Bread & cereals,97.87
+2024-06,Melbourne,VIC,144.96,-37.81,Bread & cereals,97.47
+2024-07,Melbourne,VIC,144.96,-37.81,Bread & cereals,98.35
+2024-08,Melbourne,VIC,144.96,-37.81,Bread & cereals,98.28
+2024-09,Melbourne,VIC,144.96,-37.81,Bread & cereals,98.13
+2024-10,Melbourne,VIC,144.96,-37.81,Bread & cereals,99.51
+2024-11,Melbourne,VIC,144.96,-37.81,Bread & cereals,99.77
+2024-12,Melbourne,VIC,144.96,-37.81,Bread & cereals,100.59
+2025-01,Melbourne,VIC,144.96,-37.81,Bread & cereals,101.04
+2025-02,Melbourne,VIC,144.96,-37.81,Bread & cereals,99.82
+2025-03,Melbourne,VIC,144.96,-37.81,Bread & cereals,100.55
+2025-04,Melbourne,VIC,144.96,-37.81,Bread & cereals,100.08
+2025-05,Melbourne,VIC,144.96,-37.81,Bread & cereals,99.7
+2025-06,Melbourne,VIC,144.96,-37.81,Bread & cereals,99.49
+2025-07,Melbourne,VIC,144.96,-37.81,Bread & cereals,100.25
+2025-08,Melbourne,VIC,144.96,-37.81,Bread & cereals,100.3
+2025-09,Melbourne,VIC,144.96,-37.81,Bread & cereals,100.0
+2025-10,Melbourne,VIC,144.96,-37.81,Bread & cereals,100.16
+2025-11,Melbourne,VIC,144.96,-37.81,Bread & cereals,100.95
+2025-12,Melbourne,VIC,144.96,-37.81,Bread & cereals,101.82
+2026-01,Melbourne,VIC,144.96,-37.81,Bread & cereals,102.0
+2026-02,Melbourne,VIC,144.96,-37.81,Bread & cereals,100.88
+2026-03,Melbourne,VIC,144.96,-37.81,Bread & cereals,101.2
+2026-04,Melbourne,VIC,144.96,-37.81,Bread & cereals,100.94
+2026-05,Melbourne,VIC,144.96,-37.81,Bread & cereals,101.24
+2026-06,Melbourne,VIC,144.96,-37.81,Bread & cereals,101.86
+2026-07,Melbourne,VIC,144.96,-37.81,Bread & cereals,101.62
+2026-08,Melbourne,VIC,144.96,-37.81,Bread & cereals,101.53
+2017-09,Perth,WA,115.86,-31.95,Bread & cereals,73.93
+2017-10,Perth,WA,115.86,-31.95,Bread & cereals,74.39
+2017-11,Perth,WA,115.86,-31.95,Bread & cereals,74.62
+2017-12,Perth,WA,115.86,-31.95,Bread & cereals,75.28
+2018-01,Perth,WA,115.86,-31.95,Bread & cereals,75.2
+2018-02,Perth,WA,115.86,-31.95,Bread & cereals,74.18
+2018-03,Perth,WA,115.86,-31.95,Bread & cereals,74.36
+2018-04,Perth,WA,115.86,-31.95,Bread & cereals,74.1
+2018-05,Perth,WA,115.86,-31.95,Bread & cereals,74.09
+2018-06,Perth,WA,115.86,-31.95,Bread & cereals,74.04
+2018-07,Perth,WA,115.86,-31.95,Bread & cereals,74.3
+2018-08,Perth,WA,115.86,-31.95,Bread & cereals,74.35
+2018-09,Perth,WA,115.86,-31.95,Bread & cereals,74.51
+2018-10,Perth,WA,115.86,-31.95,Bread & cereals,74.82
+2018-11,Perth,WA,115.86,-31.95,Bread & cereals,74.58
+2018-12,Perth,WA,115.86,-31.95,Bread & cereals,75.39
+2019-01,Perth,WA,115.86,-31.95,Bread & cereals,75.58
+2019-02,Perth,WA,115.86,-31.95,Bread & cereals,75.8
+2019-03,Perth,WA,115.86,-31.95,Bread & cereals,76.44
+2019-04,Perth,WA,115.86,-31.95,Bread & cereals,76.47
+2019-05,Perth,WA,115.86,-31.95,Bread & cereals,75.64
+2019-06,Perth,WA,115.86,-31.95,Bread & cereals,76.15
+2019-07,Perth,WA,115.86,-31.95,Bread & cereals,76.28
+2019-08,Perth,WA,115.86,-31.95,Bread & cereals,77.25
+2019-09,Perth,WA,115.86,-31.95,Bread & cereals,77.14
+2019-10,Perth,WA,115.86,-31.95,Bread & cereals,77.37
+2019-11,Perth,WA,115.86,-31.95,Bread & cereals,77.47
+2019-12,Perth,WA,115.86,-31.95,Bread & cereals,78.24
+2020-01,Perth,WA,115.86,-31.95,Bread & cereals,78.23
+2020-02,Perth,WA,115.86,-31.95,Bread & cereals,78.06
+2020-03,Perth,WA,115.86,-31.95,Bread & cereals,80.25
+2020-04,Perth,WA,115.86,-31.95,Bread & cereals,81.12
+2020-05,Perth,WA,115.86,-31.95,Bread & cereals,79.86
+2020-06,Perth,WA,115.86,-31.95,Bread & cereals,78.86
+2020-07,Perth,WA,115.86,-31.95,Bread & cereals,77.98
+2020-08,Perth,WA,115.86,-31.95,Bread & cereals,78.77
+2020-09,Perth,WA,115.86,-31.95,Bread & cereals,78.67
+2020-10,Perth,WA,115.86,-31.95,Bread & cereals,78.91
+2020-11,Perth,WA,115.86,-31.95,Bread & cereals,79.14
+2020-12,Perth,WA,115.86,-31.95,Bread & cereals,79.27
+2021-01,Perth,WA,115.86,-31.95,Bread & cereals,79.52
+2021-02,Perth,WA,115.86,-31.95,Bread & cereals,79.45
+2021-03,Perth,WA,115.86,-31.95,Bread & cereals,79.02
+2021-04,Perth,WA,115.86,-31.95,Bread & cereals,79.09
+2021-05,Perth,WA,115.86,-31.95,Bread & cereals,79.23
+2021-06,Perth,WA,115.86,-31.95,Bread & cereals,78.92
+2021-07,Perth,WA,115.86,-31.95,Bread & cereals,78.82
+2021-08,Perth,WA,115.86,-31.95,Bread & cereals,79.15
+2021-09,Perth,WA,115.86,-31.95,Bread & cereals,79.1
+2021-10,Perth,WA,115.86,-31.95,Bread & cereals,79.38
+2021-11,Perth,WA,115.86,-31.95,Bread & cereals,79.9
+2021-12,Perth,WA,115.86,-31.95,Bread & cereals,80.55
+2022-01,Perth,WA,115.86,-31.95,Bread & cereals,80.74
+2022-02,Perth,WA,115.86,-31.95,Bread & cereals,82.44
+2022-03,Perth,WA,115.86,-31.95,Bread & cereals,84.11
+2022-04,Perth,WA,115.86,-31.95,Bread & cereals,83.94
+2022-05,Perth,WA,115.86,-31.95,Bread & cereals,84.13
+2022-06,Perth,WA,115.86,-31.95,Bread & cereals,85.02
+2022-07,Perth,WA,115.86,-31.95,Bread & cereals,85.77
+2022-08,Perth,WA,115.86,-31.95,Bread & cereals,86.94
+2022-09,Perth,WA,115.86,-31.95,Bread & cereals,88.43
+2022-10,Perth,WA,115.86,-31.95,Bread & cereals,88.91
+2022-11,Perth,WA,115.86,-31.95,Bread & cereals,89.83
+2022-12,Perth,WA,115.86,-31.95,Bread & cereals,91.57
+2023-01,Perth,WA,115.86,-31.95,Bread & cereals,91.78
+2023-02,Perth,WA,115.86,-31.95,Bread & cereals,90.97
+2023-03,Perth,WA,115.86,-31.95,Bread & cereals,91.4
+2023-04,Perth,WA,115.86,-31.95,Bread & cereals,92.73
+2023-05,Perth,WA,115.86,-31.95,Bread & cereals,94.14
+2023-06,Perth,WA,115.86,-31.95,Bread & cereals,93.74
+2023-07,Perth,WA,115.86,-31.95,Bread & cereals,93.96
+2023-08,Perth,WA,115.86,-31.95,Bread & cereals,95.54
+2023-09,Perth,WA,115.86,-31.95,Bread & cereals,96.25
+2023-10,Perth,WA,115.86,-31.95,Bread & cereals,96.37
+2023-11,Perth,WA,115.86,-31.95,Bread & cereals,96.89
+2023-12,Perth,WA,115.86,-31.95,Bread & cereals,97.83
+2024-01,Perth,WA,115.86,-31.95,Bread & cereals,97.76
+2024-02,Perth,WA,115.86,-31.95,Bread & cereals,97.27
+2024-03,Perth,WA,115.86,-31.95,Bread & cereals,97.87
+2024-04,Perth,WA,115.86,-31.95,Bread & cereals,97.9
+2024-05,Perth,WA,115.86,-31.95,Bread & cereals,97.52
+2024-06,Perth,WA,115.86,-31.95,Bread & cereals,97.23
+2024-07,Perth,WA,115.86,-31.95,Bread & cereals,97.96
+2024-08,Perth,WA,115.86,-31.95,Bread & cereals,97.95
+2024-09,Perth,WA,115.86,-31.95,Bread & cereals,97.91
+2024-10,Perth,WA,115.86,-31.95,Bread & cereals,99.17
+2024-11,Perth,WA,115.86,-31.95,Bread & cereals,99.44
+2024-12,Perth,WA,115.86,-31.95,Bread & cereals,99.89
+2025-01,Perth,WA,115.86,-31.95,Bread & cereals,100.71
+2025-02,Perth,WA,115.86,-31.95,Bread & cereals,99.67
+2025-03,Perth,WA,115.86,-31.95,Bread & cereals,100.19
+2025-04,Perth,WA,115.86,-31.95,Bread & cereals,99.92
+2025-05,Perth,WA,115.86,-31.95,Bread & cereals,99.42
+2025-06,Perth,WA,115.86,-31.95,Bread & cereals,99.41
+2025-07,Perth,WA,115.86,-31.95,Bread & cereals,99.98
+2025-08,Perth,WA,115.86,-31.95,Bread & cereals,100.11
+2025-09,Perth,WA,115.86,-31.95,Bread & cereals,100.0
+2025-10,Perth,WA,115.86,-31.95,Bread & cereals,99.99
+2025-11,Perth,WA,115.86,-31.95,Bread & cereals,100.77
+2025-12,Perth,WA,115.86,-31.95,Bread & cereals,101.75
+2026-01,Perth,WA,115.86,-31.95,Bread & cereals,101.85
+2026-02,Perth,WA,115.86,-31.95,Bread & cereals,100.79
+2026-03,Perth,WA,115.86,-31.95,Bread & cereals,101.1
+2026-04,Perth,WA,115.86,-31.95,Bread & cereals,100.82
+2026-05,Perth,WA,115.86,-31.95,Bread & cereals,101.14
+2026-06,Perth,WA,115.86,-31.95,Bread & cereals,101.76
+2026-07,Perth,WA,115.86,-31.95,Bread & cereals,101.4
+2026-08,Perth,WA,115.86,-31.95,Bread & cereals,101.66
+2017-09,Sydney,NSW,151.21,-33.87,Bread & cereals,73.27
+2017-10,Sydney,NSW,151.21,-33.87,Bread & cereals,73.8
+2017-11,Sydney,NSW,151.21,-33.87,Bread & cereals,74.24
+2017-12,Sydney,NSW,151.21,-33.87,Bread & cereals,75.02
+2018-01,Sydney,NSW,151.21,-33.87,Bread & cereals,74.63
+2018-02,Sydney,NSW,151.21,-33.87,Bread & cereals,73.78
+2018-03,Sydney,NSW,151.21,-33.87,Bread & cereals,74.05
+2018-04,Sydney,NSW,151.21,-33.87,Bread & cereals,73.76
+2018-05,Sydney,NSW,151.21,-33.87,Bread & cereals,73.72
+2018-06,Sydney,NSW,151.21,-33.87,Bread & cereals,73.48
+2018-07,Sydney,NSW,151.21,-33.87,Bread & cereals,74.04
+2018-08,Sydney,NSW,151.21,-33.87,Bread & cereals,73.93
+2018-09,Sydney,NSW,151.21,-33.87,Bread & cereals,74.08
+2018-10,Sydney,NSW,151.21,-33.87,Bread & cereals,74.43
+2018-11,Sydney,NSW,151.21,-33.87,Bread & cereals,74.35
+2018-12,Sydney,NSW,151.21,-33.87,Bread & cereals,75.36
+2019-01,Sydney,NSW,151.21,-33.87,Bread & cereals,75.48
+2019-02,Sydney,NSW,151.21,-33.87,Bread & cereals,75.58
+2019-03,Sydney,NSW,151.21,-33.87,Bread & cereals,76.33
+2019-04,Sydney,NSW,151.21,-33.87,Bread & cereals,76.47
+2019-05,Sydney,NSW,151.21,-33.87,Bread & cereals,75.62
+2019-06,Sydney,NSW,151.21,-33.87,Bread & cereals,76.13
+2019-07,Sydney,NSW,151.21,-33.87,Bread & cereals,76.24
+2019-08,Sydney,NSW,151.21,-33.87,Bread & cereals,77.34
+2019-09,Sydney,NSW,151.21,-33.87,Bread & cereals,77.16
+2019-10,Sydney,NSW,151.21,-33.87,Bread & cereals,77.3
+2019-11,Sydney,NSW,151.21,-33.87,Bread & cereals,77.56
+2019-12,Sydney,NSW,151.21,-33.87,Bread & cereals,78.55
+2020-01,Sydney,NSW,151.21,-33.87,Bread & cereals,78.5
+2020-02,Sydney,NSW,151.21,-33.87,Bread & cereals,78.36
+2020-03,Sydney,NSW,151.21,-33.87,Bread & cereals,80.94
+2020-04,Sydney,NSW,151.21,-33.87,Bread & cereals,81.67
+2020-05,Sydney,NSW,151.21,-33.87,Bread & cereals,80.11
+2020-06,Sydney,NSW,151.21,-33.87,Bread & cereals,79.15
+2020-07,Sydney,NSW,151.21,-33.87,Bread & cereals,78.22
+2020-08,Sydney,NSW,151.21,-33.87,Bread & cereals,78.85
+2020-09,Sydney,NSW,151.21,-33.87,Bread & cereals,78.72
+2020-10,Sydney,NSW,151.21,-33.87,Bread & cereals,79.01
+2020-11,Sydney,NSW,151.21,-33.87,Bread & cereals,79.31
+2020-12,Sydney,NSW,151.21,-33.87,Bread & cereals,79.46
+2021-01,Sydney,NSW,151.21,-33.87,Bread & cereals,79.65
+2021-02,Sydney,NSW,151.21,-33.87,Bread & cereals,79.1
+2021-03,Sydney,NSW,151.21,-33.87,Bread & cereals,79.13
+2021-04,Sydney,NSW,151.21,-33.87,Bread & cereals,79.24
+2021-05,Sydney,NSW,151.21,-33.87,Bread & cereals,79.33
+2021-06,Sydney,NSW,151.21,-33.87,Bread & cereals,79.07
+2021-07,Sydney,NSW,151.21,-33.87,Bread & cereals,78.94
+2021-08,Sydney,NSW,151.21,-33.87,Bread & cereals,79.2
+2021-09,Sydney,NSW,151.21,-33.87,Bread & cereals,79.15
+2021-10,Sydney,NSW,151.21,-33.87,Bread & cereals,79.29
+2021-11,Sydney,NSW,151.21,-33.87,Bread & cereals,80.02
+2021-12,Sydney,NSW,151.21,-33.87,Bread & cereals,80.66
+2022-01,Sydney,NSW,151.21,-33.87,Bread & cereals,81.07
+2022-02,Sydney,NSW,151.21,-33.87,Bread & cereals,80.58
+2022-03,Sydney,NSW,151.21,-33.87,Bread & cereals,82.1
+2022-04,Sydney,NSW,151.21,-33.87,Bread & cereals,83.26
+2022-05,Sydney,NSW,151.21,-33.87,Bread & cereals,83.6
+2022-06,Sydney,NSW,151.21,-33.87,Bread & cereals,84.76
+2022-07,Sydney,NSW,151.21,-33.87,Bread & cereals,85.72
+2022-08,Sydney,NSW,151.21,-33.87,Bread & cereals,86.8
+2022-09,Sydney,NSW,151.21,-33.87,Bread & cereals,88.61
+2022-10,Sydney,NSW,151.21,-33.87,Bread & cereals,88.91
+2022-11,Sydney,NSW,151.21,-33.87,Bread & cereals,89.79
+2022-12,Sydney,NSW,151.21,-33.87,Bread & cereals,91.33
+2023-01,Sydney,NSW,151.21,-33.87,Bread & cereals,91.27
+2023-02,Sydney,NSW,151.21,-33.87,Bread & cereals,91.23
+2023-03,Sydney,NSW,151.21,-33.87,Bread & cereals,91.42
+2023-04,Sydney,NSW,151.21,-33.87,Bread & cereals,93.11
+2023-05,Sydney,NSW,151.21,-33.87,Bread & cereals,94.73
+2023-06,Sydney,NSW,151.21,-33.87,Bread & cereals,94.31
+2023-07,Sydney,NSW,151.21,-33.87,Bread & cereals,94.35
+2023-08,Sydney,NSW,151.21,-33.87,Bread & cereals,95.87
+2023-09,Sydney,NSW,151.21,-33.87,Bread & cereals,96.4
+2023-10,Sydney,NSW,151.21,-33.87,Bread & cereals,96.48
+2023-11,Sydney,NSW,151.21,-33.87,Bread & cereals,97.2
+2023-12,Sydney,NSW,151.21,-33.87,Bread & cereals,98.44
+2024-01,Sydney,NSW,151.21,-33.87,Bread & cereals,98.25
+2024-02,Sydney,NSW,151.21,-33.87,Bread & cereals,97.6
+2024-03,Sydney,NSW,151.21,-33.87,Bread & cereals,98.3
+2024-04,Sydney,NSW,151.21,-33.87,Bread & cereals,97.73
+2024-05,Sydney,NSW,151.21,-33.87,Bread & cereals,97.84
+2024-06,Sydney,NSW,151.21,-33.87,Bread & cereals,97.32
+2024-07,Sydney,NSW,151.21,-33.87,Bread & cereals,98.33
+2024-08,Sydney,NSW,151.21,-33.87,Bread & cereals,98.23
+2024-09,Sydney,NSW,151.21,-33.87,Bread & cereals,98.2
+2024-10,Sydney,NSW,151.21,-33.87,Bread & cereals,99.4
+2024-11,Sydney,NSW,151.21,-33.87,Bread & cereals,99.84
+2024-12,Sydney,NSW,151.21,-33.87,Bread & cereals,100.37
+2025-01,Sydney,NSW,151.21,-33.87,Bread & cereals,101.16
+2025-02,Sydney,NSW,151.21,-33.87,Bread & cereals,99.76
+2025-03,Sydney,NSW,151.21,-33.87,Bread & cereals,100.57
+2025-04,Sydney,NSW,151.21,-33.87,Bread & cereals,100.28
+2025-05,Sydney,NSW,151.21,-33.87,Bread & cereals,99.68
+2025-06,Sydney,NSW,151.21,-33.87,Bread & cereals,99.46
+2025-07,Sydney,NSW,151.21,-33.87,Bread & cereals,100.18
+2025-08,Sydney,NSW,151.21,-33.87,Bread & cereals,100.3
+2025-09,Sydney,NSW,151.21,-33.87,Bread & cereals,100.0
+2025-10,Sydney,NSW,151.21,-33.87,Bread & cereals,99.95
+2025-11,Sydney,NSW,151.21,-33.87,Bread & cereals,100.94
+2025-12,Sydney,NSW,151.21,-33.87,Bread & cereals,101.86
+2026-01,Sydney,NSW,151.21,-33.87,Bread & cereals,102.05
+2026-02,Sydney,NSW,151.21,-33.87,Bread & cereals,100.73
+2026-03,Sydney,NSW,151.21,-33.87,Bread & cereals,101.21
+2026-04,Sydney,NSW,151.21,-33.87,Bread & cereals,100.95
+2026-05,Sydney,NSW,151.21,-33.87,Bread & cereals,101.06
+2026-06,Sydney,NSW,151.21,-33.87,Bread & cereals,101.82
+2026-07,Sydney,NSW,151.21,-33.87,Bread & cereals,101.38
+2026-08,Sydney,NSW,151.21,-33.87,Bread & cereals,101.43
+2017-09,Adelaide,SA,138.6,-34.93,Dairy,70.71
+2017-10,Adelaide,SA,138.6,-34.93,Dairy,71.19
+2017-11,Adelaide,SA,138.6,-34.93,Dairy,71.23
+2017-12,Adelaide,SA,138.6,-34.93,Dairy,71.73
+2018-01,Adelaide,SA,138.6,-34.93,Dairy,71.65
+2018-02,Adelaide,SA,138.6,-34.93,Dairy,71.44
+2018-03,Adelaide,SA,138.6,-34.93,Dairy,71.61
+2018-04,Adelaide,SA,138.6,-34.93,Dairy,71.92
+2018-05,Adelaide,SA,138.6,-34.93,Dairy,71.77
+2018-06,Adelaide,SA,138.6,-34.93,Dairy,71.81
+2018-07,Adelaide,SA,138.6,-34.93,Dairy,71.96
+2018-08,Adelaide,SA,138.6,-34.93,Dairy,71.73
+2018-09,Adelaide,SA,138.6,-34.93,Dairy,71.72
+2018-10,Adelaide,SA,138.6,-34.93,Dairy,71.72
+2018-11,Adelaide,SA,138.6,-34.93,Dairy,72.01
+2018-12,Adelaide,SA,138.6,-34.93,Dairy,72.63
+2019-01,Adelaide,SA,138.6,-34.93,Dairy,72.54
+2019-02,Adelaide,SA,138.6,-34.93,Dairy,72.57
+2019-03,Adelaide,SA,138.6,-34.93,Dairy,72.84
+2019-04,Adelaide,SA,138.6,-34.93,Dairy,73.34
+2019-05,Adelaide,SA,138.6,-34.93,Dairy,73.28
+2019-06,Adelaide,SA,138.6,-34.93,Dairy,73.91
+2019-07,Adelaide,SA,138.6,-34.93,Dairy,74.7
+2019-08,Adelaide,SA,138.6,-34.93,Dairy,75.62
+2019-09,Adelaide,SA,138.6,-34.93,Dairy,76.17
+2019-10,Adelaide,SA,138.6,-34.93,Dairy,76.18
+2019-11,Adelaide,SA,138.6,-34.93,Dairy,76.75
+2019-12,Adelaide,SA,138.6,-34.93,Dairy,77.61
+2020-01,Adelaide,SA,138.6,-34.93,Dairy,77.63
+2020-02,Adelaide,SA,138.6,-34.93,Dairy,77.71
+2020-03,Adelaide,SA,138.6,-34.93,Dairy,78.92
+2020-04,Adelaide,SA,138.6,-34.93,Dairy,79.69
+2020-05,Adelaide,SA,138.6,-34.93,Dairy,79.08
+2020-06,Adelaide,SA,138.6,-34.93,Dairy,78.88
+2020-07,Adelaide,SA,138.6,-34.93,Dairy,79.22
+2020-08,Adelaide,SA,138.6,-34.93,Dairy,78.95
+2020-09,Adelaide,SA,138.6,-34.93,Dairy,78.92
+2020-10,Adelaide,SA,138.6,-34.93,Dairy,78.81
+2020-11,Adelaide,SA,138.6,-34.93,Dairy,79.04
+2020-12,Adelaide,SA,138.6,-34.93,Dairy,79.61
+2021-01,Adelaide,SA,138.6,-34.93,Dairy,79.23
+2021-02,Adelaide,SA,138.6,-34.93,Dairy,78.72
+2021-03,Adelaide,SA,138.6,-34.93,Dairy,78.98
+2021-04,Adelaide,SA,138.6,-34.93,Dairy,79.12
+2021-05,Adelaide,SA,138.6,-34.93,Dairy,79.0
+2021-06,Adelaide,SA,138.6,-34.93,Dairy,79.18
+2021-07,Adelaide,SA,138.6,-34.93,Dairy,79.28
+2021-08,Adelaide,SA,138.6,-34.93,Dairy,79.25
+2021-09,Adelaide,SA,138.6,-34.93,Dairy,79.16
+2021-10,Adelaide,SA,138.6,-34.93,Dairy,79.16
+2021-11,Adelaide,SA,138.6,-34.93,Dairy,79.98
+2021-12,Adelaide,SA,138.6,-34.93,Dairy,82.0
+2022-01,Adelaide,SA,138.6,-34.93,Dairy,81.59
+2022-02,Adelaide,SA,138.6,-34.93,Dairy,81.45
+2022-03,Adelaide,SA,138.6,-34.93,Dairy,82.5
+2022-04,Adelaide,SA,138.6,-34.93,Dairy,83.22
+2022-05,Adelaide,SA,138.6,-34.93,Dairy,82.79
+2022-06,Adelaide,SA,138.6,-34.93,Dairy,83.45
+2022-07,Adelaide,SA,138.6,-34.93,Dairy,86.48
+2022-08,Adelaide,SA,138.6,-34.93,Dairy,88.91
+2022-09,Adelaide,SA,138.6,-34.93,Dairy,90.16
+2022-10,Adelaide,SA,138.6,-34.93,Dairy,91.08
+2022-11,Adelaide,SA,138.6,-34.93,Dairy,92.38
+2022-12,Adelaide,SA,138.6,-34.93,Dairy,93.92
+2023-01,Adelaide,SA,138.6,-34.93,Dairy,93.67
+2023-02,Adelaide,SA,138.6,-34.93,Dairy,93.72
+2023-03,Adelaide,SA,138.6,-34.93,Dairy,95.4
+2023-04,Adelaide,SA,138.6,-34.93,Dairy,95.63
+2023-05,Adelaide,SA,138.6,-34.93,Dairy,95.36
+2023-06,Adelaide,SA,138.6,-34.93,Dairy,96.1
+2023-07,Adelaide,SA,138.6,-34.93,Dairy,98.08
+2023-08,Adelaide,SA,138.6,-34.93,Dairy,97.88
+2023-09,Adelaide,SA,138.6,-34.93,Dairy,97.61
+2023-10,Adelaide,SA,138.6,-34.93,Dairy,98.23
+2023-11,Adelaide,SA,138.6,-34.93,Dairy,98.16
+2023-12,Adelaide,SA,138.6,-34.93,Dairy,98.74
+2024-01,Adelaide,SA,138.6,-34.93,Dairy,98.45
+2024-02,Adelaide,SA,138.6,-34.93,Dairy,97.62
+2024-03,Adelaide,SA,138.6,-34.93,Dairy,98.29
+2024-04,Adelaide,SA,138.6,-34.93,Dairy,98.21
+2024-05,Adelaide,SA,138.6,-34.93,Dairy,97.81
+2024-06,Adelaide,SA,138.6,-34.93,Dairy,97.81
+2024-07,Adelaide,SA,138.6,-34.93,Dairy,97.98
+2024-08,Adelaide,SA,138.6,-34.93,Dairy,97.8
+2024-09,Adelaide,SA,138.6,-34.93,Dairy,97.4
+2024-10,Adelaide,SA,138.6,-34.93,Dairy,96.68
+2024-11,Adelaide,SA,138.6,-34.93,Dairy,97.53
+2024-12,Adelaide,SA,138.6,-34.93,Dairy,98.17
+2025-01,Adelaide,SA,138.6,-34.93,Dairy,98.3
+2025-02,Adelaide,SA,138.6,-34.93,Dairy,97.84
+2025-03,Adelaide,SA,138.6,-34.93,Dairy,98.27
+2025-04,Adelaide,SA,138.6,-34.93,Dairy,98.37
+2025-05,Adelaide,SA,138.6,-34.93,Dairy,98.08
+2025-06,Adelaide,SA,138.6,-34.93,Dairy,98.16
+2025-07,Adelaide,SA,138.6,-34.93,Dairy,98.44
+2025-08,Adelaide,SA,138.6,-34.93,Dairy,99.33
+2025-09,Adelaide,SA,138.6,-34.93,Dairy,100.0
+2025-10,Adelaide,SA,138.6,-34.93,Dairy,99.75
+2025-11,Adelaide,SA,138.6,-34.93,Dairy,100.42
+2025-12,Adelaide,SA,138.6,-34.93,Dairy,101.22
+2026-01,Adelaide,SA,138.6,-34.93,Dairy,100.73
+2026-02,Adelaide,SA,138.6,-34.93,Dairy,100.31
+2026-03,Adelaide,SA,138.6,-34.93,Dairy,100.92
+2026-04,Adelaide,SA,138.6,-34.93,Dairy,100.92
+2026-05,Adelaide,SA,138.6,-34.93,Dairy,103.12
+2026-06,Adelaide,SA,138.6,-34.93,Dairy,104.69
+2026-07,Adelaide,SA,138.6,-34.93,Dairy,104.66
+2026-08,Adelaide,SA,138.6,-34.93,Dairy,104.56
+2017-09,Brisbane,QLD,153.03,-27.47,Dairy,72.19
+2017-10,Brisbane,QLD,153.03,-27.47,Dairy,72.65
+2017-11,Brisbane,QLD,153.03,-27.47,Dairy,72.48
+2017-12,Brisbane,QLD,153.03,-27.47,Dairy,73.26
+2018-01,Brisbane,QLD,153.03,-27.47,Dairy,72.96
+2018-02,Brisbane,QLD,153.03,-27.47,Dairy,72.79
+2018-03,Brisbane,QLD,153.03,-27.47,Dairy,72.91
+2018-04,Brisbane,QLD,153.03,-27.47,Dairy,73.26
+2018-05,Brisbane,QLD,153.03,-27.47,Dairy,73.01
+2018-06,Brisbane,QLD,153.03,-27.47,Dairy,73.12
+2018-07,Brisbane,QLD,153.03,-27.47,Dairy,73.15
+2018-08,Brisbane,QLD,153.03,-27.47,Dairy,72.78
+2018-09,Brisbane,QLD,153.03,-27.47,Dairy,73.01
+2018-10,Brisbane,QLD,153.03,-27.47,Dairy,73.24
+2018-11,Brisbane,QLD,153.03,-27.47,Dairy,73.54
+2018-12,Brisbane,QLD,153.03,-27.47,Dairy,74.5
+2019-01,Brisbane,QLD,153.03,-27.47,Dairy,74.18
+2019-02,Brisbane,QLD,153.03,-27.47,Dairy,73.8
+2019-03,Brisbane,QLD,153.03,-27.47,Dairy,74.36
+2019-04,Brisbane,QLD,153.03,-27.47,Dairy,74.87
+2019-05,Brisbane,QLD,153.03,-27.47,Dairy,74.85
+2019-06,Brisbane,QLD,153.03,-27.47,Dairy,75.26
+2019-07,Brisbane,QLD,153.03,-27.47,Dairy,75.92
+2019-08,Brisbane,QLD,153.03,-27.47,Dairy,76.9
+2019-09,Brisbane,QLD,153.03,-27.47,Dairy,77.55
+2019-10,Brisbane,QLD,153.03,-27.47,Dairy,77.35
+2019-11,Brisbane,QLD,153.03,-27.47,Dairy,77.93
+2019-12,Brisbane,QLD,153.03,-27.47,Dairy,78.75
+2020-01,Brisbane,QLD,153.03,-27.47,Dairy,78.89
+2020-02,Brisbane,QLD,153.03,-27.47,Dairy,78.47
+2020-03,Brisbane,QLD,153.03,-27.47,Dairy,79.97
+2020-04,Brisbane,QLD,153.03,-27.47,Dairy,80.54
+2020-05,Brisbane,QLD,153.03,-27.47,Dairy,79.87
+2020-06,Brisbane,QLD,153.03,-27.47,Dairy,79.74
+2020-07,Brisbane,QLD,153.03,-27.47,Dairy,79.99
+2020-08,Brisbane,QLD,153.03,-27.47,Dairy,79.92
+2020-09,Brisbane,QLD,153.03,-27.47,Dairy,79.98
+2020-10,Brisbane,QLD,153.03,-27.47,Dairy,79.66
+2020-11,Brisbane,QLD,153.03,-27.47,Dairy,79.77
+2020-12,Brisbane,QLD,153.03,-27.47,Dairy,80.66
+2021-01,Brisbane,QLD,153.03,-27.47,Dairy,79.93
+2021-02,Brisbane,QLD,153.03,-27.47,Dairy,79.36
+2021-03,Brisbane,QLD,153.03,-27.47,Dairy,79.69
+2021-04,Brisbane,QLD,153.03,-27.47,Dairy,79.81
+2021-05,Brisbane,QLD,153.03,-27.47,Dairy,79.57
+2021-06,Brisbane,QLD,153.03,-27.47,Dairy,79.86
+2021-07,Brisbane,QLD,153.03,-27.47,Dairy,79.95
+2021-08,Brisbane,QLD,153.03,-27.47,Dairy,79.94
+2021-09,Brisbane,QLD,153.03,-27.47,Dairy,79.92
+2021-10,Brisbane,QLD,153.03,-27.47,Dairy,79.94
+2021-11,Brisbane,QLD,153.03,-27.47,Dairy,80.7
+2021-12,Brisbane,QLD,153.03,-27.47,Dairy,82.9
+2022-01,Brisbane,QLD,153.03,-27.47,Dairy,82.54
+2022-02,Brisbane,QLD,153.03,-27.47,Dairy,82.21
+2022-03,Brisbane,QLD,153.03,-27.47,Dairy,83.45
+2022-04,Brisbane,QLD,153.03,-27.47,Dairy,83.97
+2022-05,Brisbane,QLD,153.03,-27.47,Dairy,83.46
+2022-06,Brisbane,QLD,153.03,-27.47,Dairy,84.15
+2022-07,Brisbane,QLD,153.03,-27.47,Dairy,87.85
+2022-08,Brisbane,QLD,153.03,-27.47,Dairy,89.63
+2022-09,Brisbane,QLD,153.03,-27.47,Dairy,91.0
+2022-10,Brisbane,QLD,153.03,-27.47,Dairy,91.59
+2022-11,Brisbane,QLD,153.03,-27.47,Dairy,92.73
+2022-12,Brisbane,QLD,153.03,-27.47,Dairy,94.3
+2023-01,Brisbane,QLD,153.03,-27.47,Dairy,93.92
+2023-02,Brisbane,QLD,153.03,-27.47,Dairy,94.37
+2023-03,Brisbane,QLD,153.03,-27.47,Dairy,95.96
+2023-04,Brisbane,QLD,153.03,-27.47,Dairy,96.2
+2023-05,Brisbane,QLD,153.03,-27.47,Dairy,96.0
+2023-06,Brisbane,QLD,153.03,-27.47,Dairy,96.71
+2023-07,Brisbane,QLD,153.03,-27.47,Dairy,98.48
+2023-08,Brisbane,QLD,153.03,-27.47,Dairy,98.46
+2023-09,Brisbane,QLD,153.03,-27.47,Dairy,98.06
+2023-10,Brisbane,QLD,153.03,-27.47,Dairy,98.59
+2023-11,Brisbane,QLD,153.03,-27.47,Dairy,98.3
+2023-12,Brisbane,QLD,153.03,-27.47,Dairy,99.48
+2024-01,Brisbane,QLD,153.03,-27.47,Dairy,98.81
+2024-02,Brisbane,QLD,153.03,-27.47,Dairy,98.03
+2024-03,Brisbane,QLD,153.03,-27.47,Dairy,98.44
+2024-04,Brisbane,QLD,153.03,-27.47,Dairy,98.44
+2024-05,Brisbane,QLD,153.03,-27.47,Dairy,98.06
+2024-06,Brisbane,QLD,153.03,-27.47,Dairy,98.05
+2024-07,Brisbane,QLD,153.03,-27.47,Dairy,98.16
+2024-08,Brisbane,QLD,153.03,-27.47,Dairy,98.28
+2024-09,Brisbane,QLD,153.03,-27.47,Dairy,97.63
+2024-10,Brisbane,QLD,153.03,-27.47,Dairy,96.74
+2024-11,Brisbane,QLD,153.03,-27.47,Dairy,97.53
+2024-12,Brisbane,QLD,153.03,-27.47,Dairy,98.49
+2025-01,Brisbane,QLD,153.03,-27.47,Dairy,98.44
+2025-02,Brisbane,QLD,153.03,-27.47,Dairy,97.78
+2025-03,Brisbane,QLD,153.03,-27.47,Dairy,99.03
+2025-04,Brisbane,QLD,153.03,-27.47,Dairy,98.81
+2025-05,Brisbane,QLD,153.03,-27.47,Dairy,98.38
+2025-06,Brisbane,QLD,153.03,-27.47,Dairy,98.56
+2025-07,Brisbane,QLD,153.03,-27.47,Dairy,98.5
+2025-08,Brisbane,QLD,153.03,-27.47,Dairy,99.49
+2025-09,Brisbane,QLD,153.03,-27.47,Dairy,100.0
+2025-10,Brisbane,QLD,153.03,-27.47,Dairy,99.61
+2025-11,Brisbane,QLD,153.03,-27.47,Dairy,100.71
+2025-12,Brisbane,QLD,153.03,-27.47,Dairy,101.3
+2026-01,Brisbane,QLD,153.03,-27.47,Dairy,100.94
+2026-02,Brisbane,QLD,153.03,-27.47,Dairy,100.53
+2026-03,Brisbane,QLD,153.03,-27.47,Dairy,101.13
+2026-04,Brisbane,QLD,153.03,-27.47,Dairy,101.0
+2026-05,Brisbane,QLD,153.03,-27.47,Dairy,103.62
+2026-06,Brisbane,QLD,153.03,-27.47,Dairy,104.75
+2026-07,Brisbane,QLD,153.03,-27.47,Dairy,105.04
+2026-08,Brisbane,QLD,153.03,-27.47,Dairy,104.94
+2017-09,Canberra,ACT,149.13,-35.28,Dairy,72.84
+2017-10,Canberra,ACT,149.13,-35.28,Dairy,73.31
+2017-11,Canberra,ACT,149.13,-35.28,Dairy,73.08
+2017-12,Canberra,ACT,149.13,-35.28,Dairy,73.91
+2018-01,Canberra,ACT,149.13,-35.28,Dairy,73.73
+2018-02,Canberra,ACT,149.13,-35.28,Dairy,73.45
+2018-03,Canberra,ACT,149.13,-35.28,Dairy,73.59
+2018-04,Canberra,ACT,149.13,-35.28,Dairy,73.94
+2018-05,Canberra,ACT,149.13,-35.28,Dairy,73.75
+2018-06,Canberra,ACT,149.13,-35.28,Dairy,73.73
+2018-07,Canberra,ACT,149.13,-35.28,Dairy,74.02
+2018-08,Canberra,ACT,149.13,-35.28,Dairy,73.57
+2018-09,Canberra,ACT,149.13,-35.28,Dairy,73.78
+2018-10,Canberra,ACT,149.13,-35.28,Dairy,74.0
+2018-11,Canberra,ACT,149.13,-35.28,Dairy,73.75
+2018-12,Canberra,ACT,149.13,-35.28,Dairy,74.6
+2019-01,Canberra,ACT,149.13,-35.28,Dairy,74.57
+2019-02,Canberra,ACT,149.13,-35.28,Dairy,74.22
+2019-03,Canberra,ACT,149.13,-35.28,Dairy,74.77
+2019-04,Canberra,ACT,149.13,-35.28,Dairy,74.89
+2019-05,Canberra,ACT,149.13,-35.28,Dairy,74.85
+2019-06,Canberra,ACT,149.13,-35.28,Dairy,75.21
+2019-07,Canberra,ACT,149.13,-35.28,Dairy,75.93
+2019-08,Canberra,ACT,149.13,-35.28,Dairy,76.79
+2019-09,Canberra,ACT,149.13,-35.28,Dairy,77.35
+2019-10,Canberra,ACT,149.13,-35.28,Dairy,77.28
+2019-11,Canberra,ACT,149.13,-35.28,Dairy,77.76
+2019-12,Canberra,ACT,149.13,-35.28,Dairy,78.52
+2020-01,Canberra,ACT,149.13,-35.28,Dairy,78.73
+2020-02,Canberra,ACT,149.13,-35.28,Dairy,78.29
+2020-03,Canberra,ACT,149.13,-35.28,Dairy,79.61
+2020-04,Canberra,ACT,149.13,-35.28,Dairy,79.97
+2020-05,Canberra,ACT,149.13,-35.28,Dairy,79.33
+2020-06,Canberra,ACT,149.13,-35.28,Dairy,79.21
+2020-07,Canberra,ACT,149.13,-35.28,Dairy,79.72
+2020-08,Canberra,ACT,149.13,-35.28,Dairy,79.64
+2020-09,Canberra,ACT,149.13,-35.28,Dairy,79.74
+2020-10,Canberra,ACT,149.13,-35.28,Dairy,79.46
+2020-11,Canberra,ACT,149.13,-35.28,Dairy,79.5
+2020-12,Canberra,ACT,149.13,-35.28,Dairy,80.47
+2021-01,Canberra,ACT,149.13,-35.28,Dairy,79.73
+2021-02,Canberra,ACT,149.13,-35.28,Dairy,79.2
+2021-03,Canberra,ACT,149.13,-35.28,Dairy,79.6
+2021-04,Canberra,ACT,149.13,-35.28,Dairy,79.59
+2021-05,Canberra,ACT,149.13,-35.28,Dairy,79.42
+2021-06,Canberra,ACT,149.13,-35.28,Dairy,79.64
+2021-07,Canberra,ACT,149.13,-35.28,Dairy,79.81
+2021-08,Canberra,ACT,149.13,-35.28,Dairy,79.94
+2021-09,Canberra,ACT,149.13,-35.28,Dairy,79.86
+2021-10,Canberra,ACT,149.13,-35.28,Dairy,80.02
+2021-11,Canberra,ACT,149.13,-35.28,Dairy,80.83
+2021-12,Canberra,ACT,149.13,-35.28,Dairy,82.92
+2022-01,Canberra,ACT,149.13,-35.28,Dairy,82.34
+2022-02,Canberra,ACT,149.13,-35.28,Dairy,82.15
+2022-03,Canberra,ACT,149.13,-35.28,Dairy,83.19
+2022-04,Canberra,ACT,149.13,-35.28,Dairy,83.78
+2022-05,Canberra,ACT,149.13,-35.28,Dairy,83.28
+2022-06,Canberra,ACT,149.13,-35.28,Dairy,83.87
+2022-07,Canberra,ACT,149.13,-35.28,Dairy,87.24
+2022-08,Canberra,ACT,149.13,-35.28,Dairy,89.23
+2022-09,Canberra,ACT,149.13,-35.28,Dairy,90.48
+2022-10,Canberra,ACT,149.13,-35.28,Dairy,91.1
+2022-11,Canberra,ACT,149.13,-35.28,Dairy,92.56
+2022-12,Canberra,ACT,149.13,-35.28,Dairy,94.28
+2023-01,Canberra,ACT,149.13,-35.28,Dairy,93.89
+2023-02,Canberra,ACT,149.13,-35.28,Dairy,93.8
+2023-03,Canberra,ACT,149.13,-35.28,Dairy,95.67
+2023-04,Canberra,ACT,149.13,-35.28,Dairy,95.76
+2023-05,Canberra,ACT,149.13,-35.28,Dairy,95.56
+2023-06,Canberra,ACT,149.13,-35.28,Dairy,96.1
+2023-07,Canberra,ACT,149.13,-35.28,Dairy,98.25
+2023-08,Canberra,ACT,149.13,-35.28,Dairy,98.16
+2023-09,Canberra,ACT,149.13,-35.28,Dairy,97.81
+2023-10,Canberra,ACT,149.13,-35.28,Dairy,98.3
+2023-11,Canberra,ACT,149.13,-35.28,Dairy,98.04
+2023-12,Canberra,ACT,149.13,-35.28,Dairy,99.18
+2024-01,Canberra,ACT,149.13,-35.28,Dairy,98.5
+2024-02,Canberra,ACT,149.13,-35.28,Dairy,97.77
+2024-03,Canberra,ACT,149.13,-35.28,Dairy,98.3
+2024-04,Canberra,ACT,149.13,-35.28,Dairy,98.25
+2024-05,Canberra,ACT,149.13,-35.28,Dairy,97.73
+2024-06,Canberra,ACT,149.13,-35.28,Dairy,97.77
+2024-07,Canberra,ACT,149.13,-35.28,Dairy,97.79
+2024-08,Canberra,ACT,149.13,-35.28,Dairy,98.0
+2024-09,Canberra,ACT,149.13,-35.28,Dairy,97.39
+2024-10,Canberra,ACT,149.13,-35.28,Dairy,96.52
+2024-11,Canberra,ACT,149.13,-35.28,Dairy,97.28
+2024-12,Canberra,ACT,149.13,-35.28,Dairy,98.04
+2025-01,Canberra,ACT,149.13,-35.28,Dairy,98.21
+2025-02,Canberra,ACT,149.13,-35.28,Dairy,97.42
+2025-03,Canberra,ACT,149.13,-35.28,Dairy,98.38
+2025-04,Canberra,ACT,149.13,-35.28,Dairy,98.32
+2025-05,Canberra,ACT,149.13,-35.28,Dairy,97.81
+2025-06,Canberra,ACT,149.13,-35.28,Dairy,98.04
+2025-07,Canberra,ACT,149.13,-35.28,Dairy,98.0
+2025-08,Canberra,ACT,149.13,-35.28,Dairy,99.19
+2025-09,Canberra,ACT,149.13,-35.28,Dairy,100.0
+2025-10,Canberra,ACT,149.13,-35.28,Dairy,99.39
+2025-11,Canberra,ACT,149.13,-35.28,Dairy,100.45
+2025-12,Canberra,ACT,149.13,-35.28,Dairy,101.12
+2026-01,Canberra,ACT,149.13,-35.28,Dairy,100.92
+2026-02,Canberra,ACT,149.13,-35.28,Dairy,100.21
+2026-03,Canberra,ACT,149.13,-35.28,Dairy,100.9
+2026-04,Canberra,ACT,149.13,-35.28,Dairy,100.56
+2026-05,Canberra,ACT,149.13,-35.28,Dairy,103.05
+2026-06,Canberra,ACT,149.13,-35.28,Dairy,104.62
+2026-07,Canberra,ACT,149.13,-35.28,Dairy,104.76
+2026-08,Canberra,ACT,149.13,-35.28,Dairy,104.59
+2017-09,Darwin,NT,130.84,-12.46,Dairy,72.13
+2017-10,Darwin,NT,130.84,-12.46,Dairy,72.83
+2017-11,Darwin,NT,130.84,-12.46,Dairy,72.5
+2017-12,Darwin,NT,130.84,-12.46,Dairy,73.17
+2018-01,Darwin,NT,130.84,-12.46,Dairy,72.61
+2018-02,Darwin,NT,130.84,-12.46,Dairy,72.54
+2018-03,Darwin,NT,130.84,-12.46,Dairy,72.87
+2018-04,Darwin,NT,130.84,-12.46,Dairy,73.39
+2018-05,Darwin,NT,130.84,-12.46,Dairy,73.41
+2018-06,Darwin,NT,130.84,-12.46,Dairy,73.21
+2018-07,Darwin,NT,130.84,-12.46,Dairy,73.3
+2018-08,Darwin,NT,130.84,-12.46,Dairy,72.97
+2018-09,Darwin,NT,130.84,-12.46,Dairy,72.92
+2018-10,Darwin,NT,130.84,-12.46,Dairy,73.03
+2018-11,Darwin,NT,130.84,-12.46,Dairy,73.08
+2018-12,Darwin,NT,130.84,-12.46,Dairy,73.37
+2019-01,Darwin,NT,130.84,-12.46,Dairy,73.07
+2019-02,Darwin,NT,130.84,-12.46,Dairy,73.15
+2019-03,Darwin,NT,130.84,-12.46,Dairy,73.75
+2019-04,Darwin,NT,130.84,-12.46,Dairy,73.97
+2019-05,Darwin,NT,130.84,-12.46,Dairy,74.28
+2019-06,Darwin,NT,130.84,-12.46,Dairy,74.71
+2019-07,Darwin,NT,130.84,-12.46,Dairy,75.18
+2019-08,Darwin,NT,130.84,-12.46,Dairy,76.64
+2019-09,Darwin,NT,130.84,-12.46,Dairy,76.99
+2019-10,Darwin,NT,130.84,-12.46,Dairy,77.14
+2019-11,Darwin,NT,130.84,-12.46,Dairy,77.46
+2019-12,Darwin,NT,130.84,-12.46,Dairy,78.37
+2020-01,Darwin,NT,130.84,-12.46,Dairy,78.09
+2020-02,Darwin,NT,130.84,-12.46,Dairy,78.12
+2020-03,Darwin,NT,130.84,-12.46,Dairy,79.82
+2020-04,Darwin,NT,130.84,-12.46,Dairy,80.11
+2020-05,Darwin,NT,130.84,-12.46,Dairy,79.21
+2020-06,Darwin,NT,130.84,-12.46,Dairy,79.15
+2020-07,Darwin,NT,130.84,-12.46,Dairy,79.35
+2020-08,Darwin,NT,130.84,-12.46,Dairy,79.42
+2020-09,Darwin,NT,130.84,-12.46,Dairy,79.48
+2020-10,Darwin,NT,130.84,-12.46,Dairy,79.02
+2020-11,Darwin,NT,130.84,-12.46,Dairy,79.14
+2020-12,Darwin,NT,130.84,-12.46,Dairy,79.88
+2021-01,Darwin,NT,130.84,-12.46,Dairy,79.07
+2021-02,Darwin,NT,130.84,-12.46,Dairy,78.62
+2021-03,Darwin,NT,130.84,-12.46,Dairy,78.78
+2021-04,Darwin,NT,130.84,-12.46,Dairy,79.04
+2021-05,Darwin,NT,130.84,-12.46,Dairy,79.15
+2021-06,Darwin,NT,130.84,-12.46,Dairy,79.44
+2021-07,Darwin,NT,130.84,-12.46,Dairy,79.66
+2021-08,Darwin,NT,130.84,-12.46,Dairy,79.9
+2021-09,Darwin,NT,130.84,-12.46,Dairy,79.75
+2021-10,Darwin,NT,130.84,-12.46,Dairy,79.22
+2021-11,Darwin,NT,130.84,-12.46,Dairy,80.65
+2021-12,Darwin,NT,130.84,-12.46,Dairy,82.6
+2022-01,Darwin,NT,130.84,-12.46,Dairy,82.28
+2022-02,Darwin,NT,130.84,-12.46,Dairy,82.84
+2022-03,Darwin,NT,130.84,-12.46,Dairy,82.91
+2022-04,Darwin,NT,130.84,-12.46,Dairy,83.45
+2022-05,Darwin,NT,130.84,-12.46,Dairy,83.15
+2022-06,Darwin,NT,130.84,-12.46,Dairy,83.91
+2022-07,Darwin,NT,130.84,-12.46,Dairy,87.92
+2022-08,Darwin,NT,130.84,-12.46,Dairy,90.16
+2022-09,Darwin,NT,130.84,-12.46,Dairy,91.42
+2022-10,Darwin,NT,130.84,-12.46,Dairy,91.87
+2022-11,Darwin,NT,130.84,-12.46,Dairy,93.1
+2022-12,Darwin,NT,130.84,-12.46,Dairy,94.5
+2023-01,Darwin,NT,130.84,-12.46,Dairy,93.89
+2023-02,Darwin,NT,130.84,-12.46,Dairy,94.24
+2023-03,Darwin,NT,130.84,-12.46,Dairy,96.08
+2023-04,Darwin,NT,130.84,-12.46,Dairy,96.29
+2023-05,Darwin,NT,130.84,-12.46,Dairy,96.09
+2023-06,Darwin,NT,130.84,-12.46,Dairy,96.63
+2023-07,Darwin,NT,130.84,-12.46,Dairy,98.6
+2023-08,Darwin,NT,130.84,-12.46,Dairy,98.37
+2023-09,Darwin,NT,130.84,-12.46,Dairy,97.98
+2023-10,Darwin,NT,130.84,-12.46,Dairy,98.32
+2023-11,Darwin,NT,130.84,-12.46,Dairy,98.26
+2023-12,Darwin,NT,130.84,-12.46,Dairy,99.04
+2024-01,Darwin,NT,130.84,-12.46,Dairy,98.32
+2024-02,Darwin,NT,130.84,-12.46,Dairy,97.64
+2024-03,Darwin,NT,130.84,-12.46,Dairy,98.14
+2024-04,Darwin,NT,130.84,-12.46,Dairy,98.1
+2024-05,Darwin,NT,130.84,-12.46,Dairy,97.79
+2024-06,Darwin,NT,130.84,-12.46,Dairy,97.81
+2024-07,Darwin,NT,130.84,-12.46,Dairy,98.03
+2024-08,Darwin,NT,130.84,-12.46,Dairy,98.13
+2024-09,Darwin,NT,130.84,-12.46,Dairy,97.47
+2024-10,Darwin,NT,130.84,-12.46,Dairy,96.58
+2024-11,Darwin,NT,130.84,-12.46,Dairy,97.29
+2024-12,Darwin,NT,130.84,-12.46,Dairy,97.83
+2025-01,Darwin,NT,130.84,-12.46,Dairy,97.93
+2025-02,Darwin,NT,130.84,-12.46,Dairy,97.18
+2025-03,Darwin,NT,130.84,-12.46,Dairy,98.1
+2025-04,Darwin,NT,130.84,-12.46,Dairy,97.93
+2025-05,Darwin,NT,130.84,-12.46,Dairy,97.77
+2025-06,Darwin,NT,130.84,-12.46,Dairy,98.04
+2025-07,Darwin,NT,130.84,-12.46,Dairy,98.45
+2025-08,Darwin,NT,130.84,-12.46,Dairy,99.37
+2025-09,Darwin,NT,130.84,-12.46,Dairy,100.0
+2025-10,Darwin,NT,130.84,-12.46,Dairy,99.24
+2025-11,Darwin,NT,130.84,-12.46,Dairy,100.37
+2025-12,Darwin,NT,130.84,-12.46,Dairy,100.76
+2026-01,Darwin,NT,130.84,-12.46,Dairy,100.24
+2026-02,Darwin,NT,130.84,-12.46,Dairy,99.86
+2026-03,Darwin,NT,130.84,-12.46,Dairy,100.55
+2026-04,Darwin,NT,130.84,-12.46,Dairy,100.31
+2026-05,Darwin,NT,130.84,-12.46,Dairy,103.01
+2026-06,Darwin,NT,130.84,-12.46,Dairy,104.52
+2026-07,Darwin,NT,130.84,-12.46,Dairy,105.5
+2026-08,Darwin,NT,130.84,-12.46,Dairy,105.11
+2017-09,Hobart,TAS,147.33,-42.88,Dairy,71.51
+2017-10,Hobart,TAS,147.33,-42.88,Dairy,72.47
+2017-11,Hobart,TAS,147.33,-42.88,Dairy,72.28
+2017-12,Hobart,TAS,147.33,-42.88,Dairy,72.18
+2018-01,Hobart,TAS,147.33,-42.88,Dairy,73.12
+2018-02,Hobart,TAS,147.33,-42.88,Dairy,72.95
+2018-03,Hobart,TAS,147.33,-42.88,Dairy,73.0
+2018-04,Hobart,TAS,147.33,-42.88,Dairy,73.28
+2018-05,Hobart,TAS,147.33,-42.88,Dairy,73.2
+2018-06,Hobart,TAS,147.33,-42.88,Dairy,73.25
+2018-07,Hobart,TAS,147.33,-42.88,Dairy,73.41
+2018-08,Hobart,TAS,147.33,-42.88,Dairy,73.0
+2018-09,Hobart,TAS,147.33,-42.88,Dairy,73.04
+2018-10,Hobart,TAS,147.33,-42.88,Dairy,73.25
+2018-11,Hobart,TAS,147.33,-42.88,Dairy,73.22
+2018-12,Hobart,TAS,147.33,-42.88,Dairy,74.18
+2019-01,Hobart,TAS,147.33,-42.88,Dairy,74.03
+2019-02,Hobart,TAS,147.33,-42.88,Dairy,73.75
+2019-03,Hobart,TAS,147.33,-42.88,Dairy,74.44
+2019-04,Hobart,TAS,147.33,-42.88,Dairy,74.57
+2019-05,Hobart,TAS,147.33,-42.88,Dairy,74.75
+2019-06,Hobart,TAS,147.33,-42.88,Dairy,75.04
+2019-07,Hobart,TAS,147.33,-42.88,Dairy,75.75
+2019-08,Hobart,TAS,147.33,-42.88,Dairy,76.99
+2019-09,Hobart,TAS,147.33,-42.88,Dairy,77.75
+2019-10,Hobart,TAS,147.33,-42.88,Dairy,76.78
+2019-11,Hobart,TAS,147.33,-42.88,Dairy,77.46
+2019-12,Hobart,TAS,147.33,-42.88,Dairy,78.36
+2020-01,Hobart,TAS,147.33,-42.88,Dairy,78.43
+2020-02,Hobart,TAS,147.33,-42.88,Dairy,78.02
+2020-03,Hobart,TAS,147.33,-42.88,Dairy,79.6
+2020-04,Hobart,TAS,147.33,-42.88,Dairy,79.88
+2020-05,Hobart,TAS,147.33,-42.88,Dairy,79.24
+2020-06,Hobart,TAS,147.33,-42.88,Dairy,79.31
+2020-07,Hobart,TAS,147.33,-42.88,Dairy,79.67
+2020-08,Hobart,TAS,147.33,-42.88,Dairy,79.33
+2020-09,Hobart,TAS,147.33,-42.88,Dairy,79.13
+2020-10,Hobart,TAS,147.33,-42.88,Dairy,78.79
+2020-11,Hobart,TAS,147.33,-42.88,Dairy,78.96
+2020-12,Hobart,TAS,147.33,-42.88,Dairy,79.96
+2021-01,Hobart,TAS,147.33,-42.88,Dairy,79.17
+2021-02,Hobart,TAS,147.33,-42.88,Dairy,78.73
+2021-03,Hobart,TAS,147.33,-42.88,Dairy,79.13
+2021-04,Hobart,TAS,147.33,-42.88,Dairy,79.02
+2021-05,Hobart,TAS,147.33,-42.88,Dairy,78.97
+2021-06,Hobart,TAS,147.33,-42.88,Dairy,79.06
+2021-07,Hobart,TAS,147.33,-42.88,Dairy,79.21
+2021-08,Hobart,TAS,147.33,-42.88,Dairy,79.25
+2021-09,Hobart,TAS,147.33,-42.88,Dairy,79.23
+2021-10,Hobart,TAS,147.33,-42.88,Dairy,79.43
+2021-11,Hobart,TAS,147.33,-42.88,Dairy,80.63
+2021-12,Hobart,TAS,147.33,-42.88,Dairy,82.91
+2022-01,Hobart,TAS,147.33,-42.88,Dairy,82.1
+2022-02,Hobart,TAS,147.33,-42.88,Dairy,81.89
+2022-03,Hobart,TAS,147.33,-42.88,Dairy,82.97
+2022-04,Hobart,TAS,147.33,-42.88,Dairy,83.36
+2022-05,Hobart,TAS,147.33,-42.88,Dairy,82.95
+2022-06,Hobart,TAS,147.33,-42.88,Dairy,83.89
+2022-07,Hobart,TAS,147.33,-42.88,Dairy,87.24
+2022-08,Hobart,TAS,147.33,-42.88,Dairy,89.07
+2022-09,Hobart,TAS,147.33,-42.88,Dairy,90.48
+2022-10,Hobart,TAS,147.33,-42.88,Dairy,91.26
+2022-11,Hobart,TAS,147.33,-42.88,Dairy,92.64
+2022-12,Hobart,TAS,147.33,-42.88,Dairy,94.5
+2023-01,Hobart,TAS,147.33,-42.88,Dairy,94.04
+2023-02,Hobart,TAS,147.33,-42.88,Dairy,93.78
+2023-03,Hobart,TAS,147.33,-42.88,Dairy,95.38
+2023-04,Hobart,TAS,147.33,-42.88,Dairy,95.46
+2023-05,Hobart,TAS,147.33,-42.88,Dairy,95.3
+2023-06,Hobart,TAS,147.33,-42.88,Dairy,95.95
+2023-07,Hobart,TAS,147.33,-42.88,Dairy,97.89
+2023-08,Hobart,TAS,147.33,-42.88,Dairy,97.63
+2023-09,Hobart,TAS,147.33,-42.88,Dairy,97.15
+2023-10,Hobart,TAS,147.33,-42.88,Dairy,97.79
+2023-11,Hobart,TAS,147.33,-42.88,Dairy,97.56
+2023-12,Hobart,TAS,147.33,-42.88,Dairy,98.79
+2024-01,Hobart,TAS,147.33,-42.88,Dairy,98.18
+2024-02,Hobart,TAS,147.33,-42.88,Dairy,97.49
+2024-03,Hobart,TAS,147.33,-42.88,Dairy,98.13
+2024-04,Hobart,TAS,147.33,-42.88,Dairy,98.08
+2024-05,Hobart,TAS,147.33,-42.88,Dairy,97.42
+2024-06,Hobart,TAS,147.33,-42.88,Dairy,97.48
+2024-07,Hobart,TAS,147.33,-42.88,Dairy,97.59
+2024-08,Hobart,TAS,147.33,-42.88,Dairy,97.42
+2024-09,Hobart,TAS,147.33,-42.88,Dairy,96.92
+2024-10,Hobart,TAS,147.33,-42.88,Dairy,95.96
+2024-11,Hobart,TAS,147.33,-42.88,Dairy,97.0
+2024-12,Hobart,TAS,147.33,-42.88,Dairy,97.72
+2025-01,Hobart,TAS,147.33,-42.88,Dairy,97.88
+2025-02,Hobart,TAS,147.33,-42.88,Dairy,96.99
+2025-03,Hobart,TAS,147.33,-42.88,Dairy,97.89
+2025-04,Hobart,TAS,147.33,-42.88,Dairy,97.74
+2025-05,Hobart,TAS,147.33,-42.88,Dairy,97.4
+2025-06,Hobart,TAS,147.33,-42.88,Dairy,97.79
+2025-07,Hobart,TAS,147.33,-42.88,Dairy,98.16
+2025-08,Hobart,TAS,147.33,-42.88,Dairy,99.48
+2025-09,Hobart,TAS,147.33,-42.88,Dairy,100.0
+2025-10,Hobart,TAS,147.33,-42.88,Dairy,99.22
+2025-11,Hobart,TAS,147.33,-42.88,Dairy,100.62
+2025-12,Hobart,TAS,147.33,-42.88,Dairy,101.58
+2026-01,Hobart,TAS,147.33,-42.88,Dairy,101.37
+2026-02,Hobart,TAS,147.33,-42.88,Dairy,100.53
+2026-03,Hobart,TAS,147.33,-42.88,Dairy,101.11
+2026-04,Hobart,TAS,147.33,-42.88,Dairy,100.78
+2026-05,Hobart,TAS,147.33,-42.88,Dairy,103.43
+2026-06,Hobart,TAS,147.33,-42.88,Dairy,104.42
+2026-07,Hobart,TAS,147.33,-42.88,Dairy,104.56
+2026-08,Hobart,TAS,147.33,-42.88,Dairy,104.5
+2017-09,Melbourne,VIC,144.96,-37.81,Dairy,72.41
+2017-10,Melbourne,VIC,144.96,-37.81,Dairy,72.91
+2017-11,Melbourne,VIC,144.96,-37.81,Dairy,72.85
+2017-12,Melbourne,VIC,144.96,-37.81,Dairy,73.62
+2018-01,Melbourne,VIC,144.96,-37.81,Dairy,73.36
+2018-02,Melbourne,VIC,144.96,-37.81,Dairy,73.0
+2018-03,Melbourne,VIC,144.96,-37.81,Dairy,73.29
+2018-04,Melbourne,VIC,144.96,-37.81,Dairy,73.51
+2018-05,Melbourne,VIC,144.96,-37.81,Dairy,73.41
+2018-06,Melbourne,VIC,144.96,-37.81,Dairy,73.52
+2018-07,Melbourne,VIC,144.96,-37.81,Dairy,73.45
+2018-08,Melbourne,VIC,144.96,-37.81,Dairy,73.05
+2018-09,Melbourne,VIC,144.96,-37.81,Dairy,73.23
+2018-10,Melbourne,VIC,144.96,-37.81,Dairy,73.54
+2018-11,Melbourne,VIC,144.96,-37.81,Dairy,73.67
+2018-12,Melbourne,VIC,144.96,-37.81,Dairy,74.51
+2019-01,Melbourne,VIC,144.96,-37.81,Dairy,74.22
+2019-02,Melbourne,VIC,144.96,-37.81,Dairy,73.85
+2019-03,Melbourne,VIC,144.96,-37.81,Dairy,74.2
+2019-04,Melbourne,VIC,144.96,-37.81,Dairy,74.69
+2019-05,Melbourne,VIC,144.96,-37.81,Dairy,74.72
+2019-06,Melbourne,VIC,144.96,-37.81,Dairy,75.17
+2019-07,Melbourne,VIC,144.96,-37.81,Dairy,75.84
+2019-08,Melbourne,VIC,144.96,-37.81,Dairy,76.44
+2019-09,Melbourne,VIC,144.96,-37.81,Dairy,77.31
+2019-10,Melbourne,VIC,144.96,-37.81,Dairy,77.29
+2019-11,Melbourne,VIC,144.96,-37.81,Dairy,77.74
+2019-12,Melbourne,VIC,144.96,-37.81,Dairy,78.47
+2020-01,Melbourne,VIC,144.96,-37.81,Dairy,78.65
+2020-02,Melbourne,VIC,144.96,-37.81,Dairy,78.29
+2020-03,Melbourne,VIC,144.96,-37.81,Dairy,79.62
+2020-04,Melbourne,VIC,144.96,-37.81,Dairy,79.91
+2020-05,Melbourne,VIC,144.96,-37.81,Dairy,79.48
+2020-06,Melbourne,VIC,144.96,-37.81,Dairy,79.24
+2020-07,Melbourne,VIC,144.96,-37.81,Dairy,79.6
+2020-08,Melbourne,VIC,144.96,-37.81,Dairy,79.47
+2020-09,Melbourne,VIC,144.96,-37.81,Dairy,79.42
+2020-10,Melbourne,VIC,144.96,-37.81,Dairy,79.23
+2020-11,Melbourne,VIC,144.96,-37.81,Dairy,79.35
+2020-12,Melbourne,VIC,144.96,-37.81,Dairy,80.12
+2021-01,Melbourne,VIC,144.96,-37.81,Dairy,79.41
+2021-02,Melbourne,VIC,144.96,-37.81,Dairy,78.95
+2021-03,Melbourne,VIC,144.96,-37.81,Dairy,79.28
+2021-04,Melbourne,VIC,144.96,-37.81,Dairy,79.25
+2021-05,Melbourne,VIC,144.96,-37.81,Dairy,79.17
+2021-06,Melbourne,VIC,144.96,-37.81,Dairy,79.43
+2021-07,Melbourne,VIC,144.96,-37.81,Dairy,79.51
+2021-08,Melbourne,VIC,144.96,-37.81,Dairy,79.45
+2021-09,Melbourne,VIC,144.96,-37.81,Dairy,79.68
+2021-10,Melbourne,VIC,144.96,-37.81,Dairy,79.78
+2021-11,Melbourne,VIC,144.96,-37.81,Dairy,80.38
+2021-12,Melbourne,VIC,144.96,-37.81,Dairy,82.55
+2022-01,Melbourne,VIC,144.96,-37.81,Dairy,82.18
+2022-02,Melbourne,VIC,144.96,-37.81,Dairy,81.92
+2022-03,Melbourne,VIC,144.96,-37.81,Dairy,82.76
+2022-04,Melbourne,VIC,144.96,-37.81,Dairy,83.55
+2022-05,Melbourne,VIC,144.96,-37.81,Dairy,83.1
+2022-06,Melbourne,VIC,144.96,-37.81,Dairy,83.66
+2022-07,Melbourne,VIC,144.96,-37.81,Dairy,87.03
+2022-08,Melbourne,VIC,144.96,-37.81,Dairy,89.19
+2022-09,Melbourne,VIC,144.96,-37.81,Dairy,90.36
+2022-10,Melbourne,VIC,144.96,-37.81,Dairy,91.23
+2022-11,Melbourne,VIC,144.96,-37.81,Dairy,92.7
+2022-12,Melbourne,VIC,144.96,-37.81,Dairy,94.53
+2023-01,Melbourne,VIC,144.96,-37.81,Dairy,94.03
+2023-02,Melbourne,VIC,144.96,-37.81,Dairy,93.81
+2023-03,Melbourne,VIC,144.96,-37.81,Dairy,95.52
+2023-04,Melbourne,VIC,144.96,-37.81,Dairy,95.77
+2023-05,Melbourne,VIC,144.96,-37.81,Dairy,95.58
+2023-06,Melbourne,VIC,144.96,-37.81,Dairy,96.29
+2023-07,Melbourne,VIC,144.96,-37.81,Dairy,98.01
+2023-08,Melbourne,VIC,144.96,-37.81,Dairy,98.12
+2023-09,Melbourne,VIC,144.96,-37.81,Dairy,97.66
+2023-10,Melbourne,VIC,144.96,-37.81,Dairy,98.4
+2023-11,Melbourne,VIC,144.96,-37.81,Dairy,98.6
+2023-12,Melbourne,VIC,144.96,-37.81,Dairy,99.59
+2024-01,Melbourne,VIC,144.96,-37.81,Dairy,98.81
+2024-02,Melbourne,VIC,144.96,-37.81,Dairy,98.01
+2024-03,Melbourne,VIC,144.96,-37.81,Dairy,98.6
+2024-04,Melbourne,VIC,144.96,-37.81,Dairy,98.54
+2024-05,Melbourne,VIC,144.96,-37.81,Dairy,98.22
+2024-06,Melbourne,VIC,144.96,-37.81,Dairy,98.19
+2024-07,Melbourne,VIC,144.96,-37.81,Dairy,98.14
+2024-08,Melbourne,VIC,144.96,-37.81,Dairy,98.04
+2024-09,Melbourne,VIC,144.96,-37.81,Dairy,97.52
+2024-10,Melbourne,VIC,144.96,-37.81,Dairy,96.55
+2024-11,Melbourne,VIC,144.96,-37.81,Dairy,97.47
+2024-12,Melbourne,VIC,144.96,-37.81,Dairy,98.41
+2025-01,Melbourne,VIC,144.96,-37.81,Dairy,98.16
+2025-02,Melbourne,VIC,144.96,-37.81,Dairy,97.5
+2025-03,Melbourne,VIC,144.96,-37.81,Dairy,98.44
+2025-04,Melbourne,VIC,144.96,-37.81,Dairy,98.5
+2025-05,Melbourne,VIC,144.96,-37.81,Dairy,98.13
+2025-06,Melbourne,VIC,144.96,-37.81,Dairy,98.21
+2025-07,Melbourne,VIC,144.96,-37.81,Dairy,98.14
+2025-08,Melbourne,VIC,144.96,-37.81,Dairy,99.24
+2025-09,Melbourne,VIC,144.96,-37.81,Dairy,100.0
+2025-10,Melbourne,VIC,144.96,-37.81,Dairy,99.51
+2025-11,Melbourne,VIC,144.96,-37.81,Dairy,100.55
+2025-12,Melbourne,VIC,144.96,-37.81,Dairy,101.18
+2026-01,Melbourne,VIC,144.96,-37.81,Dairy,100.75
+2026-02,Melbourne,VIC,144.96,-37.81,Dairy,100.12
+2026-03,Melbourne,VIC,144.96,-37.81,Dairy,100.99
+2026-04,Melbourne,VIC,144.96,-37.81,Dairy,100.93
+2026-05,Melbourne,VIC,144.96,-37.81,Dairy,103.18
+2026-06,Melbourne,VIC,144.96,-37.81,Dairy,104.42
+2026-07,Melbourne,VIC,144.96,-37.81,Dairy,104.68
+2026-08,Melbourne,VIC,144.96,-37.81,Dairy,104.64
+2017-09,Perth,WA,115.86,-31.95,Dairy,71.3
+2017-10,Perth,WA,115.86,-31.95,Dairy,71.72
+2017-11,Perth,WA,115.86,-31.95,Dairy,71.59
+2017-12,Perth,WA,115.86,-31.95,Dairy,72.31
+2018-01,Perth,WA,115.86,-31.95,Dairy,72.26
+2018-02,Perth,WA,115.86,-31.95,Dairy,72.12
+2018-03,Perth,WA,115.86,-31.95,Dairy,72.32
+2018-04,Perth,WA,115.86,-31.95,Dairy,72.61
+2018-05,Perth,WA,115.86,-31.95,Dairy,72.67
+2018-06,Perth,WA,115.86,-31.95,Dairy,72.62
+2018-07,Perth,WA,115.86,-31.95,Dairy,72.7
+2018-08,Perth,WA,115.86,-31.95,Dairy,72.32
+2018-09,Perth,WA,115.86,-31.95,Dairy,72.35
+2018-10,Perth,WA,115.86,-31.95,Dairy,72.42
+2018-11,Perth,WA,115.86,-31.95,Dairy,72.68
+2018-12,Perth,WA,115.86,-31.95,Dairy,73.5
+2019-01,Perth,WA,115.86,-31.95,Dairy,73.31
+2019-02,Perth,WA,115.86,-31.95,Dairy,73.21
+2019-03,Perth,WA,115.86,-31.95,Dairy,73.59
+2019-04,Perth,WA,115.86,-31.95,Dairy,74.01
+2019-05,Perth,WA,115.86,-31.95,Dairy,74.01
+2019-06,Perth,WA,115.86,-31.95,Dairy,74.55
+2019-07,Perth,WA,115.86,-31.95,Dairy,75.15
+2019-08,Perth,WA,115.86,-31.95,Dairy,75.83
+2019-09,Perth,WA,115.86,-31.95,Dairy,76.66
+2019-10,Perth,WA,115.86,-31.95,Dairy,76.4
+2019-11,Perth,WA,115.86,-31.95,Dairy,77.21
+2019-12,Perth,WA,115.86,-31.95,Dairy,77.89
+2020-01,Perth,WA,115.86,-31.95,Dairy,77.97
+2020-02,Perth,WA,115.86,-31.95,Dairy,77.64
+2020-03,Perth,WA,115.86,-31.95,Dairy,79.01
+2020-04,Perth,WA,115.86,-31.95,Dairy,79.73
+2020-05,Perth,WA,115.86,-31.95,Dairy,78.99
+2020-06,Perth,WA,115.86,-31.95,Dairy,78.85
+2020-07,Perth,WA,115.86,-31.95,Dairy,79.07
+2020-08,Perth,WA,115.86,-31.95,Dairy,78.8
+2020-09,Perth,WA,115.86,-31.95,Dairy,78.79
+2020-10,Perth,WA,115.86,-31.95,Dairy,78.99
+2020-11,Perth,WA,115.86,-31.95,Dairy,79.06
+2020-12,Perth,WA,115.86,-31.95,Dairy,79.79
+2021-01,Perth,WA,115.86,-31.95,Dairy,79.3
+2021-02,Perth,WA,115.86,-31.95,Dairy,78.83
+2021-03,Perth,WA,115.86,-31.95,Dairy,79.14
+2021-04,Perth,WA,115.86,-31.95,Dairy,79.07
+2021-05,Perth,WA,115.86,-31.95,Dairy,79.09
+2021-06,Perth,WA,115.86,-31.95,Dairy,79.3
+2021-07,Perth,WA,115.86,-31.95,Dairy,79.67
+2021-08,Perth,WA,115.86,-31.95,Dairy,79.55
+2021-09,Perth,WA,115.86,-31.95,Dairy,79.54
+2021-10,Perth,WA,115.86,-31.95,Dairy,79.66
+2021-11,Perth,WA,115.86,-31.95,Dairy,80.34
+2021-12,Perth,WA,115.86,-31.95,Dairy,82.3
+2022-01,Perth,WA,115.86,-31.95,Dairy,81.83
+2022-02,Perth,WA,115.86,-31.95,Dairy,84.18
+2022-03,Perth,WA,115.86,-31.95,Dairy,84.52
+2022-04,Perth,WA,115.86,-31.95,Dairy,84.2
+2022-05,Perth,WA,115.86,-31.95,Dairy,83.67
+2022-06,Perth,WA,115.86,-31.95,Dairy,84.19
+2022-07,Perth,WA,115.86,-31.95,Dairy,87.02
+2022-08,Perth,WA,115.86,-31.95,Dairy,89.47
+2022-09,Perth,WA,115.86,-31.95,Dairy,90.77
+2022-10,Perth,WA,115.86,-31.95,Dairy,91.57
+2022-11,Perth,WA,115.86,-31.95,Dairy,92.99
+2022-12,Perth,WA,115.86,-31.95,Dairy,94.77
+2023-01,Perth,WA,115.86,-31.95,Dairy,94.2
+2023-02,Perth,WA,115.86,-31.95,Dairy,94.12
+2023-03,Perth,WA,115.86,-31.95,Dairy,95.87
+2023-04,Perth,WA,115.86,-31.95,Dairy,95.82
+2023-05,Perth,WA,115.86,-31.95,Dairy,96.18
+2023-06,Perth,WA,115.86,-31.95,Dairy,97.06
+2023-07,Perth,WA,115.86,-31.95,Dairy,98.71
+2023-08,Perth,WA,115.86,-31.95,Dairy,98.77
+2023-09,Perth,WA,115.86,-31.95,Dairy,97.73
+2023-10,Perth,WA,115.86,-31.95,Dairy,98.22
+2023-11,Perth,WA,115.86,-31.95,Dairy,98.05
+2023-12,Perth,WA,115.86,-31.95,Dairy,98.98
+2024-01,Perth,WA,115.86,-31.95,Dairy,98.92
+2024-02,Perth,WA,115.86,-31.95,Dairy,98.03
+2024-03,Perth,WA,115.86,-31.95,Dairy,98.7
+2024-04,Perth,WA,115.86,-31.95,Dairy,98.84
+2024-05,Perth,WA,115.86,-31.95,Dairy,98.36
+2024-06,Perth,WA,115.86,-31.95,Dairy,98.05
+2024-07,Perth,WA,115.86,-31.95,Dairy,98.25
+2024-08,Perth,WA,115.86,-31.95,Dairy,98.06
+2024-09,Perth,WA,115.86,-31.95,Dairy,97.45
+2024-10,Perth,WA,115.86,-31.95,Dairy,96.63
+2024-11,Perth,WA,115.86,-31.95,Dairy,97.7
+2024-12,Perth,WA,115.86,-31.95,Dairy,98.51
+2025-01,Perth,WA,115.86,-31.95,Dairy,98.51
+2025-02,Perth,WA,115.86,-31.95,Dairy,97.9
+2025-03,Perth,WA,115.86,-31.95,Dairy,98.6
+2025-04,Perth,WA,115.86,-31.95,Dairy,98.75
+2025-05,Perth,WA,115.86,-31.95,Dairy,98.39
+2025-06,Perth,WA,115.86,-31.95,Dairy,98.47
+2025-07,Perth,WA,115.86,-31.95,Dairy,98.61
+2025-08,Perth,WA,115.86,-31.95,Dairy,99.47
+2025-09,Perth,WA,115.86,-31.95,Dairy,100.0
+2025-10,Perth,WA,115.86,-31.95,Dairy,99.39
+2025-11,Perth,WA,115.86,-31.95,Dairy,100.41
+2025-12,Perth,WA,115.86,-31.95,Dairy,101.13
+2026-01,Perth,WA,115.86,-31.95,Dairy,100.86
+2026-02,Perth,WA,115.86,-31.95,Dairy,100.16
+2026-03,Perth,WA,115.86,-31.95,Dairy,100.99
+2026-04,Perth,WA,115.86,-31.95,Dairy,100.77
+2026-05,Perth,WA,115.86,-31.95,Dairy,102.93
+2026-06,Perth,WA,115.86,-31.95,Dairy,104.34
+2026-07,Perth,WA,115.86,-31.95,Dairy,104.71
+2026-08,Perth,WA,115.86,-31.95,Dairy,104.7
+2017-09,Sydney,NSW,151.21,-33.87,Dairy,72.02
+2017-10,Sydney,NSW,151.21,-33.87,Dairy,72.46
+2017-11,Sydney,NSW,151.21,-33.87,Dairy,72.29
+2017-12,Sydney,NSW,151.21,-33.87,Dairy,73.43
+2018-01,Sydney,NSW,151.21,-33.87,Dairy,73.12
+2018-02,Sydney,NSW,151.21,-33.87,Dairy,72.8
+2018-03,Sydney,NSW,151.21,-33.87,Dairy,73.05
+2018-04,Sydney,NSW,151.21,-33.87,Dairy,73.4
+2018-05,Sydney,NSW,151.21,-33.87,Dairy,73.29
+2018-06,Sydney,NSW,151.21,-33.87,Dairy,73.39
+2018-07,Sydney,NSW,151.21,-33.87,Dairy,73.4
+2018-08,Sydney,NSW,151.21,-33.87,Dairy,72.91
+2018-09,Sydney,NSW,151.21,-33.87,Dairy,73.18
+2018-10,Sydney,NSW,151.21,-33.87,Dairy,73.44
+2018-11,Sydney,NSW,151.21,-33.87,Dairy,73.38
+2018-12,Sydney,NSW,151.21,-33.87,Dairy,74.36
+2019-01,Sydney,NSW,151.21,-33.87,Dairy,74.11
+2019-02,Sydney,NSW,151.21,-33.87,Dairy,73.69
+2019-03,Sydney,NSW,151.21,-33.87,Dairy,74.27
+2019-04,Sydney,NSW,151.21,-33.87,Dairy,74.62
+2019-05,Sydney,NSW,151.21,-33.87,Dairy,74.59
+2019-06,Sydney,NSW,151.21,-33.87,Dairy,75.14
+2019-07,Sydney,NSW,151.21,-33.87,Dairy,75.76
+2019-08,Sydney,NSW,151.21,-33.87,Dairy,76.41
+2019-09,Sydney,NSW,151.21,-33.87,Dairy,77.07
+2019-10,Sydney,NSW,151.21,-33.87,Dairy,76.94
+2019-11,Sydney,NSW,151.21,-33.87,Dairy,77.44
+2019-12,Sydney,NSW,151.21,-33.87,Dairy,78.36
+2020-01,Sydney,NSW,151.21,-33.87,Dairy,78.51
+2020-02,Sydney,NSW,151.21,-33.87,Dairy,78.0
+2020-03,Sydney,NSW,151.21,-33.87,Dairy,79.49
+2020-04,Sydney,NSW,151.21,-33.87,Dairy,80.15
+2020-05,Sydney,NSW,151.21,-33.87,Dairy,79.34
+2020-06,Sydney,NSW,151.21,-33.87,Dairy,78.97
+2020-07,Sydney,NSW,151.21,-33.87,Dairy,79.44
+2020-08,Sydney,NSW,151.21,-33.87,Dairy,79.31
+2020-09,Sydney,NSW,151.21,-33.87,Dairy,79.46
+2020-10,Sydney,NSW,151.21,-33.87,Dairy,79.03
+2020-11,Sydney,NSW,151.21,-33.87,Dairy,79.23
+2020-12,Sydney,NSW,151.21,-33.87,Dairy,80.29
+2021-01,Sydney,NSW,151.21,-33.87,Dairy,79.52
+2021-02,Sydney,NSW,151.21,-33.87,Dairy,78.81
+2021-03,Sydney,NSW,151.21,-33.87,Dairy,79.29
+2021-04,Sydney,NSW,151.21,-33.87,Dairy,79.25
+2021-05,Sydney,NSW,151.21,-33.87,Dairy,79.06
+2021-06,Sydney,NSW,151.21,-33.87,Dairy,79.49
+2021-07,Sydney,NSW,151.21,-33.87,Dairy,79.66
+2021-08,Sydney,NSW,151.21,-33.87,Dairy,79.63
+2021-09,Sydney,NSW,151.21,-33.87,Dairy,79.82
+2021-10,Sydney,NSW,151.21,-33.87,Dairy,79.79
+2021-11,Sydney,NSW,151.21,-33.87,Dairy,80.35
+2021-12,Sydney,NSW,151.21,-33.87,Dairy,82.62
+2022-01,Sydney,NSW,151.21,-33.87,Dairy,82.09
+2022-02,Sydney,NSW,151.21,-33.87,Dairy,81.82
+2022-03,Sydney,NSW,151.21,-33.87,Dairy,82.85
+2022-04,Sydney,NSW,151.21,-33.87,Dairy,83.62
+2022-05,Sydney,NSW,151.21,-33.87,Dairy,83.09
+2022-06,Sydney,NSW,151.21,-33.87,Dairy,83.75
+2022-07,Sydney,NSW,151.21,-33.87,Dairy,87.06
+2022-08,Sydney,NSW,151.21,-33.87,Dairy,89.1
+2022-09,Sydney,NSW,151.21,-33.87,Dairy,90.3
+2022-10,Sydney,NSW,151.21,-33.87,Dairy,90.95
+2022-11,Sydney,NSW,151.21,-33.87,Dairy,92.55
+2022-12,Sydney,NSW,151.21,-33.87,Dairy,94.44
+2023-01,Sydney,NSW,151.21,-33.87,Dairy,93.87
+2023-02,Sydney,NSW,151.21,-33.87,Dairy,93.71
+2023-03,Sydney,NSW,151.21,-33.87,Dairy,95.59
+2023-04,Sydney,NSW,151.21,-33.87,Dairy,95.78
+2023-05,Sydney,NSW,151.21,-33.87,Dairy,95.59
+2023-06,Sydney,NSW,151.21,-33.87,Dairy,96.22
+2023-07,Sydney,NSW,151.21,-33.87,Dairy,98.17
+2023-08,Sydney,NSW,151.21,-33.87,Dairy,98.21
+2023-09,Sydney,NSW,151.21,-33.87,Dairy,97.7
+2023-10,Sydney,NSW,151.21,-33.87,Dairy,98.48
+2023-11,Sydney,NSW,151.21,-33.87,Dairy,98.17
+2023-12,Sydney,NSW,151.21,-33.87,Dairy,99.39
+2024-01,Sydney,NSW,151.21,-33.87,Dairy,98.5
+2024-02,Sydney,NSW,151.21,-33.87,Dairy,97.75
+2024-03,Sydney,NSW,151.21,-33.87,Dairy,98.36
+2024-04,Sydney,NSW,151.21,-33.87,Dairy,98.36
+2024-05,Sydney,NSW,151.21,-33.87,Dairy,97.88
+2024-06,Sydney,NSW,151.21,-33.87,Dairy,97.98
+2024-07,Sydney,NSW,151.21,-33.87,Dairy,97.83
+2024-08,Sydney,NSW,151.21,-33.87,Dairy,97.98
+2024-09,Sydney,NSW,151.21,-33.87,Dairy,97.49
+2024-10,Sydney,NSW,151.21,-33.87,Dairy,96.52
+2024-11,Sydney,NSW,151.21,-33.87,Dairy,97.3
+2024-12,Sydney,NSW,151.21,-33.87,Dairy,98.32
+2025-01,Sydney,NSW,151.21,-33.87,Dairy,98.21
+2025-02,Sydney,NSW,151.21,-33.87,Dairy,97.32
+2025-03,Sydney,NSW,151.21,-33.87,Dairy,98.43
+2025-04,Sydney,NSW,151.21,-33.87,Dairy,98.55
+2025-05,Sydney,NSW,151.21,-33.87,Dairy,97.97
+2025-06,Sydney,NSW,151.21,-33.87,Dairy,98.28
+2025-07,Sydney,NSW,151.21,-33.87,Dairy,98.03
+2025-08,Sydney,NSW,151.21,-33.87,Dairy,99.21
+2025-09,Sydney,NSW,151.21,-33.87,Dairy,100.0
+2025-10,Sydney,NSW,151.21,-33.87,Dairy,99.42
+2025-11,Sydney,NSW,151.21,-33.87,Dairy,100.5
+2025-12,Sydney,NSW,151.21,-33.87,Dairy,101.31
+2026-01,Sydney,NSW,151.21,-33.87,Dairy,100.88
+2026-02,Sydney,NSW,151.21,-33.87,Dairy,100.12
+2026-03,Sydney,NSW,151.21,-33.87,Dairy,101.04
+2026-04,Sydney,NSW,151.21,-33.87,Dairy,100.71
+2026-05,Sydney,NSW,151.21,-33.87,Dairy,103.1
+2026-06,Sydney,NSW,151.21,-33.87,Dairy,104.53
+2026-07,Sydney,NSW,151.21,-33.87,Dairy,104.82
+2026-08,Sydney,NSW,151.21,-33.87,Dairy,104.69
+2017-09,Adelaide,SA,138.6,-34.93,Fruit & veg,70.38
+2017-10,Adelaide,SA,138.6,-34.93,Fruit & veg,73.46
+2017-11,Adelaide,SA,138.6,-34.93,Fruit & veg,76.09
+2017-12,Adelaide,SA,138.6,-34.93,Fruit & veg,76.04
+2018-01,Adelaide,SA,138.6,-34.93,Fruit & veg,76.82
+2018-02,Adelaide,SA,138.6,-34.93,Fruit & veg,76.9
+2018-03,Adelaide,SA,138.6,-34.93,Fruit & veg,75.18
+2018-04,Adelaide,SA,138.6,-34.93,Fruit & veg,73.79
+2018-05,Adelaide,SA,138.6,-34.93,Fruit & veg,72.87
+2018-06,Adelaide,SA,138.6,-34.93,Fruit & veg,76.07
+2018-07,Adelaide,SA,138.6,-34.93,Fruit & veg,75.01
+2018-08,Adelaide,SA,138.6,-34.93,Fruit & veg,75.95
+2018-09,Adelaide,SA,138.6,-34.93,Fruit & veg,75.51
+2018-10,Adelaide,SA,138.6,-34.93,Fruit & veg,76.63
+2018-11,Adelaide,SA,138.6,-34.93,Fruit & veg,75.49
+2018-12,Adelaide,SA,138.6,-34.93,Fruit & veg,76.69
+2019-01,Adelaide,SA,138.6,-34.93,Fruit & veg,76.72
+2019-02,Adelaide,SA,138.6,-34.93,Fruit & veg,81.99
+2019-03,Adelaide,SA,138.6,-34.93,Fruit & veg,83.69
+2019-04,Adelaide,SA,138.6,-34.93,Fruit & veg,77.73
+2019-05,Adelaide,SA,138.6,-34.93,Fruit & veg,77.56
+2019-06,Adelaide,SA,138.6,-34.93,Fruit & veg,77.26
+2019-07,Adelaide,SA,138.6,-34.93,Fruit & veg,76.86
+2019-08,Adelaide,SA,138.6,-34.93,Fruit & veg,75.81
+2019-09,Adelaide,SA,138.6,-34.93,Fruit & veg,74.46
+2019-10,Adelaide,SA,138.6,-34.93,Fruit & veg,76.63
+2019-11,Adelaide,SA,138.6,-34.93,Fruit & veg,77.32
+2019-12,Adelaide,SA,138.6,-34.93,Fruit & veg,80.93
+2020-01,Adelaide,SA,138.6,-34.93,Fruit & veg,80.11
+2020-02,Adelaide,SA,138.6,-34.93,Fruit & veg,81.98
+2020-03,Adelaide,SA,138.6,-34.93,Fruit & veg,86.83
+2020-04,Adelaide,SA,138.6,-34.93,Fruit & veg,84.19
+2020-05,Adelaide,SA,138.6,-34.93,Fruit & veg,81.17
+2020-06,Adelaide,SA,138.6,-34.93,Fruit & veg,85.48
+2020-07,Adelaide,SA,138.6,-34.93,Fruit & veg,83.12
+2020-08,Adelaide,SA,138.6,-34.93,Fruit & veg,84.16
+2020-09,Adelaide,SA,138.6,-34.93,Fruit & veg,82.21
+2020-10,Adelaide,SA,138.6,-34.93,Fruit & veg,79.9
+2020-11,Adelaide,SA,138.6,-34.93,Fruit & veg,81.21
+2020-12,Adelaide,SA,138.6,-34.93,Fruit & veg,83.05
+2021-01,Adelaide,SA,138.6,-34.93,Fruit & veg,81.11
+2021-02,Adelaide,SA,138.6,-34.93,Fruit & veg,80.07
+2021-03,Adelaide,SA,138.6,-34.93,Fruit & veg,78.62
+2021-04,Adelaide,SA,138.6,-34.93,Fruit & veg,81.69
+2021-05,Adelaide,SA,138.6,-34.93,Fruit & veg,86.49
+2021-06,Adelaide,SA,138.6,-34.93,Fruit & veg,86.2
+2021-07,Adelaide,SA,138.6,-34.93,Fruit & veg,84.35
+2021-08,Adelaide,SA,138.6,-34.93,Fruit & veg,83.17
+2021-09,Adelaide,SA,138.6,-34.93,Fruit & veg,79.18
+2021-10,Adelaide,SA,138.6,-34.93,Fruit & veg,78.77
+2021-11,Adelaide,SA,138.6,-34.93,Fruit & veg,80.11
+2021-12,Adelaide,SA,138.6,-34.93,Fruit & veg,83.31
+2022-01,Adelaide,SA,138.6,-34.93,Fruit & veg,83.87
+2022-02,Adelaide,SA,138.6,-34.93,Fruit & veg,86.47
+2022-03,Adelaide,SA,138.6,-34.93,Fruit & veg,87.12
+2022-04,Adelaide,SA,138.6,-34.93,Fruit & veg,88.75
+2022-05,Adelaide,SA,138.6,-34.93,Fruit & veg,90.92
+2022-06,Adelaide,SA,138.6,-34.93,Fruit & veg,93.61
+2022-07,Adelaide,SA,138.6,-34.93,Fruit & veg,97.08
+2022-08,Adelaide,SA,138.6,-34.93,Fruit & veg,99.97
+2022-09,Adelaide,SA,138.6,-34.93,Fruit & veg,93.64
+2022-10,Adelaide,SA,138.6,-34.93,Fruit & veg,88.11
+2022-11,Adelaide,SA,138.6,-34.93,Fruit & veg,88.74
+2022-12,Adelaide,SA,138.6,-34.93,Fruit & veg,92.0
+2023-01,Adelaide,SA,138.6,-34.93,Fruit & veg,89.88
+2023-02,Adelaide,SA,138.6,-34.93,Fruit & veg,92.69
+2023-03,Adelaide,SA,138.6,-34.93,Fruit & veg,94.0
+2023-04,Adelaide,SA,138.6,-34.93,Fruit & veg,92.85
+2023-05,Adelaide,SA,138.6,-34.93,Fruit & veg,94.46
+2023-06,Adelaide,SA,138.6,-34.93,Fruit & veg,96.84
+2023-07,Adelaide,SA,138.6,-34.93,Fruit & veg,94.03
+2023-08,Adelaide,SA,138.6,-34.93,Fruit & veg,93.1
+2023-09,Adelaide,SA,138.6,-34.93,Fruit & veg,90.51
+2023-10,Adelaide,SA,138.6,-34.93,Fruit & veg,90.25
+2023-11,Adelaide,SA,138.6,-34.93,Fruit & veg,90.8
+2023-12,Adelaide,SA,138.6,-34.93,Fruit & veg,91.47
+2024-01,Adelaide,SA,138.6,-34.93,Fruit & veg,92.4
+2024-02,Adelaide,SA,138.6,-34.93,Fruit & veg,92.69
+2024-03,Adelaide,SA,138.6,-34.93,Fruit & veg,93.62
+2024-04,Adelaide,SA,138.6,-34.93,Fruit & veg,97.5
+2024-05,Adelaide,SA,138.6,-34.93,Fruit & veg,100.0
+2024-06,Adelaide,SA,138.6,-34.93,Fruit & veg,100.29
+2024-07,Adelaide,SA,138.6,-34.93,Fruit & veg,101.32
+2024-08,Adelaide,SA,138.6,-34.93,Fruit & veg,101.43
+2024-09,Adelaide,SA,138.6,-34.93,Fruit & veg,98.9
+2024-10,Adelaide,SA,138.6,-34.93,Fruit & veg,97.51
+2024-11,Adelaide,SA,138.6,-34.93,Fruit & veg,96.87
+2024-12,Adelaide,SA,138.6,-34.93,Fruit & veg,95.69
+2025-01,Adelaide,SA,138.6,-34.93,Fruit & veg,98.95
+2025-02,Adelaide,SA,138.6,-34.93,Fruit & veg,98.72
+2025-03,Adelaide,SA,138.6,-34.93,Fruit & veg,102.19
+2025-04,Adelaide,SA,138.6,-34.93,Fruit & veg,104.46
+2025-05,Adelaide,SA,138.6,-34.93,Fruit & veg,103.72
+2025-06,Adelaide,SA,138.6,-34.93,Fruit & veg,105.86
+2025-07,Adelaide,SA,138.6,-34.93,Fruit & veg,106.36
+2025-08,Adelaide,SA,138.6,-34.93,Fruit & veg,103.23
+2025-09,Adelaide,SA,138.6,-34.93,Fruit & veg,100.0
+2025-10,Adelaide,SA,138.6,-34.93,Fruit & veg,99.84
+2025-11,Adelaide,SA,138.6,-34.93,Fruit & veg,99.31
+2025-12,Adelaide,SA,138.6,-34.93,Fruit & veg,98.96
+2026-01,Adelaide,SA,138.6,-34.93,Fruit & veg,100.35
+2026-02,Adelaide,SA,138.6,-34.93,Fruit & veg,100.18
+2026-03,Adelaide,SA,138.6,-34.93,Fruit & veg,103.04
+2026-04,Adelaide,SA,138.6,-34.93,Fruit & veg,104.17
+2026-05,Adelaide,SA,138.6,-34.93,Fruit & veg,105.16
+2026-06,Adelaide,SA,138.6,-34.93,Fruit & veg,105.79
+2026-07,Adelaide,SA,138.6,-34.93,Fruit & veg,105.91
+2026-08,Adelaide,SA,138.6,-34.93,Fruit & veg,103.96
+2017-09,Brisbane,QLD,153.03,-27.47,Fruit & veg,72.74
+2017-10,Brisbane,QLD,153.03,-27.47,Fruit & veg,77.72
+2017-11,Brisbane,QLD,153.03,-27.47,Fruit & veg,82.28
+2017-12,Brisbane,QLD,153.03,-27.47,Fruit & veg,82.48
+2018-01,Brisbane,QLD,153.03,-27.47,Fruit & veg,81.67
+2018-02,Brisbane,QLD,153.03,-27.47,Fruit & veg,82.71
+2018-03,Brisbane,QLD,153.03,-27.47,Fruit & veg,81.33
+2018-04,Brisbane,QLD,153.03,-27.47,Fruit & veg,79.36
+2018-05,Brisbane,QLD,153.03,-27.47,Fruit & veg,77.93
+2018-06,Brisbane,QLD,153.03,-27.47,Fruit & veg,79.72
+2018-07,Brisbane,QLD,153.03,-27.47,Fruit & veg,80.34
+2018-08,Brisbane,QLD,153.03,-27.47,Fruit & veg,80.65
+2018-09,Brisbane,QLD,153.03,-27.47,Fruit & veg,79.96
+2018-10,Brisbane,QLD,153.03,-27.47,Fruit & veg,82.68
+2018-11,Brisbane,QLD,153.03,-27.47,Fruit & veg,82.64
+2018-12,Brisbane,QLD,153.03,-27.47,Fruit & veg,83.04
+2019-01,Brisbane,QLD,153.03,-27.47,Fruit & veg,82.77
+2019-02,Brisbane,QLD,153.03,-27.47,Fruit & veg,88.31
+2019-03,Brisbane,QLD,153.03,-27.47,Fruit & veg,89.68
+2019-04,Brisbane,QLD,153.03,-27.47,Fruit & veg,83.73
+2019-05,Brisbane,QLD,153.03,-27.47,Fruit & veg,83.42
+2019-06,Brisbane,QLD,153.03,-27.47,Fruit & veg,81.76
+2019-07,Brisbane,QLD,153.03,-27.47,Fruit & veg,81.55
+2019-08,Brisbane,QLD,153.03,-27.47,Fruit & veg,81.38
+2019-09,Brisbane,QLD,153.03,-27.47,Fruit & veg,78.92
+2019-10,Brisbane,QLD,153.03,-27.47,Fruit & veg,80.43
+2019-11,Brisbane,QLD,153.03,-27.47,Fruit & veg,83.03
+2019-12,Brisbane,QLD,153.03,-27.47,Fruit & veg,87.29
+2020-01,Brisbane,QLD,153.03,-27.47,Fruit & veg,86.84
+2020-02,Brisbane,QLD,153.03,-27.47,Fruit & veg,88.8
+2020-03,Brisbane,QLD,153.03,-27.47,Fruit & veg,93.4
+2020-04,Brisbane,QLD,153.03,-27.47,Fruit & veg,88.09
+2020-05,Brisbane,QLD,153.03,-27.47,Fruit & veg,85.86
+2020-06,Brisbane,QLD,153.03,-27.47,Fruit & veg,88.94
+2020-07,Brisbane,QLD,153.03,-27.47,Fruit & veg,85.89
+2020-08,Brisbane,QLD,153.03,-27.47,Fruit & veg,86.81
+2020-09,Brisbane,QLD,153.03,-27.47,Fruit & veg,84.05
+2020-10,Brisbane,QLD,153.03,-27.47,Fruit & veg,84.06
+2020-11,Brisbane,QLD,153.03,-27.47,Fruit & veg,86.55
+2020-12,Brisbane,QLD,153.03,-27.47,Fruit & veg,88.5
+2021-01,Brisbane,QLD,153.03,-27.47,Fruit & veg,87.03
+2021-02,Brisbane,QLD,153.03,-27.47,Fruit & veg,85.5
+2021-03,Brisbane,QLD,153.03,-27.47,Fruit & veg,84.2
+2021-04,Brisbane,QLD,153.03,-27.47,Fruit & veg,88.07
+2021-05,Brisbane,QLD,153.03,-27.47,Fruit & veg,90.97
+2021-06,Brisbane,QLD,153.03,-27.47,Fruit & veg,89.06
+2021-07,Brisbane,QLD,153.03,-27.47,Fruit & veg,87.61
+2021-08,Brisbane,QLD,153.03,-27.47,Fruit & veg,85.62
+2021-09,Brisbane,QLD,153.03,-27.47,Fruit & veg,81.59
+2021-10,Brisbane,QLD,153.03,-27.47,Fruit & veg,82.78
+2021-11,Brisbane,QLD,153.03,-27.47,Fruit & veg,85.56
+2021-12,Brisbane,QLD,153.03,-27.47,Fruit & veg,87.99
+2022-01,Brisbane,QLD,153.03,-27.47,Fruit & veg,90.13
+2022-02,Brisbane,QLD,153.03,-27.47,Fruit & veg,90.9
+2022-03,Brisbane,QLD,153.03,-27.47,Fruit & veg,92.17
+2022-04,Brisbane,QLD,153.03,-27.47,Fruit & veg,93.64
+2022-05,Brisbane,QLD,153.03,-27.47,Fruit & veg,94.76
+2022-06,Brisbane,QLD,153.03,-27.47,Fruit & veg,97.53
+2022-07,Brisbane,QLD,153.03,-27.47,Fruit & veg,101.08
+2022-08,Brisbane,QLD,153.03,-27.47,Fruit & veg,101.74
+2022-09,Brisbane,QLD,153.03,-27.47,Fruit & veg,94.72
+2022-10,Brisbane,QLD,153.03,-27.47,Fruit & veg,90.04
+2022-11,Brisbane,QLD,153.03,-27.47,Fruit & veg,93.25
+2022-12,Brisbane,QLD,153.03,-27.47,Fruit & veg,96.28
+2023-01,Brisbane,QLD,153.03,-27.47,Fruit & veg,93.23
+2023-02,Brisbane,QLD,153.03,-27.47,Fruit & veg,96.29
+2023-03,Brisbane,QLD,153.03,-27.47,Fruit & veg,97.57
+2023-04,Brisbane,QLD,153.03,-27.47,Fruit & veg,96.4
+2023-05,Brisbane,QLD,153.03,-27.47,Fruit & veg,97.06
+2023-06,Brisbane,QLD,153.03,-27.47,Fruit & veg,98.28
+2023-07,Brisbane,QLD,153.03,-27.47,Fruit & veg,94.23
+2023-08,Brisbane,QLD,153.03,-27.47,Fruit & veg,93.3
+2023-09,Brisbane,QLD,153.03,-27.47,Fruit & veg,90.75
+2023-10,Brisbane,QLD,153.03,-27.47,Fruit & veg,91.64
+2023-11,Brisbane,QLD,153.03,-27.47,Fruit & veg,93.8
+2023-12,Brisbane,QLD,153.03,-27.47,Fruit & veg,95.19
+2024-01,Brisbane,QLD,153.03,-27.47,Fruit & veg,95.89
+2024-02,Brisbane,QLD,153.03,-27.47,Fruit & veg,96.73
+2024-03,Brisbane,QLD,153.03,-27.47,Fruit & veg,96.55
+2024-04,Brisbane,QLD,153.03,-27.47,Fruit & veg,99.36
+2024-05,Brisbane,QLD,153.03,-27.47,Fruit & veg,101.05
+2024-06,Brisbane,QLD,153.03,-27.47,Fruit & veg,100.85
+2024-07,Brisbane,QLD,153.03,-27.47,Fruit & veg,101.94
+2024-08,Brisbane,QLD,153.03,-27.47,Fruit & veg,103.21
+2024-09,Brisbane,QLD,153.03,-27.47,Fruit & veg,99.21
+2024-10,Brisbane,QLD,153.03,-27.47,Fruit & veg,99.9
+2024-11,Brisbane,QLD,153.03,-27.47,Fruit & veg,99.17
+2024-12,Brisbane,QLD,153.03,-27.47,Fruit & veg,98.83
+2025-01,Brisbane,QLD,153.03,-27.47,Fruit & veg,101.51
+2025-02,Brisbane,QLD,153.03,-27.47,Fruit & veg,101.3
+2025-03,Brisbane,QLD,153.03,-27.47,Fruit & veg,104.21
+2025-04,Brisbane,QLD,153.03,-27.47,Fruit & veg,106.03
+2025-05,Brisbane,QLD,153.03,-27.47,Fruit & veg,104.73
+2025-06,Brisbane,QLD,153.03,-27.47,Fruit & veg,106.76
+2025-07,Brisbane,QLD,153.03,-27.47,Fruit & veg,107.22
+2025-08,Brisbane,QLD,153.03,-27.47,Fruit & veg,103.91
+2025-09,Brisbane,QLD,153.03,-27.47,Fruit & veg,100.0
+2025-10,Brisbane,QLD,153.03,-27.47,Fruit & veg,101.61
+2025-11,Brisbane,QLD,153.03,-27.47,Fruit & veg,102.79
+2025-12,Brisbane,QLD,153.03,-27.47,Fruit & veg,101.85
+2026-01,Brisbane,QLD,153.03,-27.47,Fruit & veg,102.72
+2026-02,Brisbane,QLD,153.03,-27.47,Fruit & veg,102.88
+2026-03,Brisbane,QLD,153.03,-27.47,Fruit & veg,105.42
+2026-04,Brisbane,QLD,153.03,-27.47,Fruit & veg,105.56
+2026-05,Brisbane,QLD,153.03,-27.47,Fruit & veg,106.21
+2026-06,Brisbane,QLD,153.03,-27.47,Fruit & veg,106.93
+2026-07,Brisbane,QLD,153.03,-27.47,Fruit & veg,106.68
+2026-08,Brisbane,QLD,153.03,-27.47,Fruit & veg,105.47
+2017-09,Canberra,ACT,149.13,-35.28,Fruit & veg,73.46
+2017-10,Canberra,ACT,149.13,-35.28,Fruit & veg,78.58
+2017-11,Canberra,ACT,149.13,-35.28,Fruit & veg,83.0
+2017-12,Canberra,ACT,149.13,-35.28,Fruit & veg,82.48
+2018-01,Canberra,ACT,149.13,-35.28,Fruit & veg,82.39
+2018-02,Canberra,ACT,149.13,-35.28,Fruit & veg,83.51
+2018-03,Canberra,ACT,149.13,-35.28,Fruit & veg,82.02
+2018-04,Canberra,ACT,149.13,-35.28,Fruit & veg,80.38
+2018-05,Canberra,ACT,149.13,-35.28,Fruit & veg,78.51
+2018-06,Canberra,ACT,149.13,-35.28,Fruit & veg,80.98
+2018-07,Canberra,ACT,149.13,-35.28,Fruit & veg,81.11
+2018-08,Canberra,ACT,149.13,-35.28,Fruit & veg,80.3
+2018-09,Canberra,ACT,149.13,-35.28,Fruit & veg,80.42
+2018-10,Canberra,ACT,149.13,-35.28,Fruit & veg,83.34
+2018-11,Canberra,ACT,149.13,-35.28,Fruit & veg,81.64
+2018-12,Canberra,ACT,149.13,-35.28,Fruit & veg,83.1
+2019-01,Canberra,ACT,149.13,-35.28,Fruit & veg,82.17
+2019-02,Canberra,ACT,149.13,-35.28,Fruit & veg,89.3
+2019-03,Canberra,ACT,149.13,-35.28,Fruit & veg,91.41
+2019-04,Canberra,ACT,149.13,-35.28,Fruit & veg,83.98
+2019-05,Canberra,ACT,149.13,-35.28,Fruit & veg,83.45
+2019-06,Canberra,ACT,149.13,-35.28,Fruit & veg,82.81
+2019-07,Canberra,ACT,149.13,-35.28,Fruit & veg,82.2
+2019-08,Canberra,ACT,149.13,-35.28,Fruit & veg,81.24
+2019-09,Canberra,ACT,149.13,-35.28,Fruit & veg,79.95
+2019-10,Canberra,ACT,149.13,-35.28,Fruit & veg,81.71
+2019-11,Canberra,ACT,149.13,-35.28,Fruit & veg,83.65
+2019-12,Canberra,ACT,149.13,-35.28,Fruit & veg,88.01
+2020-01,Canberra,ACT,149.13,-35.28,Fruit & veg,85.8
+2020-02,Canberra,ACT,149.13,-35.28,Fruit & veg,90.53
+2020-03,Canberra,ACT,149.13,-35.28,Fruit & veg,94.14
+2020-04,Canberra,ACT,149.13,-35.28,Fruit & veg,90.39
+2020-05,Canberra,ACT,149.13,-35.28,Fruit & veg,86.88
+2020-06,Canberra,ACT,149.13,-35.28,Fruit & veg,90.19
+2020-07,Canberra,ACT,149.13,-35.28,Fruit & veg,87.24
+2020-08,Canberra,ACT,149.13,-35.28,Fruit & veg,89.43
+2020-09,Canberra,ACT,149.13,-35.28,Fruit & veg,86.13
+2020-10,Canberra,ACT,149.13,-35.28,Fruit & veg,85.38
+2020-11,Canberra,ACT,149.13,-35.28,Fruit & veg,87.36
+2020-12,Canberra,ACT,149.13,-35.28,Fruit & veg,88.72
+2021-01,Canberra,ACT,149.13,-35.28,Fruit & veg,86.85
+2021-02,Canberra,ACT,149.13,-35.28,Fruit & veg,86.32
+2021-03,Canberra,ACT,149.13,-35.28,Fruit & veg,84.66
+2021-04,Canberra,ACT,149.13,-35.28,Fruit & veg,88.54
+2021-05,Canberra,ACT,149.13,-35.28,Fruit & veg,92.44
+2021-06,Canberra,ACT,149.13,-35.28,Fruit & veg,91.16
+2021-07,Canberra,ACT,149.13,-35.28,Fruit & veg,88.88
+2021-08,Canberra,ACT,149.13,-35.28,Fruit & veg,88.21
+2021-09,Canberra,ACT,149.13,-35.28,Fruit & veg,82.97
+2021-10,Canberra,ACT,149.13,-35.28,Fruit & veg,83.41
+2021-11,Canberra,ACT,149.13,-35.28,Fruit & veg,86.09
+2021-12,Canberra,ACT,149.13,-35.28,Fruit & veg,88.37
+2022-01,Canberra,ACT,149.13,-35.28,Fruit & veg,90.0
+2022-02,Canberra,ACT,149.13,-35.28,Fruit & veg,91.86
+2022-03,Canberra,ACT,149.13,-35.28,Fruit & veg,94.3
+2022-04,Canberra,ACT,149.13,-35.28,Fruit & veg,95.34
+2022-05,Canberra,ACT,149.13,-35.28,Fruit & veg,96.43
+2022-06,Canberra,ACT,149.13,-35.28,Fruit & veg,99.13
+2022-07,Canberra,ACT,149.13,-35.28,Fruit & veg,102.72
+2022-08,Canberra,ACT,149.13,-35.28,Fruit & veg,104.18
+2022-09,Canberra,ACT,149.13,-35.28,Fruit & veg,98.04
+2022-10,Canberra,ACT,149.13,-35.28,Fruit & veg,90.95
+2022-11,Canberra,ACT,149.13,-35.28,Fruit & veg,94.65
+2022-12,Canberra,ACT,149.13,-35.28,Fruit & veg,97.5
+2023-01,Canberra,ACT,149.13,-35.28,Fruit & veg,94.06
+2023-02,Canberra,ACT,149.13,-35.28,Fruit & veg,97.27
+2023-03,Canberra,ACT,149.13,-35.28,Fruit & veg,98.08
+2023-04,Canberra,ACT,149.13,-35.28,Fruit & veg,97.14
+2023-05,Canberra,ACT,149.13,-35.28,Fruit & veg,97.81
+2023-06,Canberra,ACT,149.13,-35.28,Fruit & veg,98.6
+2023-07,Canberra,ACT,149.13,-35.28,Fruit & veg,95.88
+2023-08,Canberra,ACT,149.13,-35.28,Fruit & veg,93.9
+2023-09,Canberra,ACT,149.13,-35.28,Fruit & veg,91.12
+2023-10,Canberra,ACT,149.13,-35.28,Fruit & veg,91.64
+2023-11,Canberra,ACT,149.13,-35.28,Fruit & veg,93.86
+2023-12,Canberra,ACT,149.13,-35.28,Fruit & veg,94.01
+2024-01,Canberra,ACT,149.13,-35.28,Fruit & veg,94.7
+2024-02,Canberra,ACT,149.13,-35.28,Fruit & veg,95.97
+2024-03,Canberra,ACT,149.13,-35.28,Fruit & veg,96.34
+2024-04,Canberra,ACT,149.13,-35.28,Fruit & veg,99.41
+2024-05,Canberra,ACT,149.13,-35.28,Fruit & veg,101.6
+2024-06,Canberra,ACT,149.13,-35.28,Fruit & veg,101.72
+2024-07,Canberra,ACT,149.13,-35.28,Fruit & veg,102.88
+2024-08,Canberra,ACT,149.13,-35.28,Fruit & veg,103.8
+2024-09,Canberra,ACT,149.13,-35.28,Fruit & veg,99.7
+2024-10,Canberra,ACT,149.13,-35.28,Fruit & veg,100.36
+2024-11,Canberra,ACT,149.13,-35.28,Fruit & veg,99.45
+2024-12,Canberra,ACT,149.13,-35.28,Fruit & veg,97.71
+2025-01,Canberra,ACT,149.13,-35.28,Fruit & veg,100.9
+2025-02,Canberra,ACT,149.13,-35.28,Fruit & veg,100.11
+2025-03,Canberra,ACT,149.13,-35.28,Fruit & veg,102.56
+2025-04,Canberra,ACT,149.13,-35.28,Fruit & veg,105.79
+2025-05,Canberra,ACT,149.13,-35.28,Fruit & veg,104.69
+2025-06,Canberra,ACT,149.13,-35.28,Fruit & veg,106.79
+2025-07,Canberra,ACT,149.13,-35.28,Fruit & veg,108.11
+2025-08,Canberra,ACT,149.13,-35.28,Fruit & veg,104.97
+2025-09,Canberra,ACT,149.13,-35.28,Fruit & veg,100.0
+2025-10,Canberra,ACT,149.13,-35.28,Fruit & veg,101.44
+2025-11,Canberra,ACT,149.13,-35.28,Fruit & veg,102.63
+2025-12,Canberra,ACT,149.13,-35.28,Fruit & veg,102.61
+2026-01,Canberra,ACT,149.13,-35.28,Fruit & veg,103.43
+2026-02,Canberra,ACT,149.13,-35.28,Fruit & veg,102.29
+2026-03,Canberra,ACT,149.13,-35.28,Fruit & veg,105.97
+2026-04,Canberra,ACT,149.13,-35.28,Fruit & veg,106.67
+2026-05,Canberra,ACT,149.13,-35.28,Fruit & veg,107.09
+2026-06,Canberra,ACT,149.13,-35.28,Fruit & veg,107.66
+2026-07,Canberra,ACT,149.13,-35.28,Fruit & veg,106.25
+2026-08,Canberra,ACT,149.13,-35.28,Fruit & veg,105.18
+2017-09,Darwin,NT,130.84,-12.46,Fruit & veg,74.62
+2017-10,Darwin,NT,130.84,-12.46,Fruit & veg,77.42
+2017-11,Darwin,NT,130.84,-12.46,Fruit & veg,82.12
+2017-12,Darwin,NT,130.84,-12.46,Fruit & veg,81.89
+2018-01,Darwin,NT,130.84,-12.46,Fruit & veg,81.35
+2018-02,Darwin,NT,130.84,-12.46,Fruit & veg,80.92
+2018-03,Darwin,NT,130.84,-12.46,Fruit & veg,78.64
+2018-04,Darwin,NT,130.84,-12.46,Fruit & veg,78.06
+2018-05,Darwin,NT,130.84,-12.46,Fruit & veg,77.74
+2018-06,Darwin,NT,130.84,-12.46,Fruit & veg,78.59
+2018-07,Darwin,NT,130.84,-12.46,Fruit & veg,77.37
+2018-08,Darwin,NT,130.84,-12.46,Fruit & veg,78.37
+2018-09,Darwin,NT,130.84,-12.46,Fruit & veg,78.25
+2018-10,Darwin,NT,130.84,-12.46,Fruit & veg,77.84
+2018-11,Darwin,NT,130.84,-12.46,Fruit & veg,78.82
+2018-12,Darwin,NT,130.84,-12.46,Fruit & veg,81.24
+2019-01,Darwin,NT,130.84,-12.46,Fruit & veg,80.5
+2019-02,Darwin,NT,130.84,-12.46,Fruit & veg,85.09
+2019-03,Darwin,NT,130.84,-12.46,Fruit & veg,87.19
+2019-04,Darwin,NT,130.84,-12.46,Fruit & veg,82.33
+2019-05,Darwin,NT,130.84,-12.46,Fruit & veg,81.12
+2019-06,Darwin,NT,130.84,-12.46,Fruit & veg,78.52
+2019-07,Darwin,NT,130.84,-12.46,Fruit & veg,78.45
+2019-08,Darwin,NT,130.84,-12.46,Fruit & veg,77.91
+2019-09,Darwin,NT,130.84,-12.46,Fruit & veg,76.92
+2019-10,Darwin,NT,130.84,-12.46,Fruit & veg,78.24
+2019-11,Darwin,NT,130.84,-12.46,Fruit & veg,80.31
+2019-12,Darwin,NT,130.84,-12.46,Fruit & veg,84.79
+2020-01,Darwin,NT,130.84,-12.46,Fruit & veg,82.84
+2020-02,Darwin,NT,130.84,-12.46,Fruit & veg,85.03
+2020-03,Darwin,NT,130.84,-12.46,Fruit & veg,89.23
+2020-04,Darwin,NT,130.84,-12.46,Fruit & veg,85.34
+2020-05,Darwin,NT,130.84,-12.46,Fruit & veg,83.83
+2020-06,Darwin,NT,130.84,-12.46,Fruit & veg,87.11
+2020-07,Darwin,NT,130.84,-12.46,Fruit & veg,86.31
+2020-08,Darwin,NT,130.84,-12.46,Fruit & veg,87.25
+2020-09,Darwin,NT,130.84,-12.46,Fruit & veg,84.95
+2020-10,Darwin,NT,130.84,-12.46,Fruit & veg,82.27
+2020-11,Darwin,NT,130.84,-12.46,Fruit & veg,84.99
+2020-12,Darwin,NT,130.84,-12.46,Fruit & veg,87.23
+2021-01,Darwin,NT,130.84,-12.46,Fruit & veg,85.38
+2021-02,Darwin,NT,130.84,-12.46,Fruit & veg,83.75
+2021-03,Darwin,NT,130.84,-12.46,Fruit & veg,82.08
+2021-04,Darwin,NT,130.84,-12.46,Fruit & veg,84.48
+2021-05,Darwin,NT,130.84,-12.46,Fruit & veg,88.81
+2021-06,Darwin,NT,130.84,-12.46,Fruit & veg,86.98
+2021-07,Darwin,NT,130.84,-12.46,Fruit & veg,85.58
+2021-08,Darwin,NT,130.84,-12.46,Fruit & veg,84.53
+2021-09,Darwin,NT,130.84,-12.46,Fruit & veg,80.58
+2021-10,Darwin,NT,130.84,-12.46,Fruit & veg,80.95
+2021-11,Darwin,NT,130.84,-12.46,Fruit & veg,83.82
+2021-12,Darwin,NT,130.84,-12.46,Fruit & veg,87.25
+2022-01,Darwin,NT,130.84,-12.46,Fruit & veg,88.06
+2022-02,Darwin,NT,130.84,-12.46,Fruit & veg,88.59
+2022-03,Darwin,NT,130.84,-12.46,Fruit & veg,89.81
+2022-04,Darwin,NT,130.84,-12.46,Fruit & veg,92.74
+2022-05,Darwin,NT,130.84,-12.46,Fruit & veg,93.69
+2022-06,Darwin,NT,130.84,-12.46,Fruit & veg,97.15
+2022-07,Darwin,NT,130.84,-12.46,Fruit & veg,100.01
+2022-08,Darwin,NT,130.84,-12.46,Fruit & veg,103.04
+2022-09,Darwin,NT,130.84,-12.46,Fruit & veg,96.71
+2022-10,Darwin,NT,130.84,-12.46,Fruit & veg,90.38
+2022-11,Darwin,NT,130.84,-12.46,Fruit & veg,91.06
+2022-12,Darwin,NT,130.84,-12.46,Fruit & veg,94.56
+2023-01,Darwin,NT,130.84,-12.46,Fruit & veg,92.36
+2023-02,Darwin,NT,130.84,-12.46,Fruit & veg,94.74
+2023-03,Darwin,NT,130.84,-12.46,Fruit & veg,95.84
+2023-04,Darwin,NT,130.84,-12.46,Fruit & veg,94.21
+2023-05,Darwin,NT,130.84,-12.46,Fruit & veg,96.69
+2023-06,Darwin,NT,130.84,-12.46,Fruit & veg,96.82
+2023-07,Darwin,NT,130.84,-12.46,Fruit & veg,94.3
+2023-08,Darwin,NT,130.84,-12.46,Fruit & veg,93.36
+2023-09,Darwin,NT,130.84,-12.46,Fruit & veg,90.99
+2023-10,Darwin,NT,130.84,-12.46,Fruit & veg,89.27
+2023-11,Darwin,NT,130.84,-12.46,Fruit & veg,91.96
+2023-12,Darwin,NT,130.84,-12.46,Fruit & veg,91.85
+2024-01,Darwin,NT,130.84,-12.46,Fruit & veg,92.97
+2024-02,Darwin,NT,130.84,-12.46,Fruit & veg,93.74
+2024-03,Darwin,NT,130.84,-12.46,Fruit & veg,93.79
+2024-04,Darwin,NT,130.84,-12.46,Fruit & veg,97.01
+2024-05,Darwin,NT,130.84,-12.46,Fruit & veg,100.08
+2024-06,Darwin,NT,130.84,-12.46,Fruit & veg,100.93
+2024-07,Darwin,NT,130.84,-12.46,Fruit & veg,101.09
+2024-08,Darwin,NT,130.84,-12.46,Fruit & veg,101.05
+2024-09,Darwin,NT,130.84,-12.46,Fruit & veg,98.66
+2024-10,Darwin,NT,130.84,-12.46,Fruit & veg,98.01
+2024-11,Darwin,NT,130.84,-12.46,Fruit & veg,98.47
+2024-12,Darwin,NT,130.84,-12.46,Fruit & veg,97.42
+2025-01,Darwin,NT,130.84,-12.46,Fruit & veg,100.58
+2025-02,Darwin,NT,130.84,-12.46,Fruit & veg,100.7
+2025-03,Darwin,NT,130.84,-12.46,Fruit & veg,103.28
+2025-04,Darwin,NT,130.84,-12.46,Fruit & veg,104.79
+2025-05,Darwin,NT,130.84,-12.46,Fruit & veg,104.84
+2025-06,Darwin,NT,130.84,-12.46,Fruit & veg,106.88
+2025-07,Darwin,NT,130.84,-12.46,Fruit & veg,107.55
+2025-08,Darwin,NT,130.84,-12.46,Fruit & veg,103.16
+2025-09,Darwin,NT,130.84,-12.46,Fruit & veg,100.0
+2025-10,Darwin,NT,130.84,-12.46,Fruit & veg,99.6
+2025-11,Darwin,NT,130.84,-12.46,Fruit & veg,99.62
+2025-12,Darwin,NT,130.84,-12.46,Fruit & veg,100.09
+2026-01,Darwin,NT,130.84,-12.46,Fruit & veg,102.36
+2026-02,Darwin,NT,130.84,-12.46,Fruit & veg,102.14
+2026-03,Darwin,NT,130.84,-12.46,Fruit & veg,104.69
+2026-04,Darwin,NT,130.84,-12.46,Fruit & veg,107.07
+2026-05,Darwin,NT,130.84,-12.46,Fruit & veg,107.5
+2026-06,Darwin,NT,130.84,-12.46,Fruit & veg,107.99
+2026-07,Darwin,NT,130.84,-12.46,Fruit & veg,108.03
+2026-08,Darwin,NT,130.84,-12.46,Fruit & veg,106.02
+2017-09,Hobart,TAS,147.33,-42.88,Fruit & veg,73.83
+2017-10,Hobart,TAS,147.33,-42.88,Fruit & veg,77.97
+2017-11,Hobart,TAS,147.33,-42.88,Fruit & veg,81.94
+2017-12,Hobart,TAS,147.33,-42.88,Fruit & veg,80.57
+2018-01,Hobart,TAS,147.33,-42.88,Fruit & veg,81.6
+2018-02,Hobart,TAS,147.33,-42.88,Fruit & veg,81.57
+2018-03,Hobart,TAS,147.33,-42.88,Fruit & veg,80.75
+2018-04,Hobart,TAS,147.33,-42.88,Fruit & veg,78.12
+2018-05,Hobart,TAS,147.33,-42.88,Fruit & veg,78.17
+2018-06,Hobart,TAS,147.33,-42.88,Fruit & veg,80.03
+2018-07,Hobart,TAS,147.33,-42.88,Fruit & veg,79.31
+2018-08,Hobart,TAS,147.33,-42.88,Fruit & veg,80.3
+2018-09,Hobart,TAS,147.33,-42.88,Fruit & veg,80.07
+2018-10,Hobart,TAS,147.33,-42.88,Fruit & veg,82.07
+2018-11,Hobart,TAS,147.33,-42.88,Fruit & veg,80.93
+2018-12,Hobart,TAS,147.33,-42.88,Fruit & veg,81.17
+2019-01,Hobart,TAS,147.33,-42.88,Fruit & veg,80.8
+2019-02,Hobart,TAS,147.33,-42.88,Fruit & veg,85.39
+2019-03,Hobart,TAS,147.33,-42.88,Fruit & veg,86.6
+2019-04,Hobart,TAS,147.33,-42.88,Fruit & veg,82.92
+2019-05,Hobart,TAS,147.33,-42.88,Fruit & veg,81.0
+2019-06,Hobart,TAS,147.33,-42.88,Fruit & veg,81.31
+2019-07,Hobart,TAS,147.33,-42.88,Fruit & veg,80.37
+2019-08,Hobart,TAS,147.33,-42.88,Fruit & veg,79.33
+2019-09,Hobart,TAS,147.33,-42.88,Fruit & veg,78.15
+2019-10,Hobart,TAS,147.33,-42.88,Fruit & veg,80.91
+2019-11,Hobart,TAS,147.33,-42.88,Fruit & veg,81.74
+2019-12,Hobart,TAS,147.33,-42.88,Fruit & veg,84.63
+2020-01,Hobart,TAS,147.33,-42.88,Fruit & veg,82.8
+2020-02,Hobart,TAS,147.33,-42.88,Fruit & veg,85.77
+2020-03,Hobart,TAS,147.33,-42.88,Fruit & veg,88.85
+2020-04,Hobart,TAS,147.33,-42.88,Fruit & veg,86.23
+2020-05,Hobart,TAS,147.33,-42.88,Fruit & veg,83.73
+2020-06,Hobart,TAS,147.33,-42.88,Fruit & veg,87.8
+2020-07,Hobart,TAS,147.33,-42.88,Fruit & veg,85.45
+2020-08,Hobart,TAS,147.33,-42.88,Fruit & veg,87.19
+2020-09,Hobart,TAS,147.33,-42.88,Fruit & veg,83.82
+2020-10,Hobart,TAS,147.33,-42.88,Fruit & veg,83.4
+2020-11,Hobart,TAS,147.33,-42.88,Fruit & veg,85.61
+2020-12,Hobart,TAS,147.33,-42.88,Fruit & veg,86.76
+2021-01,Hobart,TAS,147.33,-42.88,Fruit & veg,84.62
+2021-02,Hobart,TAS,147.33,-42.88,Fruit & veg,85.05
+2021-03,Hobart,TAS,147.33,-42.88,Fruit & veg,82.79
+2021-04,Hobart,TAS,147.33,-42.88,Fruit & veg,85.48
+2021-05,Hobart,TAS,147.33,-42.88,Fruit & veg,89.65
+2021-06,Hobart,TAS,147.33,-42.88,Fruit & veg,88.45
+2021-07,Hobart,TAS,147.33,-42.88,Fruit & veg,87.03
+2021-08,Hobart,TAS,147.33,-42.88,Fruit & veg,86.13
+2021-09,Hobart,TAS,147.33,-42.88,Fruit & veg,82.29
+2021-10,Hobart,TAS,147.33,-42.88,Fruit & veg,83.36
+2021-11,Hobart,TAS,147.33,-42.88,Fruit & veg,85.01
+2021-12,Hobart,TAS,147.33,-42.88,Fruit & veg,87.25
+2022-01,Hobart,TAS,147.33,-42.88,Fruit & veg,87.06
+2022-02,Hobart,TAS,147.33,-42.88,Fruit & veg,89.5
+2022-03,Hobart,TAS,147.33,-42.88,Fruit & veg,89.52
+2022-04,Hobart,TAS,147.33,-42.88,Fruit & veg,90.37
+2022-05,Hobart,TAS,147.33,-42.88,Fruit & veg,92.54
+2022-06,Hobart,TAS,147.33,-42.88,Fruit & veg,94.33
+2022-07,Hobart,TAS,147.33,-42.88,Fruit & veg,98.31
+2022-08,Hobart,TAS,147.33,-42.88,Fruit & veg,101.92
+2022-09,Hobart,TAS,147.33,-42.88,Fruit & veg,96.33
+2022-10,Hobart,TAS,147.33,-42.88,Fruit & veg,90.35
+2022-11,Hobart,TAS,147.33,-42.88,Fruit & veg,91.81
+2022-12,Hobart,TAS,147.33,-42.88,Fruit & veg,93.54
+2023-01,Hobart,TAS,147.33,-42.88,Fruit & veg,90.93
+2023-02,Hobart,TAS,147.33,-42.88,Fruit & veg,94.32
+2023-03,Hobart,TAS,147.33,-42.88,Fruit & veg,95.73
+2023-04,Hobart,TAS,147.33,-42.88,Fruit & veg,94.87
+2023-05,Hobart,TAS,147.33,-42.88,Fruit & veg,96.79
+2023-06,Hobart,TAS,147.33,-42.88,Fruit & veg,98.2
+2023-07,Hobart,TAS,147.33,-42.88,Fruit & veg,96.27
+2023-08,Hobart,TAS,147.33,-42.88,Fruit & veg,94.86
+2023-09,Hobart,TAS,147.33,-42.88,Fruit & veg,92.56
+2023-10,Hobart,TAS,147.33,-42.88,Fruit & veg,93.24
+2023-11,Hobart,TAS,147.33,-42.88,Fruit & veg,93.81
+2023-12,Hobart,TAS,147.33,-42.88,Fruit & veg,93.42
+2024-01,Hobart,TAS,147.33,-42.88,Fruit & veg,93.88
+2024-02,Hobart,TAS,147.33,-42.88,Fruit & veg,94.83
+2024-03,Hobart,TAS,147.33,-42.88,Fruit & veg,95.53
+2024-04,Hobart,TAS,147.33,-42.88,Fruit & veg,97.21
+2024-05,Hobart,TAS,147.33,-42.88,Fruit & veg,100.11
+2024-06,Hobart,TAS,147.33,-42.88,Fruit & veg,101.33
+2024-07,Hobart,TAS,147.33,-42.88,Fruit & veg,101.91
+2024-08,Hobart,TAS,147.33,-42.88,Fruit & veg,102.23
+2024-09,Hobart,TAS,147.33,-42.88,Fruit & veg,99.96
+2024-10,Hobart,TAS,147.33,-42.88,Fruit & veg,100.26
+2024-11,Hobart,TAS,147.33,-42.88,Fruit & veg,99.46
+2024-12,Hobart,TAS,147.33,-42.88,Fruit & veg,98.34
+2025-01,Hobart,TAS,147.33,-42.88,Fruit & veg,100.49
+2025-02,Hobart,TAS,147.33,-42.88,Fruit & veg,99.79
+2025-03,Hobart,TAS,147.33,-42.88,Fruit & veg,101.67
+2025-04,Hobart,TAS,147.33,-42.88,Fruit & veg,102.34
+2025-05,Hobart,TAS,147.33,-42.88,Fruit & veg,102.26
+2025-06,Hobart,TAS,147.33,-42.88,Fruit & veg,105.89
+2025-07,Hobart,TAS,147.33,-42.88,Fruit & veg,107.5
+2025-08,Hobart,TAS,147.33,-42.88,Fruit & veg,103.63
+2025-09,Hobart,TAS,147.33,-42.88,Fruit & veg,100.0
+2025-10,Hobart,TAS,147.33,-42.88,Fruit & veg,100.86
+2025-11,Hobart,TAS,147.33,-42.88,Fruit & veg,101.67
+2025-12,Hobart,TAS,147.33,-42.88,Fruit & veg,101.56
+2026-01,Hobart,TAS,147.33,-42.88,Fruit & veg,101.75
+2026-02,Hobart,TAS,147.33,-42.88,Fruit & veg,101.14
+2026-03,Hobart,TAS,147.33,-42.88,Fruit & veg,103.63
+2026-04,Hobart,TAS,147.33,-42.88,Fruit & veg,103.44
+2026-05,Hobart,TAS,147.33,-42.88,Fruit & veg,105.12
+2026-06,Hobart,TAS,147.33,-42.88,Fruit & veg,105.66
+2026-07,Hobart,TAS,147.33,-42.88,Fruit & veg,106.41
+2026-08,Hobart,TAS,147.33,-42.88,Fruit & veg,104.67
+2017-09,Melbourne,VIC,144.96,-37.81,Fruit & veg,72.09
+2017-10,Melbourne,VIC,144.96,-37.81,Fruit & veg,76.88
+2017-11,Melbourne,VIC,144.96,-37.81,Fruit & veg,81.14
+2017-12,Melbourne,VIC,144.96,-37.81,Fruit & veg,81.65
+2018-01,Melbourne,VIC,144.96,-37.81,Fruit & veg,81.07
+2018-02,Melbourne,VIC,144.96,-37.81,Fruit & veg,82.08
+2018-03,Melbourne,VIC,144.96,-37.81,Fruit & veg,80.49
+2018-04,Melbourne,VIC,144.96,-37.81,Fruit & veg,78.28
+2018-05,Melbourne,VIC,144.96,-37.81,Fruit & veg,77.73
+2018-06,Melbourne,VIC,144.96,-37.81,Fruit & veg,79.28
+2018-07,Melbourne,VIC,144.96,-37.81,Fruit & veg,79.25
+2018-08,Melbourne,VIC,144.96,-37.81,Fruit & veg,79.42
+2018-09,Melbourne,VIC,144.96,-37.81,Fruit & veg,79.22
+2018-10,Melbourne,VIC,144.96,-37.81,Fruit & veg,81.53
+2018-11,Melbourne,VIC,144.96,-37.81,Fruit & veg,80.03
+2018-12,Melbourne,VIC,144.96,-37.81,Fruit & veg,80.6
+2019-01,Melbourne,VIC,144.96,-37.81,Fruit & veg,79.82
+2019-02,Melbourne,VIC,144.96,-37.81,Fruit & veg,86.5
+2019-03,Melbourne,VIC,144.96,-37.81,Fruit & veg,87.95
+2019-04,Melbourne,VIC,144.96,-37.81,Fruit & veg,83.02
+2019-05,Melbourne,VIC,144.96,-37.81,Fruit & veg,82.84
+2019-06,Melbourne,VIC,144.96,-37.81,Fruit & veg,81.25
+2019-07,Melbourne,VIC,144.96,-37.81,Fruit & veg,81.1
+2019-08,Melbourne,VIC,144.96,-37.81,Fruit & veg,79.87
+2019-09,Melbourne,VIC,144.96,-37.81,Fruit & veg,78.99
+2019-10,Melbourne,VIC,144.96,-37.81,Fruit & veg,81.58
+2019-11,Melbourne,VIC,144.96,-37.81,Fruit & veg,82.33
+2019-12,Melbourne,VIC,144.96,-37.81,Fruit & veg,85.52
+2020-01,Melbourne,VIC,144.96,-37.81,Fruit & veg,85.13
+2020-02,Melbourne,VIC,144.96,-37.81,Fruit & veg,87.8
+2020-03,Melbourne,VIC,144.96,-37.81,Fruit & veg,91.4
+2020-04,Melbourne,VIC,144.96,-37.81,Fruit & veg,87.8
+2020-05,Melbourne,VIC,144.96,-37.81,Fruit & veg,85.15
+2020-06,Melbourne,VIC,144.96,-37.81,Fruit & veg,89.49
+2020-07,Melbourne,VIC,144.96,-37.81,Fruit & veg,87.67
+2020-08,Melbourne,VIC,144.96,-37.81,Fruit & veg,88.46
+2020-09,Melbourne,VIC,144.96,-37.81,Fruit & veg,85.18
+2020-10,Melbourne,VIC,144.96,-37.81,Fruit & veg,84.21
+2020-11,Melbourne,VIC,144.96,-37.81,Fruit & veg,85.91
+2020-12,Melbourne,VIC,144.96,-37.81,Fruit & veg,87.37
+2021-01,Melbourne,VIC,144.96,-37.81,Fruit & veg,86.08
+2021-02,Melbourne,VIC,144.96,-37.81,Fruit & veg,84.48
+2021-03,Melbourne,VIC,144.96,-37.81,Fruit & veg,82.53
+2021-04,Melbourne,VIC,144.96,-37.81,Fruit & veg,85.96
+2021-05,Melbourne,VIC,144.96,-37.81,Fruit & veg,90.79
+2021-06,Melbourne,VIC,144.96,-37.81,Fruit & veg,89.75
+2021-07,Melbourne,VIC,144.96,-37.81,Fruit & veg,88.44
+2021-08,Melbourne,VIC,144.96,-37.81,Fruit & veg,86.39
+2021-09,Melbourne,VIC,144.96,-37.81,Fruit & veg,83.16
+2021-10,Melbourne,VIC,144.96,-37.81,Fruit & veg,84.36
+2021-11,Melbourne,VIC,144.96,-37.81,Fruit & veg,85.21
+2021-12,Melbourne,VIC,144.96,-37.81,Fruit & veg,87.31
+2022-01,Melbourne,VIC,144.96,-37.81,Fruit & veg,88.6
+2022-02,Melbourne,VIC,144.96,-37.81,Fruit & veg,91.58
+2022-03,Melbourne,VIC,144.96,-37.81,Fruit & veg,91.84
+2022-04,Melbourne,VIC,144.96,-37.81,Fruit & veg,92.79
+2022-05,Melbourne,VIC,144.96,-37.81,Fruit & veg,95.6
+2022-06,Melbourne,VIC,144.96,-37.81,Fruit & veg,98.93
+2022-07,Melbourne,VIC,144.96,-37.81,Fruit & veg,102.19
+2022-08,Melbourne,VIC,144.96,-37.81,Fruit & veg,104.17
+2022-09,Melbourne,VIC,144.96,-37.81,Fruit & veg,96.95
+2022-10,Melbourne,VIC,144.96,-37.81,Fruit & veg,91.42
+2022-11,Melbourne,VIC,144.96,-37.81,Fruit & veg,93.41
+2022-12,Melbourne,VIC,144.96,-37.81,Fruit & veg,96.01
+2023-01,Melbourne,VIC,144.96,-37.81,Fruit & veg,93.53
+2023-02,Melbourne,VIC,144.96,-37.81,Fruit & veg,96.49
+2023-03,Melbourne,VIC,144.96,-37.81,Fruit & veg,97.16
+2023-04,Melbourne,VIC,144.96,-37.81,Fruit & veg,96.79
+2023-05,Melbourne,VIC,144.96,-37.81,Fruit & veg,98.44
+2023-06,Melbourne,VIC,144.96,-37.81,Fruit & veg,98.87
+2023-07,Melbourne,VIC,144.96,-37.81,Fruit & veg,95.7
+2023-08,Melbourne,VIC,144.96,-37.81,Fruit & veg,94.86
+2023-09,Melbourne,VIC,144.96,-37.81,Fruit & veg,91.93
+2023-10,Melbourne,VIC,144.96,-37.81,Fruit & veg,91.47
+2023-11,Melbourne,VIC,144.96,-37.81,Fruit & veg,93.41
+2023-12,Melbourne,VIC,144.96,-37.81,Fruit & veg,93.2
+2024-01,Melbourne,VIC,144.96,-37.81,Fruit & veg,94.41
+2024-02,Melbourne,VIC,144.96,-37.81,Fruit & veg,95.91
+2024-03,Melbourne,VIC,144.96,-37.81,Fruit & veg,95.85
+2024-04,Melbourne,VIC,144.96,-37.81,Fruit & veg,99.36
+2024-05,Melbourne,VIC,144.96,-37.81,Fruit & veg,102.17
+2024-06,Melbourne,VIC,144.96,-37.81,Fruit & veg,102.03
+2024-07,Melbourne,VIC,144.96,-37.81,Fruit & veg,102.8
+2024-08,Melbourne,VIC,144.96,-37.81,Fruit & veg,103.49
+2024-09,Melbourne,VIC,144.96,-37.81,Fruit & veg,99.96
+2024-10,Melbourne,VIC,144.96,-37.81,Fruit & veg,98.99
+2024-11,Melbourne,VIC,144.96,-37.81,Fruit & veg,98.48
+2024-12,Melbourne,VIC,144.96,-37.81,Fruit & veg,96.5
+2025-01,Melbourne,VIC,144.96,-37.81,Fruit & veg,100.0
+2025-02,Melbourne,VIC,144.96,-37.81,Fruit & veg,99.61
+2025-03,Melbourne,VIC,144.96,-37.81,Fruit & veg,102.52
+2025-04,Melbourne,VIC,144.96,-37.81,Fruit & veg,105.24
+2025-05,Melbourne,VIC,144.96,-37.81,Fruit & veg,103.88
+2025-06,Melbourne,VIC,144.96,-37.81,Fruit & veg,106.66
+2025-07,Melbourne,VIC,144.96,-37.81,Fruit & veg,107.94
+2025-08,Melbourne,VIC,144.96,-37.81,Fruit & veg,104.5
+2025-09,Melbourne,VIC,144.96,-37.81,Fruit & veg,100.0
+2025-10,Melbourne,VIC,144.96,-37.81,Fruit & veg,100.52
+2025-11,Melbourne,VIC,144.96,-37.81,Fruit & veg,101.51
+2025-12,Melbourne,VIC,144.96,-37.81,Fruit & veg,101.54
+2026-01,Melbourne,VIC,144.96,-37.81,Fruit & veg,101.86
+2026-02,Melbourne,VIC,144.96,-37.81,Fruit & veg,102.33
+2026-03,Melbourne,VIC,144.96,-37.81,Fruit & veg,105.23
+2026-04,Melbourne,VIC,144.96,-37.81,Fruit & veg,105.62
+2026-05,Melbourne,VIC,144.96,-37.81,Fruit & veg,106.11
+2026-06,Melbourne,VIC,144.96,-37.81,Fruit & veg,106.96
+2026-07,Melbourne,VIC,144.96,-37.81,Fruit & veg,106.2
+2026-08,Melbourne,VIC,144.96,-37.81,Fruit & veg,105.61
+2017-09,Perth,WA,115.86,-31.95,Fruit & veg,66.89
+2017-10,Perth,WA,115.86,-31.95,Fruit & veg,70.09
+2017-11,Perth,WA,115.86,-31.95,Fruit & veg,72.11
+2017-12,Perth,WA,115.86,-31.95,Fruit & veg,73.09
+2018-01,Perth,WA,115.86,-31.95,Fruit & veg,72.66
+2018-02,Perth,WA,115.86,-31.95,Fruit & veg,72.58
+2018-03,Perth,WA,115.86,-31.95,Fruit & veg,71.27
+2018-04,Perth,WA,115.86,-31.95,Fruit & veg,70.52
+2018-05,Perth,WA,115.86,-31.95,Fruit & veg,70.27
+2018-06,Perth,WA,115.86,-31.95,Fruit & veg,72.01
+2018-07,Perth,WA,115.86,-31.95,Fruit & veg,71.31
+2018-08,Perth,WA,115.86,-31.95,Fruit & veg,72.92
+2018-09,Perth,WA,115.86,-31.95,Fruit & veg,72.09
+2018-10,Perth,WA,115.86,-31.95,Fruit & veg,73.49
+2018-11,Perth,WA,115.86,-31.95,Fruit & veg,73.28
+2018-12,Perth,WA,115.86,-31.95,Fruit & veg,74.37
+2019-01,Perth,WA,115.86,-31.95,Fruit & veg,75.08
+2019-02,Perth,WA,115.86,-31.95,Fruit & veg,78.66
+2019-03,Perth,WA,115.86,-31.95,Fruit & veg,79.17
+2019-04,Perth,WA,115.86,-31.95,Fruit & veg,77.19
+2019-05,Perth,WA,115.86,-31.95,Fruit & veg,78.83
+2019-06,Perth,WA,115.86,-31.95,Fruit & veg,76.28
+2019-07,Perth,WA,115.86,-31.95,Fruit & veg,73.84
+2019-08,Perth,WA,115.86,-31.95,Fruit & veg,73.62
+2019-09,Perth,WA,115.86,-31.95,Fruit & veg,72.21
+2019-10,Perth,WA,115.86,-31.95,Fruit & veg,72.45
+2019-11,Perth,WA,115.86,-31.95,Fruit & veg,73.84
+2019-12,Perth,WA,115.86,-31.95,Fruit & veg,76.98
+2020-01,Perth,WA,115.86,-31.95,Fruit & veg,79.43
+2020-02,Perth,WA,115.86,-31.95,Fruit & veg,77.22
+2020-03,Perth,WA,115.86,-31.95,Fruit & veg,82.05
+2020-04,Perth,WA,115.86,-31.95,Fruit & veg,82.73
+2020-05,Perth,WA,115.86,-31.95,Fruit & veg,80.83
+2020-06,Perth,WA,115.86,-31.95,Fruit & veg,82.66
+2020-07,Perth,WA,115.86,-31.95,Fruit & veg,80.61
+2020-08,Perth,WA,115.86,-31.95,Fruit & veg,81.65
+2020-09,Perth,WA,115.86,-31.95,Fruit & veg,79.57
+2020-10,Perth,WA,115.86,-31.95,Fruit & veg,78.32
+2020-11,Perth,WA,115.86,-31.95,Fruit & veg,79.15
+2020-12,Perth,WA,115.86,-31.95,Fruit & veg,82.83
+2021-01,Perth,WA,115.86,-31.95,Fruit & veg,83.39
+2021-02,Perth,WA,115.86,-31.95,Fruit & veg,83.31
+2021-03,Perth,WA,115.86,-31.95,Fruit & veg,80.41
+2021-04,Perth,WA,115.86,-31.95,Fruit & veg,83.76
+2021-05,Perth,WA,115.86,-31.95,Fruit & veg,86.31
+2021-06,Perth,WA,115.86,-31.95,Fruit & veg,84.6
+2021-07,Perth,WA,115.86,-31.95,Fruit & veg,82.86
+2021-08,Perth,WA,115.86,-31.95,Fruit & veg,82.45
+2021-09,Perth,WA,115.86,-31.95,Fruit & veg,79.24
+2021-10,Perth,WA,115.86,-31.95,Fruit & veg,77.74
+2021-11,Perth,WA,115.86,-31.95,Fruit & veg,79.4
+2021-12,Perth,WA,115.86,-31.95,Fruit & veg,81.9
+2022-01,Perth,WA,115.86,-31.95,Fruit & veg,82.15
+2022-02,Perth,WA,115.86,-31.95,Fruit & veg,83.71
+2022-03,Perth,WA,115.86,-31.95,Fruit & veg,84.48
+2022-04,Perth,WA,115.86,-31.95,Fruit & veg,86.83
+2022-05,Perth,WA,115.86,-31.95,Fruit & veg,90.06
+2022-06,Perth,WA,115.86,-31.95,Fruit & veg,90.84
+2022-07,Perth,WA,115.86,-31.95,Fruit & veg,92.3
+2022-08,Perth,WA,115.86,-31.95,Fruit & veg,95.66
+2022-09,Perth,WA,115.86,-31.95,Fruit & veg,94.02
+2022-10,Perth,WA,115.86,-31.95,Fruit & veg,86.84
+2022-11,Perth,WA,115.86,-31.95,Fruit & veg,86.72
+2022-12,Perth,WA,115.86,-31.95,Fruit & veg,88.79
+2023-01,Perth,WA,115.86,-31.95,Fruit & veg,87.96
+2023-02,Perth,WA,115.86,-31.95,Fruit & veg,89.6
+2023-03,Perth,WA,115.86,-31.95,Fruit & veg,91.58
+2023-04,Perth,WA,115.86,-31.95,Fruit & veg,90.84
+2023-05,Perth,WA,115.86,-31.95,Fruit & veg,93.2
+2023-06,Perth,WA,115.86,-31.95,Fruit & veg,93.59
+2023-07,Perth,WA,115.86,-31.95,Fruit & veg,92.23
+2023-08,Perth,WA,115.86,-31.95,Fruit & veg,92.57
+2023-09,Perth,WA,115.86,-31.95,Fruit & veg,89.54
+2023-10,Perth,WA,115.86,-31.95,Fruit & veg,88.04
+2023-11,Perth,WA,115.86,-31.95,Fruit & veg,89.29
+2023-12,Perth,WA,115.86,-31.95,Fruit & veg,88.99
+2024-01,Perth,WA,115.86,-31.95,Fruit & veg,89.5
+2024-02,Perth,WA,115.86,-31.95,Fruit & veg,88.81
+2024-03,Perth,WA,115.86,-31.95,Fruit & veg,90.95
+2024-04,Perth,WA,115.86,-31.95,Fruit & veg,96.89
+2024-05,Perth,WA,115.86,-31.95,Fruit & veg,98.91
+2024-06,Perth,WA,115.86,-31.95,Fruit & veg,99.16
+2024-07,Perth,WA,115.86,-31.95,Fruit & veg,98.59
+2024-08,Perth,WA,115.86,-31.95,Fruit & veg,98.91
+2024-09,Perth,WA,115.86,-31.95,Fruit & veg,96.83
+2024-10,Perth,WA,115.86,-31.95,Fruit & veg,95.84
+2024-11,Perth,WA,115.86,-31.95,Fruit & veg,96.61
+2024-12,Perth,WA,115.86,-31.95,Fruit & veg,95.45
+2025-01,Perth,WA,115.86,-31.95,Fruit & veg,98.95
+2025-02,Perth,WA,115.86,-31.95,Fruit & veg,98.76
+2025-03,Perth,WA,115.86,-31.95,Fruit & veg,100.29
+2025-04,Perth,WA,115.86,-31.95,Fruit & veg,101.47
+2025-05,Perth,WA,115.86,-31.95,Fruit & veg,103.05
+2025-06,Perth,WA,115.86,-31.95,Fruit & veg,105.07
+2025-07,Perth,WA,115.86,-31.95,Fruit & veg,103.82
+2025-08,Perth,WA,115.86,-31.95,Fruit & veg,102.3
+2025-09,Perth,WA,115.86,-31.95,Fruit & veg,100.0
+2025-10,Perth,WA,115.86,-31.95,Fruit & veg,98.04
+2025-11,Perth,WA,115.86,-31.95,Fruit & veg,97.27
+2025-12,Perth,WA,115.86,-31.95,Fruit & veg,96.86
+2026-01,Perth,WA,115.86,-31.95,Fruit & veg,98.29
+2026-02,Perth,WA,115.86,-31.95,Fruit & veg,98.25
+2026-03,Perth,WA,115.86,-31.95,Fruit & veg,99.65
+2026-04,Perth,WA,115.86,-31.95,Fruit & veg,100.72
+2026-05,Perth,WA,115.86,-31.95,Fruit & veg,104.12
+2026-06,Perth,WA,115.86,-31.95,Fruit & veg,105.97
+2026-07,Perth,WA,115.86,-31.95,Fruit & veg,105.83
+2026-08,Perth,WA,115.86,-31.95,Fruit & veg,103.59
+2017-09,Sydney,NSW,151.21,-33.87,Fruit & veg,73.34
+2017-10,Sydney,NSW,151.21,-33.87,Fruit & veg,78.5
+2017-11,Sydney,NSW,151.21,-33.87,Fruit & veg,82.53
+2017-12,Sydney,NSW,151.21,-33.87,Fruit & veg,82.34
+2018-01,Sydney,NSW,151.21,-33.87,Fruit & veg,81.9
+2018-02,Sydney,NSW,151.21,-33.87,Fruit & veg,82.56
+2018-03,Sydney,NSW,151.21,-33.87,Fruit & veg,81.59
+2018-04,Sydney,NSW,151.21,-33.87,Fruit & veg,79.75
+2018-05,Sydney,NSW,151.21,-33.87,Fruit & veg,78.1
+2018-06,Sydney,NSW,151.21,-33.87,Fruit & veg,80.35
+2018-07,Sydney,NSW,151.21,-33.87,Fruit & veg,80.75
+2018-08,Sydney,NSW,151.21,-33.87,Fruit & veg,80.4
+2018-09,Sydney,NSW,151.21,-33.87,Fruit & veg,80.39
+2018-10,Sydney,NSW,151.21,-33.87,Fruit & veg,82.38
+2018-11,Sydney,NSW,151.21,-33.87,Fruit & veg,80.89
+2018-12,Sydney,NSW,151.21,-33.87,Fruit & veg,82.18
+2019-01,Sydney,NSW,151.21,-33.87,Fruit & veg,81.35
+2019-02,Sydney,NSW,151.21,-33.87,Fruit & veg,87.87
+2019-03,Sydney,NSW,151.21,-33.87,Fruit & veg,89.87
+2019-04,Sydney,NSW,151.21,-33.87,Fruit & veg,83.02
+2019-05,Sydney,NSW,151.21,-33.87,Fruit & veg,82.8
+2019-06,Sydney,NSW,151.21,-33.87,Fruit & veg,82.17
+2019-07,Sydney,NSW,151.21,-33.87,Fruit & veg,81.42
+2019-08,Sydney,NSW,151.21,-33.87,Fruit & veg,80.94
+2019-09,Sydney,NSW,151.21,-33.87,Fruit & veg,79.31
+2019-10,Sydney,NSW,151.21,-33.87,Fruit & veg,81.01
+2019-11,Sydney,NSW,151.21,-33.87,Fruit & veg,82.57
+2019-12,Sydney,NSW,151.21,-33.87,Fruit & veg,87.37
+2020-01,Sydney,NSW,151.21,-33.87,Fruit & veg,84.31
+2020-02,Sydney,NSW,151.21,-33.87,Fruit & veg,89.0
+2020-03,Sydney,NSW,151.21,-33.87,Fruit & veg,93.82
+2020-04,Sydney,NSW,151.21,-33.87,Fruit & veg,89.57
+2020-05,Sydney,NSW,151.21,-33.87,Fruit & veg,86.66
+2020-06,Sydney,NSW,151.21,-33.87,Fruit & veg,90.12
+2020-07,Sydney,NSW,151.21,-33.87,Fruit & veg,87.49
+2020-08,Sydney,NSW,151.21,-33.87,Fruit & veg,89.52
+2020-09,Sydney,NSW,151.21,-33.87,Fruit & veg,85.9
+2020-10,Sydney,NSW,151.21,-33.87,Fruit & veg,85.44
+2020-11,Sydney,NSW,151.21,-33.87,Fruit & veg,86.82
+2020-12,Sydney,NSW,151.21,-33.87,Fruit & veg,87.97
+2021-01,Sydney,NSW,151.21,-33.87,Fruit & veg,85.73
+2021-02,Sydney,NSW,151.21,-33.87,Fruit & veg,85.68
+2021-03,Sydney,NSW,151.21,-33.87,Fruit & veg,83.77
+2021-04,Sydney,NSW,151.21,-33.87,Fruit & veg,88.5
+2021-05,Sydney,NSW,151.21,-33.87,Fruit & veg,92.14
+2021-06,Sydney,NSW,151.21,-33.87,Fruit & veg,90.89
+2021-07,Sydney,NSW,151.21,-33.87,Fruit & veg,89.29
+2021-08,Sydney,NSW,151.21,-33.87,Fruit & veg,87.99
+2021-09,Sydney,NSW,151.21,-33.87,Fruit & veg,82.9
+2021-10,Sydney,NSW,151.21,-33.87,Fruit & veg,82.98
+2021-11,Sydney,NSW,151.21,-33.87,Fruit & veg,85.86
+2021-12,Sydney,NSW,151.21,-33.87,Fruit & veg,87.73
+2022-01,Sydney,NSW,151.21,-33.87,Fruit & veg,89.34
+2022-02,Sydney,NSW,151.21,-33.87,Fruit & veg,91.78
+2022-03,Sydney,NSW,151.21,-33.87,Fruit & veg,93.11
+2022-04,Sydney,NSW,151.21,-33.87,Fruit & veg,94.5
+2022-05,Sydney,NSW,151.21,-33.87,Fruit & veg,95.98
+2022-06,Sydney,NSW,151.21,-33.87,Fruit & veg,98.62
+2022-07,Sydney,NSW,151.21,-33.87,Fruit & veg,102.91
+2022-08,Sydney,NSW,151.21,-33.87,Fruit & veg,104.51
+2022-09,Sydney,NSW,151.21,-33.87,Fruit & veg,97.57
+2022-10,Sydney,NSW,151.21,-33.87,Fruit & veg,90.82
+2022-11,Sydney,NSW,151.21,-33.87,Fruit & veg,93.86
+2022-12,Sydney,NSW,151.21,-33.87,Fruit & veg,96.83
+2023-01,Sydney,NSW,151.21,-33.87,Fruit & veg,93.3
+2023-02,Sydney,NSW,151.21,-33.87,Fruit & veg,96.76
+2023-03,Sydney,NSW,151.21,-33.87,Fruit & veg,97.55
+2023-04,Sydney,NSW,151.21,-33.87,Fruit & veg,96.97
+2023-05,Sydney,NSW,151.21,-33.87,Fruit & veg,97.96
+2023-06,Sydney,NSW,151.21,-33.87,Fruit & veg,99.32
+2023-07,Sydney,NSW,151.21,-33.87,Fruit & veg,96.46
+2023-08,Sydney,NSW,151.21,-33.87,Fruit & veg,94.18
+2023-09,Sydney,NSW,151.21,-33.87,Fruit & veg,91.19
+2023-10,Sydney,NSW,151.21,-33.87,Fruit & veg,91.61
+2023-11,Sydney,NSW,151.21,-33.87,Fruit & veg,93.92
+2023-12,Sydney,NSW,151.21,-33.87,Fruit & veg,93.71
+2024-01,Sydney,NSW,151.21,-33.87,Fruit & veg,94.28
+2024-02,Sydney,NSW,151.21,-33.87,Fruit & veg,95.88
+2024-03,Sydney,NSW,151.21,-33.87,Fruit & veg,96.21
+2024-04,Sydney,NSW,151.21,-33.87,Fruit & veg,99.68
+2024-05,Sydney,NSW,151.21,-33.87,Fruit & veg,101.95
+2024-06,Sydney,NSW,151.21,-33.87,Fruit & veg,102.65
+2024-07,Sydney,NSW,151.21,-33.87,Fruit & veg,103.67
+2024-08,Sydney,NSW,151.21,-33.87,Fruit & veg,104.42
+2024-09,Sydney,NSW,151.21,-33.87,Fruit & veg,99.85
+2024-10,Sydney,NSW,151.21,-33.87,Fruit & veg,99.39
+2024-11,Sydney,NSW,151.21,-33.87,Fruit & veg,99.45
+2024-12,Sydney,NSW,151.21,-33.87,Fruit & veg,97.94
+2025-01,Sydney,NSW,151.21,-33.87,Fruit & veg,101.03
+2025-02,Sydney,NSW,151.21,-33.87,Fruit & veg,100.12
+2025-03,Sydney,NSW,151.21,-33.87,Fruit & veg,102.78
+2025-04,Sydney,NSW,151.21,-33.87,Fruit & veg,105.83
+2025-05,Sydney,NSW,151.21,-33.87,Fruit & veg,104.69
+2025-06,Sydney,NSW,151.21,-33.87,Fruit & veg,106.99
+2025-07,Sydney,NSW,151.21,-33.87,Fruit & veg,108.14
+2025-08,Sydney,NSW,151.21,-33.87,Fruit & veg,104.94
+2025-09,Sydney,NSW,151.21,-33.87,Fruit & veg,100.0
+2025-10,Sydney,NSW,151.21,-33.87,Fruit & veg,101.14
+2025-11,Sydney,NSW,151.21,-33.87,Fruit & veg,102.15
+2025-12,Sydney,NSW,151.21,-33.87,Fruit & veg,102.22
+2026-01,Sydney,NSW,151.21,-33.87,Fruit & veg,102.88
+2026-02,Sydney,NSW,151.21,-33.87,Fruit & veg,102.57
+2026-03,Sydney,NSW,151.21,-33.87,Fruit & veg,105.29
+2026-04,Sydney,NSW,151.21,-33.87,Fruit & veg,106.29
+2026-05,Sydney,NSW,151.21,-33.87,Fruit & veg,107.37
+2026-06,Sydney,NSW,151.21,-33.87,Fruit & veg,108.48
+2026-07,Sydney,NSW,151.21,-33.87,Fruit & veg,106.56
+2026-08,Sydney,NSW,151.21,-33.87,Fruit & veg,105.39
+2017-09,Adelaide,SA,138.6,-34.93,Meat & seafood,72.75
+2017-10,Adelaide,SA,138.6,-34.93,Meat & seafood,72.82
+2017-11,Adelaide,SA,138.6,-34.93,Meat & seafood,73.23
+2017-12,Adelaide,SA,138.6,-34.93,Meat & seafood,72.86
+2018-01,Adelaide,SA,138.6,-34.93,Meat & seafood,73.27
+2018-02,Adelaide,SA,138.6,-34.93,Meat & seafood,72.97
+2018-03,Adelaide,SA,138.6,-34.93,Meat & seafood,73.06
+2018-04,Adelaide,SA,138.6,-34.93,Meat & seafood,73.69
+2018-05,Adelaide,SA,138.6,-34.93,Meat & seafood,73.24
+2018-06,Adelaide,SA,138.6,-34.93,Meat & seafood,73.23
+2018-07,Adelaide,SA,138.6,-34.93,Meat & seafood,73.29
+2018-08,Adelaide,SA,138.6,-34.93,Meat & seafood,73.78
+2018-09,Adelaide,SA,138.6,-34.93,Meat & seafood,74.06
+2018-10,Adelaide,SA,138.6,-34.93,Meat & seafood,74.36
+2018-11,Adelaide,SA,138.6,-34.93,Meat & seafood,74.79
+2018-12,Adelaide,SA,138.6,-34.93,Meat & seafood,75.25
+2019-01,Adelaide,SA,138.6,-34.93,Meat & seafood,75.73
+2019-02,Adelaide,SA,138.6,-34.93,Meat & seafood,76.14
+2019-03,Adelaide,SA,138.6,-34.93,Meat & seafood,75.91
+2019-04,Adelaide,SA,138.6,-34.93,Meat & seafood,75.91
+2019-05,Adelaide,SA,138.6,-34.93,Meat & seafood,76.62
+2019-06,Adelaide,SA,138.6,-34.93,Meat & seafood,77.31
+2019-07,Adelaide,SA,138.6,-34.93,Meat & seafood,77.95
+2019-08,Adelaide,SA,138.6,-34.93,Meat & seafood,78.67
+2019-09,Adelaide,SA,138.6,-34.93,Meat & seafood,79.32
+2019-10,Adelaide,SA,138.6,-34.93,Meat & seafood,79.91
+2019-11,Adelaide,SA,138.6,-34.93,Meat & seafood,80.17
+2019-12,Adelaide,SA,138.6,-34.93,Meat & seafood,81.16
+2020-01,Adelaide,SA,138.6,-34.93,Meat & seafood,81.73
+2020-02,Adelaide,SA,138.6,-34.93,Meat & seafood,81.99
+2020-03,Adelaide,SA,138.6,-34.93,Meat & seafood,84.56
+2020-04,Adelaide,SA,138.6,-34.93,Meat & seafood,84.08
+2020-05,Adelaide,SA,138.6,-34.93,Meat & seafood,84.6
+2020-06,Adelaide,SA,138.6,-34.93,Meat & seafood,84.73
+2020-07,Adelaide,SA,138.6,-34.93,Meat & seafood,85.27
+2020-08,Adelaide,SA,138.6,-34.93,Meat & seafood,85.74
+2020-09,Adelaide,SA,138.6,-34.93,Meat & seafood,85.31
+2020-10,Adelaide,SA,138.6,-34.93,Meat & seafood,85.05
+2020-11,Adelaide,SA,138.6,-34.93,Meat & seafood,85.29
+2020-12,Adelaide,SA,138.6,-34.93,Meat & seafood,86.16
+2021-01,Adelaide,SA,138.6,-34.93,Meat & seafood,86.81
+2021-02,Adelaide,SA,138.6,-34.93,Meat & seafood,86.55
+2021-03,Adelaide,SA,138.6,-34.93,Meat & seafood,86.64
+2021-04,Adelaide,SA,138.6,-34.93,Meat & seafood,87.12
+2021-05,Adelaide,SA,138.6,-34.93,Meat & seafood,87.33
+2021-06,Adelaide,SA,138.6,-34.93,Meat & seafood,87.09
+2021-07,Adelaide,SA,138.6,-34.93,Meat & seafood,87.57
+2021-08,Adelaide,SA,138.6,-34.93,Meat & seafood,87.59
+2021-09,Adelaide,SA,138.6,-34.93,Meat & seafood,87.64
+2021-10,Adelaide,SA,138.6,-34.93,Meat & seafood,87.42
+2021-11,Adelaide,SA,138.6,-34.93,Meat & seafood,87.91
+2021-12,Adelaide,SA,138.6,-34.93,Meat & seafood,88.6
+2022-01,Adelaide,SA,138.6,-34.93,Meat & seafood,91.14
+2022-02,Adelaide,SA,138.6,-34.93,Meat & seafood,92.41
+2022-03,Adelaide,SA,138.6,-34.93,Meat & seafood,92.13
+2022-04,Adelaide,SA,138.6,-34.93,Meat & seafood,92.35
+2022-05,Adelaide,SA,138.6,-34.93,Meat & seafood,93.06
+2022-06,Adelaide,SA,138.6,-34.93,Meat & seafood,93.32
+2022-07,Adelaide,SA,138.6,-34.93,Meat & seafood,94.0
+2022-08,Adelaide,SA,138.6,-34.93,Meat & seafood,93.96
+2022-09,Adelaide,SA,138.6,-34.93,Meat & seafood,94.47
+2022-10,Adelaide,SA,138.6,-34.93,Meat & seafood,94.12
+2022-11,Adelaide,SA,138.6,-34.93,Meat & seafood,95.04
+2022-12,Adelaide,SA,138.6,-34.93,Meat & seafood,95.9
+2023-01,Adelaide,SA,138.6,-34.93,Meat & seafood,95.66
+2023-02,Adelaide,SA,138.6,-34.93,Meat & seafood,96.22
+2023-03,Adelaide,SA,138.6,-34.93,Meat & seafood,96.18
+2023-04,Adelaide,SA,138.6,-34.93,Meat & seafood,95.97
+2023-05,Adelaide,SA,138.6,-34.93,Meat & seafood,96.52
+2023-06,Adelaide,SA,138.6,-34.93,Meat & seafood,95.6
+2023-07,Adelaide,SA,138.6,-34.93,Meat & seafood,96.17
+2023-08,Adelaide,SA,138.6,-34.93,Meat & seafood,96.49
+2023-09,Adelaide,SA,138.6,-34.93,Meat & seafood,96.07
+2023-10,Adelaide,SA,138.6,-34.93,Meat & seafood,96.07
+2023-11,Adelaide,SA,138.6,-34.93,Meat & seafood,95.34
+2023-12,Adelaide,SA,138.6,-34.93,Meat & seafood,93.89
+2024-01,Adelaide,SA,138.6,-34.93,Meat & seafood,94.24
+2024-02,Adelaide,SA,138.6,-34.93,Meat & seafood,94.09
+2024-03,Adelaide,SA,138.6,-34.93,Meat & seafood,95.06
+2024-04,Adelaide,SA,138.6,-34.93,Meat & seafood,95.57
+2024-05,Adelaide,SA,138.6,-34.93,Meat & seafood,95.61
+2024-06,Adelaide,SA,138.6,-34.93,Meat & seafood,95.38
+2024-07,Adelaide,SA,138.6,-34.93,Meat & seafood,96.17
+2024-08,Adelaide,SA,138.6,-34.93,Meat & seafood,96.49
+2024-09,Adelaide,SA,138.6,-34.93,Meat & seafood,96.46
+2024-10,Adelaide,SA,138.6,-34.93,Meat & seafood,96.98
+2024-11,Adelaide,SA,138.6,-34.93,Meat & seafood,97.17
+2024-12,Adelaide,SA,138.6,-34.93,Meat & seafood,97.59
+2025-01,Adelaide,SA,138.6,-34.93,Meat & seafood,98.11
+2025-02,Adelaide,SA,138.6,-34.93,Meat & seafood,98.26
+2025-03,Adelaide,SA,138.6,-34.93,Meat & seafood,98.53
+2025-04,Adelaide,SA,138.6,-34.93,Meat & seafood,98.0
+2025-05,Adelaide,SA,138.6,-34.93,Meat & seafood,98.52
+2025-06,Adelaide,SA,138.6,-34.93,Meat & seafood,98.52
+2025-07,Adelaide,SA,138.6,-34.93,Meat & seafood,98.74
+2025-08,Adelaide,SA,138.6,-34.93,Meat & seafood,99.41
+2025-09,Adelaide,SA,138.6,-34.93,Meat & seafood,100.0
+2025-10,Adelaide,SA,138.6,-34.93,Meat & seafood,100.76
+2025-11,Adelaide,SA,138.6,-34.93,Meat & seafood,101.26
+2025-12,Adelaide,SA,138.6,-34.93,Meat & seafood,101.75
+2026-01,Adelaide,SA,138.6,-34.93,Meat & seafood,101.81
+2026-02,Adelaide,SA,138.6,-34.93,Meat & seafood,102.56
+2026-03,Adelaide,SA,138.6,-34.93,Meat & seafood,102.94
+2026-04,Adelaide,SA,138.6,-34.93,Meat & seafood,102.6
+2026-05,Adelaide,SA,138.6,-34.93,Meat & seafood,103.81
+2026-06,Adelaide,SA,138.6,-34.93,Meat & seafood,103.5
+2026-07,Adelaide,SA,138.6,-34.93,Meat & seafood,103.5
+2026-08,Adelaide,SA,138.6,-34.93,Meat & seafood,102.62
+2017-09,Brisbane,QLD,153.03,-27.47,Meat & seafood,75.19
+2017-10,Brisbane,QLD,153.03,-27.47,Meat & seafood,75.39
+2017-11,Brisbane,QLD,153.03,-27.47,Meat & seafood,75.72
+2017-12,Brisbane,QLD,153.03,-27.47,Meat & seafood,75.14
+2018-01,Brisbane,QLD,153.03,-27.47,Meat & seafood,75.82
+2018-02,Brisbane,QLD,153.03,-27.47,Meat & seafood,75.69
+2018-03,Brisbane,QLD,153.03,-27.47,Meat & seafood,75.49
+2018-04,Brisbane,QLD,153.03,-27.47,Meat & seafood,75.87
+2018-05,Brisbane,QLD,153.03,-27.47,Meat & seafood,75.51
+2018-06,Brisbane,QLD,153.03,-27.47,Meat & seafood,75.29
+2018-07,Brisbane,QLD,153.03,-27.47,Meat & seafood,75.36
+2018-08,Brisbane,QLD,153.03,-27.47,Meat & seafood,76.08
+2018-09,Brisbane,QLD,153.03,-27.47,Meat & seafood,76.35
+2018-10,Brisbane,QLD,153.03,-27.47,Meat & seafood,76.79
+2018-11,Brisbane,QLD,153.03,-27.47,Meat & seafood,77.21
+2018-12,Brisbane,QLD,153.03,-27.47,Meat & seafood,77.36
+2019-01,Brisbane,QLD,153.03,-27.47,Meat & seafood,78.4
+2019-02,Brisbane,QLD,153.03,-27.47,Meat & seafood,78.69
+2019-03,Brisbane,QLD,153.03,-27.47,Meat & seafood,78.46
+2019-04,Brisbane,QLD,153.03,-27.47,Meat & seafood,78.31
+2019-05,Brisbane,QLD,153.03,-27.47,Meat & seafood,78.68
+2019-06,Brisbane,QLD,153.03,-27.47,Meat & seafood,78.99
+2019-07,Brisbane,QLD,153.03,-27.47,Meat & seafood,79.31
+2019-08,Brisbane,QLD,153.03,-27.47,Meat & seafood,80.03
+2019-09,Brisbane,QLD,153.03,-27.47,Meat & seafood,80.88
+2019-10,Brisbane,QLD,153.03,-27.47,Meat & seafood,81.74
+2019-11,Brisbane,QLD,153.03,-27.47,Meat & seafood,81.46
+2019-12,Brisbane,QLD,153.03,-27.47,Meat & seafood,81.96
+2020-01,Brisbane,QLD,153.03,-27.47,Meat & seafood,82.58
+2020-02,Brisbane,QLD,153.03,-27.47,Meat & seafood,82.29
+2020-03,Brisbane,QLD,153.03,-27.47,Meat & seafood,84.64
+2020-04,Brisbane,QLD,153.03,-27.47,Meat & seafood,83.51
+2020-05,Brisbane,QLD,153.03,-27.47,Meat & seafood,84.45
+2020-06,Brisbane,QLD,153.03,-27.47,Meat & seafood,84.55
+2020-07,Brisbane,QLD,153.03,-27.47,Meat & seafood,85.01
+2020-08,Brisbane,QLD,153.03,-27.47,Meat & seafood,85.35
+2020-09,Brisbane,QLD,153.03,-27.47,Meat & seafood,85.27
+2020-10,Brisbane,QLD,153.03,-27.47,Meat & seafood,84.75
+2020-11,Brisbane,QLD,153.03,-27.47,Meat & seafood,85.52
+2020-12,Brisbane,QLD,153.03,-27.47,Meat & seafood,86.54
+2021-01,Brisbane,QLD,153.03,-27.47,Meat & seafood,86.57
+2021-02,Brisbane,QLD,153.03,-27.47,Meat & seafood,86.4
+2021-03,Brisbane,QLD,153.03,-27.47,Meat & seafood,86.86
+2021-04,Brisbane,QLD,153.03,-27.47,Meat & seafood,87.37
+2021-05,Brisbane,QLD,153.03,-27.47,Meat & seafood,87.43
+2021-06,Brisbane,QLD,153.03,-27.47,Meat & seafood,87.19
+2021-07,Brisbane,QLD,153.03,-27.47,Meat & seafood,87.44
+2021-08,Brisbane,QLD,153.03,-27.47,Meat & seafood,87.73
+2021-09,Brisbane,QLD,153.03,-27.47,Meat & seafood,87.48
+2021-10,Brisbane,QLD,153.03,-27.47,Meat & seafood,87.43
+2021-11,Brisbane,QLD,153.03,-27.47,Meat & seafood,87.71
+2021-12,Brisbane,QLD,153.03,-27.47,Meat & seafood,88.25
+2022-01,Brisbane,QLD,153.03,-27.47,Meat & seafood,91.12
+2022-02,Brisbane,QLD,153.03,-27.47,Meat & seafood,93.12
+2022-03,Brisbane,QLD,153.03,-27.47,Meat & seafood,92.13
+2022-04,Brisbane,QLD,153.03,-27.47,Meat & seafood,91.85
+2022-05,Brisbane,QLD,153.03,-27.47,Meat & seafood,92.84
+2022-06,Brisbane,QLD,153.03,-27.47,Meat & seafood,92.86
+2022-07,Brisbane,QLD,153.03,-27.47,Meat & seafood,93.77
+2022-08,Brisbane,QLD,153.03,-27.47,Meat & seafood,94.04
+2022-09,Brisbane,QLD,153.03,-27.47,Meat & seafood,94.32
+2022-10,Brisbane,QLD,153.03,-27.47,Meat & seafood,94.3
+2022-11,Brisbane,QLD,153.03,-27.47,Meat & seafood,94.51
+2022-12,Brisbane,QLD,153.03,-27.47,Meat & seafood,95.5
+2023-01,Brisbane,QLD,153.03,-27.47,Meat & seafood,95.8
+2023-02,Brisbane,QLD,153.03,-27.47,Meat & seafood,96.09
+2023-03,Brisbane,QLD,153.03,-27.47,Meat & seafood,95.97
+2023-04,Brisbane,QLD,153.03,-27.47,Meat & seafood,96.04
+2023-05,Brisbane,QLD,153.03,-27.47,Meat & seafood,96.45
+2023-06,Brisbane,QLD,153.03,-27.47,Meat & seafood,95.37
+2023-07,Brisbane,QLD,153.03,-27.47,Meat & seafood,95.8
+2023-08,Brisbane,QLD,153.03,-27.47,Meat & seafood,96.45
+2023-09,Brisbane,QLD,153.03,-27.47,Meat & seafood,95.95
+2023-10,Brisbane,QLD,153.03,-27.47,Meat & seafood,96.27
+2023-11,Brisbane,QLD,153.03,-27.47,Meat & seafood,95.48
+2023-12,Brisbane,QLD,153.03,-27.47,Meat & seafood,94.23
+2024-01,Brisbane,QLD,153.03,-27.47,Meat & seafood,94.2
+2024-02,Brisbane,QLD,153.03,-27.47,Meat & seafood,94.34
+2024-03,Brisbane,QLD,153.03,-27.47,Meat & seafood,95.12
+2024-04,Brisbane,QLD,153.03,-27.47,Meat & seafood,95.22
+2024-05,Brisbane,QLD,153.03,-27.47,Meat & seafood,95.66
+2024-06,Brisbane,QLD,153.03,-27.47,Meat & seafood,95.05
+2024-07,Brisbane,QLD,153.03,-27.47,Meat & seafood,96.09
+2024-08,Brisbane,QLD,153.03,-27.47,Meat & seafood,96.83
+2024-09,Brisbane,QLD,153.03,-27.47,Meat & seafood,96.54
+2024-10,Brisbane,QLD,153.03,-27.47,Meat & seafood,97.33
+2024-11,Brisbane,QLD,153.03,-27.47,Meat & seafood,97.45
+2024-12,Brisbane,QLD,153.03,-27.47,Meat & seafood,97.82
+2025-01,Brisbane,QLD,153.03,-27.47,Meat & seafood,98.42
+2025-02,Brisbane,QLD,153.03,-27.47,Meat & seafood,98.12
+2025-03,Brisbane,QLD,153.03,-27.47,Meat & seafood,98.96
+2025-04,Brisbane,QLD,153.03,-27.47,Meat & seafood,97.85
+2025-05,Brisbane,QLD,153.03,-27.47,Meat & seafood,98.65
+2025-06,Brisbane,QLD,153.03,-27.47,Meat & seafood,98.47
+2025-07,Brisbane,QLD,153.03,-27.47,Meat & seafood,98.56
+2025-08,Brisbane,QLD,153.03,-27.47,Meat & seafood,99.4
+2025-09,Brisbane,QLD,153.03,-27.47,Meat & seafood,100.0
+2025-10,Brisbane,QLD,153.03,-27.47,Meat & seafood,100.87
+2025-11,Brisbane,QLD,153.03,-27.47,Meat & seafood,101.18
+2025-12,Brisbane,QLD,153.03,-27.47,Meat & seafood,101.52
+2026-01,Brisbane,QLD,153.03,-27.47,Meat & seafood,102.03
+2026-02,Brisbane,QLD,153.03,-27.47,Meat & seafood,102.83
+2026-03,Brisbane,QLD,153.03,-27.47,Meat & seafood,103.2
+2026-04,Brisbane,QLD,153.03,-27.47,Meat & seafood,102.88
+2026-05,Brisbane,QLD,153.03,-27.47,Meat & seafood,103.86
+2026-06,Brisbane,QLD,153.03,-27.47,Meat & seafood,103.96
+2026-07,Brisbane,QLD,153.03,-27.47,Meat & seafood,104.11
+2026-08,Brisbane,QLD,153.03,-27.47,Meat & seafood,103.05
+2017-09,Canberra,ACT,149.13,-35.28,Meat & seafood,76.12
+2017-10,Canberra,ACT,149.13,-35.28,Meat & seafood,76.4
+2017-11,Canberra,ACT,149.13,-35.28,Meat & seafood,76.57
+2017-12,Canberra,ACT,149.13,-35.28,Meat & seafood,76.32
+2018-01,Canberra,ACT,149.13,-35.28,Meat & seafood,76.91
+2018-02,Canberra,ACT,149.13,-35.28,Meat & seafood,76.52
+2018-03,Canberra,ACT,149.13,-35.28,Meat & seafood,76.28
+2018-04,Canberra,ACT,149.13,-35.28,Meat & seafood,76.69
+2018-05,Canberra,ACT,149.13,-35.28,Meat & seafood,76.19
+2018-06,Canberra,ACT,149.13,-35.28,Meat & seafood,76.34
+2018-07,Canberra,ACT,149.13,-35.28,Meat & seafood,76.62
+2018-08,Canberra,ACT,149.13,-35.28,Meat & seafood,77.29
+2018-09,Canberra,ACT,149.13,-35.28,Meat & seafood,77.52
+2018-10,Canberra,ACT,149.13,-35.28,Meat & seafood,78.07
+2018-11,Canberra,ACT,149.13,-35.28,Meat & seafood,78.29
+2018-12,Canberra,ACT,149.13,-35.28,Meat & seafood,78.62
+2019-01,Canberra,ACT,149.13,-35.28,Meat & seafood,79.9
+2019-02,Canberra,ACT,149.13,-35.28,Meat & seafood,80.6
+2019-03,Canberra,ACT,149.13,-35.28,Meat & seafood,80.07
+2019-04,Canberra,ACT,149.13,-35.28,Meat & seafood,79.6
+2019-05,Canberra,ACT,149.13,-35.28,Meat & seafood,80.23
+2019-06,Canberra,ACT,149.13,-35.28,Meat & seafood,80.48
+2019-07,Canberra,ACT,149.13,-35.28,Meat & seafood,80.58
+2019-08,Canberra,ACT,149.13,-35.28,Meat & seafood,81.51
+2019-09,Canberra,ACT,149.13,-35.28,Meat & seafood,82.3
+2019-10,Canberra,ACT,149.13,-35.28,Meat & seafood,82.51
+2019-11,Canberra,ACT,149.13,-35.28,Meat & seafood,82.27
+2019-12,Canberra,ACT,149.13,-35.28,Meat & seafood,83.02
+2020-01,Canberra,ACT,149.13,-35.28,Meat & seafood,83.76
+2020-02,Canberra,ACT,149.13,-35.28,Meat & seafood,83.53
+2020-03,Canberra,ACT,149.13,-35.28,Meat & seafood,85.66
+2020-04,Canberra,ACT,149.13,-35.28,Meat & seafood,84.52
+2020-05,Canberra,ACT,149.13,-35.28,Meat & seafood,85.0
+2020-06,Canberra,ACT,149.13,-35.28,Meat & seafood,85.22
+2020-07,Canberra,ACT,149.13,-35.28,Meat & seafood,85.61
+2020-08,Canberra,ACT,149.13,-35.28,Meat & seafood,86.02
+2020-09,Canberra,ACT,149.13,-35.28,Meat & seafood,85.6
+2020-10,Canberra,ACT,149.13,-35.28,Meat & seafood,85.73
+2020-11,Canberra,ACT,149.13,-35.28,Meat & seafood,86.37
+2020-12,Canberra,ACT,149.13,-35.28,Meat & seafood,87.26
+2021-01,Canberra,ACT,149.13,-35.28,Meat & seafood,87.47
+2021-02,Canberra,ACT,149.13,-35.28,Meat & seafood,87.36
+2021-03,Canberra,ACT,149.13,-35.28,Meat & seafood,87.58
+2021-04,Canberra,ACT,149.13,-35.28,Meat & seafood,87.94
+2021-05,Canberra,ACT,149.13,-35.28,Meat & seafood,88.02
+2021-06,Canberra,ACT,149.13,-35.28,Meat & seafood,88.08
+2021-07,Canberra,ACT,149.13,-35.28,Meat & seafood,88.13
+2021-08,Canberra,ACT,149.13,-35.28,Meat & seafood,88.34
+2021-09,Canberra,ACT,149.13,-35.28,Meat & seafood,88.14
+2021-10,Canberra,ACT,149.13,-35.28,Meat & seafood,87.89
+2021-11,Canberra,ACT,149.13,-35.28,Meat & seafood,88.01
+2021-12,Canberra,ACT,149.13,-35.28,Meat & seafood,88.74
+2022-01,Canberra,ACT,149.13,-35.28,Meat & seafood,91.66
+2022-02,Canberra,ACT,149.13,-35.28,Meat & seafood,93.69
+2022-03,Canberra,ACT,149.13,-35.28,Meat & seafood,92.19
+2022-04,Canberra,ACT,149.13,-35.28,Meat & seafood,92.55
+2022-05,Canberra,ACT,149.13,-35.28,Meat & seafood,93.41
+2022-06,Canberra,ACT,149.13,-35.28,Meat & seafood,93.35
+2022-07,Canberra,ACT,149.13,-35.28,Meat & seafood,94.24
+2022-08,Canberra,ACT,149.13,-35.28,Meat & seafood,94.66
+2022-09,Canberra,ACT,149.13,-35.28,Meat & seafood,94.79
+2022-10,Canberra,ACT,149.13,-35.28,Meat & seafood,94.82
+2022-11,Canberra,ACT,149.13,-35.28,Meat & seafood,95.49
+2022-12,Canberra,ACT,149.13,-35.28,Meat & seafood,95.96
+2023-01,Canberra,ACT,149.13,-35.28,Meat & seafood,96.15
+2023-02,Canberra,ACT,149.13,-35.28,Meat & seafood,96.27
+2023-03,Canberra,ACT,149.13,-35.28,Meat & seafood,96.12
+2023-04,Canberra,ACT,149.13,-35.28,Meat & seafood,96.56
+2023-05,Canberra,ACT,149.13,-35.28,Meat & seafood,96.84
+2023-06,Canberra,ACT,149.13,-35.28,Meat & seafood,95.76
+2023-07,Canberra,ACT,149.13,-35.28,Meat & seafood,96.37
+2023-08,Canberra,ACT,149.13,-35.28,Meat & seafood,96.73
+2023-09,Canberra,ACT,149.13,-35.28,Meat & seafood,95.98
+2023-10,Canberra,ACT,149.13,-35.28,Meat & seafood,96.04
+2023-11,Canberra,ACT,149.13,-35.28,Meat & seafood,95.19
+2023-12,Canberra,ACT,149.13,-35.28,Meat & seafood,93.87
+2024-01,Canberra,ACT,149.13,-35.28,Meat & seafood,93.93
+2024-02,Canberra,ACT,149.13,-35.28,Meat & seafood,94.2
+2024-03,Canberra,ACT,149.13,-35.28,Meat & seafood,94.96
+2024-04,Canberra,ACT,149.13,-35.28,Meat & seafood,95.24
+2024-05,Canberra,ACT,149.13,-35.28,Meat & seafood,95.69
+2024-06,Canberra,ACT,149.13,-35.28,Meat & seafood,95.27
+2024-07,Canberra,ACT,149.13,-35.28,Meat & seafood,96.27
+2024-08,Canberra,ACT,149.13,-35.28,Meat & seafood,96.83
+2024-09,Canberra,ACT,149.13,-35.28,Meat & seafood,96.83
+2024-10,Canberra,ACT,149.13,-35.28,Meat & seafood,97.31
+2024-11,Canberra,ACT,149.13,-35.28,Meat & seafood,97.51
+2024-12,Canberra,ACT,149.13,-35.28,Meat & seafood,97.32
+2025-01,Canberra,ACT,149.13,-35.28,Meat & seafood,98.71
+2025-02,Canberra,ACT,149.13,-35.28,Meat & seafood,98.52
+2025-03,Canberra,ACT,149.13,-35.28,Meat & seafood,98.61
+2025-04,Canberra,ACT,149.13,-35.28,Meat & seafood,98.22
+2025-05,Canberra,ACT,149.13,-35.28,Meat & seafood,98.67
+2025-06,Canberra,ACT,149.13,-35.28,Meat & seafood,98.38
+2025-07,Canberra,ACT,149.13,-35.28,Meat & seafood,98.47
+2025-08,Canberra,ACT,149.13,-35.28,Meat & seafood,99.47
+2025-09,Canberra,ACT,149.13,-35.28,Meat & seafood,100.0
+2025-10,Canberra,ACT,149.13,-35.28,Meat & seafood,100.73
+2025-11,Canberra,ACT,149.13,-35.28,Meat & seafood,101.02
+2025-12,Canberra,ACT,149.13,-35.28,Meat & seafood,101.39
+2026-01,Canberra,ACT,149.13,-35.28,Meat & seafood,102.02
+2026-02,Canberra,ACT,149.13,-35.28,Meat & seafood,102.51
+2026-03,Canberra,ACT,149.13,-35.28,Meat & seafood,103.22
+2026-04,Canberra,ACT,149.13,-35.28,Meat & seafood,102.8
+2026-05,Canberra,ACT,149.13,-35.28,Meat & seafood,103.97
+2026-06,Canberra,ACT,149.13,-35.28,Meat & seafood,103.81
+2026-07,Canberra,ACT,149.13,-35.28,Meat & seafood,104.24
+2026-08,Canberra,ACT,149.13,-35.28,Meat & seafood,103.17
+2017-09,Darwin,NT,130.84,-12.46,Meat & seafood,76.54
+2017-10,Darwin,NT,130.84,-12.46,Meat & seafood,76.87
+2017-11,Darwin,NT,130.84,-12.46,Meat & seafood,77.23
+2017-12,Darwin,NT,130.84,-12.46,Meat & seafood,76.05
+2018-01,Darwin,NT,130.84,-12.46,Meat & seafood,76.81
+2018-02,Darwin,NT,130.84,-12.46,Meat & seafood,76.94
+2018-03,Darwin,NT,130.84,-12.46,Meat & seafood,76.69
+2018-04,Darwin,NT,130.84,-12.46,Meat & seafood,77.29
+2018-05,Darwin,NT,130.84,-12.46,Meat & seafood,76.93
+2018-06,Darwin,NT,130.84,-12.46,Meat & seafood,76.88
+2018-07,Darwin,NT,130.84,-12.46,Meat & seafood,76.88
+2018-08,Darwin,NT,130.84,-12.46,Meat & seafood,77.32
+2018-09,Darwin,NT,130.84,-12.46,Meat & seafood,77.58
+2018-10,Darwin,NT,130.84,-12.46,Meat & seafood,78.23
+2018-11,Darwin,NT,130.84,-12.46,Meat & seafood,79.04
+2018-12,Darwin,NT,130.84,-12.46,Meat & seafood,78.97
+2019-01,Darwin,NT,130.84,-12.46,Meat & seafood,80.46
+2019-02,Darwin,NT,130.84,-12.46,Meat & seafood,81.0
+2019-03,Darwin,NT,130.84,-12.46,Meat & seafood,80.53
+2019-04,Darwin,NT,130.84,-12.46,Meat & seafood,80.1
+2019-05,Darwin,NT,130.84,-12.46,Meat & seafood,80.93
+2019-06,Darwin,NT,130.84,-12.46,Meat & seafood,81.32
+2019-07,Darwin,NT,130.84,-12.46,Meat & seafood,81.43
+2019-08,Darwin,NT,130.84,-12.46,Meat & seafood,81.93
+2019-09,Darwin,NT,130.84,-12.46,Meat & seafood,82.84
+2019-10,Darwin,NT,130.84,-12.46,Meat & seafood,83.65
+2019-11,Darwin,NT,130.84,-12.46,Meat & seafood,82.94
+2019-12,Darwin,NT,130.84,-12.46,Meat & seafood,83.58
+2020-01,Darwin,NT,130.84,-12.46,Meat & seafood,83.79
+2020-02,Darwin,NT,130.84,-12.46,Meat & seafood,83.85
+2020-03,Darwin,NT,130.84,-12.46,Meat & seafood,86.77
+2020-04,Darwin,NT,130.84,-12.46,Meat & seafood,83.96
+2020-05,Darwin,NT,130.84,-12.46,Meat & seafood,85.34
+2020-06,Darwin,NT,130.84,-12.46,Meat & seafood,85.2
+2020-07,Darwin,NT,130.84,-12.46,Meat & seafood,85.66
+2020-08,Darwin,NT,130.84,-12.46,Meat & seafood,86.07
+2020-09,Darwin,NT,130.84,-12.46,Meat & seafood,86.25
+2020-10,Darwin,NT,130.84,-12.46,Meat & seafood,85.92
+2020-11,Darwin,NT,130.84,-12.46,Meat & seafood,86.96
+2020-12,Darwin,NT,130.84,-12.46,Meat & seafood,87.44
+2021-01,Darwin,NT,130.84,-12.46,Meat & seafood,88.0
+2021-02,Darwin,NT,130.84,-12.46,Meat & seafood,87.72
+2021-03,Darwin,NT,130.84,-12.46,Meat & seafood,87.85
+2021-04,Darwin,NT,130.84,-12.46,Meat & seafood,88.37
+2021-05,Darwin,NT,130.84,-12.46,Meat & seafood,88.27
+2021-06,Darwin,NT,130.84,-12.46,Meat & seafood,88.87
+2021-07,Darwin,NT,130.84,-12.46,Meat & seafood,89.24
+2021-08,Darwin,NT,130.84,-12.46,Meat & seafood,89.55
+2021-09,Darwin,NT,130.84,-12.46,Meat & seafood,88.36
+2021-10,Darwin,NT,130.84,-12.46,Meat & seafood,88.6
+2021-11,Darwin,NT,130.84,-12.46,Meat & seafood,89.75
+2021-12,Darwin,NT,130.84,-12.46,Meat & seafood,89.77
+2022-01,Darwin,NT,130.84,-12.46,Meat & seafood,93.96
+2022-02,Darwin,NT,130.84,-12.46,Meat & seafood,93.6
+2022-03,Darwin,NT,130.84,-12.46,Meat & seafood,92.36
+2022-04,Darwin,NT,130.84,-12.46,Meat & seafood,93.26
+2022-05,Darwin,NT,130.84,-12.46,Meat & seafood,94.18
+2022-06,Darwin,NT,130.84,-12.46,Meat & seafood,94.63
+2022-07,Darwin,NT,130.84,-12.46,Meat & seafood,95.88
+2022-08,Darwin,NT,130.84,-12.46,Meat & seafood,95.66
+2022-09,Darwin,NT,130.84,-12.46,Meat & seafood,95.34
+2022-10,Darwin,NT,130.84,-12.46,Meat & seafood,95.19
+2022-11,Darwin,NT,130.84,-12.46,Meat & seafood,95.92
+2022-12,Darwin,NT,130.84,-12.46,Meat & seafood,95.66
+2023-01,Darwin,NT,130.84,-12.46,Meat & seafood,95.9
+2023-02,Darwin,NT,130.84,-12.46,Meat & seafood,96.72
+2023-03,Darwin,NT,130.84,-12.46,Meat & seafood,96.23
+2023-04,Darwin,NT,130.84,-12.46,Meat & seafood,96.38
+2023-05,Darwin,NT,130.84,-12.46,Meat & seafood,96.64
+2023-06,Darwin,NT,130.84,-12.46,Meat & seafood,95.61
+2023-07,Darwin,NT,130.84,-12.46,Meat & seafood,96.68
+2023-08,Darwin,NT,130.84,-12.46,Meat & seafood,97.14
+2023-09,Darwin,NT,130.84,-12.46,Meat & seafood,95.1
+2023-10,Darwin,NT,130.84,-12.46,Meat & seafood,95.59
+2023-11,Darwin,NT,130.84,-12.46,Meat & seafood,94.01
+2023-12,Darwin,NT,130.84,-12.46,Meat & seafood,91.84
+2024-01,Darwin,NT,130.84,-12.46,Meat & seafood,92.41
+2024-02,Darwin,NT,130.84,-12.46,Meat & seafood,93.48
+2024-03,Darwin,NT,130.84,-12.46,Meat & seafood,93.79
+2024-04,Darwin,NT,130.84,-12.46,Meat & seafood,93.99
+2024-05,Darwin,NT,130.84,-12.46,Meat & seafood,94.51
+2024-06,Darwin,NT,130.84,-12.46,Meat & seafood,94.71
+2024-07,Darwin,NT,130.84,-12.46,Meat & seafood,95.89
+2024-08,Darwin,NT,130.84,-12.46,Meat & seafood,95.87
+2024-09,Darwin,NT,130.84,-12.46,Meat & seafood,95.64
+2024-10,Darwin,NT,130.84,-12.46,Meat & seafood,96.27
+2024-11,Darwin,NT,130.84,-12.46,Meat & seafood,96.24
+2024-12,Darwin,NT,130.84,-12.46,Meat & seafood,96.97
+2025-01,Darwin,NT,130.84,-12.46,Meat & seafood,97.97
+2025-02,Darwin,NT,130.84,-12.46,Meat & seafood,97.81
+2025-03,Darwin,NT,130.84,-12.46,Meat & seafood,97.87
+2025-04,Darwin,NT,130.84,-12.46,Meat & seafood,96.13
+2025-05,Darwin,NT,130.84,-12.46,Meat & seafood,97.79
+2025-06,Darwin,NT,130.84,-12.46,Meat & seafood,98.09
+2025-07,Darwin,NT,130.84,-12.46,Meat & seafood,99.2
+2025-08,Darwin,NT,130.84,-12.46,Meat & seafood,99.46
+2025-09,Darwin,NT,130.84,-12.46,Meat & seafood,100.0
+2025-10,Darwin,NT,130.84,-12.46,Meat & seafood,101.21
+2025-11,Darwin,NT,130.84,-12.46,Meat & seafood,101.35
+2025-12,Darwin,NT,130.84,-12.46,Meat & seafood,101.19
+2026-01,Darwin,NT,130.84,-12.46,Meat & seafood,101.91
+2026-02,Darwin,NT,130.84,-12.46,Meat & seafood,103.07
+2026-03,Darwin,NT,130.84,-12.46,Meat & seafood,102.96
+2026-04,Darwin,NT,130.84,-12.46,Meat & seafood,102.54
+2026-05,Darwin,NT,130.84,-12.46,Meat & seafood,104.15
+2026-06,Darwin,NT,130.84,-12.46,Meat & seafood,104.18
+2026-07,Darwin,NT,130.84,-12.46,Meat & seafood,104.78
+2026-08,Darwin,NT,130.84,-12.46,Meat & seafood,103.78
+2017-09,Hobart,TAS,147.33,-42.88,Meat & seafood,75.22
+2017-10,Hobart,TAS,147.33,-42.88,Meat & seafood,75.78
+2017-11,Hobart,TAS,147.33,-42.88,Meat & seafood,76.18
+2017-12,Hobart,TAS,147.33,-42.88,Meat & seafood,74.48
+2018-01,Hobart,TAS,147.33,-42.88,Meat & seafood,76.69
+2018-02,Hobart,TAS,147.33,-42.88,Meat & seafood,76.27
+2018-03,Hobart,TAS,147.33,-42.88,Meat & seafood,76.27
+2018-04,Hobart,TAS,147.33,-42.88,Meat & seafood,76.44
+2018-05,Hobart,TAS,147.33,-42.88,Meat & seafood,76.2
+2018-06,Hobart,TAS,147.33,-42.88,Meat & seafood,76.14
+2018-07,Hobart,TAS,147.33,-42.88,Meat & seafood,76.17
+2018-08,Hobart,TAS,147.33,-42.88,Meat & seafood,76.67
+2018-09,Hobart,TAS,147.33,-42.88,Meat & seafood,77.35
+2018-10,Hobart,TAS,147.33,-42.88,Meat & seafood,78.12
+2018-11,Hobart,TAS,147.33,-42.88,Meat & seafood,78.39
+2018-12,Hobart,TAS,147.33,-42.88,Meat & seafood,78.64
+2019-01,Hobart,TAS,147.33,-42.88,Meat & seafood,79.89
+2019-02,Hobart,TAS,147.33,-42.88,Meat & seafood,80.54
+2019-03,Hobart,TAS,147.33,-42.88,Meat & seafood,79.93
+2019-04,Hobart,TAS,147.33,-42.88,Meat & seafood,79.59
+2019-05,Hobart,TAS,147.33,-42.88,Meat & seafood,80.29
+2019-06,Hobart,TAS,147.33,-42.88,Meat & seafood,80.4
+2019-07,Hobart,TAS,147.33,-42.88,Meat & seafood,80.62
+2019-08,Hobart,TAS,147.33,-42.88,Meat & seafood,81.42
+2019-09,Hobart,TAS,147.33,-42.88,Meat & seafood,81.94
+2019-10,Hobart,TAS,147.33,-42.88,Meat & seafood,82.89
+2019-11,Hobart,TAS,147.33,-42.88,Meat & seafood,82.75
+2019-12,Hobart,TAS,147.33,-42.88,Meat & seafood,83.45
+2020-01,Hobart,TAS,147.33,-42.88,Meat & seafood,83.75
+2020-02,Hobart,TAS,147.33,-42.88,Meat & seafood,83.84
+2020-03,Hobart,TAS,147.33,-42.88,Meat & seafood,85.99
+2020-04,Hobart,TAS,147.33,-42.88,Meat & seafood,83.62
+2020-05,Hobart,TAS,147.33,-42.88,Meat & seafood,85.03
+2020-06,Hobart,TAS,147.33,-42.88,Meat & seafood,85.33
+2020-07,Hobart,TAS,147.33,-42.88,Meat & seafood,85.81
+2020-08,Hobart,TAS,147.33,-42.88,Meat & seafood,86.46
+2020-09,Hobart,TAS,147.33,-42.88,Meat & seafood,85.7
+2020-10,Hobart,TAS,147.33,-42.88,Meat & seafood,85.95
+2020-11,Hobart,TAS,147.33,-42.88,Meat & seafood,86.68
+2020-12,Hobart,TAS,147.33,-42.88,Meat & seafood,87.41
+2021-01,Hobart,TAS,147.33,-42.88,Meat & seafood,87.7
+2021-02,Hobart,TAS,147.33,-42.88,Meat & seafood,88.03
+2021-03,Hobart,TAS,147.33,-42.88,Meat & seafood,88.29
+2021-04,Hobart,TAS,147.33,-42.88,Meat & seafood,88.67
+2021-05,Hobart,TAS,147.33,-42.88,Meat & seafood,88.49
+2021-06,Hobart,TAS,147.33,-42.88,Meat & seafood,88.49
+2021-07,Hobart,TAS,147.33,-42.88,Meat & seafood,88.09
+2021-08,Hobart,TAS,147.33,-42.88,Meat & seafood,88.61
+2021-09,Hobart,TAS,147.33,-42.88,Meat & seafood,88.79
+2021-10,Hobart,TAS,147.33,-42.88,Meat & seafood,88.76
+2021-11,Hobart,TAS,147.33,-42.88,Meat & seafood,88.89
+2021-12,Hobart,TAS,147.33,-42.88,Meat & seafood,89.56
+2022-01,Hobart,TAS,147.33,-42.88,Meat & seafood,92.59
+2022-02,Hobart,TAS,147.33,-42.88,Meat & seafood,95.3
+2022-03,Hobart,TAS,147.33,-42.88,Meat & seafood,93.26
+2022-04,Hobart,TAS,147.33,-42.88,Meat & seafood,93.3
+2022-05,Hobart,TAS,147.33,-42.88,Meat & seafood,93.78
+2022-06,Hobart,TAS,147.33,-42.88,Meat & seafood,94.08
+2022-07,Hobart,TAS,147.33,-42.88,Meat & seafood,94.7
+2022-08,Hobart,TAS,147.33,-42.88,Meat & seafood,94.99
+2022-09,Hobart,TAS,147.33,-42.88,Meat & seafood,94.75
+2022-10,Hobart,TAS,147.33,-42.88,Meat & seafood,94.6
+2022-11,Hobart,TAS,147.33,-42.88,Meat & seafood,95.44
+2022-12,Hobart,TAS,147.33,-42.88,Meat & seafood,96.41
+2023-01,Hobart,TAS,147.33,-42.88,Meat & seafood,96.2
+2023-02,Hobart,TAS,147.33,-42.88,Meat & seafood,96.7
+2023-03,Hobart,TAS,147.33,-42.88,Meat & seafood,96.3
+2023-04,Hobart,TAS,147.33,-42.88,Meat & seafood,96.2
+2023-05,Hobart,TAS,147.33,-42.88,Meat & seafood,96.64
+2023-06,Hobart,TAS,147.33,-42.88,Meat & seafood,95.07
+2023-07,Hobart,TAS,147.33,-42.88,Meat & seafood,96.01
+2023-08,Hobart,TAS,147.33,-42.88,Meat & seafood,96.61
+2023-09,Hobart,TAS,147.33,-42.88,Meat & seafood,95.8
+2023-10,Hobart,TAS,147.33,-42.88,Meat & seafood,95.89
+2023-11,Hobart,TAS,147.33,-42.88,Meat & seafood,95.01
+2023-12,Hobart,TAS,147.33,-42.88,Meat & seafood,93.48
+2024-01,Hobart,TAS,147.33,-42.88,Meat & seafood,93.61
+2024-02,Hobart,TAS,147.33,-42.88,Meat & seafood,93.91
+2024-03,Hobart,TAS,147.33,-42.88,Meat & seafood,94.71
+2024-04,Hobart,TAS,147.33,-42.88,Meat & seafood,94.89
+2024-05,Hobart,TAS,147.33,-42.88,Meat & seafood,95.07
+2024-06,Hobart,TAS,147.33,-42.88,Meat & seafood,94.37
+2024-07,Hobart,TAS,147.33,-42.88,Meat & seafood,95.12
+2024-08,Hobart,TAS,147.33,-42.88,Meat & seafood,96.42
+2024-09,Hobart,TAS,147.33,-42.88,Meat & seafood,96.23
+2024-10,Hobart,TAS,147.33,-42.88,Meat & seafood,96.81
+2024-11,Hobart,TAS,147.33,-42.88,Meat & seafood,97.03
+2024-12,Hobart,TAS,147.33,-42.88,Meat & seafood,97.86
+2025-01,Hobart,TAS,147.33,-42.88,Meat & seafood,98.69
+2025-02,Hobart,TAS,147.33,-42.88,Meat & seafood,98.04
+2025-03,Hobart,TAS,147.33,-42.88,Meat & seafood,98.57
+2025-04,Hobart,TAS,147.33,-42.88,Meat & seafood,97.71
+2025-05,Hobart,TAS,147.33,-42.88,Meat & seafood,98.55
+2025-06,Hobart,TAS,147.33,-42.88,Meat & seafood,98.32
+2025-07,Hobart,TAS,147.33,-42.88,Meat & seafood,98.41
+2025-08,Hobart,TAS,147.33,-42.88,Meat & seafood,99.31
+2025-09,Hobart,TAS,147.33,-42.88,Meat & seafood,100.0
+2025-10,Hobart,TAS,147.33,-42.88,Meat & seafood,101.04
+2025-11,Hobart,TAS,147.33,-42.88,Meat & seafood,101.32
+2025-12,Hobart,TAS,147.33,-42.88,Meat & seafood,102.26
+2026-01,Hobart,TAS,147.33,-42.88,Meat & seafood,102.49
+2026-02,Hobart,TAS,147.33,-42.88,Meat & seafood,103.24
+2026-03,Hobart,TAS,147.33,-42.88,Meat & seafood,103.56
+2026-04,Hobart,TAS,147.33,-42.88,Meat & seafood,103.28
+2026-05,Hobart,TAS,147.33,-42.88,Meat & seafood,103.91
+2026-06,Hobart,TAS,147.33,-42.88,Meat & seafood,103.42
+2026-07,Hobart,TAS,147.33,-42.88,Meat & seafood,103.8
+2026-08,Hobart,TAS,147.33,-42.88,Meat & seafood,102.94
+2017-09,Melbourne,VIC,144.96,-37.81,Meat & seafood,76.07
+2017-10,Melbourne,VIC,144.96,-37.81,Meat & seafood,76.46
+2017-11,Melbourne,VIC,144.96,-37.81,Meat & seafood,76.7
+2017-12,Melbourne,VIC,144.96,-37.81,Meat & seafood,76.25
+2018-01,Melbourne,VIC,144.96,-37.81,Meat & seafood,76.81
+2018-02,Melbourne,VIC,144.96,-37.81,Meat & seafood,76.26
+2018-03,Melbourne,VIC,144.96,-37.81,Meat & seafood,76.56
+2018-04,Melbourne,VIC,144.96,-37.81,Meat & seafood,76.81
+2018-05,Melbourne,VIC,144.96,-37.81,Meat & seafood,76.49
+2018-06,Melbourne,VIC,144.96,-37.81,Meat & seafood,76.64
+2018-07,Melbourne,VIC,144.96,-37.81,Meat & seafood,76.61
+2018-08,Melbourne,VIC,144.96,-37.81,Meat & seafood,77.11
+2018-09,Melbourne,VIC,144.96,-37.81,Meat & seafood,77.33
+2018-10,Melbourne,VIC,144.96,-37.81,Meat & seafood,78.0
+2018-11,Melbourne,VIC,144.96,-37.81,Meat & seafood,78.43
+2018-12,Melbourne,VIC,144.96,-37.81,Meat & seafood,78.55
+2019-01,Melbourne,VIC,144.96,-37.81,Meat & seafood,79.51
+2019-02,Melbourne,VIC,144.96,-37.81,Meat & seafood,79.92
+2019-03,Melbourne,VIC,144.96,-37.81,Meat & seafood,79.69
+2019-04,Melbourne,VIC,144.96,-37.81,Meat & seafood,79.28
+2019-05,Melbourne,VIC,144.96,-37.81,Meat & seafood,80.22
+2019-06,Melbourne,VIC,144.96,-37.81,Meat & seafood,80.1
+2019-07,Melbourne,VIC,144.96,-37.81,Meat & seafood,80.31
+2019-08,Melbourne,VIC,144.96,-37.81,Meat & seafood,80.99
+2019-09,Melbourne,VIC,144.96,-37.81,Meat & seafood,81.87
+2019-10,Melbourne,VIC,144.96,-37.81,Meat & seafood,82.47
+2019-11,Melbourne,VIC,144.96,-37.81,Meat & seafood,82.4
+2019-12,Melbourne,VIC,144.96,-37.81,Meat & seafood,83.01
+2020-01,Melbourne,VIC,144.96,-37.81,Meat & seafood,83.44
+2020-02,Melbourne,VIC,144.96,-37.81,Meat & seafood,83.08
+2020-03,Melbourne,VIC,144.96,-37.81,Meat & seafood,85.48
+2020-04,Melbourne,VIC,144.96,-37.81,Meat & seafood,84.18
+2020-05,Melbourne,VIC,144.96,-37.81,Meat & seafood,84.79
+2020-06,Melbourne,VIC,144.96,-37.81,Meat & seafood,85.04
+2020-07,Melbourne,VIC,144.96,-37.81,Meat & seafood,85.7
+2020-08,Melbourne,VIC,144.96,-37.81,Meat & seafood,86.17
+2020-09,Melbourne,VIC,144.96,-37.81,Meat & seafood,85.63
+2020-10,Melbourne,VIC,144.96,-37.81,Meat & seafood,85.43
+2020-11,Melbourne,VIC,144.96,-37.81,Meat & seafood,85.57
+2020-12,Melbourne,VIC,144.96,-37.81,Meat & seafood,86.28
+2021-01,Melbourne,VIC,144.96,-37.81,Meat & seafood,86.62
+2021-02,Melbourne,VIC,144.96,-37.81,Meat & seafood,87.09
+2021-03,Melbourne,VIC,144.96,-37.81,Meat & seafood,86.76
+2021-04,Melbourne,VIC,144.96,-37.81,Meat & seafood,87.21
+2021-05,Melbourne,VIC,144.96,-37.81,Meat & seafood,87.69
+2021-06,Melbourne,VIC,144.96,-37.81,Meat & seafood,87.66
+2021-07,Melbourne,VIC,144.96,-37.81,Meat & seafood,87.58
+2021-08,Melbourne,VIC,144.96,-37.81,Meat & seafood,88.09
+2021-09,Melbourne,VIC,144.96,-37.81,Meat & seafood,87.94
+2021-10,Melbourne,VIC,144.96,-37.81,Meat & seafood,87.7
+2021-11,Melbourne,VIC,144.96,-37.81,Meat & seafood,87.86
+2021-12,Melbourne,VIC,144.96,-37.81,Meat & seafood,88.12
+2022-01,Melbourne,VIC,144.96,-37.81,Meat & seafood,91.13
+2022-02,Melbourne,VIC,144.96,-37.81,Meat & seafood,92.83
+2022-03,Melbourne,VIC,144.96,-37.81,Meat & seafood,91.83
+2022-04,Melbourne,VIC,144.96,-37.81,Meat & seafood,91.92
+2022-05,Melbourne,VIC,144.96,-37.81,Meat & seafood,92.87
+2022-06,Melbourne,VIC,144.96,-37.81,Meat & seafood,92.96
+2022-07,Melbourne,VIC,144.96,-37.81,Meat & seafood,93.82
+2022-08,Melbourne,VIC,144.96,-37.81,Meat & seafood,94.28
+2022-09,Melbourne,VIC,144.96,-37.81,Meat & seafood,94.44
+2022-10,Melbourne,VIC,144.96,-37.81,Meat & seafood,94.48
+2022-11,Melbourne,VIC,144.96,-37.81,Meat & seafood,95.14
+2022-12,Melbourne,VIC,144.96,-37.81,Meat & seafood,95.83
+2023-01,Melbourne,VIC,144.96,-37.81,Meat & seafood,95.88
+2023-02,Melbourne,VIC,144.96,-37.81,Meat & seafood,96.14
+2023-03,Melbourne,VIC,144.96,-37.81,Meat & seafood,95.86
+2023-04,Melbourne,VIC,144.96,-37.81,Meat & seafood,96.2
+2023-05,Melbourne,VIC,144.96,-37.81,Meat & seafood,96.74
+2023-06,Melbourne,VIC,144.96,-37.81,Meat & seafood,95.71
+2023-07,Melbourne,VIC,144.96,-37.81,Meat & seafood,96.44
+2023-08,Melbourne,VIC,144.96,-37.81,Meat & seafood,96.93
+2023-09,Melbourne,VIC,144.96,-37.81,Meat & seafood,96.5
+2023-10,Melbourne,VIC,144.96,-37.81,Meat & seafood,96.43
+2023-11,Melbourne,VIC,144.96,-37.81,Meat & seafood,95.33
+2023-12,Melbourne,VIC,144.96,-37.81,Meat & seafood,93.99
+2024-01,Melbourne,VIC,144.96,-37.81,Meat & seafood,93.91
+2024-02,Melbourne,VIC,144.96,-37.81,Meat & seafood,94.31
+2024-03,Melbourne,VIC,144.96,-37.81,Meat & seafood,95.14
+2024-04,Melbourne,VIC,144.96,-37.81,Meat & seafood,95.78
+2024-05,Melbourne,VIC,144.96,-37.81,Meat & seafood,95.85
+2024-06,Melbourne,VIC,144.96,-37.81,Meat & seafood,95.34
+2024-07,Melbourne,VIC,144.96,-37.81,Meat & seafood,96.35
+2024-08,Melbourne,VIC,144.96,-37.81,Meat & seafood,97.07
+2024-09,Melbourne,VIC,144.96,-37.81,Meat & seafood,96.96
+2024-10,Melbourne,VIC,144.96,-37.81,Meat & seafood,97.35
+2024-11,Melbourne,VIC,144.96,-37.81,Meat & seafood,97.51
+2024-12,Melbourne,VIC,144.96,-37.81,Meat & seafood,97.25
+2025-01,Melbourne,VIC,144.96,-37.81,Meat & seafood,98.04
+2025-02,Melbourne,VIC,144.96,-37.81,Meat & seafood,98.22
+2025-03,Melbourne,VIC,144.96,-37.81,Meat & seafood,98.25
+2025-04,Melbourne,VIC,144.96,-37.81,Meat & seafood,97.86
+2025-05,Melbourne,VIC,144.96,-37.81,Meat & seafood,98.59
+2025-06,Melbourne,VIC,144.96,-37.81,Meat & seafood,98.34
+2025-07,Melbourne,VIC,144.96,-37.81,Meat & seafood,98.29
+2025-08,Melbourne,VIC,144.96,-37.81,Meat & seafood,99.59
+2025-09,Melbourne,VIC,144.96,-37.81,Meat & seafood,100.0
+2025-10,Melbourne,VIC,144.96,-37.81,Meat & seafood,101.02
+2025-11,Melbourne,VIC,144.96,-37.81,Meat & seafood,101.22
+2025-12,Melbourne,VIC,144.96,-37.81,Meat & seafood,102.11
+2026-01,Melbourne,VIC,144.96,-37.81,Meat & seafood,102.13
+2026-02,Melbourne,VIC,144.96,-37.81,Meat & seafood,102.58
+2026-03,Melbourne,VIC,144.96,-37.81,Meat & seafood,103.27
+2026-04,Melbourne,VIC,144.96,-37.81,Meat & seafood,102.9
+2026-05,Melbourne,VIC,144.96,-37.81,Meat & seafood,103.95
+2026-06,Melbourne,VIC,144.96,-37.81,Meat & seafood,103.5
+2026-07,Melbourne,VIC,144.96,-37.81,Meat & seafood,103.75
+2026-08,Melbourne,VIC,144.96,-37.81,Meat & seafood,102.75
+2017-09,Perth,WA,115.86,-31.95,Meat & seafood,76.38
+2017-10,Perth,WA,115.86,-31.95,Meat & seafood,77.28
+2017-11,Perth,WA,115.86,-31.95,Meat & seafood,77.5
+2017-12,Perth,WA,115.86,-31.95,Meat & seafood,77.3
+2018-01,Perth,WA,115.86,-31.95,Meat & seafood,77.58
+2018-02,Perth,WA,115.86,-31.95,Meat & seafood,77.42
+2018-03,Perth,WA,115.86,-31.95,Meat & seafood,77.24
+2018-04,Perth,WA,115.86,-31.95,Meat & seafood,77.25
+2018-05,Perth,WA,115.86,-31.95,Meat & seafood,77.23
+2018-06,Perth,WA,115.86,-31.95,Meat & seafood,77.28
+2018-07,Perth,WA,115.86,-31.95,Meat & seafood,76.95
+2018-08,Perth,WA,115.86,-31.95,Meat & seafood,77.05
+2018-09,Perth,WA,115.86,-31.95,Meat & seafood,77.24
+2018-10,Perth,WA,115.86,-31.95,Meat & seafood,77.63
+2018-11,Perth,WA,115.86,-31.95,Meat & seafood,78.3
+2018-12,Perth,WA,115.86,-31.95,Meat & seafood,78.62
+2019-01,Perth,WA,115.86,-31.95,Meat & seafood,79.59
+2019-02,Perth,WA,115.86,-31.95,Meat & seafood,80.11
+2019-03,Perth,WA,115.86,-31.95,Meat & seafood,79.83
+2019-04,Perth,WA,115.86,-31.95,Meat & seafood,79.46
+2019-05,Perth,WA,115.86,-31.95,Meat & seafood,80.1
+2019-06,Perth,WA,115.86,-31.95,Meat & seafood,80.48
+2019-07,Perth,WA,115.86,-31.95,Meat & seafood,80.49
+2019-08,Perth,WA,115.86,-31.95,Meat & seafood,81.38
+2019-09,Perth,WA,115.86,-31.95,Meat & seafood,81.56
+2019-10,Perth,WA,115.86,-31.95,Meat & seafood,82.41
+2019-11,Perth,WA,115.86,-31.95,Meat & seafood,82.07
+2019-12,Perth,WA,115.86,-31.95,Meat & seafood,82.82
+2020-01,Perth,WA,115.86,-31.95,Meat & seafood,83.27
+2020-02,Perth,WA,115.86,-31.95,Meat & seafood,83.1
+2020-03,Perth,WA,115.86,-31.95,Meat & seafood,85.53
+2020-04,Perth,WA,115.86,-31.95,Meat & seafood,83.88
+2020-05,Perth,WA,115.86,-31.95,Meat & seafood,84.45
+2020-06,Perth,WA,115.86,-31.95,Meat & seafood,84.73
+2020-07,Perth,WA,115.86,-31.95,Meat & seafood,84.9
+2020-08,Perth,WA,115.86,-31.95,Meat & seafood,85.55
+2020-09,Perth,WA,115.86,-31.95,Meat & seafood,84.79
+2020-10,Perth,WA,115.86,-31.95,Meat & seafood,85.19
+2020-11,Perth,WA,115.86,-31.95,Meat & seafood,85.85
+2020-12,Perth,WA,115.86,-31.95,Meat & seafood,87.11
+2021-01,Perth,WA,115.86,-31.95,Meat & seafood,87.12
+2021-02,Perth,WA,115.86,-31.95,Meat & seafood,87.01
+2021-03,Perth,WA,115.86,-31.95,Meat & seafood,87.15
+2021-04,Perth,WA,115.86,-31.95,Meat & seafood,87.7
+2021-05,Perth,WA,115.86,-31.95,Meat & seafood,87.84
+2021-06,Perth,WA,115.86,-31.95,Meat & seafood,87.39
+2021-07,Perth,WA,115.86,-31.95,Meat & seafood,87.51
+2021-08,Perth,WA,115.86,-31.95,Meat & seafood,87.76
+2021-09,Perth,WA,115.86,-31.95,Meat & seafood,87.92
+2021-10,Perth,WA,115.86,-31.95,Meat & seafood,87.94
+2021-11,Perth,WA,115.86,-31.95,Meat & seafood,88.56
+2021-12,Perth,WA,115.86,-31.95,Meat & seafood,89.12
+2022-01,Perth,WA,115.86,-31.95,Meat & seafood,91.44
+2022-02,Perth,WA,115.86,-31.95,Meat & seafood,93.94
+2022-03,Perth,WA,115.86,-31.95,Meat & seafood,92.38
+2022-04,Perth,WA,115.86,-31.95,Meat & seafood,92.6
+2022-05,Perth,WA,115.86,-31.95,Meat & seafood,93.54
+2022-06,Perth,WA,115.86,-31.95,Meat & seafood,93.47
+2022-07,Perth,WA,115.86,-31.95,Meat & seafood,94.28
+2022-08,Perth,WA,115.86,-31.95,Meat & seafood,94.71
+2022-09,Perth,WA,115.86,-31.95,Meat & seafood,94.73
+2022-10,Perth,WA,115.86,-31.95,Meat & seafood,94.88
+2022-11,Perth,WA,115.86,-31.95,Meat & seafood,95.35
+2022-12,Perth,WA,115.86,-31.95,Meat & seafood,96.48
+2023-01,Perth,WA,115.86,-31.95,Meat & seafood,95.94
+2023-02,Perth,WA,115.86,-31.95,Meat & seafood,96.31
+2023-03,Perth,WA,115.86,-31.95,Meat & seafood,96.17
+2023-04,Perth,WA,115.86,-31.95,Meat & seafood,96.28
+2023-05,Perth,WA,115.86,-31.95,Meat & seafood,96.11
+2023-06,Perth,WA,115.86,-31.95,Meat & seafood,95.29
+2023-07,Perth,WA,115.86,-31.95,Meat & seafood,95.96
+2023-08,Perth,WA,115.86,-31.95,Meat & seafood,96.7
+2023-09,Perth,WA,115.86,-31.95,Meat & seafood,95.57
+2023-10,Perth,WA,115.86,-31.95,Meat & seafood,95.64
+2023-11,Perth,WA,115.86,-31.95,Meat & seafood,95.01
+2023-12,Perth,WA,115.86,-31.95,Meat & seafood,93.81
+2024-01,Perth,WA,115.86,-31.95,Meat & seafood,93.7
+2024-02,Perth,WA,115.86,-31.95,Meat & seafood,93.82
+2024-03,Perth,WA,115.86,-31.95,Meat & seafood,94.87
+2024-04,Perth,WA,115.86,-31.95,Meat & seafood,94.96
+2024-05,Perth,WA,115.86,-31.95,Meat & seafood,95.34
+2024-06,Perth,WA,115.86,-31.95,Meat & seafood,94.85
+2024-07,Perth,WA,115.86,-31.95,Meat & seafood,95.7
+2024-08,Perth,WA,115.86,-31.95,Meat & seafood,96.19
+2024-09,Perth,WA,115.86,-31.95,Meat & seafood,96.12
+2024-10,Perth,WA,115.86,-31.95,Meat & seafood,96.71
+2024-11,Perth,WA,115.86,-31.95,Meat & seafood,97.28
+2024-12,Perth,WA,115.86,-31.95,Meat & seafood,97.51
+2025-01,Perth,WA,115.86,-31.95,Meat & seafood,97.77
+2025-02,Perth,WA,115.86,-31.95,Meat & seafood,97.6
+2025-03,Perth,WA,115.86,-31.95,Meat & seafood,98.31
+2025-04,Perth,WA,115.86,-31.95,Meat & seafood,97.77
+2025-05,Perth,WA,115.86,-31.95,Meat & seafood,98.54
+2025-06,Perth,WA,115.86,-31.95,Meat & seafood,98.3
+2025-07,Perth,WA,115.86,-31.95,Meat & seafood,98.5
+2025-08,Perth,WA,115.86,-31.95,Meat & seafood,99.59
+2025-09,Perth,WA,115.86,-31.95,Meat & seafood,100.0
+2025-10,Perth,WA,115.86,-31.95,Meat & seafood,101.09
+2025-11,Perth,WA,115.86,-31.95,Meat & seafood,101.65
+2025-12,Perth,WA,115.86,-31.95,Meat & seafood,102.54
+2026-01,Perth,WA,115.86,-31.95,Meat & seafood,102.65
+2026-02,Perth,WA,115.86,-31.95,Meat & seafood,103.3
+2026-03,Perth,WA,115.86,-31.95,Meat & seafood,103.7
+2026-04,Perth,WA,115.86,-31.95,Meat & seafood,103.38
+2026-05,Perth,WA,115.86,-31.95,Meat & seafood,104.34
+2026-06,Perth,WA,115.86,-31.95,Meat & seafood,104.28
+2026-07,Perth,WA,115.86,-31.95,Meat & seafood,104.22
+2026-08,Perth,WA,115.86,-31.95,Meat & seafood,103.88
+2017-09,Sydney,NSW,151.21,-33.87,Meat & seafood,75.89
+2017-10,Sydney,NSW,151.21,-33.87,Meat & seafood,76.13
+2017-11,Sydney,NSW,151.21,-33.87,Meat & seafood,76.35
+2017-12,Sydney,NSW,151.21,-33.87,Meat & seafood,75.93
+2018-01,Sydney,NSW,151.21,-33.87,Meat & seafood,76.5
+2018-02,Sydney,NSW,151.21,-33.87,Meat & seafood,76.11
+2018-03,Sydney,NSW,151.21,-33.87,Meat & seafood,76.22
+2018-04,Sydney,NSW,151.21,-33.87,Meat & seafood,76.4
+2018-05,Sydney,NSW,151.21,-33.87,Meat & seafood,76.47
+2018-06,Sydney,NSW,151.21,-33.87,Meat & seafood,76.36
+2018-07,Sydney,NSW,151.21,-33.87,Meat & seafood,76.3
+2018-08,Sydney,NSW,151.21,-33.87,Meat & seafood,77.01
+2018-09,Sydney,NSW,151.21,-33.87,Meat & seafood,77.24
+2018-10,Sydney,NSW,151.21,-33.87,Meat & seafood,77.65
+2018-11,Sydney,NSW,151.21,-33.87,Meat & seafood,77.92
+2018-12,Sydney,NSW,151.21,-33.87,Meat & seafood,78.21
+2019-01,Sydney,NSW,151.21,-33.87,Meat & seafood,79.19
+2019-02,Sydney,NSW,151.21,-33.87,Meat & seafood,79.81
+2019-03,Sydney,NSW,151.21,-33.87,Meat & seafood,79.32
+2019-04,Sydney,NSW,151.21,-33.87,Meat & seafood,78.68
+2019-05,Sydney,NSW,151.21,-33.87,Meat & seafood,79.88
+2019-06,Sydney,NSW,151.21,-33.87,Meat & seafood,80.0
+2019-07,Sydney,NSW,151.21,-33.87,Meat & seafood,80.0
+2019-08,Sydney,NSW,151.21,-33.87,Meat & seafood,81.01
+2019-09,Sydney,NSW,151.21,-33.87,Meat & seafood,81.62
+2019-10,Sydney,NSW,151.21,-33.87,Meat & seafood,81.9
+2019-11,Sydney,NSW,151.21,-33.87,Meat & seafood,81.7
+2019-12,Sydney,NSW,151.21,-33.87,Meat & seafood,82.47
+2020-01,Sydney,NSW,151.21,-33.87,Meat & seafood,82.83
+2020-02,Sydney,NSW,151.21,-33.87,Meat & seafood,83.03
+2020-03,Sydney,NSW,151.21,-33.87,Meat & seafood,85.2
+2020-04,Sydney,NSW,151.21,-33.87,Meat & seafood,84.73
+2020-05,Sydney,NSW,151.21,-33.87,Meat & seafood,84.83
+2020-06,Sydney,NSW,151.21,-33.87,Meat & seafood,84.9
+2020-07,Sydney,NSW,151.21,-33.87,Meat & seafood,85.13
+2020-08,Sydney,NSW,151.21,-33.87,Meat & seafood,85.78
+2020-09,Sydney,NSW,151.21,-33.87,Meat & seafood,85.37
+2020-10,Sydney,NSW,151.21,-33.87,Meat & seafood,84.94
+2020-11,Sydney,NSW,151.21,-33.87,Meat & seafood,85.49
+2020-12,Sydney,NSW,151.21,-33.87,Meat & seafood,86.24
+2021-01,Sydney,NSW,151.21,-33.87,Meat & seafood,86.25
+2021-02,Sydney,NSW,151.21,-33.87,Meat & seafood,86.28
+2021-03,Sydney,NSW,151.21,-33.87,Meat & seafood,86.51
+2021-04,Sydney,NSW,151.21,-33.87,Meat & seafood,86.66
+2021-05,Sydney,NSW,151.21,-33.87,Meat & seafood,86.95
+2021-06,Sydney,NSW,151.21,-33.87,Meat & seafood,86.93
+2021-07,Sydney,NSW,151.21,-33.87,Meat & seafood,87.4
+2021-08,Sydney,NSW,151.21,-33.87,Meat & seafood,87.49
+2021-09,Sydney,NSW,151.21,-33.87,Meat & seafood,87.33
+2021-10,Sydney,NSW,151.21,-33.87,Meat & seafood,86.95
+2021-11,Sydney,NSW,151.21,-33.87,Meat & seafood,87.48
+2021-12,Sydney,NSW,151.21,-33.87,Meat & seafood,87.63
+2022-01,Sydney,NSW,151.21,-33.87,Meat & seafood,90.54
+2022-02,Sydney,NSW,151.21,-33.87,Meat & seafood,92.41
+2022-03,Sydney,NSW,151.21,-33.87,Meat & seafood,91.19
+2022-04,Sydney,NSW,151.21,-33.87,Meat & seafood,91.34
+2022-05,Sydney,NSW,151.21,-33.87,Meat & seafood,92.24
+2022-06,Sydney,NSW,151.21,-33.87,Meat & seafood,92.32
+2022-07,Sydney,NSW,151.21,-33.87,Meat & seafood,93.22
+2022-08,Sydney,NSW,151.21,-33.87,Meat & seafood,93.65
+2022-09,Sydney,NSW,151.21,-33.87,Meat & seafood,93.84
+2022-10,Sydney,NSW,151.21,-33.87,Meat & seafood,93.94
+2022-11,Sydney,NSW,151.21,-33.87,Meat & seafood,94.55
+2022-12,Sydney,NSW,151.21,-33.87,Meat & seafood,94.98
+2023-01,Sydney,NSW,151.21,-33.87,Meat & seafood,95.31
+2023-02,Sydney,NSW,151.21,-33.87,Meat & seafood,95.36
+2023-03,Sydney,NSW,151.21,-33.87,Meat & seafood,95.25
+2023-04,Sydney,NSW,151.21,-33.87,Meat & seafood,95.64
+2023-05,Sydney,NSW,151.21,-33.87,Meat & seafood,96.04
+2023-06,Sydney,NSW,151.21,-33.87,Meat & seafood,94.99
+2023-07,Sydney,NSW,151.21,-33.87,Meat & seafood,95.56
+2023-08,Sydney,NSW,151.21,-33.87,Meat & seafood,96.1
+2023-09,Sydney,NSW,151.21,-33.87,Meat & seafood,95.63
+2023-10,Sydney,NSW,151.21,-33.87,Meat & seafood,95.67
+2023-11,Sydney,NSW,151.21,-33.87,Meat & seafood,94.92
+2023-12,Sydney,NSW,151.21,-33.87,Meat & seafood,93.4
+2024-01,Sydney,NSW,151.21,-33.87,Meat & seafood,93.39
+2024-02,Sydney,NSW,151.21,-33.87,Meat & seafood,93.83
+2024-03,Sydney,NSW,151.21,-33.87,Meat & seafood,94.64
+2024-04,Sydney,NSW,151.21,-33.87,Meat & seafood,95.68
+2024-05,Sydney,NSW,151.21,-33.87,Meat & seafood,96.06
+2024-06,Sydney,NSW,151.21,-33.87,Meat & seafood,95.4
+2024-07,Sydney,NSW,151.21,-33.87,Meat & seafood,96.39
+2024-08,Sydney,NSW,151.21,-33.87,Meat & seafood,96.82
+2024-09,Sydney,NSW,151.21,-33.87,Meat & seafood,97.02
+2024-10,Sydney,NSW,151.21,-33.87,Meat & seafood,97.34
+2024-11,Sydney,NSW,151.21,-33.87,Meat & seafood,97.58
+2024-12,Sydney,NSW,151.21,-33.87,Meat & seafood,97.76
+2025-01,Sydney,NSW,151.21,-33.87,Meat & seafood,98.45
+2025-02,Sydney,NSW,151.21,-33.87,Meat & seafood,98.55
+2025-03,Sydney,NSW,151.21,-33.87,Meat & seafood,98.61
+2025-04,Sydney,NSW,151.21,-33.87,Meat & seafood,98.06
+2025-05,Sydney,NSW,151.21,-33.87,Meat & seafood,98.97
+2025-06,Sydney,NSW,151.21,-33.87,Meat & seafood,98.52
+2025-07,Sydney,NSW,151.21,-33.87,Meat & seafood,98.47
+2025-08,Sydney,NSW,151.21,-33.87,Meat & seafood,99.65
+2025-09,Sydney,NSW,151.21,-33.87,Meat & seafood,100.0
+2025-10,Sydney,NSW,151.21,-33.87,Meat & seafood,100.93
+2025-11,Sydney,NSW,151.21,-33.87,Meat & seafood,101.21
+2025-12,Sydney,NSW,151.21,-33.87,Meat & seafood,101.52
+2026-01,Sydney,NSW,151.21,-33.87,Meat & seafood,101.92
+2026-02,Sydney,NSW,151.21,-33.87,Meat & seafood,102.34
+2026-03,Sydney,NSW,151.21,-33.87,Meat & seafood,102.97
+2026-04,Sydney,NSW,151.21,-33.87,Meat & seafood,102.63
+2026-05,Sydney,NSW,151.21,-33.87,Meat & seafood,103.98
+2026-06,Sydney,NSW,151.21,-33.87,Meat & seafood,103.64
+2026-07,Sydney,NSW,151.21,-33.87,Meat & seafood,104.0
+2026-08,Sydney,NSW,151.21,-33.87,Meat & seafood,102.97

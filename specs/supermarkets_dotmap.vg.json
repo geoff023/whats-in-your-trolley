@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Dot map: every supermarket in Australia mapped in OpenStreetMap, coloured by chain. Click a chain in the legend to highlight it.",
+  "width": "container",
+  "height": 460,
+  "projection": {"type": "conicEqualArea", "parallels": [-18, -36], "rotate": [-132, 0, 0]},
+  "layer": [
+    {
+      "data": {"url": "data/au_states.geojson", "format": {"type": "json", "property": "features"}},
+      "mark": {"type": "geoshape", "fill": "#eef1ec", "stroke": "#b9c2b4", "strokeWidth": 0.6}
+    },
+    {
+      "data": {"url": "data/supermarkets.csv"},
+      "params": [
+        {"name": "chain", "select": {"type": "point", "fields": ["chain"]}, "bind": "legend"}
+      ],
+      "mark": {"type": "circle", "size": 7, "opacity": 0.7},
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "color": {
+          "field": "chain",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Woolworths", "Coles", "Aldi", "IGA", "Other"],
+            "range": ["#2e7d32", "#d32f2f", "#1565c0", "#f9a825", "#9e9e9e"]
+          },
+          "legend": {"title": "Chain (click to highlight)", "orient": "bottom-left"}
+        },
+        "opacity": {"condition": {"param": "chain", "value": 0.8}, "value": 0.05},
+        "order": {"condition": {"param": "chain", "value": 1}, "value": 0}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"lon": 133.5, "lat": -27.5, "text": "Inland, stores can be", "align": "center"},
+          {"lon": 133.5, "lat": -28.7, "text": "hundreds of km apart", "align": "center"},
+          {"lon": 155.6, "lat": -30, "text": "Most stores hug", "align": "left"},
+          {"lon": 155.6, "lat": -31.2, "text": "the east coast", "align": "left"}
+        ]
+      },
+      "mark": {"type": "text", "fontSize": 12, "color": "#333333"},
+      "encoding": {
+        "align": {"field": "align", "type": "nominal", "scale": null},
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "text": {"field": "text"}
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}

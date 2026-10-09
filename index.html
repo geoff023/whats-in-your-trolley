@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What's in Your Trolley?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+</head>
+<body>
+  <header class="hero">
+    <p class="kicker">An Australian grocery story</p>
+    <h1>What's in Your Trolley?</h1>
+    <p class="lede">Every week, Australians push a trolley past thousands of products. Where do they come from, where do we buy them, and what is really inside?</p>
+  </header>
+
+  <main>
+    <section id="origins">
+      <h2>1. Where our food comes from</h2>
+      <p>Australia grows plenty of food, but our shelves still depend on the world. In 2025 we imported food from more than 170 countries. Darker countries sent us more.</p>
+      <figure class="chart">
+        <div id="imports_choropleth"></div>
+        <figcaption>Value of food imported into Australia in 2025, by country of origin (US dollars). Source: UN Comtrade.</figcaption>
+      </figure>
+      <p>Each type of food has its own trade routes. Pick a food type to see its ten biggest sources. Thicker lines carry more food.</p>
+      <figure class="chart">
+        <div id="imports_flow"></div>
+        <figcaption>Ten biggest sources of the selected food type, 2025. Lines follow the shortest path over the globe. Source: UN Comtrade.</figcaption>
+      </figure>
+    </section>
+
+    <section id="stores">
+      <h2>2. Where we shop</h2>
+      <p>Two chains, Woolworths and Coles, run about a third of all mapped supermarkets. Away from the coast, the nearest store can be a long drive away.</p>
+      <figure class="chart">
+        <div id="supermarkets_dotmap"></div>
+        <figcaption>Each dot is one supermarket mapped in OpenStreetMap (October 2026). Source: OpenStreetMap contributors.</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <h2>About this page</h2>
+    <p>Created by [Your Name], Monash University (FIT3179 Data Visualisation 2), October 2026.</p>
+    <h3>Data sources</h3>
+    <ul>
+      <li>Open Food Facts contributors, product database (Australian barcodes), downloaded October 2026. <a href="https://world.openfoodfacts.org">world.openfoodfacts.org</a>, ODbL licence.</li>
+      <li>United Nations, UN Comtrade Database, Australian imports by HS chapter, 2025. <a href="https://comtradeplus.un.org">comtradeplus.un.org</a></li>
+      <li>Australian Bureau of Statistics, Consumer Price Index (monthly, food groups by capital city), to August 2026. <a href="https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation">abs.gov.au</a>, CC BY 4.0.</li>
+      <li>OpenStreetMap contributors, supermarket locations, October 2026. <a href="https://www.openstreetmap.org/copyright">openstreetmap.org</a>, ODbL licence.</li>
+      <li>State boundaries: ABS ASGS, via <a href="https://github.com/rowanhogan/australian-states">rowanhogan/australian-states</a>. World boundaries: Natural Earth via <a href="https://github.com/vega/vega-datasets">vega-datasets</a>.</li>
+    </ul>
+    <p>Charts built with <a href="https://vega.github.io/vega-lite/">Vega-Lite</a>. Chart specifications are in the <code>specs/</code> folder of this repository.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

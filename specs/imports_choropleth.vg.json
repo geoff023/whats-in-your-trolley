@@ -1,0 +1,76 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Choropleth: value of food imported into Australia in 2025, by country of origin.",
+  "width": "container",
+  "height": 420,
+  "projection": {"type": "equalEarth", "rotate": [-160, 0, 0]},
+  "layer": [
+    {
+      "data": {"sphere": true},
+      "mark": {"type": "geoshape", "fill": "#eef3f7", "stroke": null}
+    },
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/vega-datasets@2.8.0/data/world-110m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "transform": [
+        {"filter": "datum.id != 10"},
+        {
+          "lookup": "id",
+          "from": {
+            "data": {"url": "data/imports_by_country_2025.csv"},
+            "key": "iso_n3",
+            "fields": ["country", "usd_m"]
+          }
+        }
+      ],
+      "mark": {"type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.4},
+      "encoding": {
+        "color": {
+          "condition": {"test": "datum.id == 36", "value": "#2f4858"},
+          "field": "usd_m",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [10, 50, 200, 500, 1000],
+            "range": ["#fde7c8", "#f9c58a", "#f39c4f", "#dd6b20", "#b0461a", "#7a2b10"]
+          },
+          "legend": {
+            "title": "Food imports, US$ million",
+            "orient": "bottom-left",
+            "direction": "horizontal",
+            "gradientLength": 320
+          }
+        },
+        "tooltip": [
+          {"field": "country", "title": "Country"},
+          {"field": "usd_m", "title": "Food sent to Australia (US$ m)", "format": ",.0f"}
+        ]
+      }
+    },
+    {
+      "data": {"values": [{"lon": 133, "lat": -25, "label": "Australia"}]},
+      "mark": {"type": "text", "color": "#ffffff", "fontWeight": "bold", "fontSize": 11},
+      "encoding": {
+        "longitude": {"field": "lon"},
+        "latitude": {"field": "lat"},
+        "text": {"field": "label"}
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"lon": 172, "lat": -46, "text": "New Zealand sends the most: US$2.4 billion"}
+        ]
+      },
+      "mark": {"type": "text", "align": "left", "dx": 8, "fontSize": 11, "color": "#333333"},
+      "encoding": {
+        "longitude": {"field": "lon"},
+        "latitude": {"field": "lat"},
+        "text": {"field": "text"}
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}

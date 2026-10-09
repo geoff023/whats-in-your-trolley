@@ -1,0 +1,1233 @@
+iso3,country,chapter,usd_m
+AUS,Australia,Meat,11.38
+CAN,Canada,Meat,21.6
+CHN,China,Meat,0.13
+DNK,Denmark,Meat,159.73
+FIN,Finland,Meat,0.03
+FRA,France,Meat,3.15
+IRN,Iran,Meat,0.12
+IRL,Ireland,Meat,47.67
+ITA,Italy,Meat,20.62
+JPN,Japan,Meat,5.17
+KOR,Rep. of Korea,Meat,0.01
+NLD,Netherlands,Meat,102.41
+NZL,New Zealand,Meat,7.25
+PNG,Papua New Guinea,Meat,0.04
+POL,Poland,Meat,0.1
+ESP,Spain,Meat,10.64
+GBR,United Kingdom,Meat,3.62
+USA,USA,Meat,269.89
+ATA,Antarctica,Fish & seafood,0.0
+ARG,Argentina,Fish & seafood,5.9
+AUS,Australia,Fish & seafood,12.42
+BHS,Bahamas,Fish & seafood,2.52
+BHR,Bahrain,Fish & seafood,0.19
+BGD,Bangladesh,Fish & seafood,3.51
+BEL,Belgium,Fish & seafood,0.31
+BRA,Brazil,Fish & seafood,11.43
+BLZ,Belize,Fish & seafood,0.93
+SLB,Solomon Isds,Fish & seafood,0.0
+MMR,Myanmar,Fish & seafood,13.54
+KHM,Cambodia,Fish & seafood,0.13
+CAN,Canada,Fish & seafood,4.79
+LKA,Sri Lanka,Fish & seafood,5.17
+CHL,Chile,Fish & seafood,9.36
+CHN,China,Fish & seafood,114.75
+COL,Colombia,Fish & seafood,0.02
+COK,Cook Isds,Fish & seafood,0.11
+DNK,Denmark,Fish & seafood,68.42
+FJI,Fiji,Fish & seafood,0.11
+FRA,France,Fish & seafood,0.14
+PYF,French Polynesia,Fish & seafood,0.02
+DEU,Germany,Fish & seafood,7.33
+GHA,Ghana,Fish & seafood,0.0
+GRC,Greece,Fish & seafood,0.13
+HKG,"China, Hong Kong SAR",Fish & seafood,0.95
+ISL,Iceland,Fish & seafood,0.5
+IDN,Indonesia,Fish & seafood,55.71
+IRL,Ireland,Fish & seafood,0.19
+ITA,Italy,Fish & seafood,0.05
+JPN,Japan,Fish & seafood,29.89
+KEN,Kenya,Fish & seafood,0.01
+KOR,Rep. of Korea,Fish & seafood,2.88
+LVA,Latvia,Fish & seafood,0.23
+MDG,Madagascar,Fish & seafood,0.77
+MYS,Malaysia,Fish & seafood,11.6
+MLT,Malta,Fish & seafood,0.03
+MUS,Mauritius,Fish & seafood,0.24
+MEX,Mexico,Fish & seafood,0.01
+TWN,Taiwan,Fish & seafood,32.45
+MOZ,Mozambique,Fish & seafood,0.27
+OMN,Oman,Fish & seafood,0.09
+NAM,Namibia,Fish & seafood,8.32
+NLD,Netherlands,Fish & seafood,0.51
+NCL,New Caledonia,Fish & seafood,1.14
+NZL,New Zealand,Fish & seafood,139.23
+NIC,Nicaragua,Fish & seafood,1.2
+NGA,Nigeria,Fish & seafood,0.01
+NOR,Norway,Fish & seafood,64.83
+PNG,Papua New Guinea,Fish & seafood,0.94
+PER,Peru,Fish & seafood,0.0
+PHL,Philippines,Fish & seafood,3.76
+POL,Poland,Fish & seafood,22.88
+PRT,Portugal,Fish & seafood,0.41
+QAT,Qatar,Fish & seafood,0.02
+SHN,Saint Helena,Fish & seafood,0.88
+SAU,Saudi Arabia,Fish & seafood,0.7
+SEN,Senegal,Fish & seafood,0.0
+IND,India,Fish & seafood,2.75
+SGP,Singapore,Fish & seafood,2.93
+VNM,Viet Nam,Fish & seafood,256.02
+ZAF,South Africa,Fish & seafood,19.15
+ZWE,Zimbabwe,Fish & seafood,0.0
+ESP,Spain,Fish & seafood,0.44
+THA,Thailand,Fish & seafood,52.86
+ARE,United Arab Emirates,Fish & seafood,0.05
+TUN,Tunisia,Fish & seafood,2.28
+TUR,Türkiye,Fish & seafood,0.01
+UGA,Uganda,Fish & seafood,0.05
+EGY,Egypt,Fish & seafood,0.21
+GBR,United Kingdom,Fish & seafood,4.02
+TZA,United Rep. of Tanzania,Fish & seafood,0.8
+USA,USA,Fish & seafood,24.93
+VEN,Venezuela,Fish & seafood,0.0
+ZMB,Zambia,Fish & seafood,0.01
+ARG,Argentina,"Dairy, eggs & honey",0.09
+AUS,Australia,"Dairy, eggs & honey",1.06
+AUT,Austria,"Dairy, eggs & honey",12.38
+BGD,Bangladesh,"Dairy, eggs & honey",0.26
+BEL,Belgium,"Dairy, eggs & honey",14.48
+BRA,Brazil,"Dairy, eggs & honey",0.44
+BGR,Bulgaria,"Dairy, eggs & honey",6.79
+CAN,Canada,"Dairy, eggs & honey",3.51
+CHL,Chile,"Dairy, eggs & honey",0.25
+CHN,China,"Dairy, eggs & honey",16.05
+CYP,Cyprus,"Dairy, eggs & honey",17.69
+CZE,Czechia,"Dairy, eggs & honey",0.07
+DNK,Denmark,"Dairy, eggs & honey",74.08
+EST,Estonia,"Dairy, eggs & honey",0.07
+FJI,Fiji,"Dairy, eggs & honey",0.13
+FIN,Finland,"Dairy, eggs & honey",0.0
+FRA,France,"Dairy, eggs & honey",63.76
+DEU,Germany,"Dairy, eggs & honey",9.27
+GRC,Greece,"Dairy, eggs & honey",19.5
+HUN,Hungary,"Dairy, eggs & honey",0.44
+IDN,Indonesia,"Dairy, eggs & honey",1.34
+IRN,Iran,"Dairy, eggs & honey",0.03
+IRL,Ireland,"Dairy, eggs & honey",19.64
+ITA,Italy,"Dairy, eggs & honey",105.35
+JPN,Japan,"Dairy, eggs & honey",0.2
+JOR,Jordan,"Dairy, eggs & honey",0.02
+KOR,Rep. of Korea,"Dairy, eggs & honey",2.31
+KWT,Kuwait,"Dairy, eggs & honey",0.11
+LBN,Lebanon,"Dairy, eggs & honey",0.01
+LVA,Latvia,"Dairy, eggs & honey",0.16
+LTU,Lithuania,"Dairy, eggs & honey",13.95
+LUX,Luxembourg,"Dairy, eggs & honey",0.01
+MYS,Malaysia,"Dairy, eggs & honey",4.66
+MEX,Mexico,"Dairy, eggs & honey",4.18
+TWN,Taiwan,"Dairy, eggs & honey",0.85
+OMN,Oman,"Dairy, eggs & honey",0.05
+NPL,Nepal,"Dairy, eggs & honey",0.05
+NLD,Netherlands,"Dairy, eggs & honey",66.07
+NZL,New Zealand,"Dairy, eggs & honey",685.57
+NOR,Norway,"Dairy, eggs & honey",2.59
+PAK,Pakistan,"Dairy, eggs & honey",0.27
+PHL,Philippines,"Dairy, eggs & honey",0.12
+POL,Poland,"Dairy, eggs & honey",1.96
+PRT,Portugal,"Dairy, eggs & honey",0.0
+QAT,Qatar,"Dairy, eggs & honey",0.01
+ROU,Romania,"Dairy, eggs & honey",0.06
+SAU,Saudi Arabia,"Dairy, eggs & honey",0.04
+SRB,Serbia,"Dairy, eggs & honey",0.02
+IND,India,"Dairy, eggs & honey",13.19
+SGP,Singapore,"Dairy, eggs & honey",0.13
+SVK,Slovakia,"Dairy, eggs & honey",1.39
+VNM,Viet Nam,"Dairy, eggs & honey",3.55
+ZAF,South Africa,"Dairy, eggs & honey",0.11
+ZWE,Zimbabwe,"Dairy, eggs & honey",0.0
+ESP,Spain,"Dairy, eggs & honey",22.01
+SDN,Sudan,"Dairy, eggs & honey",0.0
+CHE,Switzerland,"Dairy, eggs & honey",6.51
+SYR,Syria,"Dairy, eggs & honey",0.01
+THA,Thailand,"Dairy, eggs & honey",1.62
+ARE,United Arab Emirates,"Dairy, eggs & honey",0.32
+TUR,Türkiye,"Dairy, eggs & honey",0.36
+MKD,North Macedonia,"Dairy, eggs & honey",0.27
+EGY,Egypt,"Dairy, eggs & honey",0.05
+GBR,United Kingdom,"Dairy, eggs & honey",26.29
+USA,USA,"Dairy, eggs & honey",261.2
+YEM,Yemen,"Dairy, eggs & honey",0.06
+AFG,Afghanistan,Vegetables,0.01
+ARG,Argentina,Vegetables,2.87
+AUS,Australia,Vegetables,0.26
+AUT,Austria,Vegetables,0.0
+BGD,Bangladesh,Vegetables,0.28
+BEL,Belgium,Vegetables,21.35
+BWA,Botswana,Vegetables,0.02
+BRA,Brazil,Vegetables,0.33
+SLB,Solomon Isds,Vegetables,0.18
+BGR,Bulgaria,Vegetables,0.01
+MMR,Myanmar,Vegetables,1.61
+KHM,Cambodia,Vegetables,0.01
+CAN,Canada,Vegetables,6.57
+LKA,Sri Lanka,Vegetables,0.27
+CHL,Chile,Vegetables,0.74
+CHN,China,Vegetables,104.21
+COL,Colombia,Vegetables,0.32
+CRI,Costa Rica,Vegetables,0.01
+HRV,Croatia,Vegetables,0.0
+ECU,Ecuador,Vegetables,0.6
+FJI,Fiji,Vegetables,9.39
+FRA,France,Vegetables,9.03
+DEU,Germany,Vegetables,0.76
+GHA,Ghana,Vegetables,0.14
+GRC,Greece,Vegetables,12.69
+GTM,Guatemala,Vegetables,0.05
+HKG,"China, Hong Kong SAR",Vegetables,0.01
+HUN,Hungary,Vegetables,0.27
+IDN,Indonesia,Vegetables,0.39
+IRN,Iran,Vegetables,0.31
+IRQ,Iraq,Vegetables,0.0
+ISR,Israel,Vegetables,1.0
+ITA,Italy,Vegetables,1.8
+JPN,Japan,Vegetables,0.13
+KAZ,Kazakhstan,Vegetables,0.04
+KEN,Kenya,Vegetables,0.03
+KOR,Rep. of Korea,Vegetables,8.48
+LBN,Lebanon,Vegetables,0.06
+MYS,Malaysia,Vegetables,0.11
+MEX,Mexico,Vegetables,18.19
+TWN,Taiwan,Vegetables,0.47
+MAR,Morocco,Vegetables,0.04
+NPL,Nepal,Vegetables,0.1
+NLD,Netherlands,Vegetables,4.13
+NZL,New Zealand,Vegetables,52.65
+NER,Niger,Vegetables,0.0
+NGA,Nigeria,Vegetables,0.01
+PAK,Pakistan,Vegetables,0.06
+PER,Peru,Vegetables,2.47
+PHL,Philippines,Vegetables,0.46
+POL,Poland,Vegetables,0.31
+SAU,Saudi Arabia,Vegetables,0.0
+SRB,Serbia,Vegetables,2.33
+SLE,Sierra Leone,Vegetables,0.01
+IND,India,Vegetables,18.71
+SGP,Singapore,Vegetables,0.01
+VNM,Viet Nam,Vegetables,5.82
+ZAF,South Africa,Vegetables,0.15
+ESP,Spain,Vegetables,15.07
+SDN,Sudan,Vegetables,0.0
+CHE,Switzerland,Vegetables,0.01
+SYR,Syria,Vegetables,0.17
+THA,Thailand,Vegetables,4.83
+TON,Tonga,Vegetables,2.34
+ARE,United Arab Emirates,Vegetables,0.04
+TUN,Tunisia,Vegetables,0.03
+TUR,Türkiye,Vegetables,5.5
+UGA,Uganda,Vegetables,0.12
+MKD,North Macedonia,Vegetables,0.01
+EGY,Egypt,Vegetables,5.57
+GBR,United Kingdom,Vegetables,1.76
+TZA,United Rep. of Tanzania,Vegetables,0.05
+USA,USA,Vegetables,15.8
+BFA,Burkina Faso,Vegetables,0.26
+URY,Uruguay,Vegetables,0.0
+UZB,Uzbekistan,Vegetables,0.03
+AFG,Afghanistan,Fruit & nuts,0.86
+ALB,Albania,Fruit & nuts,0.01
+DZA,Algeria,Fruit & nuts,0.09
+ASM,American Samoa,Fruit & nuts,0.16
+AZE,Azerbaijan,Fruit & nuts,0.0
+ARG,Argentina,Fruit & nuts,0.3
+AUS,Australia,Fruit & nuts,1.09
+BGD,Bangladesh,Fruit & nuts,0.01
+BEL,Belgium,Fruit & nuts,27.44
+BOL,Bolivia (Plurinational State of),Fruit & nuts,6.98
+BIH,Bosnia Herzegovina,Fruit & nuts,0.01
+BWA,Botswana,Fruit & nuts,0.0
+BRA,Brazil,Fruit & nuts,7.03
+BGR,Bulgaria,Fruit & nuts,0.04
+MMR,Myanmar,Fruit & nuts,0.03
+KHM,Cambodia,Fruit & nuts,0.4
+CAN,Canada,Fruit & nuts,16.77
+LKA,Sri Lanka,Fruit & nuts,2.71
+CHL,Chile,Fruit & nuts,83.74
+CHN,China,Fruit & nuts,76.8
+COL,Colombia,Fruit & nuts,4.05
+CRI,Costa Rica,Fruit & nuts,1.81
+DNK,Denmark,Fruit & nuts,0.01
+ECU,Ecuador,Fruit & nuts,0.98
+EST,Estonia,Fruit & nuts,0.1
+FJI,Fiji,Fruit & nuts,0.13
+FRA,France,Fruit & nuts,0.3
+PSE,State of Palestine,Fruit & nuts,1.41
+DEU,Germany,Fruit & nuts,0.15
+GHA,Ghana,Fruit & nuts,0.0
+GRC,Greece,Fruit & nuts,0.32
+GTM,Guatemala,Fruit & nuts,1.21
+HKG,"China, Hong Kong SAR",Fruit & nuts,0.39
+HUN,Hungary,Fruit & nuts,0.2
+IDN,Indonesia,Fruit & nuts,7.78
+IRN,Iran,Fruit & nuts,7.76
+IRQ,Iraq,Fruit & nuts,0.03
+ISR,Israel,Fruit & nuts,8.3
+ITA,Italy,Fruit & nuts,0.23
+CIV,Côte d'Ivoire,Fruit & nuts,0.18
+JPN,Japan,Fruit & nuts,0.06
+JOR,Jordan,Fruit & nuts,0.78
+KEN,Kenya,Fruit & nuts,0.02
+KOR,Rep. of Korea,Fruit & nuts,1.35
+LBN,Lebanon,Fruit & nuts,0.3
+LBY,Libya,Fruit & nuts,0.04
+LTU,Lithuania,Fruit & nuts,0.03
+MYS,Malaysia,Fruit & nuts,5.63
+MEX,Mexico,Fruit & nuts,11.21
+TWN,Taiwan,Fruit & nuts,0.36
+MDA,Rep. of Moldova,Fruit & nuts,0.0
+MAR,Morocco,Fruit & nuts,0.09
+NLD,Netherlands,Fruit & nuts,0.67
+NZL,New Zealand,Fruit & nuts,156.0
+NGA,Nigeria,Fruit & nuts,0.0
+PAK,Pakistan,Fruit & nuts,3.85
+PRY,Paraguay,Fruit & nuts,0.01
+PER,Peru,Fruit & nuts,9.97
+PHL,Philippines,Fruit & nuts,25.79
+POL,Poland,Fruit & nuts,2.03
+PRT,Portugal,Fruit & nuts,0.03
+ROU,Romania,Fruit & nuts,0.0
+SAU,Saudi Arabia,Fruit & nuts,2.0
+SRB,Serbia,Fruit & nuts,3.15
+SLE,Sierra Leone,Fruit & nuts,0.01
+IND,India,Fruit & nuts,7.25
+VNM,Viet Nam,Fruit & nuts,170.69
+SOM,Somalia,Fruit & nuts,0.01
+ZAF,South Africa,Fruit & nuts,9.74
+ZWE,Zimbabwe,Fruit & nuts,0.0
+ESP,Spain,Fruit & nuts,2.89
+SDN,Sudan,Fruit & nuts,0.0
+SWE,Sweden,Fruit & nuts,0.14
+SYR,Syria,Fruit & nuts,0.01
+THA,Thailand,Fruit & nuts,12.25
+TON,Tonga,Fruit & nuts,0.05
+ARE,United Arab Emirates,Fruit & nuts,1.51
+TUN,Tunisia,Fruit & nuts,0.86
+TUR,Türkiye,Fruit & nuts,72.31
+UGA,Uganda,Fruit & nuts,0.22
+UKR,Ukraine,Fruit & nuts,0.1
+EGY,Egypt,Fruit & nuts,4.11
+GBR,United Kingdom,Fruit & nuts,0.87
+USA,USA,Fruit & nuts,187.66
+UZB,Uzbekistan,Fruit & nuts,0.61
+WSM,Samoa,Fruit & nuts,0.35
+_X ,"Areas, nes",Fruit & nuts,13.08
+AFG,Afghanistan,"Coffee, tea & spices",0.13
+ALB,Albania,"Coffee, tea & spices",0.09
+ATA,Antarctica,"Coffee, tea & spices",0.0
+ARG,Argentina,"Coffee, tea & spices",0.73
+AUS,Australia,"Coffee, tea & spices",0.24
+AUT,Austria,"Coffee, tea & spices",0.07
+BGD,Bangladesh,"Coffee, tea & spices",0.68
+BEL,Belgium,"Coffee, tea & spices",0.04
+BTN,Bhutan,"Coffee, tea & spices",0.01
+BOL,Bolivia (Plurinational State of),"Coffee, tea & spices",0.25
+BIH,Bosnia Herzegovina,"Coffee, tea & spices",0.2
+BWA,Botswana,"Coffee, tea & spices",0.0
+BRA,Brazil,"Coffee, tea & spices",216.96
+BLZ,Belize,"Coffee, tea & spices",0.01
+BGR,Bulgaria,"Coffee, tea & spices",0.02
+MMR,Myanmar,"Coffee, tea & spices",0.32
+BDI,Burundi,"Coffee, tea & spices",0.55
+KHM,Cambodia,"Coffee, tea & spices",0.08
+CAN,Canada,"Coffee, tea & spices",6.95
+LKA,Sri Lanka,"Coffee, tea & spices",24.2
+CHL,Chile,"Coffee, tea & spices",0.46
+CHN,China,"Coffee, tea & spices",26.21
+COL,Colombia,"Coffee, tea & spices",131.91
+COM,Comoros,"Coffee, tea & spices",0.0
+CRI,Costa Rica,"Coffee, tea & spices",8.44
+HRV,Croatia,"Coffee, tea & spices",0.49
+CYP,Cyprus,"Coffee, tea & spices",0.06
+CZE,Czechia,"Coffee, tea & spices",0.01
+DNK,Denmark,"Coffee, tea & spices",0.01
+ECU,Ecuador,"Coffee, tea & spices",0.31
+SLV,El Salvador,"Coffee, tea & spices",5.98
+ETH,Ethiopia,"Coffee, tea & spices",59.85
+FJI,Fiji,"Coffee, tea & spices",0.09
+FIN,Finland,"Coffee, tea & spices",0.07
+FRA,France,"Coffee, tea & spices",23.06
+PYF,French Polynesia,"Coffee, tea & spices",0.0
+DJI,Djibouti,"Coffee, tea & spices",1.63
+DEU,Germany,"Coffee, tea & spices",14.88
+GHA,Ghana,"Coffee, tea & spices",0.01
+GRC,Greece,"Coffee, tea & spices",0.48
+GTM,Guatemala,"Coffee, tea & spices",18.93
+HND,Honduras,"Coffee, tea & spices",61.02
+HKG,"China, Hong Kong SAR","Coffee, tea & spices",0.02
+HUN,Hungary,"Coffee, tea & spices",0.12
+IDN,Indonesia,"Coffee, tea & spices",22.81
+IRN,Iran,"Coffee, tea & spices",1.53
+IRQ,Iraq,"Coffee, tea & spices",0.08
+IRL,Ireland,"Coffee, tea & spices",0.59
+ISR,Israel,"Coffee, tea & spices",0.08
+ITA,Italy,"Coffee, tea & spices",36.85
+JAM,Jamaica,"Coffee, tea & spices",0.02
+JPN,Japan,"Coffee, tea & spices",16.16
+JOR,Jordan,"Coffee, tea & spices",1.33
+KEN,Kenya,"Coffee, tea & spices",11.33
+KOR,Rep. of Korea,"Coffee, tea & spices",2.27
+KGZ,Kyrgyzstan,"Coffee, tea & spices",0.0
+LAO,Lao People's Dem. Rep.,"Coffee, tea & spices",1.07
+LBN,Lebanon,"Coffee, tea & spices",1.13
+LTU,Lithuania,"Coffee, tea & spices",0.04
+MDG,Madagascar,"Coffee, tea & spices",0.73
+MWI,Malawi,"Coffee, tea & spices",0.0
+MYS,Malaysia,"Coffee, tea & spices",6.6
+MUS,Mauritius,"Coffee, tea & spices",0.26
+MEX,Mexico,"Coffee, tea & spices",17.07
+TWN,Taiwan,"Coffee, tea & spices",3.89
+MAR,Morocco,"Coffee, tea & spices",2.81
+NPL,Nepal,"Coffee, tea & spices",0.33
+NLD,Netherlands,"Coffee, tea & spices",1.55
+CUW,Curaçao,"Coffee, tea & spices",0.0
+VUT,Vanuatu,"Coffee, tea & spices",0.0
+NZL,New Zealand,"Coffee, tea & spices",2.96
+NIC,Nicaragua,"Coffee, tea & spices",20.75
+NGA,Nigeria,"Coffee, tea & spices",0.06
+NOR,Norway,"Coffee, tea & spices",0.08
+PAK,Pakistan,"Coffee, tea & spices",1.78
+PAN,Panama,"Coffee, tea & spices",0.35
+PNG,Papua New Guinea,"Coffee, tea & spices",74.97
+PRY,Paraguay,"Coffee, tea & spices",0.01
+PER,Peru,"Coffee, tea & spices",18.61
+PHL,Philippines,"Coffee, tea & spices",0.05
+PCN,Pitcairn,"Coffee, tea & spices",0.11
+POL,Poland,"Coffee, tea & spices",22.15
+PRT,Portugal,"Coffee, tea & spices",0.0
+TLS,Timor-Leste,"Coffee, tea & spices",3.99
+RWA,Rwanda,"Coffee, tea & spices",1.15
+SAU,Saudi Arabia,"Coffee, tea & spices",0.01
+SRB,Serbia,"Coffee, tea & spices",0.23
+IND,India,"Coffee, tea & spices",92.12
+SGP,Singapore,"Coffee, tea & spices",0.86
+VNM,Viet Nam,"Coffee, tea & spices",97.8
+SVN,Slovenia,"Coffee, tea & spices",0.0
+ZAF,South Africa,"Coffee, tea & spices",2.62
+ZWE,Zimbabwe,"Coffee, tea & spices",0.0
+ESP,Spain,"Coffee, tea & spices",6.92
+SWE,Sweden,"Coffee, tea & spices",0.0
+CHE,Switzerland,"Coffee, tea & spices",118.52
+SYR,Syria,"Coffee, tea & spices",0.22
+THA,Thailand,"Coffee, tea & spices",4.08
+TGO,Togo,"Coffee, tea & spices",0.0
+ARE,United Arab Emirates,"Coffee, tea & spices",21.83
+TUR,Türkiye,"Coffee, tea & spices",3.23
+UGA,Uganda,"Coffee, tea & spices",21.34
+UKR,Ukraine,"Coffee, tea & spices",0.1
+MKD,North Macedonia,"Coffee, tea & spices",0.21
+EGY,Egypt,"Coffee, tea & spices",1.17
+GBR,United Kingdom,"Coffee, tea & spices",3.6
+TZA,United Rep. of Tanzania,"Coffee, tea & spices",8.78
+USA,USA,"Coffee, tea & spices",4.86
+URY,Uruguay,"Coffee, tea & spices",0.03
+VEN,Venezuela,"Coffee, tea & spices",0.37
+WSM,Samoa,"Coffee, tea & spices",0.0
+YEM,Yemen,"Coffee, tea & spices",0.01
+AFG,Afghanistan,Cereals,0.0
+ARG,Argentina,Cereals,0.28
+AUS,Australia,Cereals,0.27
+BGD,Bangladesh,Cereals,0.48
+BEL,Belgium,Cereals,3.22
+BOL,Bolivia (Plurinational State of),Cereals,3.71
+MMR,Myanmar,Cereals,0.13
+KHM,Cambodia,Cereals,7.32
+LKA,Sri Lanka,Cereals,1.33
+CHL,Chile,Cereals,0.13
+CHN,China,Cereals,1.98
+COL,Colombia,Cereals,0.0
+CZE,Czechia,Cereals,0.06
+DEU,Germany,Cereals,0.01
+GRC,Greece,Cereals,0.04
+HKG,"China, Hong Kong SAR",Cereals,0.03
+IRN,Iran,Cereals,0.49
+IRQ,Iraq,Cereals,0.01
+ITA,Italy,Cereals,7.1
+JPN,Japan,Cereals,6.0
+JOR,Jordan,Cereals,0.05
+KEN,Kenya,Cereals,0.01
+KOR,Rep. of Korea,Cereals,1.04
+LAO,Lao People's Dem. Rep.,Cereals,0.38
+MYS,Malaysia,Cereals,0.05
+MEX,Mexico,Cereals,0.0
+TWN,Taiwan,Cereals,12.02
+NPL,Nepal,Cereals,0.01
+NLD,Netherlands,Cereals,0.35
+NZL,New Zealand,Cereals,2.12
+PAK,Pakistan,Cereals,18.32
+PER,Peru,Cereals,3.79
+POL,Poland,Cereals,0.02
+RUS,Russian Federation,Cereals,0.03
+SLE,Sierra Leone,Cereals,0.01
+IND,India,Cereals,94.02
+SGP,Singapore,Cereals,0.07
+VNM,Viet Nam,Cereals,36.2
+ZAF,South Africa,Cereals,0.02
+ESP,Spain,Cereals,2.09
+SDN,Sudan,Cereals,0.0
+SYR,Syria,Cereals,0.0
+THA,Thailand,Cereals,84.18
+ARE,United Arab Emirates,Cereals,0.0
+TUR,Türkiye,Cereals,0.02
+UKR,Ukraine,Cereals,0.04
+GBR,United Kingdom,Cereals,0.06
+TZA,United Rep. of Tanzania,Cereals,0.0
+USA,USA,Cereals,5.73
+AZE,Azerbaijan,Oils & fats,0.03
+ARG,Argentina,Oils & fats,45.74
+AUS,Australia,Oils & fats,0.4
+AUT,Austria,Oils & fats,0.04
+BGD,Bangladesh,Oils & fats,0.19
+BEL,Belgium,Oils & fats,2.17
+BIH,Bosnia Herzegovina,Oils & fats,0.0
+BRA,Brazil,Oils & fats,3.31
+SLB,Solomon Isds,Oils & fats,0.06
+BGR,Bulgaria,Oils & fats,0.43
+MMR,Myanmar,Oils & fats,0.0
+CAN,Canada,Oils & fats,3.64
+LKA,Sri Lanka,Oils & fats,9.07
+CHL,Chile,Oils & fats,3.83
+CHN,China,Oils & fats,76.5
+COL,Colombia,Oils & fats,0.93
+CRI,Costa Rica,Oils & fats,0.02
+CUB,Cuba,Oils & fats,0.03
+CYP,Cyprus,Oils & fats,0.07
+CZE,Czechia,Oils & fats,0.05
+DNK,Denmark,Oils & fats,1.44
+ECU,Ecuador,Oils & fats,1.71
+EST,Estonia,Oils & fats,0.01
+FJI,Fiji,Oils & fats,3.23
+FIN,Finland,Oils & fats,0.01
+FRA,France,Oils & fats,3.42
+PYF,French Polynesia,Oils & fats,0.0
+PSE,State of Palestine,Oils & fats,0.0
+DEU,Germany,Oils & fats,5.25
+GHA,Ghana,Oils & fats,0.1
+GRC,Greece,Oils & fats,12.54
+GIN,Guinea,Oils & fats,0.01
+HKG,"China, Hong Kong SAR",Oils & fats,1.52
+HUN,Hungary,Oils & fats,0.83
+ISL,Iceland,Oils & fats,0.88
+IDN,Indonesia,Oils & fats,9.25
+IRN,Iran,Oils & fats,0.01
+ISR,Israel,Oils & fats,0.81
+ITA,Italy,Oils & fats,68.27
+JPN,Japan,Oils & fats,2.06
+JOR,Jordan,Oils & fats,0.2
+KEN,Kenya,Oils & fats,0.33
+KOR,Rep. of Korea,Oils & fats,3.63
+LBN,Lebanon,Oils & fats,4.74
+LBR,Liberia,Oils & fats,0.04
+LTU,Lithuania,Oils & fats,0.0
+MAC,"China, Macao SAR",Oils & fats,0.93
+MDG,Madagascar,Oils & fats,0.01
+MYS,Malaysia,Oils & fats,287.75
+MLT,Malta,Oils & fats,0.0
+MUS,Mauritius,Oils & fats,0.92
+MEX,Mexico,Oils & fats,2.34
+TWN,Taiwan,Oils & fats,2.92
+MAR,Morocco,Oils & fats,3.5
+NAM,Namibia,Oils & fats,0.01
+NPL,Nepal,Oils & fats,0.12
+NLD,Netherlands,Oils & fats,2.65
+VUT,Vanuatu,Oils & fats,1.64
+NZL,New Zealand,Oils & fats,16.5
+NGA,Nigeria,Oils & fats,0.02
+NOR,Norway,Oils & fats,16.41
+PAK,Pakistan,Oils & fats,0.11
+PAN,Panama,Oils & fats,0.53
+PNG,Papua New Guinea,Oils & fats,0.64
+PER,Peru,Oils & fats,4.72
+PHL,Philippines,Oils & fats,8.81
+POL,Poland,Oils & fats,0.04
+PRT,Portugal,Oils & fats,1.3
+TLS,Timor-Leste,Oils & fats,0.01
+ROU,Romania,Oils & fats,0.92
+RUS,Russian Federation,Oils & fats,0.0
+SAU,Saudi Arabia,Oils & fats,0.06
+SRB,Serbia,Oils & fats,0.0
+SYC,Seychelles,Oils & fats,0.23
+SLE,Sierra Leone,Oils & fats,0.08
+IND,India,Oils & fats,47.72
+SGP,Singapore,Oils & fats,22.21
+VNM,Viet Nam,Oils & fats,4.32
+SVN,Slovenia,Oils & fats,0.04
+ZAF,South Africa,Oils & fats,0.06
+ZWE,Zimbabwe,Oils & fats,0.0
+ESP,Spain,Oils & fats,176.88
+SDN,Sudan,Oils & fats,0.01
+SWE,Sweden,Oils & fats,2.85
+CHE,Switzerland,Oils & fats,0.27
+SYR,Syria,Oils & fats,1.91
+THA,Thailand,Oils & fats,10.31
+TGO,Togo,Oils & fats,0.01
+ARE,United Arab Emirates,Oils & fats,0.93
+TUN,Tunisia,Oils & fats,0.91
+TUR,Türkiye,Oils & fats,11.93
+UGA,Uganda,Oils & fats,0.0
+UKR,Ukraine,Oils & fats,4.99
+MKD,North Macedonia,Oils & fats,0.03
+EGY,Egypt,Oils & fats,0.03
+GBR,United Kingdom,Oils & fats,5.63
+TZA,United Rep. of Tanzania,Oils & fats,0.74
+USA,USA,Oils & fats,18.95
+BFA,Burkina Faso,Oils & fats,0.01
+ALB,Albania,Preserved meat & fish,0.05
+AZE,Azerbaijan,Preserved meat & fish,0.02
+ARG,Argentina,Preserved meat & fish,0.01
+AUS,Australia,Preserved meat & fish,0.42
+AUT,Austria,Preserved meat & fish,0.02
+BGD,Bangladesh,Preserved meat & fish,0.07
+BIH,Bosnia Herzegovina,Preserved meat & fish,0.01
+BRA,Brazil,Preserved meat & fish,4.65
+SLB,Solomon Isds,Preserved meat & fish,0.49
+MMR,Myanmar,Preserved meat & fish,0.35
+KHM,Cambodia,Preserved meat & fish,0.06
+CAN,Canada,Preserved meat & fish,4.96
+LKA,Sri Lanka,Preserved meat & fish,0.55
+CHL,Chile,Preserved meat & fish,2.94
+CHN,China,Preserved meat & fish,105.5
+HRV,Croatia,Preserved meat & fish,1.68
+DNK,Denmark,Preserved meat & fish,3.12
+EST,Estonia,Preserved meat & fish,0.23
+FJI,Fiji,Preserved meat & fish,0.93
+FRA,France,Preserved meat & fish,4.11
+GEO,Georgia,Preserved meat & fish,0.29
+DEU,Germany,Preserved meat & fish,9.8
+GHA,Ghana,Preserved meat & fish,0.0
+GRC,Greece,Preserved meat & fish,0.5
+HKG,"China, Hong Kong SAR",Preserved meat & fish,0.48
+HUN,Hungary,Preserved meat & fish,0.01
+ISL,Iceland,Preserved meat & fish,0.15
+IDN,Indonesia,Preserved meat & fish,41.47
+IRN,Iran,Preserved meat & fish,0.14
+IRL,Ireland,Preserved meat & fish,0.33
+ISR,Israel,Preserved meat & fish,0.02
+ITA,Italy,Preserved meat & fish,7.84
+JPN,Japan,Preserved meat & fish,8.0
+KOR,Rep. of Korea,Preserved meat & fish,8.34
+LBN,Lebanon,Preserved meat & fish,0.2
+LVA,Latvia,Preserved meat & fish,2.18
+LTU,Lithuania,Preserved meat & fish,0.07
+LUX,Luxembourg,Preserved meat & fish,0.08
+MAC,"China, Macao SAR",Preserved meat & fish,0.0
+MYS,Malaysia,Preserved meat & fish,30.91
+MDV,Maldives,Preserved meat & fish,0.03
+MUS,Mauritius,Preserved meat & fish,0.01
+TWN,Taiwan,Preserved meat & fish,5.55
+MDA,Rep. of Moldova,Preserved meat & fish,0.05
+MAR,Morocco,Preserved meat & fish,2.83
+OMN,Oman,Preserved meat & fish,0.01
+NLD,Netherlands,Preserved meat & fish,5.87
+NCL,New Caledonia,Preserved meat & fish,0.18
+NZL,New Zealand,Preserved meat & fish,121.94
+NIC,Nicaragua,Preserved meat & fish,0.02
+NGA,Nigeria,Preserved meat & fish,0.0
+NOR,Norway,Preserved meat & fish,1.63
+PAK,Pakistan,Preserved meat & fish,0.03
+PER,Peru,Preserved meat & fish,2.66
+PHL,Philippines,Preserved meat & fish,6.8
+POL,Poland,Preserved meat & fish,18.92
+PRT,Portugal,Preserved meat & fish,2.78
+SRB,Serbia,Preserved meat & fish,0.07
+SYC,Seychelles,Preserved meat & fish,0.09
+IND,India,Preserved meat & fish,0.96
+SGP,Singapore,Preserved meat & fish,3.07
+VNM,Viet Nam,Preserved meat & fish,112.79
+SVN,Slovenia,Preserved meat & fish,0.86
+ZAF,South Africa,Preserved meat & fish,0.1
+ESP,Spain,Preserved meat & fish,11.19
+SWE,Sweden,Preserved meat & fish,0.71
+THA,Thailand,Preserved meat & fish,281.1
+ARE,United Arab Emirates,Preserved meat & fish,0.09
+TUN,Tunisia,Preserved meat & fish,0.03
+TUR,Türkiye,Preserved meat & fish,0.03
+GBR,United Kingdom,Preserved meat & fish,8.38
+USA,USA,Preserved meat & fish,39.43
+URY,Uruguay,Preserved meat & fish,0.27
+AFG,Afghanistan,Sugar & lollies,0.01
+ARG,Argentina,Sugar & lollies,0.08
+AUS,Australia,Sugar & lollies,0.01
+AUT,Austria,Sugar & lollies,5.88
+BGD,Bangladesh,Sugar & lollies,1.22
+BEL,Belgium,Sugar & lollies,6.9
+BIH,Bosnia Herzegovina,Sugar & lollies,0.02
+BRA,Brazil,Sugar & lollies,2.34
+BGR,Bulgaria,Sugar & lollies,0.06
+MMR,Myanmar,Sugar & lollies,0.02
+KHM,Cambodia,Sugar & lollies,0.12
+CAN,Canada,Sugar & lollies,28.19
+LKA,Sri Lanka,Sugar & lollies,0.83
+CHL,Chile,Sugar & lollies,0.28
+CHN,China,Sugar & lollies,155.75
+COL,Colombia,Sugar & lollies,1.2
+CRI,Costa Rica,Sugar & lollies,0.04
+HRV,Croatia,Sugar & lollies,0.14
+CZE,Czechia,Sugar & lollies,2.6
+DNK,Denmark,Sugar & lollies,0.65
+ECU,Ecuador,Sugar & lollies,0.01
+FJI,Fiji,Sugar & lollies,0.01
+FIN,Finland,Sugar & lollies,0.16
+FRA,France,Sugar & lollies,3.86
+GEO,Georgia,Sugar & lollies,0.0
+DEU,Germany,Sugar & lollies,30.53
+GRC,Greece,Sugar & lollies,0.85
+HKG,"China, Hong Kong SAR",Sugar & lollies,0.22
+HUN,Hungary,Sugar & lollies,1.98
+IDN,Indonesia,Sugar & lollies,4.81
+IRN,Iran,Sugar & lollies,0.51
+IRQ,Iraq,Sugar & lollies,0.05
+IRL,Ireland,Sugar & lollies,0.07
+ISR,Israel,Sugar & lollies,0.28
+ITA,Italy,Sugar & lollies,9.78
+JPN,Japan,Sugar & lollies,1.78
+JOR,Jordan,Sugar & lollies,0.31
+KOR,Rep. of Korea,Sugar & lollies,6.59
+KWT,Kuwait,Sugar & lollies,0.0
+LBN,Lebanon,Sugar & lollies,0.46
+LUX,Luxembourg,Sugar & lollies,0.02
+MYS,Malaysia,Sugar & lollies,4.25
+MLT,Malta,Sugar & lollies,0.0
+MUS,Mauritius,Sugar & lollies,0.0
+MEX,Mexico,Sugar & lollies,5.42
+TWN,Taiwan,Sugar & lollies,2.34
+MDA,Rep. of Moldova,Sugar & lollies,0.0
+MAR,Morocco,Sugar & lollies,0.06
+MOZ,Mozambique,Sugar & lollies,0.06
+OMN,Oman,Sugar & lollies,0.01
+NPL,Nepal,Sugar & lollies,0.03
+NLD,Netherlands,Sugar & lollies,2.64
+VUT,Vanuatu,Sugar & lollies,0.02
+NZL,New Zealand,Sugar & lollies,22.93
+PAK,Pakistan,Sugar & lollies,3.03
+PRY,Paraguay,Sugar & lollies,0.3
+PER,Peru,Sugar & lollies,0.03
+PHL,Philippines,Sugar & lollies,1.52
+POL,Poland,Sugar & lollies,11.2
+RUS,Russian Federation,Sugar & lollies,0.0
+SAU,Saudi Arabia,Sugar & lollies,0.02
+SRB,Serbia,Sugar & lollies,0.13
+IND,India,Sugar & lollies,15.07
+SGP,Singapore,Sugar & lollies,6.72
+SVK,Slovakia,Sugar & lollies,0.13
+VNM,Viet Nam,Sugar & lollies,3.36
+ZAF,South Africa,Sugar & lollies,2.46
+ESP,Spain,Sugar & lollies,7.82
+SWZ,Eswatini,Sugar & lollies,0.02
+SWE,Sweden,Sugar & lollies,0.24
+CHE,Switzerland,Sugar & lollies,4.54
+SYR,Syria,Sugar & lollies,0.08
+THA,Thailand,Sugar & lollies,15.6
+ARE,United Arab Emirates,Sugar & lollies,0.13
+TUN,Tunisia,Sugar & lollies,1.38
+TUR,Türkiye,Sugar & lollies,5.54
+UKR,Ukraine,Sugar & lollies,0.02
+MKD,North Macedonia,Sugar & lollies,0.01
+EGY,Egypt,Sugar & lollies,0.01
+GBR,United Kingdom,Sugar & lollies,9.78
+USA,USA,Sugar & lollies,42.16
+ARG,Argentina,Cocoa & chocolate,0.01
+AUS,Australia,Cocoa & chocolate,0.03
+AUT,Austria,Cocoa & chocolate,0.6
+BGD,Bangladesh,Cocoa & chocolate,0.55
+BEL,Belgium,Cocoa & chocolate,46.75
+BOL,Bolivia (Plurinational State of),Cocoa & chocolate,0.0
+BIH,Bosnia Herzegovina,Cocoa & chocolate,0.07
+BRA,Brazil,Cocoa & chocolate,0.81
+SLB,Solomon Isds,Cocoa & chocolate,0.07
+BGR,Bulgaria,Cocoa & chocolate,0.04
+KHM,Cambodia,Cocoa & chocolate,0.15
+CAN,Canada,Cocoa & chocolate,22.86
+LKA,Sri Lanka,Cocoa & chocolate,0.05
+CHL,Chile,Cocoa & chocolate,0.0
+CHN,China,Cocoa & chocolate,19.1
+COL,Colombia,Cocoa & chocolate,0.34
+HRV,Croatia,Cocoa & chocolate,2.1
+CZE,Czechia,Cocoa & chocolate,0.15
+DNK,Denmark,Cocoa & chocolate,0.43
+DOM,Dominican Rep.,Cocoa & chocolate,1.11
+ECU,Ecuador,Cocoa & chocolate,4.48
+EST,Estonia,Cocoa & chocolate,0.0
+FIN,Finland,Cocoa & chocolate,0.18
+FRA,France,Cocoa & chocolate,26.57
+DEU,Germany,Cocoa & chocolate,134.45
+GHA,Ghana,Cocoa & chocolate,9.93
+GRC,Greece,Cocoa & chocolate,1.04
+GTM,Guatemala,Cocoa & chocolate,0.0
+HKG,"China, Hong Kong SAR",Cocoa & chocolate,0.04
+HUN,Hungary,Cocoa & chocolate,0.01
+IDN,Indonesia,Cocoa & chocolate,187.35
+IRN,Iran,Cocoa & chocolate,0.09
+IRQ,Iraq,Cocoa & chocolate,0.03
+IRL,Ireland,Cocoa & chocolate,0.81
+ISR,Israel,Cocoa & chocolate,0.13
+ITA,Italy,Cocoa & chocolate,100.12
+CIV,Côte d'Ivoire,Cocoa & chocolate,37.56
+JPN,Japan,Cocoa & chocolate,0.92
+JOR,Jordan,Cocoa & chocolate,0.0
+KOR,Rep. of Korea,Cocoa & chocolate,0.11
+LBN,Lebanon,Cocoa & chocolate,0.13
+LTU,Lithuania,Cocoa & chocolate,2.55
+LUX,Luxembourg,Cocoa & chocolate,0.22
+MDG,Madagascar,Cocoa & chocolate,0.02
+MYS,Malaysia,Cocoa & chocolate,254.17
+MEX,Mexico,Cocoa & chocolate,4.98
+TWN,Taiwan,Cocoa & chocolate,0.31
+MDA,Rep. of Moldova,Cocoa & chocolate,0.0
+MNE,Montenegro,Cocoa & chocolate,0.01
+OMN,Oman,Cocoa & chocolate,0.01
+NPL,Nepal,Cocoa & chocolate,0.01
+NLD,Netherlands,Cocoa & chocolate,43.43
+VUT,Vanuatu,Cocoa & chocolate,0.18
+NZL,New Zealand,Cocoa & chocolate,78.83
+PAK,Pakistan,Cocoa & chocolate,0.27
+PNG,Papua New Guinea,Cocoa & chocolate,1.76
+PER,Peru,Cocoa & chocolate,13.56
+PHL,Philippines,Cocoa & chocolate,0.4
+POL,Poland,Cocoa & chocolate,27.07
+PRT,Portugal,Cocoa & chocolate,0.08
+ROU,Romania,Cocoa & chocolate,0.01
+RUS,Russian Federation,Cocoa & chocolate,0.01
+SAU,Saudi Arabia,Cocoa & chocolate,0.01
+SRB,Serbia,Cocoa & chocolate,0.31
+SLE,Sierra Leone,Cocoa & chocolate,0.0
+IND,India,Cocoa & chocolate,0.36
+SGP,Singapore,Cocoa & chocolate,248.6
+SVK,Slovakia,Cocoa & chocolate,3.58
+VNM,Viet Nam,Cocoa & chocolate,3.39
+ZAF,South Africa,Cocoa & chocolate,0.5
+ESP,Spain,Cocoa & chocolate,5.02
+SWE,Sweden,Cocoa & chocolate,0.51
+CHE,Switzerland,Cocoa & chocolate,43.9
+SYR,Syria,Cocoa & chocolate,0.05
+THA,Thailand,Cocoa & chocolate,1.53
+ARE,United Arab Emirates,Cocoa & chocolate,0.81
+TUR,Türkiye,Cocoa & chocolate,10.59
+UKR,Ukraine,Cocoa & chocolate,0.01
+MKD,North Macedonia,Cocoa & chocolate,0.0
+EGY,Egypt,Cocoa & chocolate,5.73
+GBR,United Kingdom,Cocoa & chocolate,19.2
+TZA,United Rep. of Tanzania,Cocoa & chocolate,0.09
+USA,USA,Cocoa & chocolate,52.5
+WSM,Samoa,Cocoa & chocolate,0.0
+ARG,Argentina,"Bakery, pasta & cereal foods",0.09
+AUS,Australia,"Bakery, pasta & cereal foods",0.2
+AUT,Austria,"Bakery, pasta & cereal foods",3.21
+BHR,Bahrain,"Bakery, pasta & cereal foods",0.07
+BGD,Bangladesh,"Bakery, pasta & cereal foods",1.93
+BRB,Barbados,"Bakery, pasta & cereal foods",0.02
+BEL,Belgium,"Bakery, pasta & cereal foods",47.0
+BTN,Bhutan,"Bakery, pasta & cereal foods",0.0
+BOL,Bolivia (Plurinational State of),"Bakery, pasta & cereal foods",0.6
+BIH,Bosnia Herzegovina,"Bakery, pasta & cereal foods",0.27
+BRA,Brazil,"Bakery, pasta & cereal foods",0.24
+BGR,Bulgaria,"Bakery, pasta & cereal foods",0.85
+MMR,Myanmar,"Bakery, pasta & cereal foods",0.19
+KHM,Cambodia,"Bakery, pasta & cereal foods",9.54
+CAN,Canada,"Bakery, pasta & cereal foods",19.62
+LKA,Sri Lanka,"Bakery, pasta & cereal foods",1.64
+CHL,Chile,"Bakery, pasta & cereal foods",0.01
+CHN,China,"Bakery, pasta & cereal foods",141.54
+COL,Colombia,"Bakery, pasta & cereal foods",1.56
+HRV,Croatia,"Bakery, pasta & cereal foods",1.01
+CYP,Cyprus,"Bakery, pasta & cereal foods",0.02
+CZE,Czechia,"Bakery, pasta & cereal foods",8.33
+DNK,Denmark,"Bakery, pasta & cereal foods",17.92
+DOM,Dominican Rep.,"Bakery, pasta & cereal foods",0.0
+ECU,Ecuador,"Bakery, pasta & cereal foods",0.12
+EST,Estonia,"Bakery, pasta & cereal foods",0.02
+FJI,Fiji,"Bakery, pasta & cereal foods",7.12
+FIN,Finland,"Bakery, pasta & cereal foods",0.25
+FRA,France,"Bakery, pasta & cereal foods",113.0
+DEU,Germany,"Bakery, pasta & cereal foods",56.89
+GHA,Ghana,"Bakery, pasta & cereal foods",0.02
+GRC,Greece,"Bakery, pasta & cereal foods",17.42
+HKG,"China, Hong Kong SAR","Bakery, pasta & cereal foods",6.97
+HUN,Hungary,"Bakery, pasta & cereal foods",0.64
+IDN,Indonesia,"Bakery, pasta & cereal foods",99.46
+IRN,Iran,"Bakery, pasta & cereal foods",0.77
+IRQ,Iraq,"Bakery, pasta & cereal foods",0.03
+IRL,Ireland,"Bakery, pasta & cereal foods",3.38
+ISR,Israel,"Bakery, pasta & cereal foods",5.0
+ITA,Italy,"Bakery, pasta & cereal foods",188.35
+JPN,Japan,"Bakery, pasta & cereal foods",32.13
+JOR,Jordan,"Bakery, pasta & cereal foods",0.1
+KEN,Kenya,"Bakery, pasta & cereal foods",0.0
+KOR,Rep. of Korea,"Bakery, pasta & cereal foods",87.43
+KWT,Kuwait,"Bakery, pasta & cereal foods",0.01
+LBN,Lebanon,"Bakery, pasta & cereal foods",1.6
+LVA,Latvia,"Bakery, pasta & cereal foods",0.02
+LTU,Lithuania,"Bakery, pasta & cereal foods",0.42
+LUX,Luxembourg,"Bakery, pasta & cereal foods",0.0
+MYS,Malaysia,"Bakery, pasta & cereal foods",114.45
+MLI,Mali,"Bakery, pasta & cereal foods",0.31
+MLT,Malta,"Bakery, pasta & cereal foods",0.02
+MUS,Mauritius,"Bakery, pasta & cereal foods",0.04
+MEX,Mexico,"Bakery, pasta & cereal foods",4.66
+TWN,Taiwan,"Bakery, pasta & cereal foods",20.98
+MDA,Rep. of Moldova,"Bakery, pasta & cereal foods",0.04
+MAR,Morocco,"Bakery, pasta & cereal foods",0.0
+OMN,Oman,"Bakery, pasta & cereal foods",1.82
+NAM,Namibia,"Bakery, pasta & cereal foods",0.01
+NPL,Nepal,"Bakery, pasta & cereal foods",2.61
+NLD,Netherlands,"Bakery, pasta & cereal foods",72.8
+NZL,New Zealand,"Bakery, pasta & cereal foods",267.0
+NGA,Nigeria,"Bakery, pasta & cereal foods",0.07
+NOR,Norway,"Bakery, pasta & cereal foods",0.06
+PAK,Pakistan,"Bakery, pasta & cereal foods",4.13
+PER,Peru,"Bakery, pasta & cereal foods",0.06
+PHL,Philippines,"Bakery, pasta & cereal foods",10.33
+POL,Poland,"Bakery, pasta & cereal foods",25.36
+PRT,Portugal,"Bakery, pasta & cereal foods",5.63
+ROU,Romania,"Bakery, pasta & cereal foods",2.47
+RUS,Russian Federation,"Bakery, pasta & cereal foods",0.01
+SAU,Saudi Arabia,"Bakery, pasta & cereal foods",0.11
+SRB,Serbia,"Bakery, pasta & cereal foods",0.87
+IND,India,"Bakery, pasta & cereal foods",52.6
+SGP,Singapore,"Bakery, pasta & cereal foods",30.45
+VNM,Viet Nam,"Bakery, pasta & cereal foods",48.72
+SVN,Slovenia,"Bakery, pasta & cereal foods",0.11
+ZAF,South Africa,"Bakery, pasta & cereal foods",3.23
+ZWE,Zimbabwe,"Bakery, pasta & cereal foods",0.02
+ESP,Spain,"Bakery, pasta & cereal foods",31.48
+SWE,Sweden,"Bakery, pasta & cereal foods",1.54
+CHE,Switzerland,"Bakery, pasta & cereal foods",9.82
+SYR,Syria,"Bakery, pasta & cereal foods",0.02
+THA,Thailand,"Bakery, pasta & cereal foods",192.88
+ARE,United Arab Emirates,"Bakery, pasta & cereal foods",5.13
+TUN,Tunisia,"Bakery, pasta & cereal foods",0.09
+TUR,Türkiye,"Bakery, pasta & cereal foods",8.5
+UKR,Ukraine,"Bakery, pasta & cereal foods",0.16
+MKD,North Macedonia,"Bakery, pasta & cereal foods",0.54
+EGY,Egypt,"Bakery, pasta & cereal foods",2.87
+GBR,United Kingdom,"Bakery, pasta & cereal foods",121.19
+USA,USA,"Bakery, pasta & cereal foods",73.82
+WSM,Samoa,"Bakery, pasta & cereal foods",0.01
+AFG,Afghanistan,Preserved fruit & veg,0.03
+AZE,Azerbaijan,Preserved fruit & veg,0.16
+ARG,Argentina,Preserved fruit & veg,20.7
+AUS,Australia,Preserved fruit & veg,0.38
+AUT,Austria,Preserved fruit & veg,2.85
+BGD,Bangladesh,Preserved fruit & veg,0.22
+BEL,Belgium,Preserved fruit & veg,106.25
+BIH,Bosnia Herzegovina,Preserved fruit & veg,0.2
+BRA,Brazil,Preserved fruit & veg,25.78
+BLZ,Belize,Preserved fruit & veg,0.09
+BGR,Bulgaria,Preserved fruit & veg,0.62
+MMR,Myanmar,Preserved fruit & veg,0.19
+KHM,Cambodia,Preserved fruit & veg,0.07
+CAN,Canada,Preserved fruit & veg,4.5
+LKA,Sri Lanka,Preserved fruit & veg,2.69
+CHL,Chile,Preserved fruit & veg,4.73
+CHN,China,Preserved fruit & veg,239.82
+CXR,Christmas Isds,Preserved fruit & veg,0.14
+COL,Colombia,Preserved fruit & veg,2.6
+CRI,Costa Rica,Preserved fruit & veg,0.32
+HRV,Croatia,Preserved fruit & veg,0.41
+CYP,Cyprus,Preserved fruit & veg,0.01
+CZE,Czechia,Preserved fruit & veg,0.14
+DNK,Denmark,Preserved fruit & veg,0.2
+ECU,Ecuador,Preserved fruit & veg,1.66
+ETH,Ethiopia,Preserved fruit & veg,0.01
+FJI,Fiji,Preserved fruit & veg,1.53
+FRA,France,Preserved fruit & veg,23.58
+PYF,French Polynesia,Preserved fruit & veg,0.01
+GEO,Georgia,Preserved fruit & veg,3.25
+DEU,Germany,Preserved fruit & veg,20.16
+GHA,Ghana,Preserved fruit & veg,0.02
+GRC,Greece,Preserved fruit & veg,30.02
+GTM,Guatemala,Preserved fruit & veg,0.64
+HKG,"China, Hong Kong SAR",Preserved fruit & veg,0.75
+HUN,Hungary,Preserved fruit & veg,1.82
+IDN,Indonesia,Preserved fruit & veg,31.11
+IRN,Iran,Preserved fruit & veg,2.91
+IRQ,Iraq,Preserved fruit & veg,0.46
+IRL,Ireland,Preserved fruit & veg,0.06
+ISR,Israel,Preserved fruit & veg,12.48
+ITA,Italy,Preserved fruit & veg,199.41
+JAM,Jamaica,Preserved fruit & veg,0.0
+JPN,Japan,Preserved fruit & veg,4.41
+JOR,Jordan,Preserved fruit & veg,1.2
+KEN,Kenya,Preserved fruit & veg,1.2
+KOR,Rep. of Korea,Preserved fruit & veg,32.99
+KWT,Kuwait,Preserved fruit & veg,0.04
+KGZ,Kyrgyzstan,Preserved fruit & veg,0.04
+LBN,Lebanon,Preserved fruit & veg,4.73
+LVA,Latvia,Preserved fruit & veg,0.0
+LTU,Lithuania,Preserved fruit & veg,0.01
+MYS,Malaysia,Preserved fruit & veg,6.86
+MLI,Mali,Preserved fruit & veg,0.03
+MLT,Malta,Preserved fruit & veg,0.05
+MUS,Mauritius,Preserved fruit & veg,0.06
+MEX,Mexico,Preserved fruit & veg,16.02
+TWN,Taiwan,Preserved fruit & veg,4.61
+MDA,Rep. of Moldova,Preserved fruit & veg,0.12
+MAR,Morocco,Preserved fruit & veg,2.14
+OMN,Oman,Preserved fruit & veg,0.02
+NPL,Nepal,Preserved fruit & veg,1.04
+NLD,Netherlands,Preserved fruit & veg,50.03
+NZL,New Zealand,Preserved fruit & veg,111.76
+NGA,Nigeria,Preserved fruit & veg,0.03
+PAK,Pakistan,Preserved fruit & veg,2.28
+PRY,Paraguay,Preserved fruit & veg,0.0
+PER,Peru,Preserved fruit & veg,4.25
+PHL,Philippines,Preserved fruit & veg,25.33
+POL,Poland,Preserved fruit & veg,12.14
+PRT,Portugal,Preserved fruit & veg,0.32
+ROU,Romania,Preserved fruit & veg,0.13
+RUS,Russian Federation,Preserved fruit & veg,0.03
+SAU,Saudi Arabia,Preserved fruit & veg,0.22
+SRB,Serbia,Preserved fruit & veg,0.35
+IND,India,Preserved fruit & veg,43.98
+SGP,Singapore,Preserved fruit & veg,0.13
+VNM,Viet Nam,Preserved fruit & veg,98.83
+SVN,Slovenia,Preserved fruit & veg,0.74
+ZAF,South Africa,Preserved fruit & veg,10.76
+ZWE,Zimbabwe,Preserved fruit & veg,0.0
+ESP,Spain,Preserved fruit & veg,33.28
+SUR,Suriname,Preserved fruit & veg,0.0
+SWE,Sweden,Preserved fruit & veg,1.08
+CHE,Switzerland,Preserved fruit & veg,1.76
+SYR,Syria,Preserved fruit & veg,0.92
+THA,Thailand,Preserved fruit & veg,123.46
+ARE,United Arab Emirates,Preserved fruit & veg,3.03
+TUN,Tunisia,Preserved fruit & veg,0.19
+TUR,Türkiye,Preserved fruit & veg,45.54
+UGA,Uganda,Preserved fruit & veg,0.0
+UKR,Ukraine,Preserved fruit & veg,1.03
+MKD,North Macedonia,Preserved fruit & veg,1.61
+EGY,Egypt,Preserved fruit & veg,5.42
+GBR,United Kingdom,Preserved fruit & veg,6.71
+USA,USA,Preserved fruit & veg,84.35
+WSM,Samoa,Preserved fruit & veg,0.01
+YEM,Yemen,Preserved fruit & veg,0.0
+ZMB,Zambia,Preserved fruit & veg,0.62
+ATA,Antarctica,Sauces & other foods,0.01
+ARG,Argentina,Sauces & other foods,0.39
+AUS,Australia,Sauces & other foods,1.93
+AUT,Austria,Sauces & other foods,2.13
+BHR,Bahrain,Sauces & other foods,0.09
+BGD,Bangladesh,Sauces & other foods,0.84
+BRB,Barbados,Sauces & other foods,0.03
+BEL,Belgium,Sauces & other foods,30.39
+BTN,Bhutan,Sauces & other foods,0.02
+BIH,Bosnia Herzegovina,Sauces & other foods,0.02
+BRA,Brazil,Sauces & other foods,19.57
+BLZ,Belize,Sauces & other foods,0.0
+BGR,Bulgaria,Sauces & other foods,0.16
+MMR,Myanmar,Sauces & other foods,0.31
+KHM,Cambodia,Sauces & other foods,0.04
+CAN,Canada,Sauces & other foods,11.84
+LKA,Sri Lanka,Sauces & other foods,15.87
+CHL,Chile,Sauces & other foods,0.18
+CHN,China,Sauces & other foods,226.53
+COL,Colombia,Sauces & other foods,0.34
+CRI,Costa Rica,Sauces & other foods,0.25
+HRV,Croatia,Sauces & other foods,4.53
+CUB,Cuba,Sauces & other foods,0.11
+CYP,Cyprus,Sauces & other foods,0.01
+CZE,Czechia,Sauces & other foods,5.94
+DNK,Denmark,Sauces & other foods,43.66
+DOM,Dominican Rep.,Sauces & other foods,0.18
+ECU,Ecuador,Sauces & other foods,0.0
+ETH,Ethiopia,Sauces & other foods,0.01
+EST,Estonia,Sauces & other foods,2.22
+FJI,Fiji,Sauces & other foods,0.63
+FRA,France,Sauces & other foods,35.77
+GEO,Georgia,Sauces & other foods,0.04
+DEU,Germany,Sauces & other foods,104.05
+GHA,Ghana,Sauces & other foods,0.12
+GRC,Greece,Sauces & other foods,7.62
+HKG,"China, Hong Kong SAR",Sauces & other foods,19.71
+HUN,Hungary,Sauces & other foods,2.33
+ISL,Iceland,Sauces & other foods,0.0
+IDN,Indonesia,Sauces & other foods,58.66
+IRN,Iran,Sauces & other foods,0.54
+IRQ,Iraq,Sauces & other foods,0.05
+IRL,Ireland,Sauces & other foods,16.51
+ISR,Israel,Sauces & other foods,12.21
+ITA,Italy,Sauces & other foods,125.67
+JAM,Jamaica,Sauces & other foods,0.08
+JPN,Japan,Sauces & other foods,117.31
+JOR,Jordan,Sauces & other foods,1.04
+KEN,Kenya,Sauces & other foods,0.07
+KOR,Rep. of Korea,Sauces & other foods,53.94
+KWT,Kuwait,Sauces & other foods,0.03
+KGZ,Kyrgyzstan,Sauces & other foods,0.02
+LBN,Lebanon,Sauces & other foods,1.5
+LVA,Latvia,Sauces & other foods,0.25
+LTU,Lithuania,Sauces & other foods,0.15
+MAC,"China, Macao SAR",Sauces & other foods,0.07
+MDG,Madagascar,Sauces & other foods,0.01
+MYS,Malaysia,Sauces & other foods,90.08
+MLT,Malta,Sauces & other foods,0.07
+MUS,Mauritius,Sauces & other foods,0.01
+MEX,Mexico,Sauces & other foods,12.6
+TWN,Taiwan,Sauces & other foods,40.18
+MDA,Rep. of Moldova,Sauces & other foods,0.0
+MAR,Morocco,Sauces & other foods,1.11
+NPL,Nepal,Sauces & other foods,0.84
+NLD,Netherlands,Sauces & other foods,143.75
+NZL,New Zealand,Sauces & other foods,395.66
+NER,Niger,Sauces & other foods,0.01
+NGA,Nigeria,Sauces & other foods,0.04
+NOR,Norway,Sauces & other foods,1.65
+PAK,Pakistan,Sauces & other foods,6.75
+PNG,Papua New Guinea,Sauces & other foods,0.01
+PRY,Paraguay,Sauces & other foods,0.01
+PER,Peru,Sauces & other foods,0.14
+PHL,Philippines,Sauces & other foods,16.08
+POL,Poland,Sauces & other foods,20.64
+PRT,Portugal,Sauces & other foods,0.97
+TLS,Timor-Leste,Sauces & other foods,0.0
+QAT,Qatar,Sauces & other foods,0.01
+ROU,Romania,Sauces & other foods,1.26
+RUS,Russian Federation,Sauces & other foods,0.0
+SAU,Saudi Arabia,Sauces & other foods,0.04
+SRB,Serbia,Sauces & other foods,2.35
+IND,India,Sauces & other foods,75.31
+SGP,Singapore,Sauces & other foods,529.02
+SVK,Slovakia,Sauces & other foods,0.02
+VNM,Viet Nam,Sauces & other foods,53.51
+SVN,Slovenia,Sauces & other foods,0.39
+ZAF,South Africa,Sauces & other foods,15.47
+ZWE,Zimbabwe,Sauces & other foods,0.05
+ESP,Spain,Sauces & other foods,51.41
+SWE,Sweden,Sauces & other foods,6.3
+CHE,Switzerland,Sauces & other foods,20.06
+SYR,Syria,Sauces & other foods,0.06
+THA,Thailand,Sauces & other foods,185.59
+TTO,Trinidad and Tobago,Sauces & other foods,0.04
+ARE,United Arab Emirates,Sauces & other foods,0.68
+TUN,Tunisia,Sauces & other foods,0.11
+TUR,Türkiye,Sauces & other foods,3.97
+TUV,Tuvalu,Sauces & other foods,0.0
+UKR,Ukraine,Sauces & other foods,0.19
+MKD,North Macedonia,Sauces & other foods,2.62
+EGY,Egypt,Sauces & other foods,1.28
+GBR,United Kingdom,Sauces & other foods,79.26
+USA,USA,Sauces & other foods,214.63
+URY,Uruguay,Sauces & other foods,0.01
+WSM,Samoa,Sauces & other foods,0.03
+AFG,Afghanistan,Drinks,0.01
+ALB,Albania,Drinks,0.43
+ATG,Antigua and Barbuda,Drinks,0.05
+ARG,Argentina,Drinks,4.04
+AUS,Australia,Drinks,10.0
+AUT,Austria,Drinks,66.01
+BHR,Bahrain,Drinks,0.03
+BGD,Bangladesh,Drinks,0.95
+ARM,Armenia,Drinks,0.04
+BRB,Barbados,Drinks,0.93
+BEL,Belgium,Drinks,10.07
+BMU,Bermuda,Drinks,0.12
+BTN,Bhutan,Drinks,0.01
+BOL,Bolivia (Plurinational State of),Drinks,0.0
+BIH,Bosnia Herzegovina,Drinks,0.13
+BRA,Brazil,Drinks,0.8
+BGR,Bulgaria,Drinks,0.02
+MMR,Myanmar,Drinks,0.01
+KHM,Cambodia,Drinks,0.09
+CMR,Cameroon,Drinks,0.0
+CAN,Canada,Drinks,5.81
+LKA,Sri Lanka,Drinks,0.92
+CHL,Chile,Drinks,1.73
+CHN,China,Drinks,125.1
+COL,Colombia,Drinks,0.51
+COD,Dem. Rep. of the Congo,Drinks,0.0
+HRV,Croatia,Drinks,2.04
+CUB,Cuba,Drinks,0.73
+CYP,Cyprus,Drinks,0.23
+CZE,Czechia,Drinks,1.06
+DNK,Denmark,Drinks,0.73
+DMA,Dominica,Drinks,0.01
+DOM,Dominican Rep.,Drinks,0.11
+EST,Estonia,Drinks,0.01
+FJI,Fiji,Drinks,2.49
+FRA,France,Drinks,382.16
+DJI,Djibouti,Drinks,0.01
+GEO,Georgia,Drinks,0.14
+DEU,Germany,Drinks,24.14
+GHA,Ghana,Drinks,0.01
+GRC,Greece,Drinks,4.36
+GTM,Guatemala,Drinks,0.47
+GUY,Guyana,Drinks,0.16
+HTI,Haiti,Drinks,0.0
+HKG,"China, Hong Kong SAR",Drinks,2.63
+HUN,Hungary,Drinks,0.51
+ISL,Iceland,Drinks,0.61
+IDN,Indonesia,Drinks,1.18
+IRN,Iran,Drinks,0.18
+IRQ,Iraq,Drinks,0.42
+IRL,Ireland,Drinks,37.73
+ISR,Israel,Drinks,0.5
+ITA,Italy,Drinks,170.69
+JAM,Jamaica,Drinks,1.11
+JPN,Japan,Drinks,61.31
+JOR,Jordan,Drinks,0.21
+KOR,Rep. of Korea,Drinks,28.04
+KWT,Kuwait,Drinks,0.18
+LBN,Lebanon,Drinks,0.88
+LVA,Latvia,Drinks,0.88
+LTU,Lithuania,Drinks,0.02
+LUX,Luxembourg,Drinks,0.01
+MYS,Malaysia,Drinks,10.19
+MUS,Mauritius,Drinks,0.19
+MEX,Mexico,Drinks,81.55
+TWN,Taiwan,Drinks,8.55
+MDA,Rep. of Moldova,Drinks,0.06
+MNE,Montenegro,Drinks,0.11
+MAR,Morocco,Drinks,0.01
+OMN,Oman,Drinks,0.34
+NAM,Namibia,Drinks,0.02
+NPL,Nepal,Drinks,0.33
+NLD,Netherlands,Drinks,16.7
+NZL,New Zealand,Drinks,316.3
+NIC,Nicaragua,Drinks,0.21
+NGA,Nigeria,Drinks,0.06
+NOR,Norway,Drinks,0.47
+PAK,Pakistan,Drinks,1.24
+PAN,Panama,Drinks,0.54
+PNG,Papua New Guinea,Drinks,0.01
+PRY,Paraguay,Drinks,0.0
+PER,Peru,Drinks,0.31
+PHL,Philippines,Drinks,1.63
+POL,Poland,Drinks,7.1
+PRT,Portugal,Drinks,5.92
+TLS,Timor-Leste,Drinks,0.02
+ROU,Romania,Drinks,0.03
+RUS,Russian Federation,Drinks,0.06
+KNA,Saint Kitts and Nevis,Drinks,0.04
+SAU,Saudi Arabia,Drinks,0.62
+SRB,Serbia,Drinks,1.19
+SYC,Seychelles,Drinks,0.02
+IND,India,Drinks,3.97
+SGP,Singapore,Drinks,4.06
+SVK,Slovakia,Drinks,0.44
+VNM,Viet Nam,Drinks,18.67
+SVN,Slovenia,Drinks,0.17
+ZAF,South Africa,Drinks,4.63
+ZWE,Zimbabwe,Drinks,0.06
+ESP,Spain,Drinks,30.98
+SWE,Sweden,Drinks,16.68
+CHE,Switzerland,Drinks,25.13
+SYR,Syria,Drinks,0.01
+THA,Thailand,Drinks,11.75
+TTO,Trinidad and Tobago,Drinks,0.09
+ARE,United Arab Emirates,Drinks,2.02
+TUR,Türkiye,Drinks,2.93
+UKR,Ukraine,Drinks,0.11
+MKD,North Macedonia,Drinks,0.66
+EGY,Egypt,Drinks,0.09
+GBR,United Kingdom,Drinks,262.32
+USA,USA,Drinks,225.02
+VEN,Venezuela,Drinks,0.3

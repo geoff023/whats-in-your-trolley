@@ -1,0 +1,95 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Flow map: the ten biggest sources of one type of food imported into Australia in 2025. Lines follow great circles; width shows value.",
+  "width": "container",
+  "height": 420,
+  "projection": {"type": "equalEarth", "rotate": [-160, 0, 0]},
+  "params": [
+    {
+      "name": "food",
+      "value": "Coffee, tea & spices",
+      "bind": {
+        "input": "select",
+        "name": "Food type ",
+        "options": [
+          "Coffee, tea & spices", "Cocoa & chocolate", "Fish & seafood", "Fruit & nuts",
+          "Vegetables", "Dairy, eggs & honey", "Meat", "Preserved meat & fish",
+          "Bakery, pasta & cereal foods", "Oils & fats", "Sugar & lollies",
+          "Sauces & other foods", "Drinks"
+        ]
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {"sphere": true},
+      "mark": {"type": "geoshape", "fill": "#eef3f7", "stroke": null}
+    },
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/vega-datasets@2.8.0/data/world-110m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "transform": [{"filter": "datum.id != 10"}],
+      "mark": {"type": "geoshape", "fill": "#d9dfe4", "stroke": "#ffffff", "strokeWidth": 0.4}
+    },
+    {
+      "data": {"url": "data/imports_by_chapter_2025.csv", "format": {"parse": {"usd_m": "number"}}},
+      "transform": [
+        {"filter": "datum.chapter == food"},
+        {
+          "lookup": "iso3",
+          "from": {
+            "data": {"url": "data/imports_by_country_2025.csv"},
+            "key": "iso3",
+            "fields": ["lon", "lat"]
+          }
+        },
+        {"filter": "isValid(datum.lon) && datum.lon !== ''"},
+        {"window": [{"op": "rank", "as": "rank"}], "sort": [{"field": "usd_m", "order": "descending"}]},
+        {"filter": "datum.rank <= 10"},
+        {
+          "calculate": "{type: 'LineString', coordinates: [[toNumber(datum.lon), toNumber(datum.lat)], [149.1, -35.3]]}",
+          "as": "route"
+        }
+      ],
+      "layer": [
+        {
+          "mark": {"type": "geoshape", "filled": false, "stroke": "#dd6b20", "strokeCap": "round", "opacity": 0.75},
+          "encoding": {
+            "shape": {"field": "route", "type": "geojson"},
+            "strokeWidth": {
+              "field": "usd_m",
+              "type": "quantitative",
+              "scale": {"range": [0.8, 9]},
+              "legend": {"title": "US$ million", "orient": "bottom-left", "direction": "horizontal", "symbolType": "stroke"}
+            },
+            "tooltip": [
+              {"field": "country", "title": "From"},
+              {"field": "chapter", "title": "Food type"},
+              {"field": "usd_m", "title": "Value (US$ m)", "format": ",.0f"},
+              {"field": "rank", "title": "Rank"}
+            ]
+          }
+        },
+        {
+          "mark": {"type": "circle", "color": "#7a2b10", "size": 24},
+          "encoding": {
+            "longitude": {"field": "lon", "type": "quantitative"},
+            "latitude": {"field": "lat", "type": "quantitative"}
+          }
+        },
+        {
+          "transform": [{"filter": "datum.rank <= 3"}],
+          "mark": {"type": "text", "dy": -9, "fontSize": 11, "fontWeight": "bold", "color": "#333333"},
+          "encoding": {
+            "longitude": {"field": "lon", "type": "quantitative"},
+            "latitude": {"field": "lat", "type": "quantitative"},
+            "text": {"field": "country"}
+          }
+        }
+      ]
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}
