@@ -1,0 +1,170 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "100% stacked bar chart: share of mapped supermarkets in each state that belong to each chain.",
+  "width": "container",
+  "height": 400,
+  "padding": {
+    "right": 64,
+    "left": 4,
+    "top": 4,
+    "bottom": 4
+  },
+  "data": {
+    "url": "data/supermarkets.csv"
+  },
+  "transform": [
+    {
+      "aggregate": [
+        {
+          "op": "count",
+          "as": "stores"
+        }
+      ],
+      "groupby": [
+        "state",
+        "chain"
+      ]
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "stores",
+          "as": "total"
+        }
+      ],
+      "groupby": [
+        "state"
+      ]
+    },
+    {
+      "calculate": "datum.stores / datum.total",
+      "as": "share"
+    },
+    {
+      "calculate": "indexof(['Woolworths', 'Coles', 'Aldi', 'IGA', 'Other'], datum.chain)",
+      "as": "order"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "stroke": "#fffdf8",
+        "strokeWidth": 0.6
+      },
+      "encoding": {
+        "x": {
+          "field": "share",
+          "type": "quantitative",
+          "stack": "normalize",
+          "title": "Share of supermarkets",
+          "axis": {
+            "format": "%",
+            "grid": false,
+            "tickCount": 5
+          }
+        },
+        "color": {
+          "field": "chain",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Woolworths",
+              "Coles",
+              "Aldi",
+              "IGA",
+              "Other"
+            ],
+            "range": [
+              "#0072b2",
+              "#e69f00",
+              "#cc79a7",
+              "#009e73",
+              "#b8b2a7"
+            ]
+          },
+          "legend": {
+            "title": null,
+            "orient": "top",
+            "direction": "horizontal"
+          }
+        },
+        "order": {
+          "field": "order"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State"
+          },
+          {
+            "field": "chain",
+            "title": "Chain"
+          },
+          {
+            "field": "stores",
+            "title": "Stores"
+          },
+          {
+            "field": "share",
+            "title": "Share",
+            "format": ".0%"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "state": "TAS",
+            "note": "No Aldi"
+          },
+          {
+            "state": "NT",
+            "note": "No Aldi"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 6,
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#8a3a7a"
+      },
+      "encoding": {
+        "x": {
+          "datum": 1
+        },
+        "text": {
+          "field": "note"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  },
+  "encoding": {
+    "y": {
+      "field": "state",
+      "type": "nominal",
+      "title": null,
+      "sort": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "WA",
+        "SA",
+        "TAS",
+        "ACT",
+        "NT"
+      ]
+    }
+  }
+}

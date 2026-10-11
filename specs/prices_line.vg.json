@@ -1,0 +1,90 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Multi-line chart: change in Australian food prices since September 2017 for four food groups, with labelled lines and an annotated 2022 spike.",
+  "width": "container",
+  "height": 320,
+  "padding": {"right": 96, "left": 4, "top": 8, "bottom": 4},
+  "data": {
+    "url": "data/cpi_food_monthly.csv",
+    "format": {"parse": {"month": "date:'%Y-%m'", "since2017": "number"}}
+  },
+  "transform": [
+    {"filter": "datum.city == 'Australia'"},
+    {"calculate": "datum.since2017 / 100 - 1", "as": "change"}
+  ],
+  "encoding": {
+    "x": {"field": "month", "type": "temporal", "title": null, "axis": {"format": "%Y", "grid": false, "tickCount": 9}},
+    "y": {"field": "change", "type": "quantitative", "title": "Price change since Sep 2017", "scale": {"domain": [0, 0.6]}, "axis": {"format": "+.0%", "values": [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6]}},
+    "color": {
+      "field": "group", "type": "nominal", "legend": null,
+      "scale": {
+        "domain": ["Dairy", "Bread & cereals", "Meat & seafood", "Fruit & veg"],
+        "range": ["#0072b2", "#e69f00", "#cc79a7", "#009e73"]
+      }
+    }
+  },
+  "layer": [
+    {
+      "data": {"values": [{"start": "2022-01-01", "end": "2023-06-01", "y0": 0, "y1": 0.6, "text": "2022–23: fastest rises"}]},
+      "layer": [
+        {
+          "mark": {"type": "rect", "color": "#f2e3cf", "opacity": 0.8},
+          "encoding": {
+            "x": {"field": "start", "type": "temporal"},
+            "x2": {"field": "end"},
+            "y": {"field": "y0", "type": "quantitative"},
+            "y2": {"field": "y1"},
+            "color": {"value": "#f2e3cf"}
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "left", "baseline": "top", "dx": 4, "dy": 4, "fontSize": 11, "fontStyle": "italic"},
+          "encoding": {
+            "x": {"field": "start", "type": "temporal"},
+            "y": {"field": "y1", "type": "quantitative"},
+            "text": {"field": "text"},
+            "color": {"value": "#7a4b12"}
+          }
+        }
+      ]
+    },
+    {"mark": {"type": "line", "strokeWidth": 2.2, "interpolate": "monotone"}},
+    {
+      "params": [
+        {"name": "hover", "select": {"type": "point", "encodings": ["x"], "nearest": true, "on": "pointerover", "clear": "pointerout"}}
+      ],
+      "mark": {"type": "point", "filled": true, "size": 40},
+      "encoding": {
+        "opacity": {"condition": {"param": "hover", "empty": false, "value": 1}, "value": 0},
+        "tooltip": [
+          {"field": "month", "type": "temporal", "format": "%b %Y", "title": "Month"},
+          {"field": "group", "title": "Food group"},
+          {"field": "change", "title": "Since Sep 2017", "format": "+.1%"}
+        ]
+      }
+    },
+    {
+      "transform": [
+        {"filter": "month(datum.month) == 7 && year(datum.month) == 2026"},
+        {"calculate": "datum.change + {'Fruit & veg': 0.03, 'Dairy': -0.01, 'Bread & cereals': 0.015, 'Meat & seafood': -0.02}[datum.group]", "as": "label_y"},
+        {"calculate": "datum.group + ' ' + format(datum.change, '+.0%')", "as": "label"}
+      ],
+      "mark": {"type": "text", "align": "left", "dx": 6, "fontSize": 11, "fontWeight": "bold"},
+      "encoding": {"y": {"field": "label_y", "type": "quantitative"}, "text": {"field": "label"}}
+    },
+    {
+      "data": {"values": [{"date": "2022-08-01", "y": 0.426, "text": "Fruit & veg: +19% in one year (Aug 2022)"}]},
+      "layer": [
+        {
+          "mark": {"type": "point", "shape": "circle", "size": 120, "filled": false, "strokeWidth": 1.5},
+          "encoding": {"x": {"field": "date", "type": "temporal"}, "y": {"field": "y", "type": "quantitative"}, "color": {"value": "#1d2327"}}
+        },
+        {
+          "mark": {"type": "text", "align": "right", "dx": -10, "dy": -12, "fontSize": 11},
+          "encoding": {"x": {"field": "date", "type": "temporal"}, "y": {"field": "y", "type": "quantitative"}, "text": {"field": "text"}, "color": {"value": "#1d2327"}}
+        }
+      ]
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}

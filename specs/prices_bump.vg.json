@@ -1,0 +1,249 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bump chart: capital cities ranked each August by how much grocery prices (average of four food groups) had risen since September 2017. Rank 1 had the biggest rise. Click a city to highlight it.",
+  "width": "container",
+  "height": 380,
+  "padding": {
+    "left": 80,
+    "right": 80,
+    "top": 8,
+    "bottom": 4
+  },
+  "data": {
+    "url": "data/cpi_food_monthly.csv",
+    "format": {
+      "parse": {
+        "since2017": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.city != 'Australia' && substring(datum.month, 5) == '08'"
+    },
+    {
+      "calculate": "toNumber(substring(datum.month, 0, 4))",
+      "as": "year"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "mean",
+          "field": "since2017",
+          "as": "basket"
+        }
+      ],
+      "groupby": [
+        "city",
+        "year"
+      ]
+    },
+    {
+      "window": [
+        {
+          "op": "row_number",
+          "as": "rank"
+        }
+      ],
+      "groupby": [
+        "year"
+      ],
+      "sort": [
+        {
+          "field": "basket",
+          "order": "descending"
+        }
+      ]
+    },
+    {
+      "calculate": "datum.basket / 100 - 1",
+      "as": "change"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": null,
+      "axis": {
+        "labelAngle": 0,
+        "domain": false,
+        "ticks": false,
+        "orient": "top"
+      }
+    },
+    "y": {
+      "field": "rank",
+      "type": "ordinal",
+      "title": null,
+      "axis": null
+    },
+    "color": {
+      "condition": {
+        "param": "pick",
+        "empty": false,
+        "value": "#c2410c"
+      },
+      "value": "#b8b2a7"
+    },
+    "opacity": {
+      "condition": {
+        "param": "pick",
+        "empty": false,
+        "value": 1
+      },
+      "value": 0.6
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5,
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "detail": {
+          "field": "city"
+        },
+        "strokeWidth": {
+          "condition": {
+            "param": "pick",
+            "empty": false,
+            "value": 4
+          },
+          "value": 2
+        }
+      }
+    },
+    {
+      "params": [
+        {
+          "name": "pick",
+          "value": [
+            {
+              "city": "Perth"
+            }
+          ],
+          "select": {
+            "type": "point",
+            "fields": [
+              "city"
+            ],
+            "on": "click"
+          }
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "size": 70,
+        "cursor": "pointer"
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "city",
+            "title": "City"
+          },
+          {
+            "field": "year",
+            "title": "August"
+          },
+          {
+            "field": "rank",
+            "title": "Rank (1 = biggest rise)"
+          },
+          {
+            "field": "change",
+            "title": "Rise since Sep 2017",
+            "format": "+.1%"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.year == 2018"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -10,
+        "fontSize": 11
+      },
+      "encoding": {
+        "text": {
+          "field": "city"
+        },
+        "color": {
+          "value": "#3b4248"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.year == 2026"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 10,
+        "fontSize": 11
+      },
+      "encoding": {
+        "text": {
+          "field": "city"
+        },
+        "color": {
+          "condition": {
+            "param": "pick",
+            "empty": false,
+            "value": "#c2410c"
+          },
+          "value": "#3b4248"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.year == 2026"
+        },
+        {
+          "filter": {
+            "param": "pick",
+            "empty": false
+          }
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 10,
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#c2410c"
+      },
+      "encoding": {
+        "text": {
+          "field": "city"
+        },
+        "color": {
+          "value": "#c2410c"
+        },
+        "opacity": {
+          "value": 1
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

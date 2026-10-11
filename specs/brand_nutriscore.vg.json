@@ -1,0 +1,72 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Diverging stacked bar chart: Nutri-Score grades for all supermarket own brands, all name brands, and the ten brands with the most graded products. Healthier grades (A, B) extend left of zero, less healthy grades (D, E) extend right.",
+  "width": "container",
+  "height": 440,
+  "data": {"url": "data/products.csv"},
+  "transform": [
+    {"filter": "datum.nutriscore != '' && datum.brand_type != 'Unknown'"},
+    {"calculate": "datum.brand_type == 'Supermarket own brand' ? 'All own brands' : 'All name brands'", "as": "overall"},
+    {
+      "calculate": "{'woolworths': 'Woolworths', 'coles': 'Coles', 'cadbury': 'Cadbury', \"arnott's\": \"Arnott's\", \"kellogg's\": \"Kellogg's\", 'macro': 'Macro (Woolworths)', 'heinz': 'Heinz', \"carman's\": \"Carman's\", 'chobani': 'Chobani', 'uncle tobys': 'Uncle Tobys'}[lower(datum.brand)] || null",
+      "as": "single"
+    },
+    {"fold": ["overall", "single"], "as": ["level", "row"]},
+    {"filter": "datum.row != null"},
+    {"aggregate": [{"op": "count", "as": "n"}], "groupby": ["row", "nutriscore"]},
+    {"joinaggregate": [{"op": "sum", "field": "n", "as": "total"}], "groupby": ["row"]},
+    {"calculate": "datum.n / datum.total", "as": "share"},
+    {"calculate": "datum.nutriscore == 'A' || datum.nutriscore == 'B' ? datum.share : datum.nutriscore == 'C' ? datum.share / 2 : 0", "as": "left_part"},
+    {"calculate": "datum.nutriscore == 'A' || datum.nutriscore == 'B' ? datum.share : 0", "as": "ab"},
+    {"joinaggregate": [{"op": "sum", "field": "left_part", "as": "left"}, {"op": "sum", "field": "ab", "as": "healthy"}], "groupby": ["row"]},
+    {"window": [{"op": "sum", "field": "share", "as": "cum"}], "groupby": ["row"], "sort": [{"field": "nutriscore"}], "frame": [null, 0]},
+    {"calculate": "datum.cum - datum.share - datum.left", "as": "x0"},
+    {"calculate": "datum.cum - datum.left", "as": "x1"},
+    {"calculate": "datum.row == 'All own brands' || datum.row == 'All name brands' ? 0 : 1", "as": "is_brand"}
+  ],
+  "encoding": {
+    "y": {
+      "field": "row", "type": "nominal", "title": null,
+      "sort": {"field": "healthy", "op": "max", "order": "descending"},
+      "axis": {
+        "domain": false, "ticks": false, "labelLimit": 160,
+        "labelFontWeight": {"condition": {"test": "indexof(datum.value, 'All ') == 0", "value": "bold"}, "value": "normal"}
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "stroke": "#fffdf8", "strokeWidth": 0.5},
+      "encoding": {
+        "x": {
+          "field": "x0", "type": "quantitative",
+          "title": "← healthier      share of products      less healthy →",
+          "scale": {"domain": [-1.18, 1]},
+          "axis": {"values": [-1, -0.5, 0, 0.5, 1], "labelExpr": "format(abs(datum.value), '.0%')", "grid": false}
+        },
+        "x2": {"field": "x1"},
+        "color": {
+          "field": "nutriscore", "type": "ordinal",
+          "scale": {"domain": ["A", "B", "C", "D", "E"], "range": ["#1f5f8b", "#7fb0d4", "#d9d4c7", "#f6b26b", "#c2410c"]},
+          "legend": {"title": "Nutri-Score", "orient": "top", "direction": "horizontal"}
+        },
+        "tooltip": [
+          {"field": "row", "title": "Brand"},
+          {"field": "nutriscore", "title": "Grade"},
+          {"field": "share", "title": "Share", "format": ".0%"},
+          {"field": "total", "title": "Graded products"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "rule", "color": "#1d2327", "strokeWidth": 1},
+      "encoding": {"x": {"datum": 0}}
+    },
+    {
+      "transform": [{"filter": "datum.nutriscore == 'A'"}],
+      "mark": {"type": "text", "align": "right", "dx": -5, "fontSize": 11, "color": "#1f5f8b", "fontWeight": "bold"},
+      "encoding": {"x": {"field": "x0", "type": "quantitative"}, "text": {"field": "healthy", "type": "quantitative", "format": ".0%"}}
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}

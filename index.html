@@ -4,58 +4,266 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>What's in Your Trolley?</title>
+  <meta name="description" content="A visual story about Australian supermarket food: where it comes from, where we buy it, what it costs and what is inside.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
 </head>
 <body>
+
   <header class="hero">
-    <p class="kicker">An Australian grocery story</p>
-    <h1>What's in Your Trolley?</h1>
-    <p class="lede">Every week, Australians push a trolley past thousands of products. Where do they come from, where do we buy them, and what is really inside?</p>
+    <div class="wrap grid">
+      <div class="span-7">
+        <p class="kicker">An Australian grocery story</p>
+        <h1>What's in Your Trolley?</h1>
+        <p class="lede">Every week we push a trolley past thousands of products. This page follows that food from the farms and factories of the world, to the stores where we buy it, to the prices we pay and the label on the back of the pack.</p>
+      </div>
+      <ul class="kpis span-5" aria-label="Key numbers">
+        <li><strong>US$18.1 b</strong><span>of food imported in 2025</span></li>
+        <li><strong>5,684</strong><span>supermarkets mapped</span></li>
+        <li><strong>+46%</strong><span>fruit &amp; veg prices since 2017</span></li>
+        <li><strong>6,608</strong><span>Australian products analysed</span></li>
+      </ul>
+    </div>
   </header>
 
+  <nav class="toc" aria-label="Sections">
+    <div class="wrap">
+      <a href="#origins">1 Origins</a>
+      <a href="#stores">2 Stores</a>
+      <a href="#prices">3 Prices</a>
+      <a href="#inside">4 Inside the pack</a>
+      <a href="#brands">5 Brands</a>
+      <a href="#takeaways">Takeaways</a>
+    </div>
+  </nav>
+
   <main>
-    <section id="origins">
-      <h2>1. Where our food comes from</h2>
-      <p>Australia grows plenty of food, but our shelves still depend on the world. In 2025 we imported food from more than 170 countries. Darker countries sent us more.</p>
-      <figure class="chart">
-        <div id="imports_choropleth"></div>
-        <figcaption>Value of food imported into Australia in 2025, by country of origin (US dollars). Source: UN Comtrade.</figcaption>
-      </figure>
-      <p>Each type of food has its own trade routes. Pick a food type to see its ten biggest sources. Thicker lines carry more food.</p>
-      <figure class="chart">
-        <div id="imports_flow"></div>
-        <figcaption>Ten biggest sources of the selected food type, 2025. Lines follow the shortest path over the globe. Source: UN Comtrade.</figcaption>
-      </figure>
+    <!-- 1 ORIGINS -->
+    <section id="origins" class="band band-a">
+      <div class="wrap grid">
+        <div class="intro-head span-4">
+          <p class="num">01</p>
+          <h2>Where our food comes from</h2>
+        </div>
+        <p class="intro-text span-8">Australia grows far more food than it eats, yet our shelves still rely on the world. In 2025 we imported food worth US$18.1 billion from 175 countries. Most of it is not fresh produce but packaged goods: sauces, drinks, bakery items and chocolate.</p>
+
+        <figure class="card span-8">
+          <h3>Our biggest suppliers are our neighbours and trading partners</h3>
+          <p class="note">Darker countries sent more food. New Zealand leads (US$2.4 b), followed by the USA, China, Italy and Thailand.</p>
+          <div id="imports_choropleth" class="chart"></div>
+          <figcaption>Value of food imports (HS chapters 02–22) by country of origin, 2025, in US dollars. Hover a country for its value. Source: UN Comtrade.</figcaption>
+        </figure>
+
+        <figure class="card span-4">
+          <h3>Packaged foods dominate</h3>
+          <p class="note">"Sauces &amp; other foods" (sauces, soups, food mixes and supplements) is our biggest food import, ahead of drinks and bakery goods.</p>
+          <div id="imports_types_bar" class="chart"></div>
+          <figcaption>Total imports by food type, 2025. Source: UN Comtrade.</figcaption>
+        </figure>
+
+        <figure class="card span-8">
+          <h3>Every food has its own trade routes</h3>
+          <p class="note">Pick a food type. Lines follow the shortest path across the globe, and thicker lines carry more food. The three biggest sources are named.</p>
+          <div id="imports_flow" class="chart"></div>
+          <figcaption>Ten biggest sources of the selected food type, 2025. Source: UN Comtrade.</figcaption>
+        </figure>
+
+        <aside class="card card-text span-4">
+          <h3>Things to try</h3>
+          <dl class="facts">
+            <dt>Coffee, tea &amp; spices</dt>
+            <dd>Brazil and Colombia send raw beans; Switzerland ranks third because of coffee capsules made there.</dd>
+            <dt>Cocoa &amp; chocolate</dt>
+            <dd>Malaysia, Singapore and Indonesia lead, because cocoa is processed there. West Africa grows most of the world's cocoa but barely appears.</dd>
+            <dt>Fish &amp; seafood</dt>
+            <dd>Despite our long coastline, we import seafood worth US$1 billion a year, led by Vietnam, New Zealand and China.</dd>
+          </dl>
+        </aside>
+      </div>
     </section>
 
-    <section id="stores">
-      <h2>2. Where we shop</h2>
-      <p>Two chains, Woolworths and Coles, run about a third of all mapped supermarkets. Away from the coast, the nearest store can be a long drive away.</p>
-      <figure class="chart">
-        <div id="supermarkets_dotmap"></div>
-        <figcaption>Each dot is one supermarket mapped in OpenStreetMap (October 2026). Source: OpenStreetMap contributors.</figcaption>
-      </figure>
+    <!-- 2 STORES -->
+    <section id="stores" class="band band-b">
+      <div class="wrap grid">
+        <div class="intro-head span-4">
+          <p class="num">02</p>
+          <h2>Where we shop</h2>
+        </div>
+        <p class="intro-text span-8">Imported or local, most food reaches us through a supermarket. Woolworths and Coles together run more than one in three of the 5,684 supermarkets mapped by volunteers in OpenStreetMap. Independent grocers fill the gaps, especially outside the big cities.</p>
+
+        <figure class="card span-7">
+          <h3>Stores cluster on the coast</h3>
+          <p class="note">Each dot is one supermarket. Click a chain in the legend to see only its stores.</p>
+          <div id="supermarkets_dotmap" class="chart"></div>
+          <figcaption>Supermarkets mapped in OpenStreetMap, October 2026. Coverage depends on volunteer mapping, so small stores may be missing. Source: OpenStreetMap contributors.</figcaption>
+        </figure>
+
+        <figure class="card span-5">
+          <h3>Who you shop with depends on where you live</h3>
+          <p class="note">Aldi has no stores in Tasmania or the Northern Territory. In the NT, two in three supermarkets are independents.</p>
+          <div id="chains_by_state" class="chart"></div>
+          <figcaption>Share of mapped supermarkets in each state or territory by chain. Hover for store counts. Source: OpenStreetMap contributors.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 3 PRICES -->
+    <section id="prices" class="band band-a">
+      <div class="wrap grid">
+        <div class="intro-head span-4">
+          <p class="num">03</p>
+          <h2>What it costs</h2>
+        </div>
+        <p class="intro-text span-8">Grocery prices have climbed steadily since 2017, with a sharp jump in 2022–23. The charts use the Australian Bureau of Statistics price index, which tracks the price of the same basket of goods over time. A value of +40% means the basket costs 40% more than it did in September 2017.</p>
+
+        <figure class="card span-7">
+          <h3>Fruit &amp; veg and dairy rose the most</h3>
+          <p class="note">Fruit &amp; veg prices swing with the seasons and the weather. They spiked after the 2022 floods, then settled. Hover the lines to read any month.</p>
+          <div id="prices_line" class="chart"></div>
+          <figcaption>Price change since September 2017, Australia (weighted average of eight capital cities). Source: ABS Consumer Price Index, monthly, to August 2026.</figcaption>
+        </figure>
+
+        <figure class="card span-5">
+          <h3>Perth pays the most extra for fresh food</h3>
+          <p class="note">Bigger, darker circles mean bigger price rises. Choose a food group below the map.</p>
+          <div id="prices_symbol_map" class="chart"></div>
+          <figcaption>Price rise from September 2017 to August 2026 in each capital city. Source: ABS Consumer Price Index.</figcaption>
+        </figure>
+
+        <figure class="card span-5">
+          <h3>Every city, every food group</h3>
+          <p class="note">The outlined cell is the largest rise anywhere: fruit &amp; veg in Perth, up 55%. Meat &amp; seafood rose least in most cities.</p>
+          <div id="prices_heatmap" class="chart"></div>
+          <figcaption>Price rise from September 2017 to August 2026. Source: ABS Consumer Price Index.</figcaption>
+        </figure>
+
+        <figure class="card span-7">
+          <h3>Perth went from mid-table to the top</h3>
+          <p class="note">Cities ranked each August by how much their grocery basket had risen since 2017 (1 = biggest rise). Perth climbed from 6th in 2018 to 1st in 2026. Click any city to follow it.</p>
+          <div id="prices_bump" class="chart"></div>
+          <figcaption>Basket = simple average of the four food group indexes. Source: ABS Consumer Price Index.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 4 INSIDE -->
+    <section id="inside" class="band band-b">
+      <div class="wrap grid">
+        <div class="intro-head span-4">
+          <p class="num">04</p>
+          <h2>What is inside the pack</h2>
+        </div>
+        <div class="intro-text span-8">
+          <p>We looked at 6,608 products with an Australian barcode in the free Open Food Facts database and grouped them into 17 supermarket aisles. Values are per 100 g (or 100 ml for drinks), so products of any size can be compared.</p>
+          <p class="explain"><b>Median</b> = the middle product: half the products in an aisle have more, half have less. It is not thrown off by a few extreme products.</p>
+        </div>
+
+        <figure class="card span-5">
+          <h3>Each aisle has its own weak spot</h3>
+          <p class="note">Orange columns are nutrients to limit, blue columns are ones to eat more of. Cheese tops saturated fat and salt; muesli bars and cereals lead on fibre.</p>
+          <div id="nutrient_heatmap" class="chart"></div>
+          <figcaption>Median grams per 100 g. Colour compares each aisle with the highest aisle for that nutrient. Source: Open Food Facts.</figcaption>
+        </figure>
+
+        <figure class="card span-7">
+          <h3>Averages hide a wide spread</h3>
+          <p class="note">Each dot is one product; the black tick is the aisle median. Sauces range from sugar-free to sweet chilli. Switch to salt or saturated fat below the chart.</p>
+          <div id="nutrient_strip" class="chart"></div>
+          <figcaption>Horizontal axis uses a square-root scale so that small values remain visible. Hover a dot for the product. Source: Open Food Facts.</figcaption>
+        </figure>
+
+        <figure class="card span-12">
+          <h3>Most packaged food is ultra-processed</h3>
+          <p class="note">The NOVA system sorts food by how much it is processed. <b>Ultra-processed</b> foods (dark orange) are made mostly from industrial ingredients such as flavours, emulsifiers and sweeteners. Each square is 1% of an aisle's products. Only fresh-style aisles (fruit &amp; veg, spreads, pasta and cheese) are mostly not ultra-processed.</p>
+          <div id="nova_waffle" class="chart chart-center"></div>
+          <figcaption>Products with a NOVA group (3,437 of 6,608). Aisles sorted from most to least ultra-processed. Source: Open Food Facts.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 5 BRANDS -->
+    <section id="brands" class="band band-a">
+      <div class="wrap grid">
+        <div class="intro-head span-4">
+          <p class="num">05</p>
+          <h2>Own brands or name brands?</h2>
+        </div>
+        <div class="intro-text span-8">
+          <p>Supermarkets increasingly sell their own labels next to familiar name brands. Are they healthier, or just cheaper?</p>
+          <p class="explain"><b>Nutri-Score</b> is a front-of-pack grade from A (healthiest) to E (least healthy), widely used in Europe. It works like Australia's Health Star Rating and is calculated from similar nutrients.</p>
+        </div>
+
+        <figure class="card span-7">
+          <h3>Own brands fill every aisle</h3>
+          <p class="note">Each block is an aisle; its area shows how many products it holds. Blue is supermarket own brands, orange is name brands. Own brands are strongest in fruit &amp; veg (43% of products) and bread, and almost absent from confectionery and yoghurt.</p>
+          <div id="brand_treemap" class="chart"></div>
+          <figcaption>Biggest brands in each aisle are named; smaller brands are pooled in lighter shades. Hover a block for details. Source: Open Food Facts.</figcaption>
+        </figure>
+
+        <figure class="card span-5">
+          <h3>Own brands score healthier</h3>
+          <p class="note">46% of own-brand products score A or B, against 32% of name brands. This partly reflects what they sell: more plain staples, fewer chocolates and biscuits.</p>
+          <div id="brand_nutriscore" class="chart"></div>
+          <figcaption>Nutri-Score grades for the ten brands with the most graded products. Percentages show the share graded A or B. Source: Open Food Facts.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- TAKEAWAYS -->
+    <section id="takeaways" class="band band-dark">
+      <div class="wrap grid">
+        <div class="intro-head span-4">
+          <p class="num">✓</p>
+          <h2>What to take to the shops</h2>
+        </div>
+        <p class="intro-text span-8">Four things this data says about the everyday trolley, and what they mean for you.</p>
+        <article class="take span-3">
+          <strong>175</strong>
+          <h3>countries feed us</h3>
+          <p>Most imported food is processed and packaged. Check the "Made in" label if you want to buy local.</p>
+        </article>
+        <article class="take span-3">
+          <strong>+46%</strong>
+          <h3>for fruit &amp; veg</h3>
+          <p>Fresh food rose fastest since 2017, and fastest of all in Perth. Buying in season softens the swings.</p>
+        </article>
+        <article class="take span-3">
+          <strong>63%</strong>
+          <h3>of products ultra-processed</h3>
+          <p>In snack, dessert and drink aisles nearly everything is. Compare products in the same aisle, not just the brand.</p>
+        </article>
+        <article class="take span-3">
+          <strong>46%</strong>
+          <h3>own brands score A or B</h3>
+          <p>Cheaper supermarket brands are often as healthy, or healthier, than name brands. Read the label, not the logo.</p>
+        </article>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <h2>About this page</h2>
-    <p>Created by [Your Name], Monash University (FIT3179 Data Visualisation 2), October 2026.</p>
-    <h3>Data sources</h3>
-    <ul>
-      <li>Open Food Facts contributors, product database (Australian barcodes), downloaded October 2026. <a href="https://world.openfoodfacts.org">world.openfoodfacts.org</a>, ODbL licence.</li>
-      <li>United Nations, UN Comtrade Database, Australian imports by HS chapter, 2025. <a href="https://comtradeplus.un.org">comtradeplus.un.org</a></li>
-      <li>Australian Bureau of Statistics, Consumer Price Index (monthly, food groups by capital city), to August 2026. <a href="https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation">abs.gov.au</a>, CC BY 4.0.</li>
-      <li>OpenStreetMap contributors, supermarket locations, October 2026. <a href="https://www.openstreetmap.org/copyright">openstreetmap.org</a>, ODbL licence.</li>
-      <li>State boundaries: ABS ASGS, via <a href="https://github.com/rowanhogan/australian-states">rowanhogan/australian-states</a>. World boundaries: Natural Earth via <a href="https://github.com/vega/vega-datasets">vega-datasets</a>.</li>
-    </ul>
-    <p>Charts built with <a href="https://vega.github.io/vega-lite/">Vega-Lite</a>. Chart specifications are in the <code>specs/</code> folder of this repository.</p>
+  <footer class="band band-foot">
+    <div class="wrap grid">
+      <div class="span-4">
+        <h2>About this page</h2>
+        <p>Created by [Your Name] for FIT3179 Data Visualisation 2, Monash University. Published October 2026.</p>
+        <p>Charts are built with <a href="https://vega.github.io/vega-lite/">Vega-Lite</a> and <a href="https://vega.github.io/vega/">Vega</a>. Each chart's specification is in the <code>specs/</code> folder of this repository; the scripts that prepared the data are in <code>scripts/</code>.</p>
+      </div>
+      <div class="span-8">
+        <h3>Data sources</h3>
+        <ul class="sources">
+          <li><b>Products:</b> Open Food Facts contributors, products with an Australian barcode (prefix 93), complete nutrition and categories, downloaded October 2026. <a href="https://world.openfoodfacts.org">world.openfoodfacts.org</a>, ODbL. Values above 100 g per 100 g were removed as data-entry errors.</li>
+          <li><b>Imports:</b> United Nations, UN Comtrade Database, Australian imports by HS chapter (02–22), 2025. <a href="https://comtradeplus.un.org">comtradeplus.un.org</a></li>
+          <li><b>Prices:</b> Australian Bureau of Statistics, Consumer Price Index, monthly, food groups by capital city, September 2017 to August 2026. <a href="https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation">abs.gov.au</a>, CC BY 4.0.</li>
+          <li><b>Supermarkets:</b> OpenStreetMap contributors, <code>shop=supermarket</code>, October 2026. <a href="https://www.openstreetmap.org/copyright">openstreetmap.org</a>, ODbL.</li>
+          <li><b>Boundaries:</b> ABS ASGS states via <a href="https://github.com/rowanhogan/australian-states">rowanhogan/australian-states</a>; world countries from Natural Earth via <a href="https://github.com/vega/vega-datasets">vega-datasets</a>.</li>
+        </ul>
+      </div>
+    </div>
   </footer>
 
   <script src="js/main.js"></script>

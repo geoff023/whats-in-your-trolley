@@ -1,0 +1,147 @@
+aisle,brand,shade,products
+Biscuits & cakes,Woolworths,Supermarket own brand,69
+Biscuits & cakes,Coles,Supermarket own brand,35
+Biscuits & cakes,Woolworths Select,Supermarket own brand,2
+Biscuits & cakes,Other own brands,Other own brands,6
+Biscuits & cakes,Arnott's,Name brand,84
+Biscuits & cakes,Oreo,Name brand,14
+Biscuits & cakes,Noshu,Name brand,9
+Biscuits & cakes,White Wings,Name brand,8
+Biscuits & cakes,Other name brands,Other name brands,111
+Bread,Coles,Supermarket own brand,39
+Bread,Woolworths,Supermarket own brand,32
+Bread,Coles Bakery,Supermarket own brand,2
+Bread,Other own brands,Other own brands,8
+Bread,Helga's,Name brand,18
+Bread,Tip Top,Name brand,18
+Bread,Old El Paso,Name brand,9
+Bread,Abbott's Bakery,Name brand,7
+Bread,Other name brands,Other name brands,88
+Breakfast cereals,Coles,Supermarket own brand,24
+Breakfast cereals,Woolworths,Supermarket own brand,18
+Breakfast cereals,Macro Wholefoods Market,Supermarket own brand,2
+Breakfast cereals,Other own brands,Other own brands,4
+Breakfast cereals,Kellogg's,Name brand,52
+Breakfast cereals,Uncle Tobys,Name brand,42
+Breakfast cereals,Carman's,Name brand,30
+Breakfast cereals,Sanitarium,Name brand,18
+Breakfast cereals,Other name brands,Other name brands,83
+Cheese,Woolworths,Supermarket own brand,40
+Cheese,Coles,Supermarket own brand,26
+Cheese,Woolworths Essentials,Supermarket own brand,1
+Cheese,Other own brands,Other own brands,1
+Cheese,Bega,Name brand,24
+Cheese,Perfect Italiano,Name brand,12
+Cheese,Primo,Name brand,10
+Cheese,South Cape,Name brand,10
+Cheese,Other name brands,Other name brands,124
+Chips & salty snacks,Woolworths,Supermarket own brand,30
+Chips & salty snacks,Coles,Supermarket own brand,24
+Chips & salty snacks,Macro,Supermarket own brand,4
+Chips & salty snacks,Other own brands,Other own brands,1
+Chips & salty snacks,Arnott's,Name brand,33
+Chips & salty snacks,Smith's,Name brand,24
+Chips & salty snacks,Olina's,Name brand,15
+Chips & salty snacks,Red Rock Deli,Name brand,13
+Chips & salty snacks,Other name brands,Other name brands,208
+Confectionery,Coles,Supermarket own brand,16
+Confectionery,Woolworths,Supermarket own brand,6
+Confectionery,Woolworths Select,Supermarket own brand,1
+Confectionery,Other own brands,Other own brands,1
+Confectionery,Cadbury,Name brand,118
+Confectionery,Nestle,Name brand,27
+Confectionery,Darrell Lea,Name brand,22
+Confectionery,Wrigley's,Name brand,17
+Confectionery,Other name brands,Other name brands,279
+"Fruit, veg & legumes",Coles,Supermarket own brand,86
+"Fruit, veg & legumes",Woolworths,Supermarket own brand,81
+"Fruit, veg & legumes",Macro,Supermarket own brand,31
+"Fruit, veg & legumes",Other own brands,Other own brands,21
+"Fruit, veg & legumes",Edgell,Name brand,32
+"Fruit, veg & legumes",Birds Eye,Name brand,16
+"Fruit, veg & legumes",Sunbeam,Name brand,9
+"Fruit, veg & legumes",Leggo's,Name brand,7
+"Fruit, veg & legumes",Other name brands,Other name brands,232
+Ice cream & desserts,Woolworths,Supermarket own brand,40
+Ice cream & desserts,Coles,Supermarket own brand,27
+Ice cream & desserts,Coles Finest,Supermarket own brand,2
+Ice cream & desserts,Other own brands,Other own brands,1
+Ice cream & desserts,Peters,Name brand,32
+Ice cream & desserts,Bulla,Name brand,27
+Ice cream & desserts,Streets,Name brand,18
+Ice cream & desserts,Connoisseur,Name brand,12
+Ice cream & desserts,Other name brands,Other name brands,172
+Meat & seafood,Woolworths,Supermarket own brand,92
+Meat & seafood,Coles,Supermarket own brand,71
+Meat & seafood,Macro,Supermarket own brand,3
+Meat & seafood,Other own brands,Other own brands,11
+Meat & seafood,John West,Name brand,39
+Meat & seafood,Birds Eye,Name brand,28
+Meat & seafood,My Muscle Chef,Name brand,17
+Meat & seafood,Steggles,Name brand,16
+Meat & seafood,Other name brands,Other name brands,247
+Milk & alternatives,Coles,Supermarket own brand,33
+Milk & alternatives,Woolworths,Supermarket own brand,22
+Milk & alternatives,Macro,Supermarket own brand,7
+Milk & alternatives,Other own brands,Other own brands,1
+Milk & alternatives,Vitasoy,Name brand,31
+Milk & alternatives,Sanitarium,Name brand,18
+Milk & alternatives,Pauls,Name brand,16
+Milk & alternatives,Dare,Name brand,16
+Milk & alternatives,Other name brands,Other name brands,171
+Muesli & protein bars,Coles,Supermarket own brand,1
+Muesli & protein bars,Carman's,Name brand,22
+Muesli & protein bars,Uncle Tobys,Name brand,11
+Muesli & protein bars,Freedom Foods,Name brand,4
+Muesli & protein bars,Milo,Name brand,1
+Muesli & protein bars,Other name brands,Other name brands,6
+"Pasta, rice & grains",Coles,Supermarket own brand,39
+"Pasta, rice & grains",Woolworths,Supermarket own brand,30
+"Pasta, rice & grains",Macro,Supermarket own brand,20
+"Pasta, rice & grains",Other own brands,Other own brands,10
+"Pasta, rice & grains",Sun Rice,Name brand,29
+"Pasta, rice & grains",San Remo,Name brand,24
+"Pasta, rice & grains",Fantastic,Name brand,12
+"Pasta, rice & grains",Ben's Original,Name brand,10
+"Pasta, rice & grains",Other name brands,Other name brands,118
+Ready meals,Woolworths,Supermarket own brand,42
+Ready meals,Coles,Supermarket own brand,36
+Ready meals,Coles Kitchen,Supermarket own brand,3
+Ready meals,Other own brands,Other own brands,9
+Ready meals,Continental,Name brand,27
+Ready meals,McCain,Name brand,25
+Ready meals,Heinz,Name brand,23
+Ready meals,Campbell's,Name brand,15
+Ready meals,Other name brands,Other name brands,175
+Sauces & condiments,Coles,Supermarket own brand,62
+Sauces & condiments,Woolworths,Supermarket own brand,39
+Sauces & condiments,Macro,Supermarket own brand,7
+Sauces & condiments,Other own brands,Other own brands,9
+Sauces & condiments,Masterfoods,Name brand,51
+Sauces & condiments,Heinz,Name brand,27
+Sauces & condiments,Leggo's,Name brand,26
+Sauces & condiments,Praise,Name brand,22
+Sauces & condiments,Other name brands,Other name brands,346
+Soft drinks & juice,Coles,Supermarket own brand,19
+Soft drinks & juice,Woolworths,Supermarket own brand,18
+Soft drinks & juice,Coca-Cola,Name brand,31
+Soft drinks & juice,Golden Circle,Name brand,27
+Soft drinks & juice,Schweppes,Name brand,11
+Soft drinks & juice,Bundaberg,Name brand,10
+Soft drinks & juice,Other name brands,Other name brands,154
+Spreads,Coles,Supermarket own brand,37
+Spreads,Woolworths,Supermarket own brand,11
+Spreads,Macro,Supermarket own brand,10
+Spreads,Other own brands,Other own brands,11
+Spreads,Bega,Name brand,29
+Spreads,Mayver's,Name brand,27
+Spreads,Capilano,Name brand,15
+Spreads,Vegemite,Name brand,13
+Spreads,Other name brands,Other name brands,217
+Yoghurt,Coles,Supermarket own brand,9
+Yoghurt,Woolworths,Supermarket own brand,6
+Yoghurt,Chobani,Name brand,58
+Yoghurt,Danone,Name brand,34
+Yoghurt,Jalna,Name brand,16
+Yoghurt,Dairy Farmers,Name brand,13
+Yoghurt,Other name brands,Other name brands,126

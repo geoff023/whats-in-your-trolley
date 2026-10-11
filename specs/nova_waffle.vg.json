@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Small-multiple waffle charts: for each aisle, 100 squares show the share of products in each NOVA processing group. Aisles are sorted from most to least ultra-processed.",
+  "data": {"url": "data/nova_waffle.csv"},
+  "transform": [
+    {"calculate": "datum.aisle + '|' + datum.ultra_pct + '% ultra-processed'", "as": "title"},
+    {
+      "calculate": "['', '1 Unprocessed or minimally processed', '2 Processed culinary ingredients', '3 Processed foods', '4 Ultra-processed foods'][datum.nova]",
+      "as": "group"
+    }
+  ],
+  "facet": {
+    "field": "title",
+    "type": "nominal",
+    "sort": {"field": "ultra_pct", "op": "max", "order": "descending"},
+    "title": null,
+    "header": {"labelFontSize": 11, "labelLimit": 112, "labelPadding": 4, "labelExpr": "split(datum.value, '|')", "labelLineHeight": 14}
+  },
+  "columns": 9,
+  "spacing": {"row": 16, "column": 8},
+  "spec": {
+    "width": 100,
+    "height": 100,
+    "mark": {"type": "rect", "stroke": "#fffdf8", "strokeWidth": 1.5},
+    "encoding": {
+      "x": {"field": "col", "type": "ordinal", "axis": null},
+      "y": {"field": "row", "type": "ordinal", "axis": null},
+      "color": {
+        "field": "group", "type": "nominal",
+        "scale": {
+          "domain": ["4 Ultra-processed foods", "3 Processed foods", "2 Processed culinary ingredients", "1 Unprocessed or minimally processed"],
+          "range": ["#c2410c", "#f6b26b", "#9ec5e0", "#1f5f8b"]
+        },
+        "legend": {"title": "NOVA group", "orient": "bottom", "direction": "horizontal", "columns": 2, "labelLimit": 260}
+      },
+      "tooltip": [
+        {"field": "aisle", "title": "Aisle"},
+        {"field": "group", "title": "Processing"},
+        {"field": "ultra_pct", "title": "% ultra-processed"},
+        {"field": "n", "title": "Products with a NOVA group"}
+      ]
+    }
+  },
+  "config": {"view": {"stroke": null}}
+}

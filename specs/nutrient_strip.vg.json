@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Strip plot: every product's sugar, salt or saturated fat per 100 g, one row per aisle. Black ticks mark each aisle's median; notable products are labelled.",
+  "width": "container",
+  "height": 440,
+  "params": [
+    {
+      "name": "nutrient",
+      "value": "sugar",
+      "bind": {"input": "select", "name": "Nutrient ", "options": ["sugar", "salt", "satfat"], "labels": ["Sugar", "Salt", "Saturated fat"]}
+    }
+  ],
+  "data": {"url": "data/products.csv"},
+  "transform": [
+    {"calculate": "datum[nutrient] === '' || datum[nutrient] == null ? null : toNumber(datum[nutrient])", "as": "grams"},
+    {"filter": "isValid(datum.grams)"},
+    {"calculate": "random()", "as": "jitter"}
+  ],
+  "encoding": {
+    "y": {
+      "field": "aisle", "type": "nominal", "title": null,
+      "sort": ["Confectionery", "Biscuits & cakes", "Ice cream & desserts", "Muesli & protein bars", "Breakfast cereals", "Soft drinks & juice", "Spreads", "Yoghurt", "Sauces & condiments", "Milk & alternatives", "Fruit, veg & legumes", "Chips & salty snacks", "Ready meals", "Bread", "Cheese", "Pasta, rice & grains", "Meat & seafood"],
+      "axis": {"domain": false, "ticks": false, "labelLimit": 170, "grid": true, "gridColor": "#ece6da"}
+    },
+    "x": {
+      "field": "grams", "type": "quantitative",
+      "title": "Grams per 100 g",
+      "scale": {"type": "sqrt", "zero": true},
+      "axis": {"grid": false}
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "circle", "size": 9, "opacity": 0.35, "color": "#c2410c"},
+      "encoding": {
+        "yOffset": {"field": "jitter", "type": "quantitative", "scale": {"domain": [0, 1], "range": [5, 21]}},
+        "tooltip": [
+          {"field": "name", "title": "Product"},
+          {"field": "brand", "title": "Brand"},
+          {"field": "grams", "title": "Grams per 100 g", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "tick", "color": "#1d2327", "thickness": 2.5, "size": 16},
+      "encoding": {"x": {"aggregate": "median", "field": "grams", "type": "quantitative"}}
+    },
+    {
+      "data": {
+        "values": [
+          {"nutrient": "sugar", "aisle": "Confectionery", "grams": 93.3, "side": "left", "text": "Tic Tac mints: 93 g"},
+          {"nutrient": "sugar", "aisle": "Spreads", "grams": 82, "side": "left", "text": "Honey: about 82 g"},
+          {"nutrient": "sugar", "aisle": "Breakfast cereals", "grams": 43.3, "side": "right", "text": "Frosties: 43 g"},
+          {"nutrient": "sugar", "aisle": "Soft drinks & juice", "grams": 9.4, "side": "right", "text": "Median 9.4 g, over 2 tsp per 100 ml"},
+          {"nutrient": "salt", "aisle": "Sauces & condiments", "grams": 100, "side": "left", "text": "Sea salt: 100 g"},
+          {"nutrient": "salt", "aisle": "Cheese", "grams": 1.58, "side": "right", "text": "Median cheese: 1.6 g"},
+          {"nutrient": "satfat", "aisle": "Cheese", "grams": 17.1, "side": "right", "text": "Median cheese: 17 g"},
+          {"nutrient": "satfat", "aisle": "Confectionery", "grams": 11.6, "side": "right", "text": "Chocolate drives this"}
+        ]
+      },
+      "transform": [{"filter": "datum.nutrient == nutrient"}],
+      "layer": [
+        {
+          "transform": [{"filter": "datum.side == 'left'"}],
+          "mark": {"type": "text", "align": "right", "dx": -8, "dy": -11, "fontSize": 11, "fontWeight": "bold", "color": "#1d2327"},
+          "encoding": {"text": {"field": "text"}}
+        },
+        {
+          "transform": [{"filter": "datum.side == 'right'"}],
+          "mark": {"type": "text", "align": "left", "dx": 8, "dy": -11, "fontSize": 11, "fontWeight": "bold", "color": "#1d2327"},
+          "encoding": {"text": {"field": "text"}}
+        }
+      ]
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}

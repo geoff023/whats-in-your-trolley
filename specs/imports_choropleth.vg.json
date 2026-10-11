@@ -2,12 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Choropleth: value of food imported into Australia in 2025, by country of origin.",
   "width": "container",
-  "height": 420,
+  "height": 340,
   "projection": {"type": "equalEarth", "rotate": [-160, 0, 0]},
   "layer": [
     {
       "data": {"sphere": true},
-      "mark": {"type": "geoshape", "fill": "#eef3f7", "stroke": null}
+      "mark": {"type": "geoshape", "fill": "#e3edf2", "stroke": null}
     },
     {
       "data": {
@@ -33,14 +33,15 @@
           "type": "quantitative",
           "scale": {
             "type": "threshold",
-            "domain": [10, 50, 200, 500, 1000],
-            "range": ["#fde7c8", "#f9c58a", "#f39c4f", "#dd6b20", "#b0461a", "#7a2b10"]
+            "domain": [50, 200, 500, 1000],
+            "range": ["#fde7c8", "#f6b26b", "#dd6b20", "#b0461a", "#7a2b10"]
           },
           "legend": {
             "title": "Food imports, US$ million",
             "orient": "bottom-left",
             "direction": "horizontal",
-            "gradientLength": 320
+            "gradientLength": 260,
+            "labelOverlap": false
           }
         },
         "tooltip": [

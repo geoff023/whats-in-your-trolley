@@ -1,0 +1,249 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Proportional symbol map: how much prices of one food group rose in each capital city between September 2017 and August 2026. Circle area and colour show the rise.",
+  "width": "container",
+  "height": 320,
+  "projection": {
+    "type": "conicEqualArea",
+    "parallels": [
+      -18,
+      -36
+    ],
+    "rotate": [
+      -132,
+      0,
+      0
+    ]
+  },
+  "params": [
+    {
+      "name": "group",
+      "value": "Fruit & veg",
+      "bind": {
+        "input": "select",
+        "name": "Food group ",
+        "options": [
+          "Fruit & veg",
+          "Dairy",
+          "Bread & cereals",
+          "Meat & seafood"
+        ]
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "data/au_states.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e9e4d8",
+        "stroke": "#fffdf8",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "url": "data/cpi_food_monthly.csv",
+        "format": {
+          "parse": {
+            "since2017": "number",
+            "lon": "number",
+            "lat": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.month == '2026-08' && datum.city != 'Australia' && datum.group == group"
+        },
+        {
+          "calculate": "datum.since2017 / 100 - 1",
+          "as": "change"
+        },
+        {
+          "calculate": "datum.city + ' ' + format(datum.change, '+.0%')",
+          "as": "label"
+        },
+        {
+          "window": [
+            {
+              "op": "rank",
+              "as": "rank"
+            }
+          ],
+          "sort": [
+            {
+              "field": "change",
+              "order": "descending"
+            }
+          ]
+        }
+      ],
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "circle",
+            "stroke": "#7a2b10",
+            "strokeWidth": 0.8,
+            "opacity": 0.9
+          },
+          "encoding": {
+            "size": {
+              "field": "change",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  0.6
+                ],
+                "range": [
+                  0,
+                  2400
+                ]
+              },
+              "legend": null
+            },
+            "color": {
+              "field": "change",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0.34,
+                  0.56
+                ],
+                "range": [
+                  "#fde7c8",
+                  "#b0461a"
+                ]
+              },
+              "legend": {
+                "title": "Rise since Sep 2017",
+                "format": "+.0%",
+                "orient": "bottom-left",
+                "direction": "horizontal",
+                "gradientLength": 140
+              }
+            },
+            "tooltip": [
+              {
+                "field": "city",
+                "title": "City"
+              },
+              {
+                "field": "group",
+                "title": "Food group"
+              },
+              {
+                "field": "change",
+                "title": "Rise, Sep 2017 to Aug 2026",
+                "format": "+.1%"
+              },
+              {
+                "field": "rank",
+                "title": "Rank of 8"
+              }
+            ]
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "indexof(['Sydney', 'Hobart'], datum.city) >= 0"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": 22,
+            "fontSize": 11,
+            "color": "#1d2327"
+          },
+          "encoding": {
+            "text": {
+              "field": "label"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.city == 'Melbourne'"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "dx": -22,
+            "dy": 6,
+            "fontSize": 11,
+            "color": "#1d2327"
+          },
+          "encoding": {
+            "text": {
+              "field": "label"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.city == 'Canberra'"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": 16,
+            "dy": 20,
+            "fontSize": 11,
+            "color": "#1d2327"
+          },
+          "encoding": {
+            "text": {
+              "field": "label"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "indexof(['Perth', 'Adelaide', 'Darwin', 'Brisbane'], datum.city) >= 0"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "dy": -30,
+            "fontSize": 11,
+            "color": "#1d2327"
+          },
+          "encoding": {
+            "text": {
+              "field": "label"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

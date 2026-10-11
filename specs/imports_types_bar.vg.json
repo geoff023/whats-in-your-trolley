@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bar chart: total value of Australian food imports in 2025 by type of food. The three biggest types are highlighted.",
+  "width": "container",
+  "height": 340,
+  "data": {"url": "data/imports_by_chapter_2025.csv", "format": {"parse": {"usd_m": "number"}}},
+  "transform": [
+    {"aggregate": [{"op": "sum", "field": "usd_m", "as": "usd_m"}], "groupby": ["chapter"]},
+    {"calculate": "datum.usd_m / 1000", "as": "usd_bn"},
+    {"window": [{"op": "rank", "as": "rank"}], "sort": [{"field": "usd_m", "order": "descending"}]}
+  ],
+  "encoding": {
+    "y": {"field": "chapter", "type": "nominal", "sort": {"op": "max", "field": "usd_m", "order": "descending"}, "title": null, "axis": {"labelLimit": 180}},
+    "x": {"field": "usd_bn", "type": "quantitative", "title": "US$ billion", "axis": {"grid": false, "tickCount": 4}}
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "cornerRadiusEnd": 2},
+      "encoding": {
+        "color": {"condition": {"test": "datum.rank <= 3", "value": "#c2410c"}, "value": "#b8b2a7"},
+        "tooltip": [
+          {"field": "chapter", "title": "Food type"},
+          {"field": "usd_m", "title": "Value (US$ m)", "format": ",.0f"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "left", "dx": 4, "fontSize": 11, "color": "#3b4248"},
+      "encoding": {"text": {"field": "usd_bn", "type": "quantitative", "format": "$.1f"}}
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}

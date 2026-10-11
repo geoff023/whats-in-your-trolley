@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Heatmap: price rise between September 2017 and August 2026 for each capital city and food group. The biggest rise is outlined.",
+  "width": "container",
+  "height": 300,
+  "data": {"url": "data/cpi_food_monthly.csv", "format": {"parse": {"since2017": "number"}}},
+  "transform": [
+    {"filter": "datum.month == '2026-08'"},
+    {"calculate": "datum.since2017 / 100 - 1", "as": "change"},
+    {"joinaggregate": [{"op": "max", "field": "change", "as": "max_change"}]}
+  ],
+  "encoding": {
+    "x": {
+      "field": "group", "type": "nominal", "title": null,
+      "sort": ["Fruit & veg", "Dairy", "Bread & cereals", "Meat & seafood"],
+      "axis": {"orient": "bottom", "labelAngle": 0, "domain": false, "ticks": false, "labelExpr": "split(datum.value, ' & ').length > 1 ? [split(datum.value, ' & ')[0] + ' &', split(datum.value, ' & ')[1]] : datum.value"}
+    },
+    "y": {
+      "field": "city", "type": "nominal", "title": null,
+      "sort": ["Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Hobart", "Canberra", "Darwin", "Australia"],
+      "axis": {"domain": false, "ticks": false, "labelFontWeight": {"condition": {"test": "datum.value == 'Australia'", "value": "bold"}, "value": "normal"}}
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "rect", "stroke": "#fffdf8", "strokeWidth": 2},
+      "encoding": {
+        "color": {
+          "field": "change", "type": "quantitative",
+          "scale": {"domain": [0.34, 0.56], "range": ["#fde7c8", "#b0461a"]},
+          "legend": {"title": "Rise since Sep 2017", "format": "+.0%", "orient": "bottom", "direction": "horizontal", "gradientLength": 160}
+        },
+        "tooltip": [
+          {"field": "city", "title": "City"},
+          {"field": "group", "title": "Food group"},
+          {"field": "change", "title": "Rise", "format": "+.1%"}
+        ]
+      }
+    },
+    {
+      "transform": [{"filter": "datum.change == datum.max_change"}],
+      "mark": {"type": "rect", "fill": null, "stroke": "#1d2327", "strokeWidth": 2}
+    },
+    {
+      "mark": {"type": "text", "fontSize": 11},
+      "encoding": {
+        "text": {"field": "change", "type": "quantitative", "format": "+.0%"},
+        "color": {"condition": {"test": "datum.change > 0.47", "value": "#ffffff"}, "value": "#1d2327"}
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}
