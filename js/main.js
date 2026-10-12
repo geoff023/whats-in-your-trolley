@@ -28,5 +28,20 @@ for (const id of charts) {
   const controls = document.getElementById(`ctl-${id}`);
   const options = { actions: false, config: theme };
   if (controls) options.bind = controls;
-  vegaEmbed(`#${id}`, `specs/${id}.vg.json`, options).catch(console.error);
+  vegaEmbed(`#${id}`, `specs/${id}.vg.json`, options)
+    .then(() => controls && addControlIcons(controls))
+    .catch(console.error);
+}
+
+// Put an icon from the page's set in front of each control label:
+// sort arrows for "Sort ...", a magnifier for search boxes, a funnel for other dropdowns.
+function addControlIcons(controls) {
+  for (const bind of controls.querySelectorAll(".vega-bind")) {
+    const name = bind.querySelector(".vega-bind-name");
+    if (!name || name.querySelector("svg")) continue;
+    const icon = bind.querySelector('input[type="search"]') ? "search"
+      : name.textContent.trim().startsWith("Sort") ? "sort" : "filter";
+    name.insertAdjacentHTML("afterbegin",
+      `<svg class="control-icon" aria-hidden="true"><use href="#i-${icon}"/></svg>`);
+  }
 }

@@ -129,8 +129,12 @@
                 ],
                 "range": [
                   "#f6e7a1",
+                  "#d6cfa8",
+                  "#9fa9b2",
+                  "#5d7593",
                   "#1f3a5f"
-                ]
+                ],
+                "interpolate": "rgb"
               },
               "legend": {
                 "title": "Rise since Sep 2017",

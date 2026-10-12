@@ -1,4 +1,4 @@
-# What's in Your Trolley?
+# From Paddock to Barcode
 
 FIT3179 Data Visualisation 2 (Monash University, 2026). A one-page visual story about Australian supermarket products, built with Vega-Lite.
 

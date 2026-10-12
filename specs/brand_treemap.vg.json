@@ -1,103 +1,244 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "Treemap: products in each aisle, split into supermarket own brands (blue) and name brands (orange). The biggest brands in each aisle are named; smaller ones are pooled in lighter shades.",
+  "description": "Treemap: products in each aisle, split into supermarket own brands (navy) and name brands (grey). The biggest brands in each aisle are named; smaller ones are pooled in lighter shades.",
   "autosize": "none",
   "height": 500,
-  "padding": {"left": 0, "right": 0, "top": 0, "bottom": 34},
+  "padding": {
+    "left": 0,
+    "right": 0,
+    "top": 0,
+    "bottom": 0
+  },
   "signals": [
     {
       "name": "width",
       "init": "max(containerSize()[0], 300)",
-      "on": [{"events": "window:resize", "update": "max(containerSize()[0], 300)"}]
+      "on": [
+        {
+          "events": "window:resize",
+          "update": "max(containerSize()[0], 300)"
+        }
+      ]
     }
   ],
   "data": [
     {
       "name": "brands",
       "url": "data/brand_tree.csv",
-      "format": {"type": "csv", "parse": {"products": "number"}}
+      "format": {
+        "type": "csv",
+        "parse": {
+          "products": "number"
+        }
+      }
     },
     {
       "name": "tree",
       "source": "brands",
       "transform": [
-        {"type": "nest", "keys": ["aisle"], "generate": true},
+        {
+          "type": "nest",
+          "keys": [
+            "aisle"
+          ],
+          "generate": true
+        },
         {
           "type": "treemap",
           "field": "products",
-          "sort": {"field": "value", "order": "descending"},
+          "sort": {
+            "field": "value",
+            "order": "descending"
+          },
           "round": true,
           "method": "squarify",
           "ratio": 1.4,
           "paddingInner": 1,
           "paddingOuter": 0,
-          "paddingTop": {"signal": "18"},
-          "size": [{"signal": "width"}, {"signal": "height"}]
+          "paddingTop": {
+            "signal": "18"
+          },
+          "size": [
+            {
+              "signal": "width"
+            },
+            {
+              "signal": "height"
+            }
+          ]
         }
       ]
     },
-    {"name": "aisles", "source": "tree", "transform": [{"type": "filter", "expr": "datum.depth === 1"}]},
-    {"name": "leaves", "source": "tree", "transform": [{"type": "filter", "expr": "!datum.children"}]}
+    {
+      "name": "aisles",
+      "source": "tree",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.depth === 1"
+        }
+      ]
+    },
+    {
+      "name": "leaves",
+      "source": "tree",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "!datum.children"
+        }
+      ]
+    }
   ],
   "scales": [
     {
       "name": "colour",
       "type": "ordinal",
-      "domain": ["Supermarket own brand", "Other own brands", "Name brand", "Other name brands"],
-      "range": ["#0072b2", "#8fc1e3", "#e69f00", "#f5d199"]
+      "domain": [
+        "Supermarket own brand",
+        "Other own brands",
+        "Name brand",
+        "Other name brands"
+      ],
+      "range": [
+        "#1f3a5f",
+        "#8ea3c0",
+        "#7f8a91",
+        "#c9cfd2"
+      ]
     }
-  ],
-  "legends": [
-    {"fill": "colour", "orient": "none", "direction": "horizontal", "legendX": 0, "legendY": {"signal": "height + 10"}, "labelFontSize": 12, "symbolType": "square"}
   ],
   "marks": [
     {
       "type": "rect",
-      "from": {"data": "aisles"},
+      "from": {
+        "data": "aisles"
+      },
       "encode": {
         "update": {
-          "x": {"field": "x0"}, "y": {"field": "y0"}, "x2": {"field": "x1"}, "y2": {"field": "y1"},
-          "fill": {"value": "#eef1f0"}, "stroke": {"value": "#ffffff"}, "strokeWidth": {"value": 3}
+          "x": {
+            "field": "x0"
+          },
+          "y": {
+            "field": "y0"
+          },
+          "x2": {
+            "field": "x1"
+          },
+          "y2": {
+            "field": "y1"
+          },
+          "fill": {
+            "value": "#eef1f0"
+          },
+          "stroke": {
+            "value": "#ffffff"
+          },
+          "strokeWidth": {
+            "value": 3
+          }
         }
       }
     },
     {
       "type": "text",
-      "from": {"data": "aisles"},
+      "from": {
+        "data": "aisles"
+      },
       "encode": {
         "update": {
-          "x": {"signal": "datum.x0 + 4"}, "y": {"signal": "datum.y0 + 13"},
-          "text": {"signal": "datum.key"},
-          "limit": {"signal": "datum.x1 - datum.x0 - 8"},
-          "fontSize": {"value": 11}, "fontWeight": {"value": "bold"}, "fill": {"value": "#1b2430"}
+          "x": {
+            "signal": "datum.x0 + 4"
+          },
+          "y": {
+            "signal": "datum.y0 + 13"
+          },
+          "text": {
+            "signal": "datum.key"
+          },
+          "limit": {
+            "signal": "datum.x1 - datum.x0 - 8"
+          },
+          "fontSize": {
+            "value": 11
+          },
+          "fontWeight": {
+            "value": "bold"
+          },
+          "fill": {
+            "value": "#1b2430"
+          }
         }
       }
     },
     {
       "type": "rect",
-      "from": {"data": "leaves"},
+      "from": {
+        "data": "leaves"
+      },
       "encode": {
         "update": {
-          "x": {"field": "x0"}, "y": {"field": "y0"}, "x2": {"field": "x1"}, "y2": {"field": "y1"},
-          "fill": {"scale": "colour", "field": "shade"},
-          "stroke": {"value": "#ffffff"},
-          "tooltip": {"signal": "{'Aisle': datum.aisle, 'Brand': datum.brand, 'Products': datum.products}"}
+          "x": {
+            "field": "x0"
+          },
+          "y": {
+            "field": "y0"
+          },
+          "x2": {
+            "field": "x1"
+          },
+          "y2": {
+            "field": "y1"
+          },
+          "fill": {
+            "scale": "colour",
+            "field": "shade"
+          },
+          "stroke": {
+            "value": "#ffffff"
+          },
+          "tooltip": {
+            "signal": "{'Aisle': datum.aisle, 'Brand': datum.brand, 'Products': datum.products}"
+          }
         },
-        "hover": {"fillOpacity": {"value": 0.75}},
-        "leave": {"fillOpacity": {"value": 1}}
+        "hover": {
+          "fillOpacity": {
+            "value": 0.75
+          }
+        },
+        "leave": {
+          "fillOpacity": {
+            "value": 1
+          }
+        }
       }
     },
     {
       "type": "text",
-      "from": {"data": "leaves"},
+      "from": {
+        "data": "leaves"
+      },
       "interactive": false,
       "encode": {
         "update": {
-          "x": {"signal": "datum.x0 + 3"}, "y": {"signal": "datum.y0 + 11"},
-          "text": {"signal": "(datum.x1 - datum.x0) > 46 && (datum.y1 - datum.y0) > 16 && indexof(datum.shade, 'Other') !== 0 ? datum.brand : ''"},
-          "limit": {"signal": "datum.x1 - datum.x0 - 6"},
-          "fontSize": {"value": 10},
-          "fill": {"value": "#ffffff"}
+          "x": {
+            "signal": "datum.x0 + 3"
+          },
+          "y": {
+            "signal": "datum.y0 + 11"
+          },
+          "text": {
+            "signal": "(datum.x1 - datum.x0) > 46 && (datum.y1 - datum.y0) > 16 && indexof(datum.shade, 'Other') !== 0 ? datum.brand : ''"
+          },
+          "limit": {
+            "signal": "datum.x1 - datum.x0 - 6"
+          },
+          "fontSize": {
+            "value": 10
+          },
+          "fill": {
+            "value": "#ffffff"
+          }
         }
       }
     }
