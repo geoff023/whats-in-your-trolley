@@ -1,0 +1,189 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Linked heatmap and strip plot. Left: median grams per 100 g of five nutrients in each aisle. Right: every product's value for the chosen nutrient, with aisle medians as black ticks. Choosing a nutrient re-sorts both views from highest to lowest median; typing a product name highlights matching products.",
+  "params": [
+    {
+      "name": "nutrient",
+      "value": "sugar",
+      "bind": {
+        "input": "select",
+        "name": "Sort aisles by ",
+        "options": ["sugar", "satfat", "salt", "fibre", "protein"],
+        "labels": ["Sugar", "Saturated fat", "Salt", "Fibre", "Protein"]
+      }
+    },
+    {
+      "name": "search",
+      "value": "",
+      "bind": {"input": "search", "name": "Find a product ", "placeholder": "e.g. Weet-Bix, Tim Tam", "autocomplete": "off"}
+    }
+  ],
+  "data": {"url": "data/products.csv"},
+  "spacing": 16,
+  "hconcat": [
+    {
+      "width": 300,
+      "height": 460,
+      "transform": [
+        {"fold": ["sugar", "satfat", "salt", "fibre", "protein"], "as": ["key", "raw"]},
+        {"filter": "datum.raw != null && datum.raw !== ''"},
+        {"calculate": "toNumber(datum.raw)", "as": "grams"},
+        {"aggregate": [{"op": "median", "field": "grams", "as": "median"}], "groupby": ["aisle", "key"]},
+        {"joinaggregate": [{"op": "max", "field": "median", "as": "max"}], "groupby": ["key"]},
+        {"calculate": "datum.median / datum.max", "as": "relative"},
+        {"calculate": "{'sugar': 'Sugar', 'satfat': 'Sat. fat', 'salt': 'Salt', 'fibre': 'Fibre', 'protein': 'Protein'}[datum.key]", "as": "label"},
+        {"calculate": "datum.key == 'fibre' || datum.key == 'protein' ? 'more' : 'less'", "as": "kind"},
+        {"calculate": "datum.key == nutrient ? datum.median : null", "as": "chosen"},
+        {"joinaggregate": [{"op": "max", "field": "chosen", "as": "sortkey"}], "groupby": ["aisle"]},
+        {"calculate": "datum.sortkey + 1e-6 * length(datum.aisle)", "as": "sortkey"}
+      ],
+      "encoding": {
+        "x": {
+          "field": "label", "type": "nominal", "title": null,
+          "sort": ["Sugar", "Sat. fat", "Salt", "Fibre", "Protein"],
+          "axis": {"orient": "top", "labelAngle": 0, "domain": false, "ticks": false, "labelPadding": 6}
+        },
+        "y": {
+          "field": "aisle", "type": "nominal", "title": null,
+          "sort": {"field": "sortkey", "op": "max", "order": "descending"},
+          "axis": {"domain": false, "ticks": false, "labelLimit": 170}
+        }
+      },
+      "layer": [
+        {
+          "transform": [{"filter": "datum.kind == 'less'"}],
+          "mark": {"type": "rect", "stroke": "#ffffff", "strokeWidth": 2},
+          "encoding": {
+            "color": {
+              "field": "relative", "type": "quantitative",
+              "scale": {"domain": [0, 1], "range": ["#fbecee", "#c8324b"]},
+              "legend": {"title": "Eat less", "format": ".0%", "orient": "bottom", "direction": "horizontal", "gradientLength": 100}
+            },
+            "tooltip": [
+              {"field": "aisle", "title": "Aisle"},
+              {"field": "label", "title": "Nutrient"},
+              {"field": "median", "title": "Median g per 100 g", "format": ".1f"}
+            ]
+          }
+        },
+        {
+          "transform": [{"filter": "datum.kind == 'more'"}],
+          "mark": {"type": "rect", "stroke": "#ffffff", "strokeWidth": 2},
+          "encoding": {
+            "fill": {
+              "field": "relative", "type": "quantitative",
+              "scale": {"domain": [0, 1], "range": ["#e8eef5", "#1f3a5f"]},
+              "legend": {"title": "Eat more", "format": ".0%", "orient": "bottom", "direction": "horizontal", "gradientLength": 100}
+            },
+            "tooltip": [
+              {"field": "aisle", "title": "Aisle"},
+              {"field": "label", "title": "Nutrient"},
+              {"field": "median", "title": "Median g per 100 g", "format": ".1f"}
+            ]
+          }
+        },
+        {
+          "transform": [{"filter": "datum.key == nutrient"}],
+          "mark": {"type": "rect", "fill": null, "stroke": "#1b2430", "strokeWidth": 2.5}
+        },
+        {
+          "mark": {"type": "text", "fontSize": 11},
+          "encoding": {
+            "text": {"field": "median", "type": "quantitative", "format": ".1f"},
+            "color": {"condition": {"test": "datum.relative > 0.6", "value": "#ffffff"}, "value": "#1b2430"}
+          }
+        }
+      ],
+      "resolve": {"scale": {"color": "independent"}}
+    },
+    {
+      "width": 600,
+      "height": 460,
+      "transform": [
+        {"calculate": "datum[nutrient] === '' || datum[nutrient] == null ? null : toNumber(datum[nutrient])", "as": "grams"},
+        {"filter": "isValid(datum.grams)"},
+        {"joinaggregate": [{"op": "median", "field": "grams", "as": "sortkey"}], "groupby": ["aisle"]},
+        {"calculate": "datum.sortkey + 1e-6 * length(datum.aisle)", "as": "sortkey"},
+        {"calculate": "random()", "as": "jitter"},
+        {"calculate": "length(search) >= 3 && indexof(lower(datum.name + ' ' + datum.brand), lower(search)) >= 0", "as": "match"}
+      ],
+      "encoding": {
+        "y": {
+          "field": "aisle", "type": "nominal", "title": null,
+          "sort": {"field": "sortkey", "op": "max", "order": "descending"},
+          "axis": {"labels": false, "domain": false, "ticks": false, "grid": true, "gridColor": "#e6eaea"}
+        },
+        "x": {
+          "field": "grams", "type": "quantitative",
+          "title": "Grams per 100 g (square-root scale)",
+          "scale": {"type": "sqrt", "zero": true},
+          "axis": {"grid": false, "orient": "top"}
+        }
+      },
+      "layer": [
+        {
+          "mark": {"type": "circle", "size": 10},
+          "encoding": {
+            "yOffset": {"field": "jitter", "type": "quantitative", "scale": {"domain": [0, 1], "range": [5, 22]}},
+            "color": {"condition": {"test": "datum.match", "value": "#c8324b"}, "value": "#1f3a5f"},
+            "opacity": {"condition": {"test": "datum.match", "value": 1}, "value": {"expr": "length(search) >= 3 ? 0.08 : 0.3"}},
+            "size": {"condition": {"test": "datum.match", "value": 70}, "value": 10},
+            "order": {"condition": {"test": "datum.match", "value": 1}, "value": 0},
+            "tooltip": [
+              {"field": "name", "title": "Product"},
+              {"field": "brand", "title": "Brand"},
+              {"field": "aisle", "title": "Aisle"},
+              {"field": "grams", "title": "Grams per 100 g", "format": ".1f"}
+            ]
+          }
+        },
+        {
+          "mark": {"type": "tick", "color": "#1b2430", "thickness": 3, "size": 20},
+          "encoding": {"x": {"aggregate": "median", "field": "grams", "type": "quantitative"}}
+        },
+        {
+          "transform": [
+            {"filter": "datum.match"},
+            {"window": [{"op": "row_number", "as": "hit"}], "sort": [{"field": "scans", "order": "descending"}]},
+            {"filter": "datum.hit <= 5"}
+          ],
+          "mark": {"type": "text", "align": "left", "dx": 7, "dy": -6, "fontSize": 11, "fontWeight": "bold", "color": "#c8324b"},
+          "encoding": {
+            "yOffset": {"field": "jitter", "type": "quantitative", "scale": {"domain": [0, 1], "range": [5, 22]}},
+            "text": {"field": "name"}
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {"key": "sugar", "aisle": "Confectionery", "grams": 93.3, "side": "left", "text": "Tic Tac mints: 93 g"},
+              {"key": "sugar", "aisle": "Spreads", "grams": 82, "side": "left", "text": "Honey: about 82 g"},
+              {"key": "sugar", "aisle": "Breakfast cereals", "grams": 43.3, "side": "right", "text": "Frosties: 43 g"},
+              {"key": "sugar", "aisle": "Soft drinks & juice", "grams": 9.4, "side": "right", "text": "Median 9.4 g, over 2 tsp per 100 ml"},
+              {"key": "salt", "aisle": "Sauces & condiments", "grams": 100, "side": "left", "text": "Sea salt: 100 g"},
+              {"key": "salt", "aisle": "Cheese", "grams": 1.58, "side": "right", "text": "Median cheese: 1.6 g"},
+              {"key": "satfat", "aisle": "Cheese", "grams": 17.1, "side": "right", "text": "Median cheese: 17 g"},
+              {"key": "satfat", "aisle": "Confectionery", "grams": 11.6, "side": "right", "text": "Chocolate drives this"},
+              {"key": "protein", "aisle": "Cheese", "grams": 22.6, "side": "right", "text": "Median cheese: 23 g"},
+              {"key": "fibre", "aisle": "Muesli & protein bars", "grams": 10.9, "side": "right", "text": "Median bar: 11 g"}
+            ]
+          },
+          "transform": [{"filter": "datum.key == nutrient && length(search) < 3"}],
+          "layer": [
+            {
+              "transform": [{"filter": "datum.side == 'left'"}],
+              "mark": {"type": "text", "align": "right", "dx": -8, "dy": 2, "fontSize": 11, "fontWeight": "bold", "color": "#1b2430"},
+              "encoding": {"text": {"field": "text"}}
+            },
+            {
+              "transform": [{"filter": "datum.side == 'right'"}],
+              "mark": {"type": "text", "align": "left", "dx": 10, "dy": 2, "fontSize": 11, "fontWeight": "bold", "color": "#1b2430"},
+              "encoding": {"text": {"field": "text"}}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}

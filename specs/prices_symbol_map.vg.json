@@ -42,8 +42,8 @@
       },
       "mark": {
         "type": "geoshape",
-        "fill": "#e9e4d8",
-        "stroke": "#fffdf8",
+        "fill": "#dde3e1",
+        "stroke": "#ffffff",
         "strokeWidth": 1
       }
     },
@@ -99,7 +99,7 @@
         {
           "mark": {
             "type": "circle",
-            "stroke": "#7a2b10",
+            "stroke": "#ffffff",
             "strokeWidth": 0.8,
             "opacity": 0.9
           },
@@ -128,8 +128,8 @@
                   0.56
                 ],
                 "range": [
-                  "#fde7c8",
-                  "#b0461a"
+                  "#f6e7a1",
+                  "#1f3a5f"
                 ]
               },
               "legend": {
@@ -172,7 +172,7 @@
             "align": "left",
             "dx": 22,
             "fontSize": 11,
-            "color": "#1d2327"
+            "color": "#1b2430"
           },
           "encoding": {
             "text": {
@@ -192,7 +192,7 @@
             "dx": -22,
             "dy": 6,
             "fontSize": 11,
-            "color": "#1d2327"
+            "color": "#1b2430"
           },
           "encoding": {
             "text": {
@@ -212,7 +212,7 @@
             "dx": 16,
             "dy": 20,
             "fontSize": 11,
-            "color": "#1d2327"
+            "color": "#1b2430"
           },
           "encoding": {
             "text": {
@@ -230,7 +230,7 @@
             "type": "text",
             "dy": -30,
             "fontSize": 11,
-            "color": "#1d2327"
+            "color": "#1b2430"
           },
           "encoding": {
             "text": {

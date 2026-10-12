@@ -1,44 +1,47 @@
-/* Two typefaces only: Fraunces for headings, DM Sans for everything else (charts included). */
+/* What's in Your Trolley? — supermarket vernacular:
+   aisle signs (navy + yellow), shelf price tags (yellow), a receipt (mono), fridge-white floors.
+   One family (Archivo, using its width axis) everywhere except the receipt (Courier Prime). */
 :root {
-  --ink: #1d2327;         /* body text: 14:1 contrast on --paper */
-  --muted: #4a5258;       /* secondary text: 7:1 on --paper */
-  --accent: #b23a0b;      /* links and highlights, 5.6:1 on --paper */
-  --paper: #f7f3ea;       /* band A */
-  --paper-2: #ebe5d7;     /* band B, a shade darker for contrast between sections */
-  --card: #fffdf8;
-  --rule: #ddd4c2;
-  --dark: #1f3b3a;        /* hero and takeaways */
-  --dark-ink: #f7f3ea;
+  --ink: #1b2430;
+  --muted: #47515c;      /* 8:1 on --paper */
+  --paper: #f4f6f5;      /* fridge white */
+  --paper-2: #e7ecea;    /* alternate aisle floor */
+  --card: #ffffff;
+  --rule: #d3dad7;
+  --aisle: #1f3a5f;      /* overhead aisle-sign navy */
+  --tag: #ffd23f;        /* shelf-tag yellow */
+  --signal: #c8324b;     /* raspberry: emphasis and "Australia" in charts */
   --gap: 24px;
+  --radius: 6px;
 }
 
 * { box-sizing: border-box; }
-
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scroll-padding-top: 56px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font: 17px/1.6 "DM Sans", system-ui, sans-serif;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.55;
+  font-variation-settings: "wdth" 100;
 }
 
-h1, h2, h3 { font-family: "Fraunces", Georgia, serif; line-height: 1.15; margin: 0; color: inherit; }
-h1 { font-size: clamp(2.6rem, 5.5vw, 4.2rem); font-weight: 700; margin: 6px 0 18px; }
-h2 { font-size: 2rem; font-weight: 600; }
-h3 { font-size: 1.2rem; font-weight: 600; }
+h1, h2, h3 { margin: 0; line-height: 1.12; color: inherit; font-weight: 800; }
+/* Headings use Archivo's wide cut, like supermarket signage. */
+h1 { font-size: clamp(2.8rem, 6vw, 4.6rem); font-stretch: 125%; font-variation-settings: "wdth" 125; letter-spacing: -0.02em; }
+h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); font-variation-settings: "wdth" 118; }
+h3 { font-size: 1.18rem; font-weight: 750; font-variation-settings: "wdth" 108; }
 p { margin: 0 0 12px; }
-a { color: var(--accent); }
-code { font-size: 0.9em; }
+a { color: var(--aisle); text-underline-offset: 2px; }
+code { font-size: 0.88em; }
+:focus-visible { outline: 3px solid var(--tag); outline-offset: 2px; box-shadow: 0 0 0 5px var(--ink); }
 
-/* ---------- Layout: one 12-column grid used by every section ---------- */
+/* ---------- 12-column grid shared by every section ---------- */
 .wrap { max-width: 1200px; margin: 0 auto; padding: 0 var(--gap); }
-.grid {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: var(--gap);
-  align-items: stretch;
-}
+.grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: var(--gap); }
 .span-3 { grid-column: span 3; }
 .span-4 { grid-column: span 4; }
 .span-5 { grid-column: span 5; }
@@ -46,85 +49,106 @@ code { font-size: 0.9em; }
 .span-8 { grid-column: span 8; }
 .span-12 { grid-column: span 12; }
 
-.band { padding: 72px 0; }
+.band { padding: 64px 0 72px; }
 .band-a { background: var(--paper); }
 .band-b { background: var(--paper-2); }
-.band-dark { background: var(--dark); color: var(--dark-ink); }
-.band-foot { background: #e2dccd; padding: 48px 0 56px; font-size: 0.92rem; }
 
-/* ---------- Hero ---------- */
-.hero { background: var(--dark); color: var(--dark-ink); padding: 80px 0 64px; }
-.hero .grid { align-items: end; }
-.kicker {
-  color: #f6b26b;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  font-size: 0.85rem;
-  margin: 0;
-}
-.lede { font-size: 1.2rem; max-width: 60ch; margin: 0; color: #e4ddcf; }
-.kpis {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-}
-.kpis li {
-  background: rgba(255, 255, 255, 0.07);
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 10px;
-  padding: 14px 16px;
-}
-.kpis strong { display: block; font-family: "Fraunces", Georgia, serif; font-size: 1.9rem; line-height: 1.1; color: #f6b26b; }
-.kpis span { font-size: 0.92rem; color: #e4ddcf; }
+/* ---------- Hero: title + receipt ---------- */
+.hero { background: var(--aisle); color: #fff; padding: 72px 0 80px; }
+.hero .grid { align-items: center; }
+.lede { font-size: 1.2rem; line-height: 1.6; max-width: 58ch; margin-top: 20px; color: #e3e9f1; }
+.hero-hint { display: inline-block; margin: 8px 0 0; padding: 6px 12px; background: var(--tag); color: var(--ink); font-weight: 700; border-radius: 3px; }
 
-/* ---------- Section navigation ---------- */
-.toc { position: sticky; top: 0; z-index: 10; background: var(--card); border-bottom: 1px solid var(--rule); }
-.toc .wrap { display: flex; gap: 28px; overflow-x: auto; }
-.toc a {
-  padding: 12px 0;
-  font-size: 0.92rem;
-  font-weight: 500;
-  color: var(--ink);
+.receipt {
+  margin: 0;
+  justify-self: end;
+  width: min(100%, 380px);
+  background: #fffef9;
+  color: #222;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 26px 26px 34px;
+  transform: rotate(1.2deg);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+  /* torn bottom edge */
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8px), 95% 100%, 90% calc(100% - 8px), 85% 100%, 80% calc(100% - 8px), 75% 100%, 70% calc(100% - 8px), 65% 100%, 60% calc(100% - 8px), 55% 100%, 50% calc(100% - 8px), 45% 100%, 40% calc(100% - 8px), 35% 100%, 30% calc(100% - 8px), 25% 100%, 20% calc(100% - 8px), 15% 100%, 10% calc(100% - 8px), 5% 100%, 0 calc(100% - 8px));
+}
+.receipt-head { text-align: center; font-weight: 700; font-size: 1.1rem; margin-bottom: 14px; }
+.receipt-head span { font-weight: 400; font-size: 0.85rem; }
+.receipt dl { margin: 0; padding: 12px 0; border-top: 1px dashed #777; }
+.receipt dl div { display: flex; align-items: baseline; gap: 6px; }
+.receipt dt { flex: 1; display: flex; gap: 6px; }
+.receipt dt::after { content: ""; flex: 1; border-bottom: 1px dotted #999; transform: translateY(-4px); }
+.receipt dd { margin: 0; font-weight: 700; }
+.receipt-total { font-size: 1.05rem; }
+.receipt-foot { margin: 0; padding-top: 12px; border-top: 1px dashed #777; text-align: center; font-size: 0.85rem; }
+
+/* ---------- Aisle navigation ---------- */
+.aisles-nav { position: sticky; top: 0; z-index: 10; background: var(--ink); }
+.aisles-nav .wrap { display: flex; gap: 6px; overflow-x: auto; padding-top: 8px; padding-bottom: 8px; }
+.aisles-nav a {
+  color: #fff;
   text-decoration: none;
   white-space: nowrap;
-  border-bottom: 3px solid transparent;
+  font-size: 0.92rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 3px;
 }
-.toc a:hover { border-bottom-color: var(--accent); }
+.aisles-nav a b { display: inline-block; min-width: 1.5em; margin-right: 4px; background: var(--tag); color: var(--ink); text-align: center; border-radius: 2px; }
+.aisles-nav a:hover { background: rgba(255, 255, 255, 0.12); }
+.aisles-nav .nav-checkout { margin-left: auto; background: var(--tag); color: var(--ink); }
 
-/* ---------- Section intros: heading left, text right, same top line ---------- */
-.intro-head { align-self: start; }
-.num { font-family: "Fraunces", Georgia, serif; font-size: 1rem; font-weight: 700; color: var(--accent); margin: 0 0 4px; }
-.band-dark .num { color: #f6b26b; }
-.intro-text { align-self: end; font-size: 1.08rem; margin: 0; max-width: 72ch; }
-.intro-text p:last-child { margin-bottom: 0; }
-.explain {
-  font-size: 0.95rem;
-  color: var(--muted);
-  border-left: 3px solid var(--accent);
-  padding-left: 12px;
+/* ---------- Aisle signs (section headers) ---------- */
+.aisle-sign {
+  display: flex;
+  align-items: stretch;
+  background: var(--aisle);
+  color: #fff;
+  border-radius: var(--radius);
+  overflow: hidden;
 }
+.aisle-no {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background: var(--tag);
+  color: var(--ink);
+  font-weight: 900;
+  font-size: 1.05rem;
+  font-variation-settings: "wdth" 125;
+  white-space: nowrap;
+}
+.aisle-sign h2 { padding: 16px 22px; }
+.aisle-sign-checkout { background: #fff; color: var(--ink); }
+
+.intro-text { font-size: 1.1rem; max-width: 68ch; margin: 0; }
+.good-to-know {
+  align-self: start;
+  font-size: 0.93rem;
+  color: var(--muted);
+  border-left: 4px solid var(--tag);
+  padding: 2px 0 2px 14px;
+}
+.good-to-know b { display: block; color: var(--ink); }
 
 /* ---------- Chart cards ----------
-   Each card spans four rows of the section grid (title, note, chart, caption) and uses
-   subgrid, so cards side by side share those rows: titles, charts and captions line up. */
+   Five subgrid rows (title, note, controls, chart, caption) so cards side by side line up:
+   a control bar in one card pushes its neighbour's chart down by the same amount. */
 .card {
   margin: 0;
   background: var(--card);
   border: 1px solid var(--rule);
-  border-radius: 12px;
+  border-radius: var(--radius);
   padding: 22px 24px 18px;
-  box-shadow: 0 1px 2px rgba(29, 35, 39, 0.05);
   display: grid;
-  grid-row: span 4;
+  grid-row: span 5;
   grid-template-rows: subgrid;
   row-gap: 0;
 }
 .card h3 { margin-bottom: 6px; }
-.note { color: var(--muted); font-size: 0.95rem; margin-bottom: 14px; }
+.note { color: var(--muted); font-size: 0.95rem; margin-bottom: 14px; max-width: 75ch; }
 .chart { width: 100%; min-width: 0; margin-bottom: 12px; }
 .chart-center { display: flex; justify-content: center; overflow-x: auto; }
 figcaption {
@@ -136,51 +160,75 @@ figcaption {
   line-height: 1.45;
 }
 
-.card-text .facts { grid-row: span 3; align-self: start; }
+.card-text .facts { grid-row: span 4; align-self: start; }
 .facts { margin: 8px 0 0; }
 .facts dt { font-weight: 700; margin-top: 16px; }
 .facts dt:first-child { margin-top: 0; }
 .facts dd { margin: 2px 0 0; color: var(--muted); font-size: 0.95rem; }
 
-/* Vega-Lite dropdowns */
-.vega-bindings { font-size: 0.92rem; margin-top: 8px; color: var(--ink); }
-.vega-bind-name { font-weight: 700; }
-.vega-bindings select {
+/* ---------- Control bar: every chart filter/sort/search looks the same ---------- */
+/* Empty control slots stay in the grid (zero height) so the subgrid rows still line up. */
+.controls:not(:empty) { margin-bottom: 14px; padding: 10px 12px; background: var(--paper); border-radius: 3px; }
+.controls .vega-bindings { display: flex; flex-wrap: wrap; gap: 10px 18px; }
+.controls .vega-bind label { display: flex; align-items: center; gap: 8px; font-size: 0.92rem; }
+.controls .vega-bind-name { font-weight: 700; }
+.controls select,
+.controls input[type="search"] {
   font: inherit;
-  padding: 3px 8px;
-  border: 1px solid var(--rule);
-  border-radius: 6px;
-  background: #fff;
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid #aeb8b4;
+  border-radius: 3px;
+  padding: 5px 10px;
+  min-width: 190px;
 }
+.controls select:hover, .controls input[type="search"]:hover { border-color: var(--aisle); }
 
-/* Vega tooltip, matched to the page */
-#vg-tooltip-element { font-family: "DM Sans", sans-serif; font-size: 13px; }
+#vg-tooltip-element { font-family: "Archivo", sans-serif; font-size: 13px; }
 
-/* ---------- Takeaways ---------- */
-.take {
-  background: rgba(255, 255, 255, 0.07);
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 12px;
-  padding: 22px;
+/* ---------- Checkout: shelf price tags ---------- */
+.band-dark { background: var(--aisle); color: #fff; }
+.tag {
+  position: relative;
+  background: var(--tag);
+  color: var(--ink);
+  border-radius: 4px;
+  padding: 22px 22px 22px 30px;
 }
-.take strong { display: block; font-family: "Fraunces", Georgia, serif; font-size: 2.4rem; line-height: 1; color: #f6b26b; }
-.take h3 { font-size: 1.1rem; margin: 8px 0 10px; }
-.take p { color: #e4ddcf; font-size: 0.95rem; margin: 0; }
+.tag::before {        /* the hole a shelf tag clips onto */
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  width: 9px;
+  height: 9px;
+  margin-top: -4px;
+  border-radius: 50%;
+  background: var(--aisle);
+}
+.tag strong { display: block; font-size: 2.6rem; line-height: 1; font-weight: 900; font-variation-settings: "wdth" 125; }
+.tag h3 { font-size: 1.05rem; margin: 8px 0 10px; }
+.tag p { font-size: 0.95rem; margin: 0; }
 
 /* ---------- Footer ---------- */
-.band-foot h2 { font-size: 1.4rem; margin-bottom: 10px; }
-.band-foot h3 { font-size: 1.1rem; margin-bottom: 10px; }
+.band-foot { background: #dde3e0; padding: 48px 0 56px; font-size: 0.92rem; }
+.band-foot h2 { font-size: 1.35rem; margin-bottom: 10px; }
+.band-foot h3 { font-size: 1.05rem; margin-bottom: 10px; }
 .sources { margin: 0; padding-left: 18px; }
 .sources li { margin-bottom: 6px; }
 
-/* ---------- Smaller screens: stack everything ---------- */
+/* ---------- Smaller screens ---------- */
 @media (max-width: 960px) {
   .span-3 { grid-column: span 6; }
   .span-4, .span-5, .span-7, .span-8 { grid-column: span 12; }
+  .receipt { justify-self: start; }
 }
 @media (max-width: 600px) {
   :root { --gap: 16px; }
   .span-3 { grid-column: span 12; }
-  .band { padding: 48px 0; }
+  .band { padding: 44px 0; }
   .card { padding: 16px; }
+  .aisle-sign { flex-direction: column; }
+  .aisle-no { padding: 6px 16px; }
 }

@@ -28,13 +28,13 @@
       "data": {"values": [{"start": "2022-01-01", "end": "2023-06-01", "y0": 0, "y1": 0.6, "text": "2022–23: fastest rises"}]},
       "layer": [
         {
-          "mark": {"type": "rect", "color": "#f2e3cf", "opacity": 0.8},
+          "mark": {"type": "rect", "color": "#fbf0c2", "opacity": 0.8},
           "encoding": {
             "x": {"field": "start", "type": "temporal"},
             "x2": {"field": "end"},
             "y": {"field": "y0", "type": "quantitative"},
             "y2": {"field": "y1"},
-            "color": {"value": "#f2e3cf"}
+            "color": {"value": "#fbf0c2"}
           }
         },
         {
@@ -43,7 +43,7 @@
             "x": {"field": "start", "type": "temporal"},
             "y": {"field": "y1", "type": "quantitative"},
             "text": {"field": "text"},
-            "color": {"value": "#7a4b12"}
+            "color": {"value": "#6b5300"}
           }
         }
       ]
@@ -77,11 +77,11 @@
       "layer": [
         {
           "mark": {"type": "point", "shape": "circle", "size": 120, "filled": false, "strokeWidth": 1.5},
-          "encoding": {"x": {"field": "date", "type": "temporal"}, "y": {"field": "y", "type": "quantitative"}, "color": {"value": "#1d2327"}}
+          "encoding": {"x": {"field": "date", "type": "temporal"}, "y": {"field": "y", "type": "quantitative"}, "color": {"value": "#1b2430"}}
         },
         {
           "mark": {"type": "text", "align": "right", "dx": -10, "dy": -12, "fontSize": 11},
-          "encoding": {"x": {"field": "date", "type": "temporal"}, "y": {"field": "y", "type": "quantitative"}, "text": {"field": "text"}, "color": {"value": "#1d2327"}}
+          "encoding": {"x": {"field": "date", "type": "temporal"}, "y": {"field": "y", "type": "quantitative"}, "text": {"field": "text"}, "color": {"value": "#1b2430"}}
         }
       ]
     }

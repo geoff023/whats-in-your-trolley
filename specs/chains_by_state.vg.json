@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "100% stacked bar chart: share of mapped supermarkets in each state that belong to each chain.",
+  "description": "100% stacked bar chart: share of mapped supermarkets in each state that belong to each chain. Click a chain in the legend to highlight it.",
   "width": "container",
   "height": 400,
   "padding": {
@@ -50,7 +50,7 @@
     {
       "mark": {
         "type": "bar",
-        "stroke": "#fffdf8",
+        "stroke": "#ffffff",
         "strokeWidth": 0.6
       },
       "encoding": {
@@ -81,7 +81,7 @@
               "#e69f00",
               "#cc79a7",
               "#009e73",
-              "#b8b2a7"
+              "#b9c0c4"
             ]
           },
           "legend": {
@@ -111,8 +111,27 @@
             "title": "Share",
             "format": ".0%"
           }
-        ]
-      }
+        ],
+        "opacity": {
+          "condition": {
+            "param": "chainPick",
+            "value": 1
+          },
+          "value": 0.25
+        }
+      },
+      "params": [
+        {
+          "name": "chainPick",
+          "select": {
+            "type": "point",
+            "fields": [
+              "chain"
+            ]
+          },
+          "bind": "legend"
+        }
+      ]
     },
     {
       "data": {
@@ -133,7 +152,7 @@
         "dx": 6,
         "fontSize": 11,
         "fontWeight": "bold",
-        "color": "#8a3a7a"
+        "color": "#8b3f78"
       },
       "encoding": {
         "x": {

@@ -57,7 +57,7 @@
       "encode": {
         "update": {
           "x": {"field": "x0"}, "y": {"field": "y0"}, "x2": {"field": "x1"}, "y2": {"field": "y1"},
-          "fill": {"value": "#f3eee4"}, "stroke": {"value": "#fffdf8"}, "strokeWidth": {"value": 3}
+          "fill": {"value": "#eef1f0"}, "stroke": {"value": "#ffffff"}, "strokeWidth": {"value": 3}
         }
       }
     },
@@ -69,7 +69,7 @@
           "x": {"signal": "datum.x0 + 4"}, "y": {"signal": "datum.y0 + 13"},
           "text": {"signal": "datum.key"},
           "limit": {"signal": "datum.x1 - datum.x0 - 8"},
-          "fontSize": {"value": 11}, "fontWeight": {"value": "bold"}, "fill": {"value": "#1d2327"}
+          "fontSize": {"value": 11}, "fontWeight": {"value": "bold"}, "fill": {"value": "#1b2430"}
         }
       }
     },
@@ -80,7 +80,7 @@
         "update": {
           "x": {"field": "x0"}, "y": {"field": "y0"}, "x2": {"field": "x1"}, "y2": {"field": "y1"},
           "fill": {"scale": "colour", "field": "shade"},
-          "stroke": {"value": "#fffdf8"},
+          "stroke": {"value": "#ffffff"},
           "tooltip": {"signal": "{'Aisle': datum.aisle, 'Brand': datum.brand, 'Products': datum.products}"}
         },
         "hover": {"fillOpacity": {"value": 0.75}},

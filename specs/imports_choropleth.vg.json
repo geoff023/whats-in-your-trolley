@@ -7,7 +7,7 @@
   "layer": [
     {
       "data": {"sphere": true},
-      "mark": {"type": "geoshape", "fill": "#e3edf2", "stroke": null}
+      "mark": {"type": "geoshape", "fill": "#e8eef2", "stroke": null}
     },
     {
       "data": {
@@ -28,13 +28,13 @@
       "mark": {"type": "geoshape", "stroke": "#ffffff", "strokeWidth": 0.4},
       "encoding": {
         "color": {
-          "condition": {"test": "datum.id == 36", "value": "#2f4858"},
+          "condition": {"test": "datum.id == 36", "value": "#c8324b"},
           "field": "usd_m",
           "type": "quantitative",
           "scale": {
             "type": "threshold",
             "domain": [50, 200, 500, 1000],
-            "range": ["#fde7c8", "#f6b26b", "#dd6b20", "#b0461a", "#7a2b10"]
+            "range": ["#f6e7a1", "#c9c49a", "#8e9aa6", "#4e6a8a", "#1f3a5f"]
           },
           "legend": {
             "title": "Food imports, US$ million",
@@ -65,7 +65,7 @@
           {"lon": 172, "lat": -46, "text": "New Zealand sends the most: US$2.4 billion"}
         ]
       },
-      "mark": {"type": "text", "align": "left", "dx": 8, "fontSize": 11, "color": "#333333"},
+      "mark": {"type": "text", "align": "left", "dx": 8, "fontSize": 11, "color": "#1b2430"},
       "encoding": {
         "longitude": {"field": "lon"},
         "latitude": {"field": "lat"},

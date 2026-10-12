@@ -21,7 +21,7 @@
   "spec": {
     "width": 100,
     "height": 100,
-    "mark": {"type": "rect", "stroke": "#fffdf8", "strokeWidth": 1.5},
+    "mark": {"type": "rect", "stroke": "#ffffff", "strokeWidth": 1.5},
     "encoding": {
       "x": {"field": "col", "type": "ordinal", "axis": null},
       "y": {"field": "row", "type": "ordinal", "axis": null},
@@ -29,7 +29,7 @@
         "field": "group", "type": "nominal",
         "scale": {
           "domain": ["4 Ultra-processed foods", "3 Processed foods", "2 Processed culinary ingredients", "1 Unprocessed or minimally processed"],
-          "range": ["#c2410c", "#f6b26b", "#9ec5e0", "#1f5f8b"]
+          "range": ["#c8324b", "#eaa0ac", "#b9c8db", "#1f3a5f"]
         },
         "legend": {"title": "NOVA group", "orient": "bottom", "direction": "horizontal", "columns": 2, "labelLimit": 260}
       },

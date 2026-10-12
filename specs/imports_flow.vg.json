@@ -23,7 +23,7 @@
   "layer": [
     {
       "data": {"sphere": true},
-      "mark": {"type": "geoshape", "fill": "#e3edf2", "stroke": null}
+      "mark": {"type": "geoshape", "fill": "#e8eef2", "stroke": null}
     },
     {
       "data": {
@@ -31,7 +31,7 @@
         "format": {"type": "topojson", "feature": "countries"}
       },
       "transform": [{"filter": "datum.id != 10"}],
-      "mark": {"type": "geoshape", "fill": "#d6d0c3", "stroke": "#fffdf8", "strokeWidth": 0.4}
+      "mark": {"type": "geoshape", "fill": "#d3d9d6", "stroke": "#ffffff", "strokeWidth": 0.4}
     },
     {
       "data": {"url": "data/imports_by_chapter_2025.csv", "format": {"parse": {"usd_m": "number"}}},
@@ -55,7 +55,7 @@
       ],
       "layer": [
         {
-          "mark": {"type": "geoshape", "filled": false, "stroke": "#dd6b20", "strokeCap": "round", "opacity": 0.75},
+          "mark": {"type": "geoshape", "filled": false, "stroke": "#c8324b", "strokeCap": "round", "opacity": 0.75},
           "encoding": {
             "shape": {"field": "route", "type": "geojson"},
             "strokeWidth": {
@@ -73,7 +73,7 @@
           }
         },
         {
-          "mark": {"type": "circle", "color": "#7a2b10", "size": 24},
+          "mark": {"type": "circle", "color": "#8f1f33", "size": 24},
           "encoding": {
             "longitude": {"field": "lon", "type": "quantitative"},
             "latitude": {"field": "lat", "type": "quantitative"}
@@ -81,7 +81,7 @@
         },
         {
           "transform": [{"filter": "datum.rank <= 3"}],
-          "mark": {"type": "text", "dy": -9, "fontSize": 11, "fontWeight": "bold", "color": "#333333"},
+          "mark": {"type": "text", "dy": -9, "fontSize": 11, "fontWeight": "bold", "color": "#1b2430"},
           "encoding": {
             "longitude": {"field": "lon", "type": "quantitative"},
             "latitude": {"field": "lat", "type": "quantitative"},

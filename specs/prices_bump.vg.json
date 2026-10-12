@@ -82,9 +82,9 @@
       "condition": {
         "param": "pick",
         "empty": false,
-        "value": "#c2410c"
+        "value": "#c8324b"
       },
-      "value": "#b8b2a7"
+      "value": "#b9c0c4"
     },
     "opacity": {
       "condition": {
@@ -178,7 +178,7 @@
           "field": "city"
         },
         "color": {
-          "value": "#3b4248"
+          "value": "#3d4650"
         }
       }
     },
@@ -202,9 +202,9 @@
           "condition": {
             "param": "pick",
             "empty": false,
-            "value": "#c2410c"
+            "value": "#c8324b"
           },
-          "value": "#3b4248"
+          "value": "#3d4650"
         }
       }
     },
@@ -226,14 +226,14 @@
         "dx": 10,
         "fontSize": 11,
         "fontWeight": "bold",
-        "color": "#c2410c"
+        "color": "#c8324b"
       },
       "encoding": {
         "text": {
           "field": "city"
         },
         "color": {
-          "value": "#c2410c"
+          "value": "#c8324b"
         },
         "opacity": {
           "value": 1

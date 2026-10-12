@@ -7,7 +7,7 @@
   <meta name="description" content="A visual story about Australian supermarket food: where it comes from, where we buy it, what it costs and what is inside.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
@@ -17,64 +17,74 @@
 
   <header class="hero">
     <div class="wrap grid">
-      <div class="span-7">
-        <p class="kicker">An Australian grocery story</p>
+      <div class="hero-text span-7">
         <h1>What's in Your Trolley?</h1>
         <p class="lede">Every week we push a trolley past thousands of products. This page follows that food from the farms and factories of the world, to the stores where we buy it, to the prices we pay and the label on the back of the pack.</p>
+        <p class="hero-hint">Walk through five aisles, then check out with four things to remember.</p>
       </div>
-      <ul class="kpis span-5" aria-label="Key numbers">
-        <li><strong>US$18.1 b</strong><span>of food imported in 2025</span></li>
-        <li><strong>5,684</strong><span>supermarkets mapped</span></li>
-        <li><strong>+46%</strong><span>fruit &amp; veg prices since 2017</span></li>
-        <li><strong>6,608</strong><span>Australian products analysed</span></li>
-      </ul>
+
+      <figure class="receipt span-5" aria-label="Key numbers from this page">
+        <p class="receipt-head">Trolley check<br><span>Australia, October 2026</span></p>
+        <dl>
+          <div><dt>Food imported, 2025</dt><dd>US$18.1 b</dd></div>
+          <div><dt>Countries supplying it</dt><dd>175</dd></div>
+          <div><dt>Supermarkets mapped</dt><dd>5,684</dd></div>
+          <div><dt>Products checked</dt><dd>6,608</dd></div>
+        </dl>
+        <dl class="receipt-total">
+          <div><dt>Fruit &amp; veg since 2017</dt><dd>+46%</dd></div>
+          <div><dt>Ultra-processed products</dt><dd>63%</dd></div>
+        </dl>
+        <p class="receipt-foot">5 aisles. Scroll down to start.</p>
+      </figure>
     </div>
   </header>
 
-  <nav class="toc" aria-label="Sections">
+  <nav class="aisles-nav" aria-label="Aisles">
     <div class="wrap">
-      <a href="#origins">1 Origins</a>
-      <a href="#stores">2 Stores</a>
-      <a href="#prices">3 Prices</a>
-      <a href="#inside">4 Inside the pack</a>
-      <a href="#brands">5 Brands</a>
-      <a href="#takeaways">Takeaways</a>
+      <a href="#origins"><b>1</b> Origins</a>
+      <a href="#stores"><b>2</b> Stores</a>
+      <a href="#prices"><b>3</b> Prices</a>
+      <a href="#inside"><b>4</b> Inside the pack</a>
+      <a href="#brands"><b>5</b> Brands</a>
+      <a href="#checkout" class="nav-checkout">Checkout</a>
     </div>
   </nav>
 
   <main>
-    <!-- 1 ORIGINS -->
+    <!-- AISLE 1 -->
     <section id="origins" class="band band-a">
       <div class="wrap grid">
-        <div class="intro-head span-4">
-          <p class="num">01</p>
-          <h2>Where our food comes from</h2>
-        </div>
+        <header class="aisle-sign span-12"><span class="aisle-no">Aisle 1</span><h2>Where our food comes from</h2></header>
         <p class="intro-text span-8">Australia grows far more food than it eats, yet our shelves still rely on the world. In 2025 we imported food worth US$18.1 billion from 175 countries. Most of it is not fresh produce but packaged goods: sauces, drinks, bakery items and chocolate.</p>
+        <aside class="good-to-know span-4"><b>Good to know</b> Trade values are in US dollars, as reported to the United Nations. They cover food and drink (customs chapters 02–22).</aside>
 
         <figure class="card span-8">
           <h3>Our biggest suppliers are our neighbours and trading partners</h3>
-          <p class="note">Darker countries sent more food. New Zealand leads (US$2.4 b), followed by the USA, China, Italy and Thailand.</p>
+          <p class="note">Darker countries sent more food. New Zealand leads (US$2.4 b), followed by the USA, China, Italy and Thailand. Australia is shown in raspberry.</p>
+          <div class="controls"></div>
           <div id="imports_choropleth" class="chart"></div>
-          <figcaption>Value of food imports (HS chapters 02–22) by country of origin, 2025, in US dollars. Hover a country for its value. Source: UN Comtrade.</figcaption>
+          <figcaption>Value of food imports by country of origin, 2025. Hover a country for its value. Source: UN Comtrade.</figcaption>
         </figure>
 
         <figure class="card span-4">
           <h3>Packaged foods dominate</h3>
           <p class="note">"Sauces &amp; other foods" (sauces, soups, food mixes and supplements) is our biggest food import, ahead of drinks and bakery goods.</p>
+          <div class="controls"></div>
           <div id="imports_types_bar" class="chart"></div>
           <figcaption>Total imports by food type, 2025. Source: UN Comtrade.</figcaption>
         </figure>
 
         <figure class="card span-8">
           <h3>Every food has its own trade routes</h3>
-          <p class="note">Pick a food type. Lines follow the shortest path across the globe, and thicker lines carry more food. The three biggest sources are named.</p>
+          <p class="note">Lines follow the shortest path across the globe; thicker lines carry more food. The three biggest sources are named.</p>
+          <div class="controls" id="ctl-imports_flow"></div>
           <div id="imports_flow" class="chart"></div>
           <figcaption>Ten biggest sources of the selected food type, 2025. Source: UN Comtrade.</figcaption>
         </figure>
 
         <aside class="card card-text span-4">
-          <h3>Things to try</h3>
+          <h3>Worth a look</h3>
           <dl class="facts">
             <dt>Coffee, tea &amp; spices</dt>
             <dd>Brazil and Colombia send raw beans; Switzerland ranks third because of coffee capsules made there.</dd>
@@ -87,50 +97,50 @@
       </div>
     </section>
 
-    <!-- 2 STORES -->
+    <!-- AISLE 2 -->
     <section id="stores" class="band band-b">
       <div class="wrap grid">
-        <div class="intro-head span-4">
-          <p class="num">02</p>
-          <h2>Where we shop</h2>
-        </div>
+        <header class="aisle-sign span-12"><span class="aisle-no">Aisle 2</span><h2>Where we shop</h2></header>
         <p class="intro-text span-8">Imported or local, most food reaches us through a supermarket. Woolworths and Coles together run more than one in three of the 5,684 supermarkets mapped by volunteers in OpenStreetMap. Independent grocers fill the gaps, especially outside the big cities.</p>
+        <aside class="good-to-know span-4"><b>Good to know</b> OpenStreetMap is a free map built by volunteers, like Wikipedia for maps. Big chains are mapped well; some small country stores may be missing.</aside>
 
         <figure class="card span-7">
           <h3>Stores cluster on the coast</h3>
-          <p class="note">Each dot is one supermarket. Click a chain in the legend to see only its stores.</p>
+          <p class="note">Each dot is one supermarket. Click a chain in the legend to see only its stores; click empty space to reset.</p>
+          <div class="controls"></div>
           <div id="supermarkets_dotmap" class="chart"></div>
-          <figcaption>Supermarkets mapped in OpenStreetMap, October 2026. Coverage depends on volunteer mapping, so small stores may be missing. Source: OpenStreetMap contributors.</figcaption>
+          <figcaption>Supermarkets mapped in OpenStreetMap, October 2026. Source: OpenStreetMap contributors.</figcaption>
         </figure>
 
         <figure class="card span-5">
           <h3>Who you shop with depends on where you live</h3>
-          <p class="note">Aldi has no stores in Tasmania or the Northern Territory. In the NT, two in three supermarkets are independents.</p>
+          <p class="note">Aldi has no stores in Tasmania or the Northern Territory. In the NT, two in three supermarkets are independents. Click a chain in the legend to compare it across states.</p>
+          <div class="controls"></div>
           <div id="chains_by_state" class="chart"></div>
           <figcaption>Share of mapped supermarkets in each state or territory by chain. Hover for store counts. Source: OpenStreetMap contributors.</figcaption>
         </figure>
       </div>
     </section>
 
-    <!-- 3 PRICES -->
+    <!-- AISLE 3 -->
     <section id="prices" class="band band-a">
       <div class="wrap grid">
-        <div class="intro-head span-4">
-          <p class="num">03</p>
-          <h2>What it costs</h2>
-        </div>
-        <p class="intro-text span-8">Grocery prices have climbed steadily since 2017, with a sharp jump in 2022–23. The charts use the Australian Bureau of Statistics price index, which tracks the price of the same basket of goods over time. A value of +40% means the basket costs 40% more than it did in September 2017.</p>
+        <header class="aisle-sign span-12"><span class="aisle-no">Aisle 3</span><h2>What it costs</h2></header>
+        <p class="intro-text span-8">Grocery prices have climbed steadily since 2017, with a sharp jump in 2022–23. Fruit and vegetables swing the most, because weather and floods hit supply directly.</p>
+        <aside class="good-to-know span-4"><b>Good to know</b> The price index tracks what the same basket of goods costs over time. +40% means that basket now costs 40% more than in September 2017.</aside>
 
         <figure class="card span-7">
           <h3>Fruit &amp; veg and dairy rose the most</h3>
-          <p class="note">Fruit &amp; veg prices swing with the seasons and the weather. They spiked after the 2022 floods, then settled. Hover the lines to read any month.</p>
+          <p class="note">Fruit &amp; veg prices spiked after the 2022 floods, then settled. Hover the lines to read any month.</p>
+          <div class="controls"></div>
           <div id="prices_line" class="chart"></div>
           <figcaption>Price change since September 2017, Australia (weighted average of eight capital cities). Source: ABS Consumer Price Index, monthly, to August 2026.</figcaption>
         </figure>
 
         <figure class="card span-5">
           <h3>Perth pays the most extra for fresh food</h3>
-          <p class="note">Bigger, darker circles mean bigger price rises. Choose a food group below the map.</p>
+          <p class="note">Bigger, darker circles mean bigger price rises since 2017.</p>
+          <div class="controls" id="ctl-prices_symbol_map"></div>
           <div id="prices_symbol_map" class="chart"></div>
           <figcaption>Price rise from September 2017 to August 2026 in each capital city. Source: ABS Consumer Price Index.</figcaption>
         </figure>
@@ -138,6 +148,7 @@
         <figure class="card span-5">
           <h3>Every city, every food group</h3>
           <p class="note">The outlined cell is the largest rise anywhere: fruit &amp; veg in Perth, up 55%. Meat &amp; seafood rose least in most cities.</p>
+          <div class="controls"></div>
           <div id="prices_heatmap" class="chart"></div>
           <figcaption>Price rise from September 2017 to August 2026. Source: ABS Consumer Price Index.</figcaption>
         </figure>
@@ -145,102 +156,86 @@
         <figure class="card span-7">
           <h3>Perth went from mid-table to the top</h3>
           <p class="note">Cities ranked each August by how much their grocery basket had risen since 2017 (1 = biggest rise). Perth climbed from 6th in 2018 to 1st in 2026. Click any city to follow it.</p>
+          <div class="controls"></div>
           <div id="prices_bump" class="chart"></div>
           <figcaption>Basket = simple average of the four food group indexes. Source: ABS Consumer Price Index.</figcaption>
         </figure>
       </div>
     </section>
 
-    <!-- 4 INSIDE -->
+    <!-- AISLE 4 -->
     <section id="inside" class="band band-b">
       <div class="wrap grid">
-        <div class="intro-head span-4">
-          <p class="num">04</p>
-          <h2>What is inside the pack</h2>
-        </div>
-        <div class="intro-text span-8">
-          <p>We looked at 6,608 products with an Australian barcode in the free Open Food Facts database and grouped them into 17 supermarket aisles. Values are per 100 g (or 100 ml for drinks), so products of any size can be compared.</p>
-          <p class="explain"><b>Median</b> = the middle product: half the products in an aisle have more, half have less. It is not thrown off by a few extreme products.</p>
-        </div>
+        <header class="aisle-sign span-12"><span class="aisle-no">Aisle 4</span><h2>What is inside the pack</h2></header>
+        <p class="intro-text span-8">We looked at 6,608 products with an Australian barcode in the free Open Food Facts database and grouped them into 17 supermarket aisles. Values are per 100 g (or 100 ml for drinks), so products of any size can be compared.</p>
+        <aside class="good-to-know span-4"><b>Good to know</b> The <i>median</i> is the middle product: half the products in an aisle have more, half have less. A few extreme products do not throw it off.</aside>
 
-        <figure class="card span-5">
-          <h3>Each aisle has its own weak spot</h3>
-          <p class="note">Orange columns are nutrients to limit, blue columns are ones to eat more of. Cheese tops saturated fat and salt; muesli bars and cereals lead on fibre.</p>
-          <div id="nutrient_heatmap" class="chart"></div>
-          <figcaption>Median grams per 100 g. Colour compares each aisle with the highest aisle for that nutrient. Source: Open Food Facts.</figcaption>
-        </figure>
-
-        <figure class="card span-7">
-          <h3>Averages hide a wide spread</h3>
-          <p class="note">Each dot is one product; the black tick is the aisle median. Sauces range from sugar-free to sweet chilli. Switch to salt or saturated fat below the chart.</p>
-          <div id="nutrient_strip" class="chart"></div>
-          <figcaption>Horizontal axis uses a square-root scale so that small values remain visible. Hover a dot for the product. Source: Open Food Facts.</figcaption>
+        <figure class="card span-12">
+          <h3>Each aisle has its own weak spot, and averages hide a wide spread</h3>
+          <p class="note">Left: the median product in each aisle. Raspberry columns are nutrients to limit, navy columns are ones to eat more of. Right: every product for the chosen nutrient, with the median as a black tick. Choose a nutrient to re-sort the aisles, or search for a product you buy.</p>
+          <div class="controls" id="ctl-nutrients_explorer"></div>
+          <div id="nutrients_explorer" class="chart chart-center"></div>
+          <figcaption>Median grams per 100 g; colour compares each aisle with the highest aisle for that nutrient. Search needs at least three letters and labels the five most-scanned matches. Source: Open Food Facts.</figcaption>
         </figure>
 
         <figure class="card span-12">
           <h3>Most packaged food is ultra-processed</h3>
-          <p class="note">The NOVA system sorts food by how much it is processed. <b>Ultra-processed</b> foods (dark orange) are made mostly from industrial ingredients such as flavours, emulsifiers and sweeteners. Each square is 1% of an aisle's products. Only fresh-style aisles (fruit &amp; veg, spreads, pasta and cheese) are mostly not ultra-processed.</p>
+          <p class="note">The NOVA system sorts food by how much it is processed. Ultra-processed foods (raspberry) are made mostly from industrial ingredients such as flavours, emulsifiers and sweeteners. Each square is 1% of an aisle's products. Only fruit &amp; veg, spreads, pasta and cheese are mostly not ultra-processed.</p>
+          <div class="controls"></div>
           <div id="nova_waffle" class="chart chart-center"></div>
           <figcaption>Products with a NOVA group (3,437 of 6,608). Aisles sorted from most to least ultra-processed. Source: Open Food Facts.</figcaption>
         </figure>
       </div>
     </section>
 
-    <!-- 5 BRANDS -->
+    <!-- AISLE 5 -->
     <section id="brands" class="band band-a">
       <div class="wrap grid">
-        <div class="intro-head span-4">
-          <p class="num">05</p>
-          <h2>Own brands or name brands?</h2>
-        </div>
-        <div class="intro-text span-8">
-          <p>Supermarkets increasingly sell their own labels next to familiar name brands. Are they healthier, or just cheaper?</p>
-          <p class="explain"><b>Nutri-Score</b> is a front-of-pack grade from A (healthiest) to E (least healthy), widely used in Europe. It works like Australia's Health Star Rating and is calculated from similar nutrients.</p>
-        </div>
+        <header class="aisle-sign span-12"><span class="aisle-no">Aisle 5</span><h2>Own brands or name brands?</h2></header>
+        <p class="intro-text span-8">Supermarkets increasingly sell their own labels next to familiar name brands. Are they healthier, or just cheaper?</p>
+        <aside class="good-to-know span-4"><b>Good to know</b> Nutri-Score grades food from A (healthiest) to E (least healthy). It is used across Europe and works like our Health Star Rating, using similar nutrients.</aside>
 
         <figure class="card span-7">
           <h3>Own brands fill every aisle</h3>
-          <p class="note">Each block is an aisle; its area shows how many products it holds. Blue is supermarket own brands, orange is name brands. Own brands are strongest in fruit &amp; veg (43% of products) and bread, and almost absent from confectionery and yoghurt.</p>
+          <p class="note">Each block is an aisle; its area shows how many products it holds. Own brands are strongest in fruit &amp; veg (43% of products) and bread, and almost absent from confectionery and yoghurt.</p>
+          <div class="controls"></div>
           <div id="brand_treemap" class="chart"></div>
           <figcaption>Biggest brands in each aisle are named; smaller brands are pooled in lighter shades. Hover a block for details. Source: Open Food Facts.</figcaption>
         </figure>
 
         <figure class="card span-5">
           <h3>Own brands score healthier</h3>
-          <p class="note">46% of own-brand products score A or B, against 32% of name brands. This partly reflects what they sell: more plain staples, fewer chocolates and biscuits.</p>
+          <p class="note">Across all aisles, 46% of own-brand products score A or B, against 32% of name brands. Part of that is what they sell, so compare within one aisle too.</p>
+          <div class="controls" id="ctl-brand_nutriscore"></div>
           <div id="brand_nutriscore" class="chart"></div>
-          <figcaption>Nutri-Score grades for the ten brands with the most graded products. Percentages show the share graded A or B. Source: Open Food Facts.</figcaption>
+          <figcaption>Share graded A or B shown left of each bar. Brands with fewer than 8 graded products in the chosen aisle are hidden. Source: Open Food Facts.</figcaption>
         </figure>
       </div>
     </section>
 
-    <!-- TAKEAWAYS -->
-    <section id="takeaways" class="band band-dark">
+    <!-- CHECKOUT -->
+    <section id="checkout" class="band band-dark">
       <div class="wrap grid">
-        <div class="intro-head span-4">
-          <p class="num">✓</p>
-          <h2>What to take to the shops</h2>
-        </div>
-        <p class="intro-text span-8">Four things this data says about the everyday trolley, and what they mean for you.</p>
-        <article class="take span-3">
+        <header class="aisle-sign aisle-sign-checkout span-12"><span class="aisle-no">Checkout</span><h2>Four things to take to the shops</h2></header>
+        <article class="tag span-3">
           <strong>175</strong>
           <h3>countries feed us</h3>
           <p>Most imported food is processed and packaged. Check the "Made in" label if you want to buy local.</p>
         </article>
-        <article class="take span-3">
+        <article class="tag span-3">
           <strong>+46%</strong>
-          <h3>for fruit &amp; veg</h3>
-          <p>Fresh food rose fastest since 2017, and fastest of all in Perth. Buying in season softens the swings.</p>
+          <h3>for fruit &amp; veg since 2017</h3>
+          <p>Fresh food rose fastest, and fastest of all in Perth. Buying in season softens the swings.</p>
         </article>
-        <article class="take span-3">
+        <article class="tag span-3">
           <strong>63%</strong>
-          <h3>of products ultra-processed</h3>
-          <p>In snack, dessert and drink aisles nearly everything is. Compare products in the same aisle, not just the brand.</p>
+          <h3>of products are ultra-processed</h3>
+          <p>In snack, dessert and drink aisles nearly everything is. Compare products within an aisle, not just brands.</p>
         </article>
-        <article class="take span-3">
+        <article class="tag span-3">
           <strong>46%</strong>
-          <h3>own brands score A or B</h3>
-          <p>Cheaper supermarket brands are often as healthy, or healthier, than name brands. Read the label, not the logo.</p>
+          <h3>of own brands score A or B</h3>
+          <p>Cheaper supermarket brands are often as healthy as name brands, or healthier. Read the label, not the logo.</p>
         </article>
       </div>
     </section>
@@ -250,7 +245,8 @@
     <div class="wrap grid">
       <div class="span-4">
         <h2>About this page</h2>
-        <p>Created by [Your Name] for FIT3179 Data Visualisation 2, Monash University. Published October 2026.</p>
+        <p>Created by Geoffrey Yii Sheng Hii, 34273662 (Studio</p>
+        <p>FIT3179 Data Visualisation 2, Monash University. Published October 2026.</p>
         <p>Charts are built with <a href="https://vega.github.io/vega-lite/">Vega-Lite</a> and <a href="https://vega.github.io/vega/">Vega</a>. Each chart's specification is in the <code>specs/</code> folder of this repository; the scripts that prepared the data are in <code>scripts/</code>.</p>
       </div>
       <div class="span-8">

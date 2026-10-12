@@ -23,11 +23,11 @@
   },
   "layer": [
     {
-      "mark": {"type": "rect", "stroke": "#fffdf8", "strokeWidth": 2},
+      "mark": {"type": "rect", "stroke": "#ffffff", "strokeWidth": 2},
       "encoding": {
         "color": {
           "field": "change", "type": "quantitative",
-          "scale": {"domain": [0.34, 0.56], "range": ["#fde7c8", "#b0461a"]},
+          "scale": {"domain": [0.34, 0.56], "range": ["#f6e7a1", "#1f3a5f"]},
           "legend": {"title": "Rise since Sep 2017", "format": "+.0%", "orient": "bottom", "direction": "horizontal", "gradientLength": 160}
         },
         "tooltip": [
@@ -39,13 +39,13 @@
     },
     {
       "transform": [{"filter": "datum.change == datum.max_change"}],
-      "mark": {"type": "rect", "fill": null, "stroke": "#1d2327", "strokeWidth": 2}
+      "mark": {"type": "rect", "fill": null, "stroke": "#c8324b", "strokeWidth": 3}
     },
     {
       "mark": {"type": "text", "fontSize": 11},
       "encoding": {
         "text": {"field": "change", "type": "quantitative", "format": "+.0%"},
-        "color": {"condition": {"test": "datum.change > 0.47", "value": "#ffffff"}, "value": "#1d2327"}
+        "color": {"condition": {"test": "datum.change > 0.445", "value": "#ffffff"}, "value": "#1b2430"}
       }
     }
   ],
