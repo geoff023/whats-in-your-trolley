@@ -283,7 +283,10 @@
         {
           "mark": {
             "type": "text",
-            "fontSize": 11
+            "fontSize": 11,
+            "baseline": "middle",
+            "align": "center",
+            "dy": -1
           },
           "encoding": {
             "text": {
