@@ -52,7 +52,7 @@
           "round": true,
           "method": "squarify",
           "ratio": 1.4,
-          "paddingInner": 3,
+          "paddingInner": 0,
           "paddingOuter": 0,
           "paddingTop": {
             "signal": "22"
@@ -109,7 +109,7 @@
         {
           "type": "formula",
           "as": "lum",
-          "expr": "78 - 40 * datum.share"
+          "expr": "86 - 34 * datum.share"
         },
         {
           "type": "formula",
@@ -143,23 +143,23 @@
         "Yoghurt"
       ],
       "range": [
-        0,
-        148,
-        296,
-        85,
-        233,
-        21,
-        169,
-        318,
-        106,
-        254,
-        42,
-        191,
-        339,
-        127,
+        355,
+        195,
+        75,
+        295,
+        155,
+        335,
+        25,
+        235,
+        135,
         275,
-        64,
-        212
+        165,
+        215,
+        45,
+        315,
+        175,
+        255,
+        10
       ]
     }
   ],
@@ -184,13 +184,7 @@
             "field": "y1"
           },
           "fill": {
-            "signal": "hcl(scale('hue', datum.key), 45, 30)"
-          },
-          "stroke": {
-            "value": "#ffffff"
-          },
-          "strokeWidth": {
-            "value": 2
+            "signal": "hcl(scale('hue', datum.key), 42, 36)"
           }
         }
       }
@@ -250,10 +244,10 @@
             "field": "y1"
           },
           "fill": {
-            "signal": "hcl(scale('hue', datum.aisle), 50, datum.lum)"
+            "signal": "hcl(scale('hue', datum.aisle), 30 + 22 * datum.share, datum.lum)"
           },
           "stroke": {
-            "value": "#ffffff"
+            "signal": "hcl(scale('hue', datum.aisle), 40, 30)"
           },
           "strokeWidth": {
             "value": 1
@@ -263,6 +257,9 @@
           },
           "fillOpacity": {
             "value": 1
+          },
+          "strokeOpacity": {
+            "value": 0.18
           }
         },
         "hover": {
@@ -302,7 +299,7 @@
             "value": 12
           },
           "fill": {
-            "signal": "datum.lum < 64 ? '#ffffff' : '#20242b'"
+            "signal": "datum.lum < 66 ? '#ffffff' : '#20242b'"
           }
         }
       }
