@@ -1,8 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "Treemap: products in each aisle, split into supermarket own brands (navy) and name brands (grey). The biggest brands in each aisle are named; smaller ones are pooled in lighter shades.",
+  "description": "Treemap: products in each aisle, split by brand. Each aisle (type of product) has its own hue and a header in a dark shade of it; inside an aisle, darker blocks hold more products.",
   "autosize": "none",
-  "height": 500,
   "padding": {
     "left": 0,
     "right": 0,
@@ -53,10 +52,10 @@
           "round": true,
           "method": "squarify",
           "ratio": 1.4,
-          "paddingInner": 1,
+          "paddingInner": 3,
           "paddingOuter": 0,
           "paddingTop": {
-            "signal": "18"
+            "signal": "22"
           },
           "size": [
             {
@@ -86,25 +85,81 @@
         {
           "type": "filter",
           "expr": "!datum.children"
+        },
+        {
+          "type": "joinaggregate",
+          "groupby": [
+            "aisle"
+          ],
+          "fields": [
+            "products"
+          ],
+          "ops": [
+            "max"
+          ],
+          "as": [
+            "amax"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "share",
+          "expr": "datum.products / datum.amax"
+        },
+        {
+          "type": "formula",
+          "as": "lum",
+          "expr": "78 - 40 * datum.share"
+        },
+        {
+          "type": "formula",
+          "as": "label",
+          "expr": "datum.brand == 'Other name brands' ? 'Other brands' : datum.brand == 'Other own brands' ? 'Other own brands' : datum.brand"
         }
       ]
     }
   ],
   "scales": [
     {
-      "name": "colour",
+      "name": "hue",
       "type": "ordinal",
       "domain": [
-        "Supermarket own brand",
-        "Other own brands",
-        "Name brand",
-        "Other name brands"
+        "Biscuits & cakes",
+        "Bread",
+        "Breakfast cereals",
+        "Cheese",
+        "Chips & salty snacks",
+        "Confectionery",
+        "Fruit, veg & legumes",
+        "Ice cream & desserts",
+        "Meat & seafood",
+        "Milk & alternatives",
+        "Muesli & protein bars",
+        "Pasta, rice & grains",
+        "Ready meals",
+        "Sauces & condiments",
+        "Soft drinks & juice",
+        "Spreads",
+        "Yoghurt"
       ],
       "range": [
-        "#1f3a5f",
-        "#8ea3c0",
-        "#7f8a91",
-        "#c9cfd2"
+        0,
+        148,
+        296,
+        85,
+        233,
+        21,
+        169,
+        318,
+        106,
+        254,
+        42,
+        191,
+        339,
+        127,
+        275,
+        64,
+        212
       ]
     }
   ],
@@ -129,13 +184,13 @@
             "field": "y1"
           },
           "fill": {
-            "value": "#eef1f0"
+            "signal": "hcl(scale('hue', datum.key), 45, 30)"
           },
           "stroke": {
             "value": "#ffffff"
           },
           "strokeWidth": {
-            "value": 3
+            "value": 2
           }
         }
       }
@@ -145,13 +200,17 @@
       "from": {
         "data": "aisles"
       },
+      "interactive": false,
       "encode": {
         "update": {
           "x": {
-            "signal": "datum.x0 + 4"
+            "signal": "(datum.x0 + datum.x1) / 2"
           },
           "y": {
-            "signal": "datum.y0 + 13"
+            "signal": "datum.y0 + 15"
+          },
+          "align": {
+            "value": "center"
           },
           "text": {
             "signal": "datum.key"
@@ -160,13 +219,13 @@
             "signal": "datum.x1 - datum.x0 - 8"
           },
           "fontSize": {
-            "value": 11
+            "value": 12
           },
           "fontWeight": {
             "value": "bold"
           },
           "fill": {
-            "value": "#1b2430"
+            "value": "#ffffff"
           }
         }
       }
@@ -191,24 +250,24 @@
             "field": "y1"
           },
           "fill": {
-            "scale": "colour",
-            "field": "shade"
+            "signal": "hcl(scale('hue', datum.aisle), 50, datum.lum)"
           },
           "stroke": {
             "value": "#ffffff"
           },
+          "strokeWidth": {
+            "value": 1
+          },
           "tooltip": {
-            "signal": "{'Aisle': datum.aisle, 'Brand': datum.brand, 'Products': datum.products}"
+            "signal": "{'Aisle': datum.aisle, 'Brand': datum.label, 'Products': datum.products}"
+          },
+          "fillOpacity": {
+            "value": 1
           }
         },
         "hover": {
           "fillOpacity": {
-            "value": 0.75
-          }
-        },
-        "leave": {
-          "fillOpacity": {
-            "value": 1
+            "value": 0.8
           }
         }
       }
@@ -222,25 +281,32 @@
       "encode": {
         "update": {
           "x": {
-            "signal": "datum.x0 + 3"
+            "signal": "(datum.x0 + datum.x1) / 2"
           },
           "y": {
-            "signal": "datum.y0 + 11"
+            "signal": "(datum.y0 + datum.y1) / 2"
+          },
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "middle"
           },
           "text": {
-            "signal": "(datum.x1 - datum.x0) > 46 && (datum.y1 - datum.y0) > 16 && indexof(datum.shade, 'Other') !== 0 ? datum.brand : ''"
+            "signal": "(datum.x1 - datum.x0) > 34 && (datum.y1 - datum.y0) > 16 ? datum.label : ''"
           },
           "limit": {
             "signal": "datum.x1 - datum.x0 - 6"
           },
           "fontSize": {
-            "value": 10
+            "value": 12
           },
           "fill": {
-            "value": "#ffffff"
+            "signal": "datum.lum < 64 ? '#ffffff' : '#20242b'"
           }
         }
       }
     }
-  ]
+  ],
+  "height": 480
 }

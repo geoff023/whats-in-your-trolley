@@ -1,55 +1,51 @@
-/* What's in Your Trolley? — supermarket vernacular:
-   aisle signs (navy + yellow), shelf price tags (yellow), a receipt (mono), fridge-white floors.
-   One family (Archivo, using its width axis) everywhere except the receipt (Courier Prime). */
+/* From Paddock to Barcode
+   A picture-book supermarket: sky-blue walls, cream paper, a red trolley, outlined "sticker" panels.
+   Type: Fredoka (rounded, for signs and headings) + Figtree (text and charts).
+   Colour rule: pastels (butter, bubblegum, mint) only decorate; charts use navy, berry and a
+   yellow-to-blue ramp, which stay distinct for red-green colour blindness. */
 :root {
-  --ink: #1b2430;
-  --muted: #47515c;      /* 8:1 on --paper */
-  --paper: #f4f6f5;      /* fridge white */
-  --paper-2: #e7ecea;    /* alternate aisle floor */
-  --card: #ffffff;
-  --rule: #d3dad7;
-  --aisle: #1f3a5f;      /* overhead aisle-sign navy */
-  --tag: #ffd23f;        /* shelf-tag yellow */
-  --signal: #c8324b;     /* raspberry: emphasis and "Australia" in charts */
+  --ink: #20242b;
+  --muted: #4a5260;          /* 7:1 on --cream */
+  --sky: #cde5f4;
+  --sky-deep: #8fc1e3;
+  --cream: #fff8ec;
+  --paper: #fffdf7;
+  --butter: #ffd45c;
+  --bubble: #f5a6b9;
+  --mint: #a6dbc6;
+  --berry: #d23f57;          /* the trolley; also the emphasis colour in charts */
+  --navy: #1f3a5f;
+  --line: 2px solid var(--ink);
+  --pop: 5px 5px 0 var(--ink);
   --gap: 24px;
-  --radius: 6px;
+  --ease-bounce: cubic-bezier(.34, 1.56, .64, 1);
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 56px; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-
+html { scroll-behavior: smooth; scroll-padding-top: 76px; }
 body {
   margin: 0;
-  background: var(--paper);
+  background: var(--cream);
   color: var(--ink);
-  font-family: "Archivo", system-ui, sans-serif;
-  font-size: 17px;
-  line-height: 1.55;
-  font-variation-settings: "wdth" 100;
+  font: 17px/1.6 "Figtree", system-ui, sans-serif;
 }
-
-h1, h2, h3 { margin: 0; line-height: 1.12; color: inherit; font-weight: 800; }
-/* Headings use Archivo's wide cut, like supermarket signage. */
-h1 { font-size: clamp(2.8rem, 6vw, 4.6rem); font-stretch: 125%; font-variation-settings: "wdth" 125; letter-spacing: -0.02em; }
-h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); font-variation-settings: "wdth" 118; }
-h3 { font-size: 1.18rem; font-weight: 750; font-variation-settings: "wdth" 108; }
+h1, h2 { font-family: "Fredoka", "Figtree", sans-serif; margin: 0; line-height: 1.02; }
+h1 { font-size: clamp(3rem, 6.4vw, 5.6rem); font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: clamp(1.7rem, 3.2vw, 2.3rem); font-weight: 600; }
+h3 { margin: 0; font-size: 1.16rem; font-weight: 800; line-height: 1.25; }
 p { margin: 0 0 12px; }
-a { color: var(--aisle); text-underline-offset: 2px; }
+a { color: var(--navy); text-underline-offset: 3px; }
 code { font-size: 0.88em; }
-:focus-visible { outline: 3px solid var(--tag); outline-offset: 2px; box-shadow: 0 0 0 5px var(--ink); }
+:focus-visible { outline: 3px solid var(--berry); outline-offset: 3px; border-radius: 6px; }
 
-/* ---------- Icons: one hand-drawn line set, coloured by the text around it ---------- */
+/* ---------- Icons: one hand-drawn set, coloured by the surrounding text ---------- */
 .sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
-.icon, .aisle-icon, .tag-icon, .control-icon {
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  flex: none;
+.icon, .aisle-icon, .control-icon {
+  fill: none; stroke: currentColor; stroke-width: 2;
+  stroke-linecap: round; stroke-linejoin: round; flex: none;
 }
-.icon { width: 1.15em; height: 1.15em; vertical-align: -0.2em; margin-right: 6px; }
+.icon { width: 1.2em; height: 1.2em; vertical-align: -0.22em; margin-right: 8px; }
+.control-icon { width: 18px; height: 18px; }
 
 /* ---------- 12-column grid shared by every section ---------- */
 .wrap { max-width: 1200px; margin: 0 auto; padding: 0 var(--gap); }
@@ -61,118 +57,155 @@ code { font-size: 0.88em; }
 .span-8 { grid-column: span 8; }
 .span-12 { grid-column: span 12; }
 
-.band { padding: 64px 0 72px; }
-.band-a { background: var(--paper); }
-.band-b { background: var(--paper-2); }
+.band { padding: 56px 0 80px; }
+.band-a { background: var(--cream); }
+.band-b { background: var(--sky); }
 
-/* ---------- Hero: title + receipt ---------- */
-.hero { background: var(--aisle); color: #fff; padding: 72px 0 80px; }
-.hero .grid { align-items: center; }
-.lede { font-size: 1.2rem; line-height: 1.6; max-width: 58ch; margin-top: 20px; color: #e3e9f1; }
-.hero-hint { display: inline-block; margin: 8px 0 0; padding: 6px 12px; background: var(--tag); color: var(--ink); font-weight: 700; border-radius: 3px; }
+/* ---------- Hero: the trolley ---------- */
+.hero { position: relative; background: var(--sky); padding: 64px 0 96px; overflow: hidden; }
+.hero-grid { display: grid; grid-template-columns: 5fr 6fr; gap: 32px; align-items: center; }
+.lede { font-size: 1.18rem; max-width: 46ch; margin: 22px 0 28px; }
 
-.receipt {
-  margin: 0;
-  justify-self: end;
-  width: min(100%, 380px);
-  background: #fffef9;
-  color: #222;
-  font-family: "Courier Prime", "Courier New", monospace;
-  font-size: 15px;
-  line-height: 1.5;
-  padding: 26px 26px 34px;
-  transform: rotate(1.2deg);
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
-  /* torn bottom edge */
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8px), 95% 100%, 90% calc(100% - 8px), 85% 100%, 80% calc(100% - 8px), 75% 100%, 70% calc(100% - 8px), 65% 100%, 60% calc(100% - 8px), 55% 100%, 50% calc(100% - 8px), 45% 100%, 40% calc(100% - 8px), 35% 100%, 30% calc(100% - 8px), 25% 100%, 20% calc(100% - 8px), 15% 100%, 10% calc(100% - 8px), 5% 100%, 0 calc(100% - 8px));
+.btn-start {
+  display: inline-flex; align-items: center;
+  padding: 12px 22px;
+  background: var(--berry); color: #fff;
+  font-weight: 800; text-decoration: none;
+  border: var(--line); border-radius: 999px; box-shadow: 4px 4px 0 var(--ink);
+  transition: transform .15s ease, box-shadow .15s ease;
 }
-.receipt-head { text-align: center; font-weight: 700; font-size: 1.1rem; margin-bottom: 14px; }
-.receipt-head span { font-weight: 400; font-size: 0.85rem; }
-.receipt-icon { display: block; width: 34px; height: 34px; margin: 0 auto 6px; stroke-width: 1.6; }
-.barcode { display: block; width: 190px; margin: 14px auto 0; fill: #222; }
-.barcode text { font-family: "Courier Prime", monospace; font-size: 8px; }
-.receipt dl { margin: 0; padding: 12px 0; border-top: 1px dashed #777; }
-.receipt dl div { display: flex; align-items: baseline; gap: 6px; }
-.receipt dt { flex: 1; display: flex; gap: 6px; }
-.receipt dt::after { content: ""; flex: 1; border-bottom: 1px dotted #999; transform: translateY(-4px); }
-.receipt dd { margin: 0; font-weight: 700; }
-.receipt-total { font-size: 1.05rem; }
-.receipt-foot { margin: 0; padding-top: 12px; border-top: 1px dashed #777; text-align: center; font-size: 0.85rem; }
+.btn-start .icon { transition: transform .45s var(--ease-bounce); }
+.btn-start:hover { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); }
+.btn-start:hover .icon { transform: translateX(5px) rotate(-8deg); }   /* the trolley gets a push */
+.btn-start:active { transform: translate(4px, 4px); box-shadow: 0 0 0 var(--ink); }
+.btn-small { padding: 9px 18px; font-size: 0.95rem; }
 
-/* ---------- Aisle navigation ---------- */
-.aisles-nav { position: sticky; top: 0; z-index: 10; background: var(--ink); }
-.aisles-nav .wrap { display: flex; gap: 6px; overflow-x: auto; padding-top: 8px; padding-bottom: 8px; }
+.hero-trolley { margin: 0; }
+.hero-trolley svg { display: block; width: 100%; height: auto; overflow: visible; }
+.t-basket, .t-frame, .t-handle { fill: none; stroke: var(--berry); stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
+.t-handle { stroke: var(--ink); }
+.t-wire line { stroke: var(--berry); stroke-width: 3; opacity: 0.35; }
+.t-shadow { stroke: var(--ink); stroke-width: 12; stroke-linecap: round; opacity: 0.12; }
+.wheel circle { fill: var(--ink); }
+.wheel path { stroke: var(--cream); stroke-width: 3; stroke-linecap: round; }
+.tile rect { stroke: var(--ink); stroke-width: 2.5; }
+.tile-sky { fill: var(--sky-deep); }
+.tile-butter { fill: var(--butter); }
+.tile-bubble { fill: var(--bubble); }
+.tile-mint { fill: var(--mint); }
+.tile-num { font: 700 26px "Fredoka", sans-serif; fill: var(--ink); }
+.tile-lab { font: 500 11.5px "Figtree", sans-serif; fill: var(--ink); }
+
+/* One orchestrated load moment: the trolley rolls in, then the groceries drop into the basket. */
+@media (prefers-reduced-motion: no-preference) {
+  .trolley { animation: roll-in 1.1s cubic-bezier(.2, .8, .3, 1) both; }
+  .wheel { transform-box: fill-box; transform-origin: center; animation: spin 1.1s cubic-bezier(.2, .8, .3, 1) both; }
+  .tile { animation: drop .7s var(--ease-bounce) both; animation-delay: calc(var(--d) + .6s); }
+}
+@keyframes roll-in { from { transform: translateX(-70%); } to { transform: none; } }
+@keyframes spin { from { transform: rotate(-720deg); } to { transform: none; } }
+@keyframes drop { from { transform: translateY(-320px); opacity: 0; } 60% { opacity: 1; } to { transform: none; } }
+
+/* Shop awning along the bottom of the hero */
+.hero::after {
+  content: "";
+  position: absolute; left: 0; right: 0; bottom: 0; height: 34px;
+  background:
+    radial-gradient(circle at 20px 0, transparent 19px, var(--cream) 20px) 0 14px / 40px 20px repeat-x,
+    repeating-linear-gradient(90deg, var(--berry) 0 20px, #fff 20px 40px) 0 0 / 100% 16px no-repeat;
+}
+
+/* ---------- Aisle navigation with a scroll-progress trolley ---------- */
+.aisles-nav {
+  position: sticky; top: 0; z-index: 10;
+  background: var(--paper);
+  border-bottom: var(--line);
+}
+.aisles-nav .wrap { display: flex; gap: 8px; align-items: center; overflow-x: auto; padding-top: 10px; padding-bottom: 16px; }
 .aisles-nav a {
-  color: #fff;
-  text-decoration: none;
-  white-space: nowrap;
-  font-size: 0.92rem;
-  font-weight: 600;
-  padding: 6px 12px;
-  border-radius: 3px;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 5px 14px 5px 6px;
+  color: var(--ink); text-decoration: none; white-space: nowrap;
+  font-weight: 700; font-size: 0.92rem;
+  border: 2px solid transparent; border-radius: 999px;
+  transform-origin: 50% -6px;
 }
-.aisles-nav a b { display: inline-block; min-width: 1.5em; margin-right: 4px; background: var(--tag); color: var(--ink); text-align: center; border-radius: 2px; }
-.aisles-nav a:hover { background: rgba(255, 255, 255, 0.12); }
-.aisles-nav .nav-checkout { margin-left: auto; background: var(--tag); color: var(--ink); }
+.aisles-nav a b {
+  display: inline-grid; place-items: center; width: 24px; height: 24px;
+  background: var(--ink); color: var(--paper); border-radius: 50%; font-size: 0.8rem;
+}
+.aisles-nav a:hover { border-color: var(--ink); }
+.aisles-nav a.is-here { background: var(--butter); border-color: var(--ink); }
+.aisles-nav .nav-checkout { margin-left: auto; padding-left: 14px; border-color: var(--ink); background: var(--mint); }
+@media (prefers-reduced-motion: no-preference) {
+  .aisles-nav a:hover { animation: swing .6s ease; }
+}
+.track { position: absolute; left: 0; right: 0; bottom: 4px; height: 0; border-top: 2px dashed rgba(32, 36, 43, .25); }
+.track-trolley {
+  position: absolute; bottom: -8px; left: calc(var(--p, 0) * (100% - 22px));
+  width: 22px; height: 22px; fill: none; stroke: var(--berry); stroke-width: 2.4;
+  stroke-linecap: round; stroke-linejoin: round; background: var(--paper);
+}
 
-/* ---------- Aisle signs (section headers) ---------- */
+/* ---------- Aisle signs ---------- */
+#origins { --accent: var(--sky-deep); }
+#stores { --accent: var(--butter); }
+#prices { --accent: var(--bubble); }
+#inside { --accent: var(--mint); }
+#brands { --accent: var(--butter); }
+#checkout { --accent: var(--paper); }
+
 .aisle-sign {
   position: relative;
-  margin-top: 22px;           /* room for the hanger rods */
-  display: flex;
-  align-items: stretch;
-  background: var(--aisle);
-  color: #fff;
-  border-radius: var(--radius);
+  margin-top: 26px;
+  display: flex; align-items: center; gap: 16px;
+  padding: 12px 18px 12px 12px;
+  background: var(--accent);
+  border: var(--line); border-radius: 22px; box-shadow: var(--pop);
+  transform-origin: 50% -26px;
 }
-.aisle-sign::before,
-.aisle-sign::after {          /* the rods an overhead sign hangs from */
-  content: "";
-  position: absolute;
-  top: -22px;
-  width: 3px;
-  height: 22px;
-  background: #9aa6b0;
-  border-radius: 2px;
+.aisle-sign::before, .aisle-sign::after {      /* the strings it hangs from */
+  content: ""; position: absolute; top: -28px; width: 2px; height: 26px; background: var(--ink);
 }
-.aisle-sign::before { left: 14%; }
-.aisle-sign::after { right: 14%; }
-.aisle-no { border-radius: var(--radius) 0 0 var(--radius); }
-.aisle-icon { width: 46px; height: 46px; margin: auto 22px auto auto; stroke-width: 1.7; color: var(--tag); }
-.aisle-sign-checkout .aisle-icon { color: var(--aisle); }
+.aisle-sign::before { left: 18%; }
+.aisle-sign::after { right: 18%; }
 .aisle-no {
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-  background: var(--tag);
-  color: var(--ink);
-  font-weight: 900;
-  font-size: 1.05rem;
-  font-variation-settings: "wdth" 125;
-  white-space: nowrap;
+  flex: none;
+  padding: 8px 16px;
+  background: var(--ink); color: var(--paper);
+  font: 600 1.05rem "Fredoka", sans-serif;
+  border-radius: 14px;
 }
-.aisle-sign h2 { padding: 16px 22px; }
-.aisle-sign-checkout { background: #fff; color: var(--ink); }
+.aisle-icon { width: 50px; height: 50px; margin-left: auto; stroke-width: 1.8; color: var(--ink); }
+@media (prefers-reduced-motion: no-preference) {
+  .aisle-sign:hover { animation: swing 1s ease; }
+}
+@keyframes swing {
+  20% { transform: rotate(1.6deg); } 45% { transform: rotate(-1.2deg); }
+  70% { transform: rotate(.6deg); } 100% { transform: rotate(0); }
+}
 
-.intro-text { font-size: 1.1rem; max-width: 68ch; margin: 0; }
+.intro-text { font-size: 1.1rem; max-width: 64ch; margin: 0; align-self: center; }
+.intro-text p:last-child { margin-bottom: 0; }
+
+/* "Good to know" boxes are shelf talkers: the little signs that stick out from a shelf. */
 .good-to-know {
   align-self: start;
+  position: relative;
+  padding: 14px 16px 14px 18px;
+  background: var(--butter);
+  border: var(--line); border-radius: 14px;
   font-size: 0.93rem;
-  color: var(--muted);
-  border-left: 4px solid var(--tag);
-  padding: 2px 0 2px 14px;
+  transform: rotate(-1deg);
 }
-.good-to-know b { display: flex; align-items: center; color: var(--ink); }
-.good-to-know .icon { color: var(--aisle); }
+.good-to-know b { display: flex; align-items: center; margin-bottom: 2px; }
 
-/* ---------- Chart cards ----------
-   Five subgrid rows (title, note, controls, chart, caption) so cards side by side line up:
-   a control bar in one card pushes its neighbour's chart down by the same amount. */
+/* ---------- Chart panels ----------
+   Five subgrid rows (title, note, controls, chart, caption): panels side by side line up. */
 .card {
   margin: 0;
-  background: var(--card);
-  border: 1px solid var(--rule);
-  border-radius: var(--radius);
+  background: var(--paper);
+  border: var(--line); border-radius: 18px; box-shadow: var(--pop);
   padding: 22px 24px 18px;
   display: grid;
   grid-row: span 5;
@@ -186,89 +219,116 @@ code { font-size: 0.88em; }
 figcaption {
   align-self: end;
   padding-top: 12px;
-  border-top: 1px solid var(--rule);
-  color: var(--muted);
-  font-size: 0.82rem;
-  line-height: 1.45;
+  border-top: 2px dotted rgba(32, 36, 43, .3);
+  color: var(--muted); font-size: 0.82rem; line-height: 1.45;
 }
-
+.card-text { background: var(--sky); }
 .card-text .facts { grid-row: span 4; align-self: start; }
 .facts { margin: 8px 0 0; }
-.facts dt { font-weight: 700; margin-top: 16px; }
+.facts dt { font-weight: 800; margin-top: 16px; }
 .facts dt:first-child { margin-top: 0; }
-.facts dd { margin: 2px 0 0; color: var(--muted); font-size: 0.95rem; }
+.facts dd { margin: 2px 0 0; font-size: 0.95rem; }
 
-/* ---------- Control bar: every chart filter/sort/search looks the same ---------- */
-/* Empty control slots stay in the grid (zero height) so the subgrid rows still line up. */
-.controls:not(:empty) { margin-bottom: 14px; padding: 10px 12px; background: var(--paper); border-radius: 3px; }
-.controls .vega-bindings { display: flex; flex-wrap: wrap; gap: 10px 18px; }
-.controls .vega-bind label { display: flex; align-items: center; gap: 8px; font-size: 0.92rem; }
-.controls .vega-bind-name { font-weight: 700; display: inline-flex; align-items: center; gap: 6px; }
-.control-icon { width: 18px; height: 18px; color: var(--aisle); }
-/* A static colour key sits in the same slot as the controls, for charts without any. */
-.controls.key { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 0.9rem; }
-.controls.key span { display: inline-flex; align-items: center; gap: 6px; }
-.controls.key i { width: 12px; height: 12px; border-radius: 2px; }
+/* ---------- Control row: every filter, sort, search and hint uses the same pill ---------- */
+.controls:not(:empty) { margin-bottom: 14px; }
+/* Vega adds each control straight into the slot (no wrapper), so the slot itself is the row. */
+.controls:not(:empty), .controls .vega-bindings { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; }
+.controls .vega-bind label,
+.hint {
+  display: inline-flex; align-items: center; gap: 8px;
+  height: 40px;
+  padding: 0 6px 0 14px;
+  background: #fff;
+  border: var(--line); border-radius: 999px;
+  font-size: 0.9rem;
+}
+.controls .vega-bind-name { display: inline-flex; align-items: center; gap: 6px; font-weight: 800; white-space: nowrap; }
 .controls select,
 .controls input[type="search"] {
-  font: inherit;
-  font-size: 0.95rem;
-  color: var(--ink);
-  background: var(--paper);
-  border: 1px solid #aeb8b4;
-  border-radius: 3px;
-  padding: 5px 10px;
-  min-width: 190px;
+  height: 30px;
+  font: inherit; font-size: 0.92rem; color: var(--ink);
+  background-color: var(--cream);
+  border: 0; border-radius: 999px;
+  padding: 0 32px 0 12px;
+  min-width: 200px;
 }
-.controls select:hover, .controls input[type="search"]:hover { border-color: var(--aisle); }
+.controls select {
+  appearance: none; -webkit-appearance: none; cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2320242b' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 10px center; background-size: 14px;
+}
+.controls input[type="search"] { padding-right: 12px; }
+.controls select:hover, .controls input[type="search"]:hover { background-color: var(--sky); }
+.hint { padding-right: 16px; background: var(--sky); font-weight: 600; }
+.controls.key span { display: inline-flex; align-items: center; gap: 6px; font-size: 0.9rem; }
+.controls.key .key-title { font-weight: 800; }
+.controls.key i { width: 14px; height: 14px; border-radius: 4px; border: 1.5px solid var(--ink); }
 
-#vg-tooltip-element { font-family: "Archivo", sans-serif; font-size: 13px; }
+#vg-tooltip-element {
+  font-family: "Figtree", sans-serif; font-size: 13px;
+  border: var(--line) !important; border-radius: 10px !important; box-shadow: 3px 3px 0 var(--ink) !important;
+}
 
-/* ---------- Checkout: shelf price tags ---------- */
-.band-dark { background: var(--aisle); color: #fff; }
-.tag {
+/* ---------- Checkout: a receipt prints out when you reach it ---------- */
+.band-dark { background: var(--mint); }
+.checkout-text { align-self: start; position: sticky; top: 96px; font-size: 1.1rem; }
+.empty-trolley { display: block; width: 78%; margin: 28px 0 4px; overflow: visible; }
+.empty-caption { font: 600 1.05rem "Fredoka", sans-serif; margin: 0; }
+.receipt {
   position: relative;
-  background: var(--tag);
-  color: var(--ink);
-  border-radius: 4px;
-  padding: 22px 22px 22px 30px;
+  margin: 0;
+  padding: 26px 30px 30px;
+  background: #fff;
+  border: var(--line); border-bottom: 0;
+  font-variant-numeric: tabular-nums;
+  transform-origin: top center;
 }
-.tag::before {        /* the hole a shelf tag clips onto */
-  content: "";
-  position: absolute;
-  left: 11px;
-  top: 16px;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--aisle);
+.receipt::before {               /* printer slot */
+  content: ""; position: absolute; left: -14px; right: -14px; top: -14px; height: 14px;
+  background: var(--ink); border-radius: 8px;
 }
-.tag-icon { position: absolute; top: 18px; right: 18px; width: 38px; height: 38px; color: var(--aisle); stroke-width: 1.7; }
-.tag strong { display: block; font-size: 2.6rem; line-height: 1; font-weight: 900; font-variation-settings: "wdth" 125; }
-.tag h3 { font-size: 1.05rem; margin: 8px 0 10px; }
-.tag p { font-size: 0.95rem; margin: 0; }
+.receipt::after {                /* torn edge */
+  content: ""; position: absolute; left: -2px; right: -2px; bottom: -12px; height: 12px;
+  background:
+    linear-gradient(-45deg, transparent 8px, #fff 0) 0 0 / 16px 12px repeat-x,
+    linear-gradient(45deg, transparent 8px, #fff 0) 0 0 / 16px 12px repeat-x;
+}
+.receipt-head { text-align: center; font: 600 1.3rem "Fredoka", sans-serif; margin-bottom: 14px; }
+.receipt-head span { font: 400 0.85rem "Figtree", sans-serif; color: var(--muted); }
+.receipt-icon { display: block; width: 36px; height: 36px; margin: 0 auto 6px; color: var(--berry); }
+.receipt ol { list-style: none; margin: 0; padding: 14px 0; border-top: 2px dashed #9aa2ab; border-bottom: 2px dashed #9aa2ab; }
+.receipt li { display: flex; gap: 12px; padding: 10px 0; }
+.receipt li + li { border-top: 1px dotted #c3c8ce; }
+.receipt li .icon { width: 30px; height: 30px; margin: 2px 0 0; color: var(--berry); }
+.r-line { margin: 0; font-size: 1.05rem; }
+.r-line b { font: 700 1.5rem "Fredoka", sans-serif; margin-right: 4px; }
+.r-tip { margin: 2px 0 0; color: var(--muted); font-size: 0.93rem; }
+.receipt-foot { text-align: center; margin: 14px 0 0; font-weight: 700; }
+.barcode { display: block; width: 300px; max-width: 100%; margin: 12px auto 0; fill: var(--ink); }
+.barcode text { font: 700 9px "Figtree", sans-serif; letter-spacing: 1.5px; }
+@media (prefers-reduced-motion: no-preference) {
+  .js .receipt { clip-path: inset(-20px -20px 100% -20px); }
+  .js .receipt.is-printed { clip-path: inset(-20px -20px -20px -20px); transition: clip-path 1.8s steps(18, end); }
+}
 
 /* ---------- Footer ---------- */
-.band-foot { background: #dde3e0; padding: 48px 0 56px; font-size: 0.92rem; }
-.band-foot h2 { font-size: 1.35rem; margin-bottom: 10px; }
-.band-foot h3 { font-size: 1.05rem; margin-bottom: 10px; }
+.band-foot { background: var(--sky); padding: 48px 0 56px; font-size: 0.92rem; border-top: var(--line); }
+.band-foot h2 { font-size: 1.4rem; margin-bottom: 10px; }
+.band-foot h3 { margin-bottom: 10px; }
 .sources { margin: 0; padding-left: 18px; }
 .sources li { margin-bottom: 6px; }
 
 /* ---------- Smaller screens ---------- */
 @media (max-width: 960px) {
+  .hero-grid { grid-template-columns: 1fr; }
   .span-3 { grid-column: span 6; }
   .span-4, .span-5, .span-7, .span-8 { grid-column: span 12; }
-  .receipt { justify-self: start; }
 }
 @media (max-width: 600px) {
   :root { --gap: 16px; }
-  .span-3 { grid-column: span 12; }
-  .band { padding: 44px 0; }
+  .band { padding: 40px 0 56px; }
   .card { padding: 16px; }
   .aisle-sign { flex-wrap: wrap; }
-  .aisle-sign h2 { flex: 1 1 100%; order: 2; }
-  .aisle-no { border-radius: var(--radius) 0 var(--radius) 0; }
-  .aisle-icon { width: 34px; height: 34px; margin: 6px 14px 0 auto; }
-  .aisle-no { padding: 6px 16px; }
+  .aisle-icon { width: 36px; height: 36px; }
+  .controls select, .controls input[type="search"] { min-width: 0; width: 150px; }
 }

@@ -93,10 +93,10 @@
               0.56
             ],
             "range": [
-              "#f6e7a1",
-              "#d6cfa8",
-              "#9fa9b2",
-              "#5d7593",
+              "#fbe7a6",
+              "#cfe3ef",
+              "#8fbde3",
+              "#3f7cc0",
               "#1f3a5f"
             ],
             "interpolate": "rgb"
@@ -152,7 +152,7 @@
         },
         "color": {
           "condition": {
-            "test": "datum.change > 0.445",
+            "test": "datum.change > 0.5",
             "value": "#ffffff"
           },
           "value": "#1b2430"

@@ -7,9 +7,9 @@
   <meta name="description" content="A visual story about Australian supermarket food: where it comes from, where we buy it, what it costs and what is inside.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Crect width=%2224%22 height=%2224%22 rx=%225%22 fill=%22%23ffd23f%22/%3E%3Cg fill=%22none%22 stroke=%22%231f3a5f%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M2 4h3l2.4 10.2a1 1 0 0 0 1 .8h9.4a1 1 0 0 0 1-.8L21 7H6.2%22/%3E%3Ccircle cx=%229%22 cy=%2219.5%22 r=%221.5%22/%3E%3Ccircle cx=%2217%22 cy=%2219.5%22 r=%221.5%22/%3E%3C/g%3E%3C/svg%3E">
-  <link rel="stylesheet" href="css/style.css?v=4">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Figtree:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Crect width=%2224%22 height=%2224%22 rx=%225%22 fill=%22%23ffd45c%22/%3E%3Cg fill=%22none%22 stroke=%22%23d23f57%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M2 4h3l2.4 10.2a1 1 0 0 0 1 .8h9.4a1 1 0 0 0 1-.8L21 7H6.2%22/%3E%3Ccircle cx=%229%22 cy=%2219.5%22 r=%221.5%22/%3E%3Ccircle cx=%2217%22 cy=%2219.5%22 r=%221.5%22/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css?v=9">
   <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
@@ -30,37 +30,85 @@
     <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6"/><path d="M20 20l-5.2-5.2"/></symbol>
     <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.8 5.6 3.8 9s-1.2 6.4-3.8 9c-2.6-2.6-3.8-5.6-3.8-9S9.4 5.6 12 3z"/></symbol>
     <symbol id="i-apple" viewBox="0 0 24 24"><path d="M12 8c-1.7-1.3-6-1.2-6 4 0 4.2 3 9.2 6 7.4 3 1.8 6-3.2 6-7.4 0-5.2-4.3-5.3-6-4z"/><path d="M12 8c0-2 .8-3.6 2.6-4.4"/></symbol>
+    <symbol id="i-pointer" viewBox="0 0 24 24"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V10m0-.5V8.5a1.5 1.5 0 0 1 3 0V11m0-1.5a1.5 1.5 0 0 1 3 0V15a6 6 0 0 1-6 6h-1.2a6 6 0 0 1-4.6-2.2L4 15.5a1.6 1.6 0 0 1 2.4-2.1L9 16"/></symbol>
     <symbol id="i-factory" viewBox="0 0 24 24"><path d="M3 20V10l5 3v-3l5 3v-3l5 3V4h3v16z"/><path d="M7 17h2M12 17h2"/></symbol>
   </svg>
 
 
   <header class="hero">
-    <div class="wrap grid">
-      <div class="hero-text span-7">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
         <h1>From Paddock to Barcode</h1>
-        <p class="lede">What's really in your trolley? Every week we push one past thousands of products. This page follows that food from the farms and factories of the world, to the stores where we buy it, to the prices we pay and the label on the back of the pack.</p>
-        <p class="hero-hint">Walk through five aisles, then check out with four things to remember.</p>
+        <p class="lede">What's really in your trolley? Every week we push one past thousands of products. Follow that food from the farms and factories of the world, to the stores where we buy it, to the prices we pay and the label on the back of the pack.</p>
+        <a class="btn-start" href="#origins"><svg class="icon" aria-hidden="true"><use href="#i-trolley"/></svg>Start at aisle 1</a>
       </div>
 
-      <figure class="receipt span-5" aria-label="Key numbers from this page">
-        <p class="receipt-head"><svg class="icon receipt-icon" aria-hidden="true"><use href="#i-trolley"/></svg>Trolley check<br><span>Australia, October 2026</span></p>
-        <dl>
-          <div><dt>Food imported, 2025</dt><dd>US$18.1 b</dd></div>
-          <div><dt>Countries supplying it</dt><dd>175</dd></div>
-          <div><dt>Supermarkets mapped</dt><dd>5,684</dd></div>
-          <div><dt>Products checked</dt><dd>6,608</dd></div>
-        </dl>
-        <dl class="receipt-total">
-          <div><dt>Fruit &amp; veg since 2017</dt><dd>+46%</dd></div>
-          <div><dt>Ultra-processed products</dt><dd>63%</dd></div>
-        </dl>
-        <p class="receipt-foot">5 aisles. Scroll down to start.</p>
-        <svg class="barcode" viewBox="0 0 109 56" role="img" aria-label="Barcode of Weet-Bix, 9300652010794"><rect x="7" y="0" width="1" height="46"/><rect x="9" y="0" width="1" height="46"/><rect x="11" y="0" width="1" height="40"/><rect x="12" y="0" width="1" height="40"/><rect x="13" y="0" width="1" height="40"/><rect x="14" y="0" width="1" height="40"/><rect x="16" y="0" width="1" height="40"/><rect x="18" y="0" width="1" height="40"/><rect x="21" y="0" width="1" height="40"/><rect x="22" y="0" width="1" height="40"/><rect x="23" y="0" width="1" height="40"/><rect x="25" y="0" width="1" height="40"/><rect x="28" y="0" width="1" height="40"/><rect x="29" y="0" width="1" height="40"/><rect x="30" y="0" width="1" height="40"/><rect x="32" y="0" width="1" height="40"/><rect x="34" y="0" width="1" height="40"/><rect x="35" y="0" width="1" height="40"/><rect x="36" y="0" width="1" height="40"/><rect x="37" y="0" width="1" height="40"/><rect x="39" y="0" width="1" height="40"/><rect x="40" y="0" width="1" height="40"/><rect x="41" y="0" width="1" height="40"/><rect x="44" y="0" width="1" height="40"/><rect x="47" y="0" width="1" height="40"/><rect x="50" y="0" width="1" height="40"/><rect x="51" y="0" width="1" height="40"/><rect x="53" y="0" width="1" height="46"/><rect x="55" y="0" width="1" height="46"/><rect x="57" y="0" width="1" height="40"/><rect x="58" y="0" width="1" height="40"/><rect x="59" y="0" width="1" height="40"/><rect x="62" y="0" width="1" height="40"/><rect x="64" y="0" width="1" height="40"/><rect x="65" y="0" width="1" height="40"/><rect x="68" y="0" width="1" height="40"/><rect x="69" y="0" width="1" height="40"/><rect x="71" y="0" width="1" height="40"/><rect x="72" y="0" width="1" height="40"/><rect x="73" y="0" width="1" height="40"/><rect x="76" y="0" width="1" height="40"/><rect x="78" y="0" width="1" height="40"/><rect x="82" y="0" width="1" height="40"/><rect x="85" y="0" width="1" height="40"/><rect x="86" y="0" width="1" height="40"/><rect x="87" y="0" width="1" height="40"/><rect x="89" y="0" width="1" height="40"/><rect x="92" y="0" width="1" height="40"/><rect x="94" y="0" width="1" height="40"/><rect x="95" y="0" width="1" height="40"/><rect x="96" y="0" width="1" height="40"/><rect x="99" y="0" width="1" height="46"/><rect x="101" y="0" width="1" height="46"/><text x="2" y="54">9</text><text x="12" y="54" textLength="40">300652</text><text x="58" y="54" textLength="40">010794</text></svg>
+      <figure class="hero-trolley" role="img" aria-label="Key numbers drawn as groceries in a trolley: US$18.1 billion of food imported in 2025, 175 supplying countries, 5,684 supermarkets mapped, 6,608 products checked, fruit and veg prices up 46% since 2017, and 63% of products ultra-processed.">
+        <svg viewBox="0 0 620 470" aria-hidden="true">
+          <g class="trolley">
+            <path class="t-shadow" d="M120 452h400"/>
+            <path class="t-handle" d="M22 64h46l22 18"/>
+            <g class="t-wire"><line x1="150" y1="86" x2="178" y2="330"/><line x1="190" y1="86" x2="212" y2="330"/><line x1="230" y1="86" x2="245" y2="330"/><line x1="270" y1="86" x2="279" y2="330"/><line x1="310" y1="86" x2="312" y2="330"/><line x1="350" y1="86" x2="346" y2="330"/><line x1="390" y1="86" x2="380" y2="330"/><line x1="430" y1="86" x2="413" y2="330"/><line x1="470" y1="86" x2="447" y2="330"/><line x1="510" y1="86" x2="480" y2="330"/><line x1="550" y1="86" x2="514" y2="330"/><line x1="104" y1="150" x2="548" y2="150"/><line x1="112" y1="210" x2="538" y2="210"/><line x1="122" y1="270" x2="528" y2="270"/></g>
+            <g class="tile" style="--d:0.55s">
+              <g transform="rotate(-3 203 150)">
+                <rect class="tile-sky" x="146" y="104" width="114" height="92" rx="10"/>
+                <text class="tile-num" x="158" y="144">US$18.1b</text>
+                <text class="tile-lab" x="158" y="166">food imported</text>
+                <text class="tile-lab" x="158" y="182">in 2025</text>
+              </g>
+            </g>
+            <g class="tile" style="--d:0.67s">
+              <g transform="rotate(2 329 150)">
+                <rect class="tile-butter" x="272" y="104" width="114" height="92" rx="10"/>
+                <text class="tile-num" x="284" y="144">175</text>
+                <text class="tile-lab" x="284" y="166">countries</text>
+                <text class="tile-lab" x="284" y="182">supply it</text>
+              </g>
+            </g>
+            <g class="tile" style="--d:0.79s">
+              <g transform="rotate(-1.5 455 150)">
+                <rect class="tile-bubble" x="398" y="104" width="114" height="92" rx="10"/>
+                <text class="tile-num" x="410" y="144">5,684</text>
+                <text class="tile-lab" x="410" y="166">supermarkets</text>
+                <text class="tile-lab" x="410" y="182">mapped</text>
+              </g>
+            </g>
+            <g class="tile" style="--d:0.91s">
+              <g transform="rotate(2.5 203 254)">
+                <rect class="tile-mint" x="146" y="208" width="114" height="92" rx="10"/>
+                <text class="tile-num" x="158" y="248">6,608</text>
+                <text class="tile-lab" x="158" y="270">products</text>
+                <text class="tile-lab" x="158" y="286">checked</text>
+              </g>
+            </g>
+            <g class="tile" style="--d:1.03s">
+              <g transform="rotate(-2 329 254)">
+                <rect class="tile-butter" x="272" y="208" width="114" height="92" rx="10"/>
+                <text class="tile-num" x="284" y="248">+46%</text>
+                <text class="tile-lab" x="284" y="270">fruit &amp; veg</text>
+                <text class="tile-lab" x="284" y="286">since 2017</text>
+              </g>
+            </g>
+            <g class="tile" style="--d:1.15s">
+              <g transform="rotate(1.5 455 254)">
+                <rect class="tile-sky" x="398" y="208" width="114" height="92" rx="10"/>
+                <text class="tile-num" x="410" y="248">63%</text>
+                <text class="tile-lab" x="410" y="270">ultra-processed</text>
+                <text class="tile-lab" x="410" y="286">products</text>
+              </g>
+            </g>
+            <path class="t-basket" d="M90 84h470l-38 248H130z"/>
+            <path class="t-frame" d="M150 332l18 76M496 332l-18 76M140 408h372"/>
+            <g class="wheel"><circle cx="182" cy="428" r="22"/><path d="M182 410v36M164 428h36"/></g>
+            <g class="wheel"><circle cx="466" cy="428" r="22"/><path d="M466 410v36M448 428h36"/></g>
+          </g>
+        </svg>
       </figure>
     </div>
   </header>
 
   <nav class="aisles-nav" aria-label="Aisles">
+    <div class="track" aria-hidden="true"><svg class="track-trolley"><use href="#i-trolley"/></svg></div>
     <div class="wrap">
       <a href="#origins"><b>1</b> Origins</a>
       <a href="#stores"><b>2</b> Stores</a>
@@ -82,7 +130,7 @@
         <figure class="card span-8">
           <h3>Our biggest suppliers are our neighbours and trading partners</h3>
           <p class="note">Darker countries sent more food. New Zealand leads (US$2.4 b), followed by the USA, China, Italy and Thailand. Australia is shown in raspberry.</p>
-          <div class="controls"></div>
+          <div class="controls"><span class="hint"><svg class="control-icon" aria-hidden="true"><use href="#i-pointer"/></svg>Hover a country to see its value</span></div>
           <div id="imports_choropleth" class="chart"></div>
           <figcaption>Value of food imports by country of origin, 2025. Hover a country for its value. Source: UN Comtrade.</figcaption>
         </figure>
@@ -126,16 +174,16 @@
 
         <figure class="card span-7">
           <h3>Stores cluster on the coast</h3>
-          <p class="note">Each dot is one supermarket. Click a chain in the legend to see only its stores; click empty space to reset.</p>
-          <div class="controls"></div>
+          <p class="note">Each dot is one supermarket.</p>
+          <div class="controls"><span class="hint"><svg class="control-icon" aria-hidden="true"><use href="#i-pointer"/></svg>Click a chain in the legend to show only its stores</span></div>
           <div id="supermarkets_dotmap" class="chart"></div>
           <figcaption>Supermarkets mapped in OpenStreetMap, October 2026. Source: OpenStreetMap contributors.</figcaption>
         </figure>
 
         <figure class="card span-5">
           <h3>Who you shop with depends on where you live</h3>
-          <p class="note">Aldi has no stores in Tasmania or the Northern Territory. In the NT, two in three supermarkets are independents. Click a chain in the legend to compare it across states.</p>
-          <div class="controls"></div>
+          <p class="note">Aldi has no stores in Tasmania or the Northern Territory. In the NT, two in three supermarkets are independents.</p>
+          <div class="controls"><span class="hint"><svg class="control-icon" aria-hidden="true"><use href="#i-pointer"/></svg>Click a chain in the legend to compare it</span></div>
           <div id="chains_by_state" class="chart"></div>
           <figcaption>Share of mapped supermarkets in each state or territory by chain. Hover for store counts. Source: OpenStreetMap contributors.</figcaption>
         </figure>
@@ -151,8 +199,8 @@
 
         <figure class="card span-7">
           <h3>Fruit &amp; veg and dairy rose the most</h3>
-          <p class="note">Fruit &amp; veg prices spiked after the 2022 floods, then settled. Hover the lines to read any month.</p>
-          <div class="controls"></div>
+          <p class="note">Fruit &amp; veg prices spiked after the 2022 floods, then settled.</p>
+          <div class="controls"><span class="hint"><svg class="control-icon" aria-hidden="true"><use href="#i-pointer"/></svg>Hover the lines to read any month</span></div>
           <div id="prices_line" class="chart"></div>
           <figcaption>Price change since September 2017, Australia (weighted average of eight capital cities). Source: ABS Consumer Price Index, monthly, to August 2026.</figcaption>
         </figure>
@@ -168,15 +216,15 @@
         <figure class="card span-5">
           <h3>Every city, every food group</h3>
           <p class="note">The outlined cell is the largest rise anywhere: fruit &amp; veg in Perth, up 55%. Meat &amp; seafood rose least in most cities.</p>
-          <div class="controls"></div>
+          <div class="controls"><span class="hint"><svg class="control-icon" aria-hidden="true"><use href="#i-pointer"/></svg>Hover a cell for the exact rise</span></div>
           <div id="prices_heatmap" class="chart"></div>
           <figcaption>Price rise from September 2017 to August 2026. Source: ABS Consumer Price Index.</figcaption>
         </figure>
 
         <figure class="card span-7">
           <h3>Perth went from mid-table to the top</h3>
-          <p class="note">Cities ranked each August by how much their grocery basket had risen since 2017 (1 = biggest rise). Perth climbed from 6th in 2018 to 1st in 2026. Click any city to follow it.</p>
-          <div class="controls"></div>
+          <p class="note">Cities ranked each August by how much their grocery basket had risen since 2017 (1 = biggest rise). Perth climbed from 6th in 2018 to 1st in 2026.</p>
+          <div class="controls"><span class="hint"><svg class="control-icon" aria-hidden="true"><use href="#i-pointer"/></svg>Click a city's dots to follow it</span></div>
           <div id="prices_bump" class="chart"></div>
           <figcaption>Basket = simple average of the four food group indexes. Source: ABS Consumer Price Index.</figcaption>
         </figure>
@@ -216,14 +264,9 @@
         <aside class="good-to-know span-4"><b><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>Good to know</b> Nutri-Score grades food from A (healthiest) to E (least healthy). It is used across Europe and works like our Health Star Rating, using similar nutrients.</aside>
 
         <figure class="card span-7">
-          <h3>Own brands fill every aisle</h3>
-          <p class="note">Each block is an aisle; its area shows how many products it holds. Supermarket own brands are navy, name brands grey. Own brands are strongest in fruit &amp; veg (43% of products) and bread, and almost absent from confectionery and yoghurt.</p>
-          <div class="controls key" aria-label="Colour key">
-            <span><i style="background:#1f3a5f"></i>Supermarket own brand</span>
-            <span><i style="background:#8ea3c0"></i>Other own brands</span>
-            <span><i style="background:#7f8a91"></i>Name brand</span>
-            <span><i style="background:#c9cfd2"></i>Other name brands</span>
-          </div>
+          <h3>Who fills each aisle</h3>
+          <p class="note">Each coloured group is a type of product (an aisle) and each block inside it is a brand. Bigger, darker blocks hold more products. Coles and Woolworths appear in almost every aisle; in confectionery, Cadbury dominates.</p>
+          <div class="controls"></div>
           <div id="brand_treemap" class="chart"></div>
           <figcaption>Biggest brands in each aisle are named; smaller brands are pooled in lighter shades. Hover a block for details. Source: Open Food Facts.</figcaption>
         </figure>
@@ -242,30 +285,44 @@
     <section id="checkout" class="band band-dark">
       <div class="wrap grid">
         <header class="aisle-sign aisle-sign-checkout span-12"><span class="aisle-no">Checkout</span><h2>Four things to take to the shops</h2><svg class="aisle-icon" aria-hidden="true"><use href="#i-receipt"/></svg></header>
-        <article class="tag span-3">
-          <svg class="tag-icon" aria-hidden="true"><use href="#i-globe"/></svg>
-          <strong>175</strong>
-          <h3>countries feed us</h3>
-          <p>Most imported food is processed and packaged. Check the "Made in" label if you want to buy local.</p>
-        </article>
-        <article class="tag span-3">
-          <svg class="tag-icon" aria-hidden="true"><use href="#i-apple"/></svg>
-          <strong>+46%</strong>
-          <h3>for fruit &amp; veg since 2017</h3>
-          <p>Fresh food rose fastest, and fastest of all in Perth. Buying in season softens the swings.</p>
-        </article>
-        <article class="tag span-3">
-          <svg class="tag-icon" aria-hidden="true"><use href="#i-factory"/></svg>
-          <strong>63%</strong>
-          <h3>of products are ultra-processed</h3>
-          <p>In snack, dessert and drink aisles nearly everything is. Compare products within an aisle, not just brands.</p>
-        </article>
-        <article class="tag span-3">
-          <svg class="tag-icon" aria-hidden="true"><use href="#i-jar"/></svg>
-          <strong>46%</strong>
-          <h3>of own brands score A or B</h3>
-          <p>Cheaper supermarket brands are often as healthy as name brands, or healthier. Read the label, not the logo.</p>
-        </article>
+        <div class="checkout-text span-5">
+          <p>You have walked all five aisles. The data behind an ordinary trolley shows a long supply chain, prices that rose faster for fresh food, and a lot of ultra-processed food on the shelves.</p>
+          <p>The receipt sums up four things worth remembering next time you shop.</p>
+          <a class="btn-start btn-small" href="#origins"><svg class="icon" aria-hidden="true"><use href="#i-trolley"/></svg>Back to aisle 1</a>
+          <svg class="empty-trolley" viewBox="0 0 620 470" aria-hidden="true">
+            <path class="t-shadow" d="M120 452h400"/>
+            <path class="t-handle" d="M22 64h46l22 18"/>
+            <g class="t-wire"><line x1="104" y1="150" x2="548" y2="150"/><line x1="112" y1="210" x2="538" y2="210"/><line x1="122" y1="270" x2="528" y2="270"/></g>
+            <path class="t-basket" d="M90 84h470l-38 248H130z"/>
+            <path class="t-frame" d="M150 332l18 76M496 332l-18 76M140 408h372"/>
+            <g class="wheel"><circle cx="182" cy="428" r="22"/><path d="M182 410v36M164 428h36"/></g>
+            <g class="wheel"><circle cx="466" cy="428" r="22"/><path d="M466 410v36M448 428h36"/></g>
+          </svg>
+          <p class="empty-caption">Trolley empty. Data checked out.</p>
+        </div>
+        <figure class="receipt span-7" aria-label="Four takeaways">
+          <p class="receipt-head"><svg class="icon receipt-icon" aria-hidden="true"><use href="#i-trolley"/></svg>Trolley check<br><span>Australia, October 2026</span></p>
+          <ol>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>
+              <div><p class="r-line"><b>175</b> countries feed us</p><p class="r-tip">Most imported food is processed and packaged. Check the "Made in" label if you want to buy local.</p></div>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-apple"/></svg>
+              <div><p class="r-line"><b>+46%</b> for fruit &amp; veg since 2017</p><p class="r-tip">Fresh food rose fastest, and fastest of all in Perth. Buying in season softens the swings.</p></div>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-factory"/></svg>
+              <div><p class="r-line"><b>63%</b> of products are ultra-processed</p><p class="r-tip">In snack, dessert and drink aisles nearly everything is. Compare products within an aisle, not just brands.</p></div>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-jar"/></svg>
+              <div><p class="r-line"><b>46%</b> of own brands score A or B</p><p class="r-tip">Cheaper supermarket brands are often as healthy as name brands, or healthier. Read the label, not the logo.</p></div>
+            </li>
+          </ol>
+          <p class="receipt-foot">4 items. Thanks for shopping the data.</p>
+          <svg class="barcode" viewBox="0 0 211 56" role="img" aria-label="Code 39 barcode reading FIT3179DV2"><rect x="10" y="0" width="1" height="42"/><rect x="14" y="0" width="1" height="42"/><rect x="16" y="0" width="3" height="42"/><rect x="20" y="0" width="3" height="42"/><rect x="24" y="0" width="1" height="42"/><rect x="26" y="0" width="1" height="42"/><rect x="28" y="0" width="3" height="42"/><rect x="32" y="0" width="3" height="42"/><rect x="38" y="0" width="1" height="42"/><rect x="40" y="0" width="1" height="42"/><rect x="42" y="0" width="1" height="42"/><rect x="44" y="0" width="3" height="42"/><rect x="48" y="0" width="1" height="42"/><rect x="52" y="0" width="3" height="42"/><rect x="56" y="0" width="1" height="42"/><rect x="58" y="0" width="1" height="42"/><rect x="60" y="0" width="1" height="42"/><rect x="62" y="0" width="3" height="42"/><rect x="66" y="0" width="3" height="42"/><rect x="72" y="0" width="1" height="42"/><rect x="74" y="0" width="3" height="42"/><rect x="78" y="0" width="3" height="42"/><rect x="84" y="0" width="1" height="42"/><rect x="86" y="0" width="1" height="42"/><rect x="88" y="0" width="1" height="42"/><rect x="90" y="0" width="3" height="42"/><rect x="94" y="0" width="1" height="42"/><rect x="98" y="0" width="1" height="42"/><rect x="100" y="0" width="1" height="42"/><rect x="102" y="0" width="3" height="42"/><rect x="106" y="0" width="1" height="42"/><rect x="108" y="0" width="1" height="42"/><rect x="112" y="0" width="1" height="42"/><rect x="114" y="0" width="3" height="42"/><rect x="118" y="0" width="3" height="42"/><rect x="122" y="0" width="1" height="42"/><rect x="124" y="0" width="3" height="42"/><rect x="130" y="0" width="1" height="42"/><rect x="132" y="0" width="3" height="42"/><rect x="136" y="0" width="1" height="42"/><rect x="138" y="0" width="1" height="42"/><rect x="140" y="0" width="1" height="42"/><rect x="142" y="0" width="3" height="42"/><rect x="148" y="0" width="1" height="42"/><rect x="150" y="0" width="3" height="42"/><rect x="154" y="0" width="1" height="42"/><rect x="158" y="0" width="3" height="42"/><rect x="162" y="0" width="1" height="42"/><rect x="164" y="0" width="1" height="42"/><rect x="166" y="0" width="3" height="42"/><rect x="170" y="0" width="1" height="42"/><rect x="172" y="0" width="3" height="42"/><rect x="178" y="0" width="1" height="42"/><rect x="180" y="0" width="1" height="42"/><rect x="182" y="0" width="3" height="42"/><rect x="186" y="0" width="1" height="42"/><rect x="190" y="0" width="1" height="42"/><rect x="192" y="0" width="3" height="42"/><rect x="196" y="0" width="3" height="42"/><rect x="200" y="0" width="1" height="42"/><text x="105.5" y="54" text-anchor="middle">*FIT3179DV2*</text></svg>
+        </figure>
       </div>
     </section>
   </main>
@@ -291,6 +348,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=4"></script>
+  <script src="js/main.js?v=6"></script>
 </body>
 </html>
