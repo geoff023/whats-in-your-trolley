@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Linked heatmap and strip plot. Left: median grams per 100 g of five nutrients in each aisle. Right: every product's value for the chosen nutrient, with aisle medians as black ticks. Choosing a nutrient re-sorts both views from highest to lowest median; typing a product name highlights matching products and names the most-scanned one.",
+  "description": "Linked heatmap and strip plot. Left: median grams per 100 g of five nutrients in each aisle. Right: every product's value for the chosen nutrient, with aisle medians as black ticks. Choosing a nutrient re-sorts both views from highest to lowest median; typing a product name highlights matching products and names the most-scanned one. To reduce clutter the strip plot draws the 60 most-scanned products in each aisle (plus any search match); the shaded band (middle half) and the median tick use all products.",
   "params": [
     {
       "name": "nutrient",
@@ -36,7 +36,12 @@
     }
   ],
   "data": {
-    "url": "data/products.csv"
+    "url": "data/products.csv",
+    "format": {
+      "parse": {
+        "scans": "number"
+      }
+    }
   },
   "spacing": 16,
   "hconcat": [
@@ -139,7 +144,22 @@
             "labelAngle": 0,
             "domain": false,
             "ticks": false,
-            "labelPadding": 6
+            "labelPadding": 6,
+            "labelFontWeight": {
+              "condition": {
+                "test": "datum.value == {'sugar': 'Sugar', 'satfat': 'Sat. fat', 'salt': 'Salt', 'fibre': 'Fibre', 'protein': 'Protein'}[nutrient]",
+                "value": "bold"
+              },
+              "value": "normal"
+            },
+            "labelColor": {
+              "condition": {
+                "test": "datum.value == {'sugar': 'Sugar', 'satfat': 'Sat. fat', 'salt': 'Salt', 'fibre': 'Fibre', 'protein': 'Protein'}[nutrient]",
+                "value": "#c8324b"
+              },
+              "value": "#3d4650"
+            },
+            "labelFontSize": 12
           }
         },
         "y": {
@@ -154,7 +174,8 @@
           "axis": {
             "domain": false,
             "ticks": false,
-            "labelLimit": 170
+            "labelLimit": 170,
+            "labelPadding": 8
           }
         }
       },
@@ -278,38 +299,6 @@
               "value": "#1b2430"
             }
           }
-        },
-        {
-          "transform": [
-            {
-              "filter": "datum.key == nutrient"
-            },
-            {
-              "aggregate": [
-                {
-                  "op": "count",
-                  "as": "n"
-                }
-              ],
-              "groupby": [
-                "label"
-              ]
-            }
-          ],
-          "mark": {
-            "type": "rect",
-            "fill": null,
-            "stroke": "#1b2430",
-            "strokeWidth": 3
-          },
-          "encoding": {
-            "y": {
-              "value": 0
-            },
-            "y2": {
-              "value": "height"
-            }
-          }
         }
       ],
       "resolve": {
@@ -328,6 +317,23 @@
         },
         {
           "filter": "isValid(datum.grams)"
+        },
+        {
+          "window": [
+            {
+              "op": "row_number",
+              "as": "popularity"
+            }
+          ],
+          "groupby": [
+            "aisle"
+          ],
+          "sort": [
+            {
+              "field": "scans",
+              "order": "descending"
+            }
+          ]
         },
         {
           "joinaggregate": [
@@ -389,6 +395,27 @@
       "layer": [
         {
           "mark": {
+            "type": "bar",
+            "height": {
+              "band": 0.62
+            },
+            "color": "#dbe6f0",
+            "cornerRadius": 4
+          },
+          "encoding": {
+            "x": {
+              "aggregate": "q1",
+              "field": "grams",
+              "type": "quantitative"
+            },
+            "x2": {
+              "aggregate": "q3",
+              "field": "grams"
+            }
+          }
+        },
+        {
+          "mark": {
             "type": "circle",
             "size": 10
           },
@@ -420,7 +447,7 @@
                 "value": 1
               },
               "value": {
-                "expr": "length(search) >= 3 ? 0.08 : 0.3"
+                "expr": "length(search) >= 3 ? 0.15 : 0.45"
               }
             },
             "size": {
@@ -428,7 +455,7 @@
                 "test": "datum.match",
                 "value": 70
               },
-              "value": 10
+              "value": 14
             },
             "order": {
               "condition": {
@@ -456,7 +483,12 @@
                 "format": ".1f"
               }
             ]
-          }
+          },
+          "transform": [
+            {
+              "filter": "datum.popularity <= 60 || datum.match"
+            }
+          ]
         },
         {
           "mark": {
