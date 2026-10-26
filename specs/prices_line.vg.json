@@ -19,7 +19,7 @@
       "field": "group", "type": "nominal", "legend": null,
       "scale": {
         "domain": ["Dairy", "Bread & cereals", "Meat & seafood", "Fruit & veg"],
-        "range": ["#0072b2", "#e69f00", "#cc79a7", "#009e73"]
+        "range": ["#0072b2", "#e69f00", "#cc79a7", "#20242b"]
       }
     }
   },

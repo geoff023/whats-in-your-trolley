@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "Treemap: products in each aisle, split by brand. Each aisle (type of product) has its own hue and a header in a dark shade of it; inside an aisle, darker blocks hold more products.",
+  "description": "Treemap: products in each aisle, split by brand. Each aisle (type of product) has its own hue (blue or orange/yellow family only, so red-green colour-blind readers can tell them apart) and a header in a dark shade of it; inside an aisle, darker blocks hold more products.",
   "autosize": "none",
   "padding": {
     "left": 0,
@@ -143,23 +143,23 @@
         "Yoghurt"
       ],
       "range": [
-        355,
-        195,
-        75,
-        295,
-        155,
-        335,
-        25,
-        235,
-        135,
-        275,
-        165,
+        232,
+        40,
         215,
-        45,
-        315,
-        175,
-        255,
-        10
+        28,
+        250,
+        55,
+        224,
+        34,
+        262,
+        48,
+        240,
+        22,
+        210,
+        60,
+        256,
+        44,
+        236
       ]
     }
   ],
